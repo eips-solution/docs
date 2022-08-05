@@ -1,4 +1,0 @@
-[submodule "src/submodules/runtime/runtime"]
-	path = src/submodules/runtime/runtime
-	url = git@github.com:eips-solution/runtime.git
-	branch = dev
