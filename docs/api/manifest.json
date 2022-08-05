@@ -1,0 +1,323 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/Git/Eips/docs/src",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.ActivatorUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.ActivatorUtilities.html",
+          "hash": "oIZA374GoePYZmT7dUvpXBcghppW8k+yiVnVm9jo3iE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.DateTimeComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.DateTimeComparer.html",
+          "hash": "uBY6jcCoPQp/NCtYMDYRulK/3ESEdVGYYI1apa3QyYY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.DateTimeDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.DateTimeDescriptor.html",
+          "hash": "E6H/o904M5LeTCCSsz507m8tZqnrnqyEPjmNASWRBYI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Defaults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Defaults.html",
+          "hash": "it7QpMOnJVzvnrvNYEiP6bRJYXHdXm+/zADEkpyq5uQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Diagnostics.TraceInformation-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Diagnostics.TraceInformation-1.html",
+          "hash": "EeMFVfn24sqNowT/tTu1XDEKTtnVI0vyKj22zDykCX0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Diagnostics.TraceInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Diagnostics.TraceInformation.html",
+          "hash": "8jyStapkfezb9QHanDMq6gDusdAsMDKxQFAVpVeYwv4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.html",
+          "hash": "StJiWSC4Su8EwQr6Hq7A/ZN4e1cEu4uuP7H6A83BNlQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Diagnostics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Diagnostics.html",
+          "hash": "uXM1IsLZECVFbHrZqgx+9KliYbDpHsSWYr81EIxCwWQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.DynamicCreateObjectInstanceException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.DynamicCreateObjectInstanceException.html",
+          "hash": "V291v6Ln+isGkHF3fgL9z6FcGCWDrAr5UO2CkyMoi9U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.EmptyCompareOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.EmptyCompareOptions.html",
+          "hash": "DVxg+5ZvRjc//KYFIUWdL/B73NW3+cKo6S+Ln/hsdrU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Globalization.ContextCultureConfigurator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Globalization.ContextCultureConfigurator.html",
+          "hash": "R1xqgZQepPhSGJ2a1//8PEQ1jsRZMl/urLauoq1RfWI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Globalization.SR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Globalization.SR.html",
+          "hash": "5hoDFoVazrFcAJYOdzvJdDzcQkWblOvqctAftRC/Tto="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Globalization.SupportedCultures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Globalization.SupportedCultures.html",
+          "hash": "r3hgiIYnBJwStpgJ+U0Ky26NUkKLd6/DUyz9jQSkHCQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Globalization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Globalization.html",
+          "hash": "ZQra8mBjozZ0yDUs5L8T/yCeAwPNbhjRF+zuJaMRn6U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.NumberComparisonSymbols.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.NumberComparisonSymbols.html",
+          "hash": "N6k3vdjdIxaHqzTBkQk1eTE9xcX+ZIeMKhw8S+qbMIY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.ParameterGuard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.ParameterGuard.html",
+          "hash": "vkQfpMAkmxILz/l5IReU6mblr8W2njaAn8FAb1nYpm8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.ReferenceTypeEqualityComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.ReferenceTypeEqualityComparer.html",
+          "hash": "0amMQP0CPM/Y7eVZPXvohADlXYTAs++R7rvEMLQEJlM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.StringEqualityComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.StringEqualityComparer.html",
+          "hash": "/xGWbNmdJW2Q1KvURRSa8/xaaiFruRygfHywkcbXy1Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.StringUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.StringUtilities.html",
+          "hash": "OIZaTl7JM7lDz/fGi5VkbpTSnfqcczFPrpScftVkKko="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.ValueTypeComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.ValueTypeComparer.html",
+          "hash": "wuW7sH+K4WvLRospADYvJZpvllifJptBSRFu4zxI0YM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.html",
+          "hash": "TtMheo3dt8KeSvJAbA5gLUr+bHxVcLU83fKZM6SQHXk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/temp/docfxapi/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "RZg1zYmUEhMu5tUHjO07to212PdydIotphVe5TvvD7s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ConfigChanged"
+      },
+      "processors": {
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 21,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

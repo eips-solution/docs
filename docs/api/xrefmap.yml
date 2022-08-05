@@ -1,0 +1,1289 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Niacomsoft.Eips
+  name: Niacomsoft.Eips
+  href: api/Niacomsoft.Eips.html
+  commentId: N:Niacomsoft.Eips
+  fullName: Niacomsoft.Eips
+  nameWithType: Niacomsoft.Eips
+- uid: Niacomsoft.Eips.ActivatorUtilities
+  name: ActivatorUtilities
+  href: api/Niacomsoft.Eips.ActivatorUtilities.html
+  commentId: T:Niacomsoft.Eips.ActivatorUtilities
+  fullName: Niacomsoft.Eips.ActivatorUtilities
+  nameWithType: ActivatorUtilities
+- uid: Niacomsoft.Eips.ActivatorUtilities.CreateInstance*
+  name: CreateInstance
+  href: api/Niacomsoft.Eips.ActivatorUtilities.html#Niacomsoft_Eips_ActivatorUtilities_CreateInstance_
+  commentId: Overload:Niacomsoft.Eips.ActivatorUtilities.CreateInstance
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.ActivatorUtilities.CreateInstance
+  nameWithType: ActivatorUtilities.CreateInstance
+- uid: Niacomsoft.Eips.ActivatorUtilities.CreateInstance``1(System.Object[])
+  name: CreateInstance<T>(Object[])
+  href: api/Niacomsoft.Eips.ActivatorUtilities.html#Niacomsoft_Eips_ActivatorUtilities_CreateInstance__1_System_Object___
+  commentId: M:Niacomsoft.Eips.ActivatorUtilities.CreateInstance``1(System.Object[])
+  name.vb: CreateInstance(Of T)(Object())
+  fullName: Niacomsoft.Eips.ActivatorUtilities.CreateInstance<T>(System.Object[])
+  fullName.vb: Niacomsoft.Eips.ActivatorUtilities.CreateInstance(Of T)(System.Object())
+  nameWithType: ActivatorUtilities.CreateInstance<T>(Object[])
+  nameWithType.vb: ActivatorUtilities.CreateInstance(Of T)(Object())
+- uid: Niacomsoft.Eips.DateTimeComparer
+  name: DateTimeComparer
+  href: api/Niacomsoft.Eips.DateTimeComparer.html
+  commentId: T:Niacomsoft.Eips.DateTimeComparer
+  fullName: Niacomsoft.Eips.DateTimeComparer
+  nameWithType: DateTimeComparer
+- uid: Niacomsoft.Eips.DateTimeComparer.#ctor(System.DateTime)
+  name: DateTimeComparer(DateTime)
+  href: api/Niacomsoft.Eips.DateTimeComparer.html#Niacomsoft_Eips_DateTimeComparer__ctor_System_DateTime_
+  commentId: M:Niacomsoft.Eips.DateTimeComparer.#ctor(System.DateTime)
+  fullName: Niacomsoft.Eips.DateTimeComparer.DateTimeComparer(System.DateTime)
+  nameWithType: DateTimeComparer.DateTimeComparer(DateTime)
+- uid: Niacomsoft.Eips.DateTimeComparer.#ctor(System.DateTime,System.DateTime)
+  name: DateTimeComparer(DateTime, DateTime)
+  href: api/Niacomsoft.Eips.DateTimeComparer.html#Niacomsoft_Eips_DateTimeComparer__ctor_System_DateTime_System_DateTime_
+  commentId: M:Niacomsoft.Eips.DateTimeComparer.#ctor(System.DateTime,System.DateTime)
+  fullName: Niacomsoft.Eips.DateTimeComparer.DateTimeComparer(System.DateTime, System.DateTime)
+  nameWithType: DateTimeComparer.DateTimeComparer(DateTime, DateTime)
+- uid: Niacomsoft.Eips.DateTimeComparer.#ctor(System.DateTimeOffset)
+  name: DateTimeComparer(DateTimeOffset)
+  href: api/Niacomsoft.Eips.DateTimeComparer.html#Niacomsoft_Eips_DateTimeComparer__ctor_System_DateTimeOffset_
+  commentId: M:Niacomsoft.Eips.DateTimeComparer.#ctor(System.DateTimeOffset)
+  fullName: Niacomsoft.Eips.DateTimeComparer.DateTimeComparer(System.DateTimeOffset)
+  nameWithType: DateTimeComparer.DateTimeComparer(DateTimeOffset)
+- uid: Niacomsoft.Eips.DateTimeComparer.#ctor(System.DateTimeOffset,System.DateTimeOffset)
+  name: DateTimeComparer(DateTimeOffset, DateTimeOffset)
+  href: api/Niacomsoft.Eips.DateTimeComparer.html#Niacomsoft_Eips_DateTimeComparer__ctor_System_DateTimeOffset_System_DateTimeOffset_
+  commentId: M:Niacomsoft.Eips.DateTimeComparer.#ctor(System.DateTimeOffset,System.DateTimeOffset)
+  fullName: Niacomsoft.Eips.DateTimeComparer.DateTimeComparer(System.DateTimeOffset, System.DateTimeOffset)
+  nameWithType: DateTimeComparer.DateTimeComparer(DateTimeOffset, DateTimeOffset)
+- uid: Niacomsoft.Eips.DateTimeComparer.#ctor*
+  name: DateTimeComparer
+  href: api/Niacomsoft.Eips.DateTimeComparer.html#Niacomsoft_Eips_DateTimeComparer__ctor_
+  commentId: Overload:Niacomsoft.Eips.DateTimeComparer.#ctor
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.DateTimeComparer.DateTimeComparer
+  nameWithType: DateTimeComparer.DateTimeComparer
+- uid: Niacomsoft.Eips.DateTimeComparer.After
+  name: After
+  href: api/Niacomsoft.Eips.DateTimeComparer.html#Niacomsoft_Eips_DateTimeComparer_After
+  commentId: P:Niacomsoft.Eips.DateTimeComparer.After
+  fullName: Niacomsoft.Eips.DateTimeComparer.After
+  nameWithType: DateTimeComparer.After
+- uid: Niacomsoft.Eips.DateTimeComparer.After*
+  name: After
+  href: api/Niacomsoft.Eips.DateTimeComparer.html#Niacomsoft_Eips_DateTimeComparer_After_
+  commentId: Overload:Niacomsoft.Eips.DateTimeComparer.After
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.DateTimeComparer.After
+  nameWithType: DateTimeComparer.After
+- uid: Niacomsoft.Eips.DateTimeComparer.Before
+  name: Before
+  href: api/Niacomsoft.Eips.DateTimeComparer.html#Niacomsoft_Eips_DateTimeComparer_Before
+  commentId: P:Niacomsoft.Eips.DateTimeComparer.Before
+  fullName: Niacomsoft.Eips.DateTimeComparer.Before
+  nameWithType: DateTimeComparer.Before
+- uid: Niacomsoft.Eips.DateTimeComparer.Before*
+  name: Before
+  href: api/Niacomsoft.Eips.DateTimeComparer.html#Niacomsoft_Eips_DateTimeComparer_Before_
+  commentId: Overload:Niacomsoft.Eips.DateTimeComparer.Before
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.DateTimeComparer.Before
+  nameWithType: DateTimeComparer.Before
+- uid: Niacomsoft.Eips.DateTimeComparer.Begin
+  name: Begin
+  href: api/Niacomsoft.Eips.DateTimeComparer.html#Niacomsoft_Eips_DateTimeComparer_Begin
+  commentId: P:Niacomsoft.Eips.DateTimeComparer.Begin
+  fullName: Niacomsoft.Eips.DateTimeComparer.Begin
+  nameWithType: DateTimeComparer.Begin
+- uid: Niacomsoft.Eips.DateTimeComparer.Begin*
+  name: Begin
+  href: api/Niacomsoft.Eips.DateTimeComparer.html#Niacomsoft_Eips_DateTimeComparer_Begin_
+  commentId: Overload:Niacomsoft.Eips.DateTimeComparer.Begin
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.DateTimeComparer.Begin
+  nameWithType: DateTimeComparer.Begin
+- uid: Niacomsoft.Eips.DateTimeComparer.End
+  name: End
+  href: api/Niacomsoft.Eips.DateTimeComparer.html#Niacomsoft_Eips_DateTimeComparer_End
+  commentId: P:Niacomsoft.Eips.DateTimeComparer.End
+  fullName: Niacomsoft.Eips.DateTimeComparer.End
+  nameWithType: DateTimeComparer.End
+- uid: Niacomsoft.Eips.DateTimeComparer.End*
+  name: End
+  href: api/Niacomsoft.Eips.DateTimeComparer.html#Niacomsoft_Eips_DateTimeComparer_End_
+  commentId: Overload:Niacomsoft.Eips.DateTimeComparer.End
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.DateTimeComparer.End
+  nameWithType: DateTimeComparer.End
+- uid: Niacomsoft.Eips.DateTimeComparer.Intervals
+  name: Intervals
+  href: api/Niacomsoft.Eips.DateTimeComparer.html#Niacomsoft_Eips_DateTimeComparer_Intervals
+  commentId: P:Niacomsoft.Eips.DateTimeComparer.Intervals
+  fullName: Niacomsoft.Eips.DateTimeComparer.Intervals
+  nameWithType: DateTimeComparer.Intervals
+- uid: Niacomsoft.Eips.DateTimeComparer.Intervals*
+  name: Intervals
+  href: api/Niacomsoft.Eips.DateTimeComparer.html#Niacomsoft_Eips_DateTimeComparer_Intervals_
+  commentId: Overload:Niacomsoft.Eips.DateTimeComparer.Intervals
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.DateTimeComparer.Intervals
+  nameWithType: DateTimeComparer.Intervals
+- uid: Niacomsoft.Eips.DateTimeComparer.IsSameDay
+  name: IsSameDay
+  href: api/Niacomsoft.Eips.DateTimeComparer.html#Niacomsoft_Eips_DateTimeComparer_IsSameDay
+  commentId: P:Niacomsoft.Eips.DateTimeComparer.IsSameDay
+  fullName: Niacomsoft.Eips.DateTimeComparer.IsSameDay
+  nameWithType: DateTimeComparer.IsSameDay
+- uid: Niacomsoft.Eips.DateTimeComparer.IsSameDay*
+  name: IsSameDay
+  href: api/Niacomsoft.Eips.DateTimeComparer.html#Niacomsoft_Eips_DateTimeComparer_IsSameDay_
+  commentId: Overload:Niacomsoft.Eips.DateTimeComparer.IsSameDay
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.DateTimeComparer.IsSameDay
+  nameWithType: DateTimeComparer.IsSameDay
+- uid: Niacomsoft.Eips.DateTimeComparer.IsSameMonth
+  name: IsSameMonth
+  href: api/Niacomsoft.Eips.DateTimeComparer.html#Niacomsoft_Eips_DateTimeComparer_IsSameMonth
+  commentId: P:Niacomsoft.Eips.DateTimeComparer.IsSameMonth
+  fullName: Niacomsoft.Eips.DateTimeComparer.IsSameMonth
+  nameWithType: DateTimeComparer.IsSameMonth
+- uid: Niacomsoft.Eips.DateTimeComparer.IsSameMonth*
+  name: IsSameMonth
+  href: api/Niacomsoft.Eips.DateTimeComparer.html#Niacomsoft_Eips_DateTimeComparer_IsSameMonth_
+  commentId: Overload:Niacomsoft.Eips.DateTimeComparer.IsSameMonth
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.DateTimeComparer.IsSameMonth
+  nameWithType: DateTimeComparer.IsSameMonth
+- uid: Niacomsoft.Eips.DateTimeComparer.IsSameYear
+  name: IsSameYear
+  href: api/Niacomsoft.Eips.DateTimeComparer.html#Niacomsoft_Eips_DateTimeComparer_IsSameYear
+  commentId: P:Niacomsoft.Eips.DateTimeComparer.IsSameYear
+  fullName: Niacomsoft.Eips.DateTimeComparer.IsSameYear
+  nameWithType: DateTimeComparer.IsSameYear
+- uid: Niacomsoft.Eips.DateTimeComparer.IsSameYear*
+  name: IsSameYear
+  href: api/Niacomsoft.Eips.DateTimeComparer.html#Niacomsoft_Eips_DateTimeComparer_IsSameYear_
+  commentId: Overload:Niacomsoft.Eips.DateTimeComparer.IsSameYear
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.DateTimeComparer.IsSameYear
+  nameWithType: DateTimeComparer.IsSameYear
+- uid: Niacomsoft.Eips.DateTimeDescriptor
+  name: DateTimeDescriptor
+  href: api/Niacomsoft.Eips.DateTimeDescriptor.html
+  commentId: T:Niacomsoft.Eips.DateTimeDescriptor
+  fullName: Niacomsoft.Eips.DateTimeDescriptor
+  nameWithType: DateTimeDescriptor
+- uid: Niacomsoft.Eips.DateTimeDescriptor.GetDescription(System.Nullable{System.DateTime})
+  name: GetDescription(Nullable<DateTime>)
+  href: api/Niacomsoft.Eips.DateTimeDescriptor.html#Niacomsoft_Eips_DateTimeDescriptor_GetDescription_System_Nullable_System_DateTime__
+  commentId: M:Niacomsoft.Eips.DateTimeDescriptor.GetDescription(System.Nullable{System.DateTime})
+  name.vb: GetDescription(Nullable(Of DateTime))
+  fullName: Niacomsoft.Eips.DateTimeDescriptor.GetDescription(System.Nullable<System.DateTime>)
+  fullName.vb: Niacomsoft.Eips.DateTimeDescriptor.GetDescription(System.Nullable(Of System.DateTime))
+  nameWithType: DateTimeDescriptor.GetDescription(Nullable<DateTime>)
+  nameWithType.vb: DateTimeDescriptor.GetDescription(Nullable(Of DateTime))
+- uid: Niacomsoft.Eips.DateTimeDescriptor.GetDescription(System.Nullable{System.DateTimeOffset})
+  name: GetDescription(Nullable<DateTimeOffset>)
+  href: api/Niacomsoft.Eips.DateTimeDescriptor.html#Niacomsoft_Eips_DateTimeDescriptor_GetDescription_System_Nullable_System_DateTimeOffset__
+  commentId: M:Niacomsoft.Eips.DateTimeDescriptor.GetDescription(System.Nullable{System.DateTimeOffset})
+  name.vb: GetDescription(Nullable(Of DateTimeOffset))
+  fullName: Niacomsoft.Eips.DateTimeDescriptor.GetDescription(System.Nullable<System.DateTimeOffset>)
+  fullName.vb: Niacomsoft.Eips.DateTimeDescriptor.GetDescription(System.Nullable(Of System.DateTimeOffset))
+  nameWithType: DateTimeDescriptor.GetDescription(Nullable<DateTimeOffset>)
+  nameWithType.vb: DateTimeDescriptor.GetDescription(Nullable(Of DateTimeOffset))
+- uid: Niacomsoft.Eips.DateTimeDescriptor.GetDescription*
+  name: GetDescription
+  href: api/Niacomsoft.Eips.DateTimeDescriptor.html#Niacomsoft_Eips_DateTimeDescriptor_GetDescription_
+  commentId: Overload:Niacomsoft.Eips.DateTimeDescriptor.GetDescription
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.DateTimeDescriptor.GetDescription
+  nameWithType: DateTimeDescriptor.GetDescription
+- uid: Niacomsoft.Eips.Defaults
+  name: Defaults
+  href: api/Niacomsoft.Eips.Defaults.html
+  commentId: T:Niacomsoft.Eips.Defaults
+  fullName: Niacomsoft.Eips.Defaults
+  nameWithType: Defaults
+- uid: Niacomsoft.Eips.Defaults.DefaultDiagnosticCategory
+  name: DefaultDiagnosticCategory
+  href: api/Niacomsoft.Eips.Defaults.html#Niacomsoft_Eips_Defaults_DefaultDiagnosticCategory
+  commentId: F:Niacomsoft.Eips.Defaults.DefaultDiagnosticCategory
+  fullName: Niacomsoft.Eips.Defaults.DefaultDiagnosticCategory
+  nameWithType: Defaults.DefaultDiagnosticCategory
+- uid: Niacomsoft.Eips.Defaults.DefaultEncoding
+  name: DefaultEncoding
+  href: api/Niacomsoft.Eips.Defaults.html#Niacomsoft_Eips_Defaults_DefaultEncoding
+  commentId: F:Niacomsoft.Eips.Defaults.DefaultEncoding
+  fullName: Niacomsoft.Eips.Defaults.DefaultEncoding
+  nameWithType: Defaults.DefaultEncoding
+- uid: Niacomsoft.Eips.Diagnostics
+  name: Niacomsoft.Eips.Diagnostics
+  href: api/Niacomsoft.Eips.Diagnostics.html
+  commentId: N:Niacomsoft.Eips.Diagnostics
+  fullName: Niacomsoft.Eips.Diagnostics
+  nameWithType: Niacomsoft.Eips.Diagnostics
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformation
+  name: TraceInformation
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformation.html
+  commentId: T:Niacomsoft.Eips.Diagnostics.TraceInformation
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformation
+  nameWithType: TraceInformation
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformation.#ctor(System.String)
+  name: TraceInformation(String)
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformation.html#Niacomsoft_Eips_Diagnostics_TraceInformation__ctor_System_String_
+  commentId: M:Niacomsoft.Eips.Diagnostics.TraceInformation.#ctor(System.String)
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformation.TraceInformation(System.String)
+  nameWithType: TraceInformation.TraceInformation(String)
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformation.#ctor(System.String,System.String)
+  name: TraceInformation(String, String)
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformation.html#Niacomsoft_Eips_Diagnostics_TraceInformation__ctor_System_String_System_String_
+  commentId: M:Niacomsoft.Eips.Diagnostics.TraceInformation.#ctor(System.String,System.String)
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformation.TraceInformation(System.String, System.String)
+  nameWithType: TraceInformation.TraceInformation(String, String)
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformation.#ctor(System.Type,System.String)
+  name: TraceInformation(Type, String)
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformation.html#Niacomsoft_Eips_Diagnostics_TraceInformation__ctor_System_Type_System_String_
+  commentId: M:Niacomsoft.Eips.Diagnostics.TraceInformation.#ctor(System.Type,System.String)
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformation.TraceInformation(System.Type, System.String)
+  nameWithType: TraceInformation.TraceInformation(Type, String)
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformation.#ctor(System.Type,System.String,System.String)
+  name: TraceInformation(Type, String, String)
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformation.html#Niacomsoft_Eips_Diagnostics_TraceInformation__ctor_System_Type_System_String_System_String_
+  commentId: M:Niacomsoft.Eips.Diagnostics.TraceInformation.#ctor(System.Type,System.String,System.String)
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformation.TraceInformation(System.Type, System.String, System.String)
+  nameWithType: TraceInformation.TraceInformation(Type, String, String)
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformation.#ctor*
+  name: TraceInformation
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformation.html#Niacomsoft_Eips_Diagnostics_TraceInformation__ctor_
+  commentId: Overload:Niacomsoft.Eips.Diagnostics.TraceInformation.#ctor
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformation.TraceInformation
+  nameWithType: TraceInformation.TraceInformation
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformation.GetUniversalMessagePrefix
+  name: GetUniversalMessagePrefix()
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformation.html#Niacomsoft_Eips_Diagnostics_TraceInformation_GetUniversalMessagePrefix
+  commentId: M:Niacomsoft.Eips.Diagnostics.TraceInformation.GetUniversalMessagePrefix
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformation.GetUniversalMessagePrefix()
+  nameWithType: TraceInformation.GetUniversalMessagePrefix()
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformation.GetUniversalMessagePrefix*
+  name: GetUniversalMessagePrefix
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformation.html#Niacomsoft_Eips_Diagnostics_TraceInformation_GetUniversalMessagePrefix_
+  commentId: Overload:Niacomsoft.Eips.Diagnostics.TraceInformation.GetUniversalMessagePrefix
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformation.GetUniversalMessagePrefix
+  nameWithType: TraceInformation.GetUniversalMessagePrefix
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformation.Message
+  name: Message
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformation.html#Niacomsoft_Eips_Diagnostics_TraceInformation_Message
+  commentId: P:Niacomsoft.Eips.Diagnostics.TraceInformation.Message
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformation.Message
+  nameWithType: TraceInformation.Message
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformation.Message*
+  name: Message
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformation.html#Niacomsoft_Eips_Diagnostics_TraceInformation_Message_
+  commentId: Overload:Niacomsoft.Eips.Diagnostics.TraceInformation.Message
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformation.Message
+  nameWithType: TraceInformation.Message
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformation.MethodName
+  name: MethodName
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformation.html#Niacomsoft_Eips_Diagnostics_TraceInformation_MethodName
+  commentId: P:Niacomsoft.Eips.Diagnostics.TraceInformation.MethodName
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformation.MethodName
+  nameWithType: TraceInformation.MethodName
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformation.MethodName*
+  name: MethodName
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformation.html#Niacomsoft_Eips_Diagnostics_TraceInformation_MethodName_
+  commentId: Overload:Niacomsoft.Eips.Diagnostics.TraceInformation.MethodName
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformation.MethodName
+  nameWithType: TraceInformation.MethodName
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformation.Target
+  name: Target
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformation.html#Niacomsoft_Eips_Diagnostics_TraceInformation_Target
+  commentId: P:Niacomsoft.Eips.Diagnostics.TraceInformation.Target
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformation.Target
+  nameWithType: TraceInformation.Target
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformation.Target*
+  name: Target
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformation.html#Niacomsoft_Eips_Diagnostics_TraceInformation_Target_
+  commentId: Overload:Niacomsoft.Eips.Diagnostics.TraceInformation.Target
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformation.Target
+  nameWithType: TraceInformation.Target
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformation.ToString
+  name: ToString()
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformation.html#Niacomsoft_Eips_Diagnostics_TraceInformation_ToString
+  commentId: M:Niacomsoft.Eips.Diagnostics.TraceInformation.ToString
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformation.ToString()
+  nameWithType: TraceInformation.ToString()
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformation.ToString(System.Object[])
+  name: ToString(Object[])
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformation.html#Niacomsoft_Eips_Diagnostics_TraceInformation_ToString_System_Object___
+  commentId: M:Niacomsoft.Eips.Diagnostics.TraceInformation.ToString(System.Object[])
+  name.vb: ToString(Object())
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformation.ToString(System.Object[])
+  fullName.vb: Niacomsoft.Eips.Diagnostics.TraceInformation.ToString(System.Object())
+  nameWithType: TraceInformation.ToString(Object[])
+  nameWithType.vb: TraceInformation.ToString(Object())
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformation.ToString*
+  name: ToString
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformation.html#Niacomsoft_Eips_Diagnostics_TraceInformation_ToString_
+  commentId: Overload:Niacomsoft.Eips.Diagnostics.TraceInformation.ToString
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformation.ToString
+  nameWithType: TraceInformation.ToString
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformation`1
+  name: TraceInformation<TTarget>
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformation-1.html
+  commentId: T:Niacomsoft.Eips.Diagnostics.TraceInformation`1
+  name.vb: TraceInformation(Of TTarget)
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformation<TTarget>
+  fullName.vb: Niacomsoft.Eips.Diagnostics.TraceInformation(Of TTarget)
+  nameWithType: TraceInformation<TTarget>
+  nameWithType.vb: TraceInformation(Of TTarget)
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformation`1.#ctor(System.String)
+  name: TraceInformation(String)
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformation-1.html#Niacomsoft_Eips_Diagnostics_TraceInformation_1__ctor_System_String_
+  commentId: M:Niacomsoft.Eips.Diagnostics.TraceInformation`1.#ctor(System.String)
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformation<TTarget>.TraceInformation(System.String)
+  fullName.vb: Niacomsoft.Eips.Diagnostics.TraceInformation(Of TTarget).TraceInformation(System.String)
+  nameWithType: TraceInformation<TTarget>.TraceInformation(String)
+  nameWithType.vb: TraceInformation(Of TTarget).TraceInformation(String)
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformation`1.#ctor(System.String,System.String)
+  name: TraceInformation(String, String)
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformation-1.html#Niacomsoft_Eips_Diagnostics_TraceInformation_1__ctor_System_String_System_String_
+  commentId: M:Niacomsoft.Eips.Diagnostics.TraceInformation`1.#ctor(System.String,System.String)
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformation<TTarget>.TraceInformation(System.String, System.String)
+  fullName.vb: Niacomsoft.Eips.Diagnostics.TraceInformation(Of TTarget).TraceInformation(System.String, System.String)
+  nameWithType: TraceInformation<TTarget>.TraceInformation(String, String)
+  nameWithType.vb: TraceInformation(Of TTarget).TraceInformation(String, String)
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformation`1.#ctor*
+  name: TraceInformation
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformation-1.html#Niacomsoft_Eips_Diagnostics_TraceInformation_1__ctor_
+  commentId: Overload:Niacomsoft.Eips.Diagnostics.TraceInformation`1.#ctor
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformation<TTarget>.TraceInformation
+  fullName.vb: Niacomsoft.Eips.Diagnostics.TraceInformation(Of TTarget).TraceInformation
+  nameWithType: TraceInformation<TTarget>.TraceInformation
+  nameWithType.vb: TraceInformation(Of TTarget).TraceInformation
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder
+  name: TraceInformationBuilder
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.html
+  commentId: T:Niacomsoft.Eips.Diagnostics.TraceInformationBuilder
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder
+  nameWithType: TraceInformationBuilder
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.#ctor
+  name: TraceInformationBuilder()
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.html#Niacomsoft_Eips_Diagnostics_TraceInformationBuilder__ctor
+  commentId: M:Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.#ctor
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.TraceInformationBuilder()
+  nameWithType: TraceInformationBuilder.TraceInformationBuilder()
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.#ctor*
+  name: TraceInformationBuilder
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.html#Niacomsoft_Eips_Diagnostics_TraceInformationBuilder__ctor_
+  commentId: Overload:Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.#ctor
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.TraceInformationBuilder
+  nameWithType: TraceInformationBuilder.TraceInformationBuilder
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.Build
+  name: Build()
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.html#Niacomsoft_Eips_Diagnostics_TraceInformationBuilder_Build
+  commentId: M:Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.Build
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.Build()
+  nameWithType: TraceInformationBuilder.Build()
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.Build*
+  name: Build
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.html#Niacomsoft_Eips_Diagnostics_TraceInformationBuilder_Build_
+  commentId: Overload:Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.Build
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.Build
+  nameWithType: TraceInformationBuilder.Build
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.InternalReset
+  name: InternalReset()
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.html#Niacomsoft_Eips_Diagnostics_TraceInformationBuilder_InternalReset
+  commentId: M:Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.InternalReset
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.InternalReset()
+  nameWithType: TraceInformationBuilder.InternalReset()
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.InternalReset*
+  name: InternalReset
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.html#Niacomsoft_Eips_Diagnostics_TraceInformationBuilder_InternalReset_
+  commentId: Overload:Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.InternalReset
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.InternalReset
+  nameWithType: TraceInformationBuilder.InternalReset
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.Reset
+  name: Reset()
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.html#Niacomsoft_Eips_Diagnostics_TraceInformationBuilder_Reset
+  commentId: M:Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.Reset
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.Reset()
+  nameWithType: TraceInformationBuilder.Reset()
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.Reset*
+  name: Reset
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.html#Niacomsoft_Eips_Diagnostics_TraceInformationBuilder_Reset_
+  commentId: Overload:Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.Reset
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.Reset
+  nameWithType: TraceInformationBuilder.Reset
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.WithMessage(System.String)
+  name: WithMessage(String)
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.html#Niacomsoft_Eips_Diagnostics_TraceInformationBuilder_WithMessage_System_String_
+  commentId: M:Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.WithMessage(System.String)
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.WithMessage(System.String)
+  nameWithType: TraceInformationBuilder.WithMessage(String)
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.WithMessage*
+  name: WithMessage
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.html#Niacomsoft_Eips_Diagnostics_TraceInformationBuilder_WithMessage_
+  commentId: Overload:Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.WithMessage
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.WithMessage
+  nameWithType: TraceInformationBuilder.WithMessage
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.WithMethod(System.String)
+  name: WithMethod(String)
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.html#Niacomsoft_Eips_Diagnostics_TraceInformationBuilder_WithMethod_System_String_
+  commentId: M:Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.WithMethod(System.String)
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.WithMethod(System.String)
+  nameWithType: TraceInformationBuilder.WithMethod(String)
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.WithMethod*
+  name: WithMethod
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.html#Niacomsoft_Eips_Diagnostics_TraceInformationBuilder_WithMethod_
+  commentId: Overload:Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.WithMethod
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.WithMethod
+  nameWithType: TraceInformationBuilder.WithMethod
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.WithTarget(System.Type)
+  name: WithTarget(Type)
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.html#Niacomsoft_Eips_Diagnostics_TraceInformationBuilder_WithTarget_System_Type_
+  commentId: M:Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.WithTarget(System.Type)
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.WithTarget(System.Type)
+  nameWithType: TraceInformationBuilder.WithTarget(Type)
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.WithTarget*
+  name: WithTarget
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.html#Niacomsoft_Eips_Diagnostics_TraceInformationBuilder_WithTarget_
+  commentId: Overload:Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.WithTarget
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.WithTarget
+  nameWithType: TraceInformationBuilder.WithTarget
+- uid: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.WithTarget``1
+  name: WithTarget<TTarget>()
+  href: api/Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.html#Niacomsoft_Eips_Diagnostics_TraceInformationBuilder_WithTarget__1
+  commentId: M:Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.WithTarget``1
+  name.vb: WithTarget(Of TTarget)()
+  fullName: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.WithTarget<TTarget>()
+  fullName.vb: Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.WithTarget(Of TTarget)()
+  nameWithType: TraceInformationBuilder.WithTarget<TTarget>()
+  nameWithType.vb: TraceInformationBuilder.WithTarget(Of TTarget)()
+- uid: Niacomsoft.Eips.DynamicCreateObjectInstanceException
+  name: DynamicCreateObjectInstanceException
+  href: api/Niacomsoft.Eips.DynamicCreateObjectInstanceException.html
+  commentId: T:Niacomsoft.Eips.DynamicCreateObjectInstanceException
+  fullName: Niacomsoft.Eips.DynamicCreateObjectInstanceException
+  nameWithType: DynamicCreateObjectInstanceException
+- uid: Niacomsoft.Eips.DynamicCreateObjectInstanceException.#ctor(System.Type,System.Exception)
+  name: DynamicCreateObjectInstanceException(Type, Exception)
+  href: api/Niacomsoft.Eips.DynamicCreateObjectInstanceException.html#Niacomsoft_Eips_DynamicCreateObjectInstanceException__ctor_System_Type_System_Exception_
+  commentId: M:Niacomsoft.Eips.DynamicCreateObjectInstanceException.#ctor(System.Type,System.Exception)
+  fullName: Niacomsoft.Eips.DynamicCreateObjectInstanceException.DynamicCreateObjectInstanceException(System.Type, System.Exception)
+  nameWithType: DynamicCreateObjectInstanceException.DynamicCreateObjectInstanceException(Type, Exception)
+- uid: Niacomsoft.Eips.DynamicCreateObjectInstanceException.#ctor*
+  name: DynamicCreateObjectInstanceException
+  href: api/Niacomsoft.Eips.DynamicCreateObjectInstanceException.html#Niacomsoft_Eips_DynamicCreateObjectInstanceException__ctor_
+  commentId: Overload:Niacomsoft.Eips.DynamicCreateObjectInstanceException.#ctor
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.DynamicCreateObjectInstanceException.DynamicCreateObjectInstanceException
+  nameWithType: DynamicCreateObjectInstanceException.DynamicCreateObjectInstanceException
+- uid: Niacomsoft.Eips.DynamicCreateObjectInstanceException.TargetType
+  name: TargetType
+  href: api/Niacomsoft.Eips.DynamicCreateObjectInstanceException.html#Niacomsoft_Eips_DynamicCreateObjectInstanceException_TargetType
+  commentId: P:Niacomsoft.Eips.DynamicCreateObjectInstanceException.TargetType
+  fullName: Niacomsoft.Eips.DynamicCreateObjectInstanceException.TargetType
+  nameWithType: DynamicCreateObjectInstanceException.TargetType
+- uid: Niacomsoft.Eips.DynamicCreateObjectInstanceException.TargetType*
+  name: TargetType
+  href: api/Niacomsoft.Eips.DynamicCreateObjectInstanceException.html#Niacomsoft_Eips_DynamicCreateObjectInstanceException_TargetType_
+  commentId: Overload:Niacomsoft.Eips.DynamicCreateObjectInstanceException.TargetType
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.DynamicCreateObjectInstanceException.TargetType
+  nameWithType: DynamicCreateObjectInstanceException.TargetType
+- uid: Niacomsoft.Eips.EmptyCompareOptions
+  name: EmptyCompareOptions
+  href: api/Niacomsoft.Eips.EmptyCompareOptions.html
+  commentId: T:Niacomsoft.Eips.EmptyCompareOptions
+  fullName: Niacomsoft.Eips.EmptyCompareOptions
+  nameWithType: EmptyCompareOptions
+- uid: Niacomsoft.Eips.EmptyCompareOptions.Default
+  name: Default
+  href: api/Niacomsoft.Eips.EmptyCompareOptions.html#Niacomsoft_Eips_EmptyCompareOptions_Default
+  commentId: F:Niacomsoft.Eips.EmptyCompareOptions.Default
+  fullName: Niacomsoft.Eips.EmptyCompareOptions.Default
+  nameWithType: EmptyCompareOptions.Default
+- uid: Niacomsoft.Eips.EmptyCompareOptions.IncludeWhiteSpace
+  name: IncludeWhiteSpace
+  href: api/Niacomsoft.Eips.EmptyCompareOptions.html#Niacomsoft_Eips_EmptyCompareOptions_IncludeWhiteSpace
+  commentId: F:Niacomsoft.Eips.EmptyCompareOptions.IncludeWhiteSpace
+  fullName: Niacomsoft.Eips.EmptyCompareOptions.IncludeWhiteSpace
+  nameWithType: EmptyCompareOptions.IncludeWhiteSpace
+- uid: Niacomsoft.Eips.EmptyCompareOptions.OnlyEmpty
+  name: OnlyEmpty
+  href: api/Niacomsoft.Eips.EmptyCompareOptions.html#Niacomsoft_Eips_EmptyCompareOptions_OnlyEmpty
+  commentId: F:Niacomsoft.Eips.EmptyCompareOptions.OnlyEmpty
+  fullName: Niacomsoft.Eips.EmptyCompareOptions.OnlyEmpty
+  nameWithType: EmptyCompareOptions.OnlyEmpty
+- uid: Niacomsoft.Eips.EmptyCompareOptions.OnlyNull
+  name: OnlyNull
+  href: api/Niacomsoft.Eips.EmptyCompareOptions.html#Niacomsoft_Eips_EmptyCompareOptions_OnlyNull
+  commentId: F:Niacomsoft.Eips.EmptyCompareOptions.OnlyNull
+  fullName: Niacomsoft.Eips.EmptyCompareOptions.OnlyNull
+  nameWithType: EmptyCompareOptions.OnlyNull
+- uid: Niacomsoft.Eips.Globalization
+  name: Niacomsoft.Eips.Globalization
+  href: api/Niacomsoft.Eips.Globalization.html
+  commentId: N:Niacomsoft.Eips.Globalization
+  fullName: Niacomsoft.Eips.Globalization
+  nameWithType: Niacomsoft.Eips.Globalization
+- uid: Niacomsoft.Eips.Globalization.ContextCultureConfigurator
+  name: ContextCultureConfigurator
+  href: api/Niacomsoft.Eips.Globalization.ContextCultureConfigurator.html
+  commentId: T:Niacomsoft.Eips.Globalization.ContextCultureConfigurator
+  fullName: Niacomsoft.Eips.Globalization.ContextCultureConfigurator
+  nameWithType: ContextCultureConfigurator
+- uid: Niacomsoft.Eips.Globalization.ContextCultureConfigurator.SetDefaultThreadCurrentCulture(Niacomsoft.Eips.Globalization.SupportedCultures)
+  name: SetDefaultThreadCurrentCulture(SupportedCultures)
+  href: api/Niacomsoft.Eips.Globalization.ContextCultureConfigurator.html#Niacomsoft_Eips_Globalization_ContextCultureConfigurator_SetDefaultThreadCurrentCulture_Niacomsoft_Eips_Globalization_SupportedCultures_
+  commentId: M:Niacomsoft.Eips.Globalization.ContextCultureConfigurator.SetDefaultThreadCurrentCulture(Niacomsoft.Eips.Globalization.SupportedCultures)
+  fullName: Niacomsoft.Eips.Globalization.ContextCultureConfigurator.SetDefaultThreadCurrentCulture(Niacomsoft.Eips.Globalization.SupportedCultures)
+  nameWithType: ContextCultureConfigurator.SetDefaultThreadCurrentCulture(SupportedCultures)
+- uid: Niacomsoft.Eips.Globalization.ContextCultureConfigurator.SetDefaultThreadCurrentCulture(System.Int32)
+  name: SetDefaultThreadCurrentCulture(Int32)
+  href: api/Niacomsoft.Eips.Globalization.ContextCultureConfigurator.html#Niacomsoft_Eips_Globalization_ContextCultureConfigurator_SetDefaultThreadCurrentCulture_System_Int32_
+  commentId: M:Niacomsoft.Eips.Globalization.ContextCultureConfigurator.SetDefaultThreadCurrentCulture(System.Int32)
+  fullName: Niacomsoft.Eips.Globalization.ContextCultureConfigurator.SetDefaultThreadCurrentCulture(System.Int32)
+  nameWithType: ContextCultureConfigurator.SetDefaultThreadCurrentCulture(Int32)
+- uid: Niacomsoft.Eips.Globalization.ContextCultureConfigurator.SetDefaultThreadCurrentCulture*
+  name: SetDefaultThreadCurrentCulture
+  href: api/Niacomsoft.Eips.Globalization.ContextCultureConfigurator.html#Niacomsoft_Eips_Globalization_ContextCultureConfigurator_SetDefaultThreadCurrentCulture_
+  commentId: Overload:Niacomsoft.Eips.Globalization.ContextCultureConfigurator.SetDefaultThreadCurrentCulture
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Globalization.ContextCultureConfigurator.SetDefaultThreadCurrentCulture
+  nameWithType: ContextCultureConfigurator.SetDefaultThreadCurrentCulture
+- uid: Niacomsoft.Eips.Globalization.ContextCultureConfigurator.SetThreadCurrentCulture(Niacomsoft.Eips.Globalization.SupportedCultures)
+  name: SetThreadCurrentCulture(SupportedCultures)
+  href: api/Niacomsoft.Eips.Globalization.ContextCultureConfigurator.html#Niacomsoft_Eips_Globalization_ContextCultureConfigurator_SetThreadCurrentCulture_Niacomsoft_Eips_Globalization_SupportedCultures_
+  commentId: M:Niacomsoft.Eips.Globalization.ContextCultureConfigurator.SetThreadCurrentCulture(Niacomsoft.Eips.Globalization.SupportedCultures)
+  fullName: Niacomsoft.Eips.Globalization.ContextCultureConfigurator.SetThreadCurrentCulture(Niacomsoft.Eips.Globalization.SupportedCultures)
+  nameWithType: ContextCultureConfigurator.SetThreadCurrentCulture(SupportedCultures)
+- uid: Niacomsoft.Eips.Globalization.ContextCultureConfigurator.SetThreadCurrentCulture(System.Int32)
+  name: SetThreadCurrentCulture(Int32)
+  href: api/Niacomsoft.Eips.Globalization.ContextCultureConfigurator.html#Niacomsoft_Eips_Globalization_ContextCultureConfigurator_SetThreadCurrentCulture_System_Int32_
+  commentId: M:Niacomsoft.Eips.Globalization.ContextCultureConfigurator.SetThreadCurrentCulture(System.Int32)
+  fullName: Niacomsoft.Eips.Globalization.ContextCultureConfigurator.SetThreadCurrentCulture(System.Int32)
+  nameWithType: ContextCultureConfigurator.SetThreadCurrentCulture(Int32)
+- uid: Niacomsoft.Eips.Globalization.ContextCultureConfigurator.SetThreadCurrentCulture*
+  name: SetThreadCurrentCulture
+  href: api/Niacomsoft.Eips.Globalization.ContextCultureConfigurator.html#Niacomsoft_Eips_Globalization_ContextCultureConfigurator_SetThreadCurrentCulture_
+  commentId: Overload:Niacomsoft.Eips.Globalization.ContextCultureConfigurator.SetThreadCurrentCulture
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Globalization.ContextCultureConfigurator.SetThreadCurrentCulture
+  nameWithType: ContextCultureConfigurator.SetThreadCurrentCulture
+- uid: Niacomsoft.Eips.Globalization.SR
+  name: SR
+  href: api/Niacomsoft.Eips.Globalization.SR.html
+  commentId: T:Niacomsoft.Eips.Globalization.SR
+  fullName: Niacomsoft.Eips.Globalization.SR
+  nameWithType: SR
+- uid: Niacomsoft.Eips.Globalization.SR.Format(System.String,System.Object[])
+  name: Format(String, Object[])
+  href: api/Niacomsoft.Eips.Globalization.SR.html#Niacomsoft_Eips_Globalization_SR_Format_System_String_System_Object___
+  commentId: M:Niacomsoft.Eips.Globalization.SR.Format(System.String,System.Object[])
+  name.vb: Format(String, Object())
+  fullName: Niacomsoft.Eips.Globalization.SR.Format(System.String, System.Object[])
+  fullName.vb: Niacomsoft.Eips.Globalization.SR.Format(System.String, System.Object())
+  nameWithType: SR.Format(String, Object[])
+  nameWithType.vb: SR.Format(String, Object())
+- uid: Niacomsoft.Eips.Globalization.SR.Format*
+  name: Format
+  href: api/Niacomsoft.Eips.Globalization.SR.html#Niacomsoft_Eips_Globalization_SR_Format_
+  commentId: Overload:Niacomsoft.Eips.Globalization.SR.Format
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Globalization.SR.Format
+  nameWithType: SR.Format
+- uid: Niacomsoft.Eips.Globalization.SR.GetString(System.String)
+  name: GetString(String)
+  href: api/Niacomsoft.Eips.Globalization.SR.html#Niacomsoft_Eips_Globalization_SR_GetString_System_String_
+  commentId: M:Niacomsoft.Eips.Globalization.SR.GetString(System.String)
+  fullName: Niacomsoft.Eips.Globalization.SR.GetString(System.String)
+  nameWithType: SR.GetString(String)
+- uid: Niacomsoft.Eips.Globalization.SR.GetString*
+  name: GetString
+  href: api/Niacomsoft.Eips.Globalization.SR.html#Niacomsoft_Eips_Globalization_SR_GetString_
+  commentId: Overload:Niacomsoft.Eips.Globalization.SR.GetString
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Globalization.SR.GetString
+  nameWithType: SR.GetString
+- uid: Niacomsoft.Eips.Globalization.SupportedCultures
+  name: SupportedCultures
+  href: api/Niacomsoft.Eips.Globalization.SupportedCultures.html
+  commentId: T:Niacomsoft.Eips.Globalization.SupportedCultures
+  fullName: Niacomsoft.Eips.Globalization.SupportedCultures
+  nameWithType: SupportedCultures
+- uid: Niacomsoft.Eips.Globalization.SupportedCultures.China
+  name: China
+  href: api/Niacomsoft.Eips.Globalization.SupportedCultures.html#Niacomsoft_Eips_Globalization_SupportedCultures_China
+  commentId: F:Niacomsoft.Eips.Globalization.SupportedCultures.China
+  fullName: Niacomsoft.Eips.Globalization.SupportedCultures.China
+  nameWithType: SupportedCultures.China
+- uid: Niacomsoft.Eips.Globalization.SupportedCultures.Default
+  name: Default
+  href: api/Niacomsoft.Eips.Globalization.SupportedCultures.html#Niacomsoft_Eips_Globalization_SupportedCultures_Default
+  commentId: F:Niacomsoft.Eips.Globalization.SupportedCultures.Default
+  fullName: Niacomsoft.Eips.Globalization.SupportedCultures.Default
+  nameWithType: SupportedCultures.Default
+- uid: Niacomsoft.Eips.Globalization.SupportedCultures.Taiwan
+  name: Taiwan
+  href: api/Niacomsoft.Eips.Globalization.SupportedCultures.html#Niacomsoft_Eips_Globalization_SupportedCultures_Taiwan
+  commentId: F:Niacomsoft.Eips.Globalization.SupportedCultures.Taiwan
+  fullName: Niacomsoft.Eips.Globalization.SupportedCultures.Taiwan
+  nameWithType: SupportedCultures.Taiwan
+- uid: Niacomsoft.Eips.Globalization.SupportedCultures.USA
+  name: USA
+  href: api/Niacomsoft.Eips.Globalization.SupportedCultures.html#Niacomsoft_Eips_Globalization_SupportedCultures_USA
+  commentId: F:Niacomsoft.Eips.Globalization.SupportedCultures.USA
+  fullName: Niacomsoft.Eips.Globalization.SupportedCultures.USA
+  nameWithType: SupportedCultures.USA
+- uid: Niacomsoft.Eips.NumberComparisonSymbols
+  name: NumberComparisonSymbols
+  href: api/Niacomsoft.Eips.NumberComparisonSymbols.html
+  commentId: T:Niacomsoft.Eips.NumberComparisonSymbols
+  fullName: Niacomsoft.Eips.NumberComparisonSymbols
+  nameWithType: NumberComparisonSymbols
+- uid: Niacomsoft.Eips.NumberComparisonSymbols.Default
+  name: Default
+  href: api/Niacomsoft.Eips.NumberComparisonSymbols.html#Niacomsoft_Eips_NumberComparisonSymbols_Default
+  commentId: F:Niacomsoft.Eips.NumberComparisonSymbols.Default
+  fullName: Niacomsoft.Eips.NumberComparisonSymbols.Default
+  nameWithType: NumberComparisonSymbols.Default
+- uid: Niacomsoft.Eips.NumberComparisonSymbols.Equal
+  name: Equal
+  href: api/Niacomsoft.Eips.NumberComparisonSymbols.html#Niacomsoft_Eips_NumberComparisonSymbols_Equal
+  commentId: F:Niacomsoft.Eips.NumberComparisonSymbols.Equal
+  fullName: Niacomsoft.Eips.NumberComparisonSymbols.Equal
+  nameWithType: NumberComparisonSymbols.Equal
+- uid: Niacomsoft.Eips.NumberComparisonSymbols.GreaterThan
+  name: GreaterThan
+  href: api/Niacomsoft.Eips.NumberComparisonSymbols.html#Niacomsoft_Eips_NumberComparisonSymbols_GreaterThan
+  commentId: F:Niacomsoft.Eips.NumberComparisonSymbols.GreaterThan
+  fullName: Niacomsoft.Eips.NumberComparisonSymbols.GreaterThan
+  nameWithType: NumberComparisonSymbols.GreaterThan
+- uid: Niacomsoft.Eips.NumberComparisonSymbols.GreaterThanOrEqual
+  name: GreaterThanOrEqual
+  href: api/Niacomsoft.Eips.NumberComparisonSymbols.html#Niacomsoft_Eips_NumberComparisonSymbols_GreaterThanOrEqual
+  commentId: F:Niacomsoft.Eips.NumberComparisonSymbols.GreaterThanOrEqual
+  fullName: Niacomsoft.Eips.NumberComparisonSymbols.GreaterThanOrEqual
+  nameWithType: NumberComparisonSymbols.GreaterThanOrEqual
+- uid: Niacomsoft.Eips.NumberComparisonSymbols.LessThan
+  name: LessThan
+  href: api/Niacomsoft.Eips.NumberComparisonSymbols.html#Niacomsoft_Eips_NumberComparisonSymbols_LessThan
+  commentId: F:Niacomsoft.Eips.NumberComparisonSymbols.LessThan
+  fullName: Niacomsoft.Eips.NumberComparisonSymbols.LessThan
+  nameWithType: NumberComparisonSymbols.LessThan
+- uid: Niacomsoft.Eips.NumberComparisonSymbols.LessThanOrEqual
+  name: LessThanOrEqual
+  href: api/Niacomsoft.Eips.NumberComparisonSymbols.html#Niacomsoft_Eips_NumberComparisonSymbols_LessThanOrEqual
+  commentId: F:Niacomsoft.Eips.NumberComparisonSymbols.LessThanOrEqual
+  fullName: Niacomsoft.Eips.NumberComparisonSymbols.LessThanOrEqual
+  nameWithType: NumberComparisonSymbols.LessThanOrEqual
+- uid: Niacomsoft.Eips.ParameterGuard
+  name: ParameterGuard
+  href: api/Niacomsoft.Eips.ParameterGuard.html
+  commentId: T:Niacomsoft.Eips.ParameterGuard
+  fullName: Niacomsoft.Eips.ParameterGuard
+  nameWithType: ParameterGuard
+- uid: Niacomsoft.Eips.ParameterGuard.SafeGet(System.String,System.String,Niacomsoft.Eips.EmptyCompareOptions)
+  name: SafeGet(String, String, EmptyCompareOptions)
+  href: api/Niacomsoft.Eips.ParameterGuard.html#Niacomsoft_Eips_ParameterGuard_SafeGet_System_String_System_String_Niacomsoft_Eips_EmptyCompareOptions_
+  commentId: M:Niacomsoft.Eips.ParameterGuard.SafeGet(System.String,System.String,Niacomsoft.Eips.EmptyCompareOptions)
+  fullName: Niacomsoft.Eips.ParameterGuard.SafeGet(System.String, System.String, Niacomsoft.Eips.EmptyCompareOptions)
+  nameWithType: ParameterGuard.SafeGet(String, String, EmptyCompareOptions)
+- uid: Niacomsoft.Eips.ParameterGuard.SafeGet*
+  name: SafeGet
+  href: api/Niacomsoft.Eips.ParameterGuard.html#Niacomsoft_Eips_ParameterGuard_SafeGet_
+  commentId: Overload:Niacomsoft.Eips.ParameterGuard.SafeGet
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.ParameterGuard.SafeGet
+  nameWithType: ParameterGuard.SafeGet
+- uid: Niacomsoft.Eips.ParameterGuard.SafeGet``1(``0,System.Func{``0})
+  name: SafeGet<T>(T, Func<T>)
+  href: api/Niacomsoft.Eips.ParameterGuard.html#Niacomsoft_Eips_ParameterGuard_SafeGet__1___0_System_Func___0__
+  commentId: M:Niacomsoft.Eips.ParameterGuard.SafeGet``1(``0,System.Func{``0})
+  name.vb: SafeGet(Of T)(T, Func(Of T))
+  fullName: Niacomsoft.Eips.ParameterGuard.SafeGet<T>(T, System.Func<T>)
+  fullName.vb: Niacomsoft.Eips.ParameterGuard.SafeGet(Of T)(T, System.Func(Of T))
+  nameWithType: ParameterGuard.SafeGet<T>(T, Func<T>)
+  nameWithType.vb: ParameterGuard.SafeGet(Of T)(T, Func(Of T))
+- uid: Niacomsoft.Eips.ParameterGuard.SafeGet``1(System.Nullable{``0},``0)
+  name: SafeGet<T>(Nullable<T>, T)
+  href: api/Niacomsoft.Eips.ParameterGuard.html#Niacomsoft_Eips_ParameterGuard_SafeGet__1_System_Nullable___0____0_
+  commentId: M:Niacomsoft.Eips.ParameterGuard.SafeGet``1(System.Nullable{``0},``0)
+  name.vb: SafeGet(Of T)(Nullable(Of T), T)
+  fullName: Niacomsoft.Eips.ParameterGuard.SafeGet<T>(System.Nullable<T>, T)
+  fullName.vb: Niacomsoft.Eips.ParameterGuard.SafeGet(Of T)(System.Nullable(Of T), T)
+  nameWithType: ParameterGuard.SafeGet<T>(Nullable<T>, T)
+  nameWithType.vb: ParameterGuard.SafeGet(Of T)(Nullable(Of T), T)
+- uid: Niacomsoft.Eips.ParameterGuard.TrueGet*
+  name: TrueGet
+  href: api/Niacomsoft.Eips.ParameterGuard.html#Niacomsoft_Eips_ParameterGuard_TrueGet_
+  commentId: Overload:Niacomsoft.Eips.ParameterGuard.TrueGet
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.ParameterGuard.TrueGet
+  nameWithType: ParameterGuard.TrueGet
+- uid: Niacomsoft.Eips.ParameterGuard.TrueGet``1(``0,System.Func{``0,System.Boolean},System.Func{``0})
+  name: TrueGet<T>(T, Func<T, Boolean>, Func<T>)
+  href: api/Niacomsoft.Eips.ParameterGuard.html#Niacomsoft_Eips_ParameterGuard_TrueGet__1___0_System_Func___0_System_Boolean__System_Func___0__
+  commentId: M:Niacomsoft.Eips.ParameterGuard.TrueGet``1(``0,System.Func{``0,System.Boolean},System.Func{``0})
+  name.vb: TrueGet(Of T)(T, Func(Of T, Boolean), Func(Of T))
+  fullName: Niacomsoft.Eips.ParameterGuard.TrueGet<T>(T, System.Func<T, System.Boolean>, System.Func<T>)
+  fullName.vb: Niacomsoft.Eips.ParameterGuard.TrueGet(Of T)(T, System.Func(Of T, System.Boolean), System.Func(Of T))
+  nameWithType: ParameterGuard.TrueGet<T>(T, Func<T, Boolean>, Func<T>)
+  nameWithType.vb: ParameterGuard.TrueGet(Of T)(T, Func(Of T, Boolean), Func(Of T))
+- uid: Niacomsoft.Eips.ReferenceTypeEqualityComparer
+  name: ReferenceTypeEqualityComparer
+  href: api/Niacomsoft.Eips.ReferenceTypeEqualityComparer.html
+  commentId: T:Niacomsoft.Eips.ReferenceTypeEqualityComparer
+  fullName: Niacomsoft.Eips.ReferenceTypeEqualityComparer
+  nameWithType: ReferenceTypeEqualityComparer
+- uid: Niacomsoft.Eips.ReferenceTypeEqualityComparer.None(System.Object)
+  name: None(Object)
+  href: api/Niacomsoft.Eips.ReferenceTypeEqualityComparer.html#Niacomsoft_Eips_ReferenceTypeEqualityComparer_None_System_Object_
+  commentId: M:Niacomsoft.Eips.ReferenceTypeEqualityComparer.None(System.Object)
+  fullName: Niacomsoft.Eips.ReferenceTypeEqualityComparer.None(System.Object)
+  nameWithType: ReferenceTypeEqualityComparer.None(Object)
+- uid: Niacomsoft.Eips.ReferenceTypeEqualityComparer.None*
+  name: None
+  href: api/Niacomsoft.Eips.ReferenceTypeEqualityComparer.html#Niacomsoft_Eips_ReferenceTypeEqualityComparer_None_
+  commentId: Overload:Niacomsoft.Eips.ReferenceTypeEqualityComparer.None
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.ReferenceTypeEqualityComparer.None
+  nameWithType: ReferenceTypeEqualityComparer.None
+- uid: Niacomsoft.Eips.ReferenceTypeEqualityComparer.NotNone(System.Object)
+  name: NotNone(Object)
+  href: api/Niacomsoft.Eips.ReferenceTypeEqualityComparer.html#Niacomsoft_Eips_ReferenceTypeEqualityComparer_NotNone_System_Object_
+  commentId: M:Niacomsoft.Eips.ReferenceTypeEqualityComparer.NotNone(System.Object)
+  fullName: Niacomsoft.Eips.ReferenceTypeEqualityComparer.NotNone(System.Object)
+  nameWithType: ReferenceTypeEqualityComparer.NotNone(Object)
+- uid: Niacomsoft.Eips.ReferenceTypeEqualityComparer.NotNone*
+  name: NotNone
+  href: api/Niacomsoft.Eips.ReferenceTypeEqualityComparer.html#Niacomsoft_Eips_ReferenceTypeEqualityComparer_NotNone_
+  commentId: Overload:Niacomsoft.Eips.ReferenceTypeEqualityComparer.NotNone
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.ReferenceTypeEqualityComparer.NotNone
+  nameWithType: ReferenceTypeEqualityComparer.NotNone
+- uid: Niacomsoft.Eips.StringEqualityComparer
+  name: StringEqualityComparer
+  href: api/Niacomsoft.Eips.StringEqualityComparer.html
+  commentId: T:Niacomsoft.Eips.StringEqualityComparer
+  fullName: Niacomsoft.Eips.StringEqualityComparer
+  nameWithType: StringEqualityComparer
+- uid: Niacomsoft.Eips.StringEqualityComparer.Empty(System.String,Niacomsoft.Eips.EmptyCompareOptions)
+  name: Empty(String, EmptyCompareOptions)
+  href: api/Niacomsoft.Eips.StringEqualityComparer.html#Niacomsoft_Eips_StringEqualityComparer_Empty_System_String_Niacomsoft_Eips_EmptyCompareOptions_
+  commentId: M:Niacomsoft.Eips.StringEqualityComparer.Empty(System.String,Niacomsoft.Eips.EmptyCompareOptions)
+  fullName: Niacomsoft.Eips.StringEqualityComparer.Empty(System.String, Niacomsoft.Eips.EmptyCompareOptions)
+  nameWithType: StringEqualityComparer.Empty(String, EmptyCompareOptions)
+- uid: Niacomsoft.Eips.StringEqualityComparer.Empty*
+  name: Empty
+  href: api/Niacomsoft.Eips.StringEqualityComparer.html#Niacomsoft_Eips_StringEqualityComparer_Empty_
+  commentId: Overload:Niacomsoft.Eips.StringEqualityComparer.Empty
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.StringEqualityComparer.Empty
+  nameWithType: StringEqualityComparer.Empty
+- uid: Niacomsoft.Eips.StringEqualityComparer.IgnoreCaseEquals(System.String,System.String)
+  name: IgnoreCaseEquals(String, String)
+  href: api/Niacomsoft.Eips.StringEqualityComparer.html#Niacomsoft_Eips_StringEqualityComparer_IgnoreCaseEquals_System_String_System_String_
+  commentId: M:Niacomsoft.Eips.StringEqualityComparer.IgnoreCaseEquals(System.String,System.String)
+  fullName: Niacomsoft.Eips.StringEqualityComparer.IgnoreCaseEquals(System.String, System.String)
+  nameWithType: StringEqualityComparer.IgnoreCaseEquals(String, String)
+- uid: Niacomsoft.Eips.StringEqualityComparer.IgnoreCaseEquals*
+  name: IgnoreCaseEquals
+  href: api/Niacomsoft.Eips.StringEqualityComparer.html#Niacomsoft_Eips_StringEqualityComparer_IgnoreCaseEquals_
+  commentId: Overload:Niacomsoft.Eips.StringEqualityComparer.IgnoreCaseEquals
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.StringEqualityComparer.IgnoreCaseEquals
+  nameWithType: StringEqualityComparer.IgnoreCaseEquals
+- uid: Niacomsoft.Eips.StringUtilities
+  name: StringUtilities
+  href: api/Niacomsoft.Eips.StringUtilities.html
+  commentId: T:Niacomsoft.Eips.StringUtilities
+  fullName: Niacomsoft.Eips.StringUtilities
+  nameWithType: StringUtilities
+- uid: Niacomsoft.Eips.StringUtilities.FromBase64String(System.String)
+  name: FromBase64String(String)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_FromBase64String_System_String_
+  commentId: M:Niacomsoft.Eips.StringUtilities.FromBase64String(System.String)
+  fullName: Niacomsoft.Eips.StringUtilities.FromBase64String(System.String)
+  nameWithType: StringUtilities.FromBase64String(String)
+- uid: Niacomsoft.Eips.StringUtilities.FromBase64String*
+  name: FromBase64String
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_FromBase64String_
+  commentId: Overload:Niacomsoft.Eips.StringUtilities.FromBase64String
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.StringUtilities.FromBase64String
+  nameWithType: StringUtilities.FromBase64String
+- uid: Niacomsoft.Eips.StringUtilities.GetBytes(System.String,System.Text.Encoding)
+  name: GetBytes(String, Encoding)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_GetBytes_System_String_System_Text_Encoding_
+  commentId: M:Niacomsoft.Eips.StringUtilities.GetBytes(System.String,System.Text.Encoding)
+  fullName: Niacomsoft.Eips.StringUtilities.GetBytes(System.String, System.Text.Encoding)
+  nameWithType: StringUtilities.GetBytes(String, Encoding)
+- uid: Niacomsoft.Eips.StringUtilities.GetBytes*
+  name: GetBytes
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_GetBytes_
+  commentId: Overload:Niacomsoft.Eips.StringUtilities.GetBytes
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.StringUtilities.GetBytes
+  nameWithType: StringUtilities.GetBytes
+- uid: Niacomsoft.Eips.StringUtilities.GetString(System.Byte[],System.Text.Encoding)
+  name: GetString(Byte[], Encoding)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_GetString_System_Byte___System_Text_Encoding_
+  commentId: M:Niacomsoft.Eips.StringUtilities.GetString(System.Byte[],System.Text.Encoding)
+  name.vb: GetString(Byte(), Encoding)
+  fullName: Niacomsoft.Eips.StringUtilities.GetString(System.Byte[], System.Text.Encoding)
+  fullName.vb: Niacomsoft.Eips.StringUtilities.GetString(System.Byte(), System.Text.Encoding)
+  nameWithType: StringUtilities.GetString(Byte[], Encoding)
+  nameWithType.vb: StringUtilities.GetString(Byte(), Encoding)
+- uid: Niacomsoft.Eips.StringUtilities.GetString*
+  name: GetString
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_GetString_
+  commentId: Overload:Niacomsoft.Eips.StringUtilities.GetString
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.StringUtilities.GetString
+  nameWithType: StringUtilities.GetString
+- uid: Niacomsoft.Eips.StringUtilities.ToBase64String(System.Byte[],System.Base64FormattingOptions)
+  name: ToBase64String(Byte[], Base64FormattingOptions)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToBase64String_System_Byte___System_Base64FormattingOptions_
+  commentId: M:Niacomsoft.Eips.StringUtilities.ToBase64String(System.Byte[],System.Base64FormattingOptions)
+  name.vb: ToBase64String(Byte(), Base64FormattingOptions)
+  fullName: Niacomsoft.Eips.StringUtilities.ToBase64String(System.Byte[], System.Base64FormattingOptions)
+  fullName.vb: Niacomsoft.Eips.StringUtilities.ToBase64String(System.Byte(), System.Base64FormattingOptions)
+  nameWithType: StringUtilities.ToBase64String(Byte[], Base64FormattingOptions)
+  nameWithType.vb: StringUtilities.ToBase64String(Byte(), Base64FormattingOptions)
+- uid: Niacomsoft.Eips.StringUtilities.ToBase64String*
+  name: ToBase64String
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToBase64String_
+  commentId: Overload:Niacomsoft.Eips.StringUtilities.ToBase64String
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.StringUtilities.ToBase64String
+  nameWithType: StringUtilities.ToBase64String
+- uid: Niacomsoft.Eips.StringUtilities.ToCurrency(System.Decimal,System.Int32,System.Globalization.CultureInfo)
+  name: ToCurrency(Decimal, Int32, CultureInfo)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToCurrency_System_Decimal_System_Int32_System_Globalization_CultureInfo_
+  commentId: M:Niacomsoft.Eips.StringUtilities.ToCurrency(System.Decimal,System.Int32,System.Globalization.CultureInfo)
+  fullName: Niacomsoft.Eips.StringUtilities.ToCurrency(System.Decimal, System.Int32, System.Globalization.CultureInfo)
+  nameWithType: StringUtilities.ToCurrency(Decimal, Int32, CultureInfo)
+- uid: Niacomsoft.Eips.StringUtilities.ToCurrency(System.Double,System.Int32,System.Globalization.CultureInfo)
+  name: ToCurrency(Double, Int32, CultureInfo)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToCurrency_System_Double_System_Int32_System_Globalization_CultureInfo_
+  commentId: M:Niacomsoft.Eips.StringUtilities.ToCurrency(System.Double,System.Int32,System.Globalization.CultureInfo)
+  fullName: Niacomsoft.Eips.StringUtilities.ToCurrency(System.Double, System.Int32, System.Globalization.CultureInfo)
+  nameWithType: StringUtilities.ToCurrency(Double, Int32, CultureInfo)
+- uid: Niacomsoft.Eips.StringUtilities.ToCurrency(System.Int16,System.Int16,System.Globalization.CultureInfo)
+  name: ToCurrency(Int16, Int16, CultureInfo)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToCurrency_System_Int16_System_Int16_System_Globalization_CultureInfo_
+  commentId: M:Niacomsoft.Eips.StringUtilities.ToCurrency(System.Int16,System.Int16,System.Globalization.CultureInfo)
+  fullName: Niacomsoft.Eips.StringUtilities.ToCurrency(System.Int16, System.Int16, System.Globalization.CultureInfo)
+  nameWithType: StringUtilities.ToCurrency(Int16, Int16, CultureInfo)
+- uid: Niacomsoft.Eips.StringUtilities.ToCurrency(System.Int32,System.Int32,System.Globalization.CultureInfo)
+  name: ToCurrency(Int32, Int32, CultureInfo)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToCurrency_System_Int32_System_Int32_System_Globalization_CultureInfo_
+  commentId: M:Niacomsoft.Eips.StringUtilities.ToCurrency(System.Int32,System.Int32,System.Globalization.CultureInfo)
+  fullName: Niacomsoft.Eips.StringUtilities.ToCurrency(System.Int32, System.Int32, System.Globalization.CultureInfo)
+  nameWithType: StringUtilities.ToCurrency(Int32, Int32, CultureInfo)
+- uid: Niacomsoft.Eips.StringUtilities.ToCurrency(System.Int64,System.Int64,System.Globalization.CultureInfo)
+  name: ToCurrency(Int64, Int64, CultureInfo)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToCurrency_System_Int64_System_Int64_System_Globalization_CultureInfo_
+  commentId: M:Niacomsoft.Eips.StringUtilities.ToCurrency(System.Int64,System.Int64,System.Globalization.CultureInfo)
+  fullName: Niacomsoft.Eips.StringUtilities.ToCurrency(System.Int64, System.Int64, System.Globalization.CultureInfo)
+  nameWithType: StringUtilities.ToCurrency(Int64, Int64, CultureInfo)
+- uid: Niacomsoft.Eips.StringUtilities.ToCurrency(System.Single,System.Int32,System.Globalization.CultureInfo)
+  name: ToCurrency(Single, Int32, CultureInfo)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToCurrency_System_Single_System_Int32_System_Globalization_CultureInfo_
+  commentId: M:Niacomsoft.Eips.StringUtilities.ToCurrency(System.Single,System.Int32,System.Globalization.CultureInfo)
+  fullName: Niacomsoft.Eips.StringUtilities.ToCurrency(System.Single, System.Int32, System.Globalization.CultureInfo)
+  nameWithType: StringUtilities.ToCurrency(Single, Int32, CultureInfo)
+- uid: Niacomsoft.Eips.StringUtilities.ToCurrency*
+  name: ToCurrency
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToCurrency_
+  commentId: Overload:Niacomsoft.Eips.StringUtilities.ToCurrency
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.StringUtilities.ToCurrency
+  nameWithType: StringUtilities.ToCurrency
+- uid: Niacomsoft.Eips.StringUtilities.ToDateTime(System.String)
+  name: ToDateTime(String)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToDateTime_System_String_
+  commentId: M:Niacomsoft.Eips.StringUtilities.ToDateTime(System.String)
+  fullName: Niacomsoft.Eips.StringUtilities.ToDateTime(System.String)
+  nameWithType: StringUtilities.ToDateTime(String)
+- uid: Niacomsoft.Eips.StringUtilities.ToDateTime*
+  name: ToDateTime
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToDateTime_
+  commentId: Overload:Niacomsoft.Eips.StringUtilities.ToDateTime
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.StringUtilities.ToDateTime
+  nameWithType: StringUtilities.ToDateTime
+- uid: Niacomsoft.Eips.StringUtilities.ToDecimal(System.String)
+  name: ToDecimal(String)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToDecimal_System_String_
+  commentId: M:Niacomsoft.Eips.StringUtilities.ToDecimal(System.String)
+  fullName: Niacomsoft.Eips.StringUtilities.ToDecimal(System.String)
+  nameWithType: StringUtilities.ToDecimal(String)
+- uid: Niacomsoft.Eips.StringUtilities.ToDecimal*
+  name: ToDecimal
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToDecimal_
+  commentId: Overload:Niacomsoft.Eips.StringUtilities.ToDecimal
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.StringUtilities.ToDecimal
+  nameWithType: StringUtilities.ToDecimal
+- uid: Niacomsoft.Eips.StringUtilities.ToDouble(System.String)
+  name: ToDouble(String)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToDouble_System_String_
+  commentId: M:Niacomsoft.Eips.StringUtilities.ToDouble(System.String)
+  fullName: Niacomsoft.Eips.StringUtilities.ToDouble(System.String)
+  nameWithType: StringUtilities.ToDouble(String)
+- uid: Niacomsoft.Eips.StringUtilities.ToDouble*
+  name: ToDouble
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToDouble_
+  commentId: Overload:Niacomsoft.Eips.StringUtilities.ToDouble
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.StringUtilities.ToDouble
+  nameWithType: StringUtilities.ToDouble
+- uid: Niacomsoft.Eips.StringUtilities.ToFixed(System.Decimal,System.Int32)
+  name: ToFixed(Decimal, Int32)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToFixed_System_Decimal_System_Int32_
+  commentId: M:Niacomsoft.Eips.StringUtilities.ToFixed(System.Decimal,System.Int32)
+  fullName: Niacomsoft.Eips.StringUtilities.ToFixed(System.Decimal, System.Int32)
+  nameWithType: StringUtilities.ToFixed(Decimal, Int32)
+- uid: Niacomsoft.Eips.StringUtilities.ToFixed(System.Double,System.Int32)
+  name: ToFixed(Double, Int32)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToFixed_System_Double_System_Int32_
+  commentId: M:Niacomsoft.Eips.StringUtilities.ToFixed(System.Double,System.Int32)
+  fullName: Niacomsoft.Eips.StringUtilities.ToFixed(System.Double, System.Int32)
+  nameWithType: StringUtilities.ToFixed(Double, Int32)
+- uid: Niacomsoft.Eips.StringUtilities.ToFixed(System.Int16,System.Int16)
+  name: ToFixed(Int16, Int16)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToFixed_System_Int16_System_Int16_
+  commentId: M:Niacomsoft.Eips.StringUtilities.ToFixed(System.Int16,System.Int16)
+  fullName: Niacomsoft.Eips.StringUtilities.ToFixed(System.Int16, System.Int16)
+  nameWithType: StringUtilities.ToFixed(Int16, Int16)
+- uid: Niacomsoft.Eips.StringUtilities.ToFixed(System.Int32,System.Int32)
+  name: ToFixed(Int32, Int32)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToFixed_System_Int32_System_Int32_
+  commentId: M:Niacomsoft.Eips.StringUtilities.ToFixed(System.Int32,System.Int32)
+  fullName: Niacomsoft.Eips.StringUtilities.ToFixed(System.Int32, System.Int32)
+  nameWithType: StringUtilities.ToFixed(Int32, Int32)
+- uid: Niacomsoft.Eips.StringUtilities.ToFixed(System.Int64,System.Int64)
+  name: ToFixed(Int64, Int64)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToFixed_System_Int64_System_Int64_
+  commentId: M:Niacomsoft.Eips.StringUtilities.ToFixed(System.Int64,System.Int64)
+  fullName: Niacomsoft.Eips.StringUtilities.ToFixed(System.Int64, System.Int64)
+  nameWithType: StringUtilities.ToFixed(Int64, Int64)
+- uid: Niacomsoft.Eips.StringUtilities.ToFixed(System.Single,System.Int32)
+  name: ToFixed(Single, Int32)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToFixed_System_Single_System_Int32_
+  commentId: M:Niacomsoft.Eips.StringUtilities.ToFixed(System.Single,System.Int32)
+  fullName: Niacomsoft.Eips.StringUtilities.ToFixed(System.Single, System.Int32)
+  nameWithType: StringUtilities.ToFixed(Single, Int32)
+- uid: Niacomsoft.Eips.StringUtilities.ToFixed*
+  name: ToFixed
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToFixed_
+  commentId: Overload:Niacomsoft.Eips.StringUtilities.ToFixed
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.StringUtilities.ToFixed
+  nameWithType: StringUtilities.ToFixed
+- uid: Niacomsoft.Eips.StringUtilities.ToGuid(System.String)
+  name: ToGuid(String)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToGuid_System_String_
+  commentId: M:Niacomsoft.Eips.StringUtilities.ToGuid(System.String)
+  fullName: Niacomsoft.Eips.StringUtilities.ToGuid(System.String)
+  nameWithType: StringUtilities.ToGuid(String)
+- uid: Niacomsoft.Eips.StringUtilities.ToGuid*
+  name: ToGuid
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToGuid_
+  commentId: Overload:Niacomsoft.Eips.StringUtilities.ToGuid
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.StringUtilities.ToGuid
+  nameWithType: StringUtilities.ToGuid
+- uid: Niacomsoft.Eips.StringUtilities.ToHex(System.Int16)
+  name: ToHex(Int16)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToHex_System_Int16_
+  commentId: M:Niacomsoft.Eips.StringUtilities.ToHex(System.Int16)
+  fullName: Niacomsoft.Eips.StringUtilities.ToHex(System.Int16)
+  nameWithType: StringUtilities.ToHex(Int16)
+- uid: Niacomsoft.Eips.StringUtilities.ToHex(System.Int32)
+  name: ToHex(Int32)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToHex_System_Int32_
+  commentId: M:Niacomsoft.Eips.StringUtilities.ToHex(System.Int32)
+  fullName: Niacomsoft.Eips.StringUtilities.ToHex(System.Int32)
+  nameWithType: StringUtilities.ToHex(Int32)
+- uid: Niacomsoft.Eips.StringUtilities.ToHex(System.Int64)
+  name: ToHex(Int64)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToHex_System_Int64_
+  commentId: M:Niacomsoft.Eips.StringUtilities.ToHex(System.Int64)
+  fullName: Niacomsoft.Eips.StringUtilities.ToHex(System.Int64)
+  nameWithType: StringUtilities.ToHex(Int64)
+- uid: Niacomsoft.Eips.StringUtilities.ToHex*
+  name: ToHex
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToHex_
+  commentId: Overload:Niacomsoft.Eips.StringUtilities.ToHex
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.StringUtilities.ToHex
+  nameWithType: StringUtilities.ToHex
+- uid: Niacomsoft.Eips.StringUtilities.ToInt(System.String)
+  name: ToInt(String)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToInt_System_String_
+  commentId: M:Niacomsoft.Eips.StringUtilities.ToInt(System.String)
+  fullName: Niacomsoft.Eips.StringUtilities.ToInt(System.String)
+  nameWithType: StringUtilities.ToInt(String)
+- uid: Niacomsoft.Eips.StringUtilities.ToInt*
+  name: ToInt
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToInt_
+  commentId: Overload:Niacomsoft.Eips.StringUtilities.ToInt
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.StringUtilities.ToInt
+  nameWithType: StringUtilities.ToInt
+- uid: Niacomsoft.Eips.StringUtilities.ToInt16(System.String)
+  name: ToInt16(String)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToInt16_System_String_
+  commentId: M:Niacomsoft.Eips.StringUtilities.ToInt16(System.String)
+  fullName: Niacomsoft.Eips.StringUtilities.ToInt16(System.String)
+  nameWithType: StringUtilities.ToInt16(String)
+- uid: Niacomsoft.Eips.StringUtilities.ToInt16*
+  name: ToInt16
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToInt16_
+  commentId: Overload:Niacomsoft.Eips.StringUtilities.ToInt16
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.StringUtilities.ToInt16
+  nameWithType: StringUtilities.ToInt16
+- uid: Niacomsoft.Eips.StringUtilities.ToInt64(System.String)
+  name: ToInt64(String)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToInt64_System_String_
+  commentId: M:Niacomsoft.Eips.StringUtilities.ToInt64(System.String)
+  fullName: Niacomsoft.Eips.StringUtilities.ToInt64(System.String)
+  nameWithType: StringUtilities.ToInt64(String)
+- uid: Niacomsoft.Eips.StringUtilities.ToInt64*
+  name: ToInt64
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToInt64_
+  commentId: Overload:Niacomsoft.Eips.StringUtilities.ToInt64
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.StringUtilities.ToInt64
+  nameWithType: StringUtilities.ToInt64
+- uid: Niacomsoft.Eips.StringUtilities.ToSingle(System.String)
+  name: ToSingle(String)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToSingle_System_String_
+  commentId: M:Niacomsoft.Eips.StringUtilities.ToSingle(System.String)
+  fullName: Niacomsoft.Eips.StringUtilities.ToSingle(System.String)
+  nameWithType: StringUtilities.ToSingle(String)
+- uid: Niacomsoft.Eips.StringUtilities.ToSingle*
+  name: ToSingle
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_ToSingle_
+  commentId: Overload:Niacomsoft.Eips.StringUtilities.ToSingle
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.StringUtilities.ToSingle
+  nameWithType: StringUtilities.ToSingle
+- uid: Niacomsoft.Eips.StringUtilities.TryToDateTime(System.String)
+  name: TryToDateTime(String)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_TryToDateTime_System_String_
+  commentId: M:Niacomsoft.Eips.StringUtilities.TryToDateTime(System.String)
+  fullName: Niacomsoft.Eips.StringUtilities.TryToDateTime(System.String)
+  nameWithType: StringUtilities.TryToDateTime(String)
+- uid: Niacomsoft.Eips.StringUtilities.TryToDateTime*
+  name: TryToDateTime
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_TryToDateTime_
+  commentId: Overload:Niacomsoft.Eips.StringUtilities.TryToDateTime
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.StringUtilities.TryToDateTime
+  nameWithType: StringUtilities.TryToDateTime
+- uid: Niacomsoft.Eips.StringUtilities.TryToDecimal(System.String)
+  name: TryToDecimal(String)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_TryToDecimal_System_String_
+  commentId: M:Niacomsoft.Eips.StringUtilities.TryToDecimal(System.String)
+  fullName: Niacomsoft.Eips.StringUtilities.TryToDecimal(System.String)
+  nameWithType: StringUtilities.TryToDecimal(String)
+- uid: Niacomsoft.Eips.StringUtilities.TryToDecimal*
+  name: TryToDecimal
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_TryToDecimal_
+  commentId: Overload:Niacomsoft.Eips.StringUtilities.TryToDecimal
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.StringUtilities.TryToDecimal
+  nameWithType: StringUtilities.TryToDecimal
+- uid: Niacomsoft.Eips.StringUtilities.TryToDouble(System.String)
+  name: TryToDouble(String)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_TryToDouble_System_String_
+  commentId: M:Niacomsoft.Eips.StringUtilities.TryToDouble(System.String)
+  fullName: Niacomsoft.Eips.StringUtilities.TryToDouble(System.String)
+  nameWithType: StringUtilities.TryToDouble(String)
+- uid: Niacomsoft.Eips.StringUtilities.TryToDouble*
+  name: TryToDouble
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_TryToDouble_
+  commentId: Overload:Niacomsoft.Eips.StringUtilities.TryToDouble
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.StringUtilities.TryToDouble
+  nameWithType: StringUtilities.TryToDouble
+- uid: Niacomsoft.Eips.StringUtilities.TryToGuid(System.String)
+  name: TryToGuid(String)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_TryToGuid_System_String_
+  commentId: M:Niacomsoft.Eips.StringUtilities.TryToGuid(System.String)
+  fullName: Niacomsoft.Eips.StringUtilities.TryToGuid(System.String)
+  nameWithType: StringUtilities.TryToGuid(String)
+- uid: Niacomsoft.Eips.StringUtilities.TryToGuid*
+  name: TryToGuid
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_TryToGuid_
+  commentId: Overload:Niacomsoft.Eips.StringUtilities.TryToGuid
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.StringUtilities.TryToGuid
+  nameWithType: StringUtilities.TryToGuid
+- uid: Niacomsoft.Eips.StringUtilities.TryToInt(System.String)
+  name: TryToInt(String)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_TryToInt_System_String_
+  commentId: M:Niacomsoft.Eips.StringUtilities.TryToInt(System.String)
+  fullName: Niacomsoft.Eips.StringUtilities.TryToInt(System.String)
+  nameWithType: StringUtilities.TryToInt(String)
+- uid: Niacomsoft.Eips.StringUtilities.TryToInt*
+  name: TryToInt
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_TryToInt_
+  commentId: Overload:Niacomsoft.Eips.StringUtilities.TryToInt
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.StringUtilities.TryToInt
+  nameWithType: StringUtilities.TryToInt
+- uid: Niacomsoft.Eips.StringUtilities.TryToInt16(System.String)
+  name: TryToInt16(String)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_TryToInt16_System_String_
+  commentId: M:Niacomsoft.Eips.StringUtilities.TryToInt16(System.String)
+  fullName: Niacomsoft.Eips.StringUtilities.TryToInt16(System.String)
+  nameWithType: StringUtilities.TryToInt16(String)
+- uid: Niacomsoft.Eips.StringUtilities.TryToInt16*
+  name: TryToInt16
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_TryToInt16_
+  commentId: Overload:Niacomsoft.Eips.StringUtilities.TryToInt16
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.StringUtilities.TryToInt16
+  nameWithType: StringUtilities.TryToInt16
+- uid: Niacomsoft.Eips.StringUtilities.TryToInt64(System.String)
+  name: TryToInt64(String)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_TryToInt64_System_String_
+  commentId: M:Niacomsoft.Eips.StringUtilities.TryToInt64(System.String)
+  fullName: Niacomsoft.Eips.StringUtilities.TryToInt64(System.String)
+  nameWithType: StringUtilities.TryToInt64(String)
+- uid: Niacomsoft.Eips.StringUtilities.TryToInt64*
+  name: TryToInt64
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_TryToInt64_
+  commentId: Overload:Niacomsoft.Eips.StringUtilities.TryToInt64
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.StringUtilities.TryToInt64
+  nameWithType: StringUtilities.TryToInt64
+- uid: Niacomsoft.Eips.StringUtilities.TryToSingle(System.String)
+  name: TryToSingle(String)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_TryToSingle_System_String_
+  commentId: M:Niacomsoft.Eips.StringUtilities.TryToSingle(System.String)
+  fullName: Niacomsoft.Eips.StringUtilities.TryToSingle(System.String)
+  nameWithType: StringUtilities.TryToSingle(String)
+- uid: Niacomsoft.Eips.StringUtilities.TryToSingle*
+  name: TryToSingle
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_TryToSingle_
+  commentId: Overload:Niacomsoft.Eips.StringUtilities.TryToSingle
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.StringUtilities.TryToSingle
+  nameWithType: StringUtilities.TryToSingle
+- uid: Niacomsoft.Eips.StringUtilities.WithThousandSeparators(System.Decimal,System.Int32)
+  name: WithThousandSeparators(Decimal, Int32)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_WithThousandSeparators_System_Decimal_System_Int32_
+  commentId: M:Niacomsoft.Eips.StringUtilities.WithThousandSeparators(System.Decimal,System.Int32)
+  fullName: Niacomsoft.Eips.StringUtilities.WithThousandSeparators(System.Decimal, System.Int32)
+  nameWithType: StringUtilities.WithThousandSeparators(Decimal, Int32)
+- uid: Niacomsoft.Eips.StringUtilities.WithThousandSeparators(System.Double,System.Int32)
+  name: WithThousandSeparators(Double, Int32)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_WithThousandSeparators_System_Double_System_Int32_
+  commentId: M:Niacomsoft.Eips.StringUtilities.WithThousandSeparators(System.Double,System.Int32)
+  fullName: Niacomsoft.Eips.StringUtilities.WithThousandSeparators(System.Double, System.Int32)
+  nameWithType: StringUtilities.WithThousandSeparators(Double, Int32)
+- uid: Niacomsoft.Eips.StringUtilities.WithThousandSeparators(System.Int16,System.Int16)
+  name: WithThousandSeparators(Int16, Int16)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_WithThousandSeparators_System_Int16_System_Int16_
+  commentId: M:Niacomsoft.Eips.StringUtilities.WithThousandSeparators(System.Int16,System.Int16)
+  fullName: Niacomsoft.Eips.StringUtilities.WithThousandSeparators(System.Int16, System.Int16)
+  nameWithType: StringUtilities.WithThousandSeparators(Int16, Int16)
+- uid: Niacomsoft.Eips.StringUtilities.WithThousandSeparators(System.Int32,System.Int32)
+  name: WithThousandSeparators(Int32, Int32)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_WithThousandSeparators_System_Int32_System_Int32_
+  commentId: M:Niacomsoft.Eips.StringUtilities.WithThousandSeparators(System.Int32,System.Int32)
+  fullName: Niacomsoft.Eips.StringUtilities.WithThousandSeparators(System.Int32, System.Int32)
+  nameWithType: StringUtilities.WithThousandSeparators(Int32, Int32)
+- uid: Niacomsoft.Eips.StringUtilities.WithThousandSeparators(System.Int64,System.Int64)
+  name: WithThousandSeparators(Int64, Int64)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_WithThousandSeparators_System_Int64_System_Int64_
+  commentId: M:Niacomsoft.Eips.StringUtilities.WithThousandSeparators(System.Int64,System.Int64)
+  fullName: Niacomsoft.Eips.StringUtilities.WithThousandSeparators(System.Int64, System.Int64)
+  nameWithType: StringUtilities.WithThousandSeparators(Int64, Int64)
+- uid: Niacomsoft.Eips.StringUtilities.WithThousandSeparators(System.Single,System.Int32)
+  name: WithThousandSeparators(Single, Int32)
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_WithThousandSeparators_System_Single_System_Int32_
+  commentId: M:Niacomsoft.Eips.StringUtilities.WithThousandSeparators(System.Single,System.Int32)
+  fullName: Niacomsoft.Eips.StringUtilities.WithThousandSeparators(System.Single, System.Int32)
+  nameWithType: StringUtilities.WithThousandSeparators(Single, Int32)
+- uid: Niacomsoft.Eips.StringUtilities.WithThousandSeparators*
+  name: WithThousandSeparators
+  href: api/Niacomsoft.Eips.StringUtilities.html#Niacomsoft_Eips_StringUtilities_WithThousandSeparators_
+  commentId: Overload:Niacomsoft.Eips.StringUtilities.WithThousandSeparators
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.StringUtilities.WithThousandSeparators
+  nameWithType: StringUtilities.WithThousandSeparators
+- uid: Niacomsoft.Eips.ValueTypeComparer
+  name: ValueTypeComparer
+  href: api/Niacomsoft.Eips.ValueTypeComparer.html
+  commentId: T:Niacomsoft.Eips.ValueTypeComparer
+  fullName: Niacomsoft.Eips.ValueTypeComparer
+  nameWithType: ValueTypeComparer
+- uid: Niacomsoft.Eips.ValueTypeComparer.Compare(System.Decimal,System.Decimal,Niacomsoft.Eips.NumberComparisonSymbols)
+  name: Compare(Decimal, Decimal, NumberComparisonSymbols)
+  href: api/Niacomsoft.Eips.ValueTypeComparer.html#Niacomsoft_Eips_ValueTypeComparer_Compare_System_Decimal_System_Decimal_Niacomsoft_Eips_NumberComparisonSymbols_
+  commentId: M:Niacomsoft.Eips.ValueTypeComparer.Compare(System.Decimal,System.Decimal,Niacomsoft.Eips.NumberComparisonSymbols)
+  fullName: Niacomsoft.Eips.ValueTypeComparer.Compare(System.Decimal, System.Decimal, Niacomsoft.Eips.NumberComparisonSymbols)
+  nameWithType: ValueTypeComparer.Compare(Decimal, Decimal, NumberComparisonSymbols)
+- uid: Niacomsoft.Eips.ValueTypeComparer.Compare(System.Double,System.Double,Niacomsoft.Eips.NumberComparisonSymbols)
+  name: Compare(Double, Double, NumberComparisonSymbols)
+  href: api/Niacomsoft.Eips.ValueTypeComparer.html#Niacomsoft_Eips_ValueTypeComparer_Compare_System_Double_System_Double_Niacomsoft_Eips_NumberComparisonSymbols_
+  commentId: M:Niacomsoft.Eips.ValueTypeComparer.Compare(System.Double,System.Double,Niacomsoft.Eips.NumberComparisonSymbols)
+  fullName: Niacomsoft.Eips.ValueTypeComparer.Compare(System.Double, System.Double, Niacomsoft.Eips.NumberComparisonSymbols)
+  nameWithType: ValueTypeComparer.Compare(Double, Double, NumberComparisonSymbols)
+- uid: Niacomsoft.Eips.ValueTypeComparer.Compare(System.Int16,System.Int16,Niacomsoft.Eips.NumberComparisonSymbols)
+  name: Compare(Int16, Int16, NumberComparisonSymbols)
+  href: api/Niacomsoft.Eips.ValueTypeComparer.html#Niacomsoft_Eips_ValueTypeComparer_Compare_System_Int16_System_Int16_Niacomsoft_Eips_NumberComparisonSymbols_
+  commentId: M:Niacomsoft.Eips.ValueTypeComparer.Compare(System.Int16,System.Int16,Niacomsoft.Eips.NumberComparisonSymbols)
+  fullName: Niacomsoft.Eips.ValueTypeComparer.Compare(System.Int16, System.Int16, Niacomsoft.Eips.NumberComparisonSymbols)
+  nameWithType: ValueTypeComparer.Compare(Int16, Int16, NumberComparisonSymbols)
+- uid: Niacomsoft.Eips.ValueTypeComparer.Compare(System.Int32,System.Int32,Niacomsoft.Eips.NumberComparisonSymbols)
+  name: Compare(Int32, Int32, NumberComparisonSymbols)
+  href: api/Niacomsoft.Eips.ValueTypeComparer.html#Niacomsoft_Eips_ValueTypeComparer_Compare_System_Int32_System_Int32_Niacomsoft_Eips_NumberComparisonSymbols_
+  commentId: M:Niacomsoft.Eips.ValueTypeComparer.Compare(System.Int32,System.Int32,Niacomsoft.Eips.NumberComparisonSymbols)
+  fullName: Niacomsoft.Eips.ValueTypeComparer.Compare(System.Int32, System.Int32, Niacomsoft.Eips.NumberComparisonSymbols)
+  nameWithType: ValueTypeComparer.Compare(Int32, Int32, NumberComparisonSymbols)
+- uid: Niacomsoft.Eips.ValueTypeComparer.Compare(System.Int64,System.Int64,Niacomsoft.Eips.NumberComparisonSymbols)
+  name: Compare(Int64, Int64, NumberComparisonSymbols)
+  href: api/Niacomsoft.Eips.ValueTypeComparer.html#Niacomsoft_Eips_ValueTypeComparer_Compare_System_Int64_System_Int64_Niacomsoft_Eips_NumberComparisonSymbols_
+  commentId: M:Niacomsoft.Eips.ValueTypeComparer.Compare(System.Int64,System.Int64,Niacomsoft.Eips.NumberComparisonSymbols)
+  fullName: Niacomsoft.Eips.ValueTypeComparer.Compare(System.Int64, System.Int64, Niacomsoft.Eips.NumberComparisonSymbols)
+  nameWithType: ValueTypeComparer.Compare(Int64, Int64, NumberComparisonSymbols)
+- uid: Niacomsoft.Eips.ValueTypeComparer.Compare(System.Single,System.Single,Niacomsoft.Eips.NumberComparisonSymbols)
+  name: Compare(Single, Single, NumberComparisonSymbols)
+  href: api/Niacomsoft.Eips.ValueTypeComparer.html#Niacomsoft_Eips_ValueTypeComparer_Compare_System_Single_System_Single_Niacomsoft_Eips_NumberComparisonSymbols_
+  commentId: M:Niacomsoft.Eips.ValueTypeComparer.Compare(System.Single,System.Single,Niacomsoft.Eips.NumberComparisonSymbols)
+  fullName: Niacomsoft.Eips.ValueTypeComparer.Compare(System.Single, System.Single, Niacomsoft.Eips.NumberComparisonSymbols)
+  nameWithType: ValueTypeComparer.Compare(Single, Single, NumberComparisonSymbols)
+- uid: Niacomsoft.Eips.ValueTypeComparer.Compare*
+  name: Compare
+  href: api/Niacomsoft.Eips.ValueTypeComparer.html#Niacomsoft_Eips_ValueTypeComparer_Compare_
+  commentId: Overload:Niacomsoft.Eips.ValueTypeComparer.Compare
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.ValueTypeComparer.Compare
+  nameWithType: ValueTypeComparer.Compare
