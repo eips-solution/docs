@@ -1,0 +1,3 @@
+[submodule "src/submodules/runtime"]
+	path = src/submodules/runtime
+	url = git@github.com:eips-solution/runtime.git
