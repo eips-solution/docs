@@ -10,6 +10,6 @@
 
 - **参考 References**
   - **Microsoft [docfx](https://dotnet.github.io/docfx/)** : [https://dotnet.github.io/docfx/](https://dotnet.github.io/docfx/)
-  - **[API 说明文档](src/obj/temp/docfxapi/Niacomsoft.Eips.yml)**
+  - **[API 说明文档](docs/api/api/Niacomsoft.Eips.html)**
 - **项目 Project**
   - **EIPS [Runtime (MIT)](https://github.com/eips-solution/runtime)** : [https://github.com/eips-solution/runtime](https://github.com/eips-solution/runtime)
