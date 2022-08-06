@@ -29,6 +29,134 @@ references:
   fullName.vb: Niacomsoft.Eips.ActivatorUtilities.CreateInstance(Of T)(System.Object())
   nameWithType: ActivatorUtilities.CreateInstance<T>(Object[])
   nameWithType.vb: ActivatorUtilities.CreateInstance(Of T)(Object())
+- uid: Niacomsoft.Eips.AttributeHelper`1
+  name: AttributeHelper<TTarget>
+  href: api/Niacomsoft.Eips.AttributeHelper-1.html
+  commentId: T:Niacomsoft.Eips.AttributeHelper`1
+  name.vb: AttributeHelper(Of TTarget)
+  fullName: Niacomsoft.Eips.AttributeHelper<TTarget>
+  fullName.vb: Niacomsoft.Eips.AttributeHelper(Of TTarget)
+  nameWithType: AttributeHelper<TTarget>
+  nameWithType.vb: AttributeHelper(Of TTarget)
+- uid: Niacomsoft.Eips.AttributeHelper`1.GetCustomAttribute*
+  name: GetCustomAttribute
+  href: api/Niacomsoft.Eips.AttributeHelper-1.html#Niacomsoft_Eips_AttributeHelper_1_GetCustomAttribute_
+  commentId: Overload:Niacomsoft.Eips.AttributeHelper`1.GetCustomAttribute
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.AttributeHelper<TTarget>.GetCustomAttribute
+  fullName.vb: Niacomsoft.Eips.AttributeHelper(Of TTarget).GetCustomAttribute
+  nameWithType: AttributeHelper<TTarget>.GetCustomAttribute
+  nameWithType.vb: AttributeHelper(Of TTarget).GetCustomAttribute
+- uid: Niacomsoft.Eips.AttributeHelper`1.GetCustomAttribute``1(`0,System.Boolean)
+  name: GetCustomAttribute<TAttribute>(TTarget, Boolean)
+  href: api/Niacomsoft.Eips.AttributeHelper-1.html#Niacomsoft_Eips_AttributeHelper_1_GetCustomAttribute__1__0_System_Boolean_
+  commentId: M:Niacomsoft.Eips.AttributeHelper`1.GetCustomAttribute``1(`0,System.Boolean)
+  name.vb: GetCustomAttribute(Of TAttribute)(TTarget, Boolean)
+  fullName: Niacomsoft.Eips.AttributeHelper<TTarget>.GetCustomAttribute<TAttribute>(TTarget, System.Boolean)
+  fullName.vb: Niacomsoft.Eips.AttributeHelper(Of TTarget).GetCustomAttribute(Of TAttribute)(TTarget, System.Boolean)
+  nameWithType: AttributeHelper<TTarget>.GetCustomAttribute<TAttribute>(TTarget, Boolean)
+  nameWithType.vb: AttributeHelper(Of TTarget).GetCustomAttribute(Of TAttribute)(TTarget, Boolean)
+- uid: Niacomsoft.Eips.AttributeHelper`1.GetCustomAttributes(`0,System.Boolean)
+  name: GetCustomAttributes(TTarget, Boolean)
+  href: api/Niacomsoft.Eips.AttributeHelper-1.html#Niacomsoft_Eips_AttributeHelper_1_GetCustomAttributes__0_System_Boolean_
+  commentId: M:Niacomsoft.Eips.AttributeHelper`1.GetCustomAttributes(`0,System.Boolean)
+  fullName: Niacomsoft.Eips.AttributeHelper<TTarget>.GetCustomAttributes(TTarget, System.Boolean)
+  fullName.vb: Niacomsoft.Eips.AttributeHelper(Of TTarget).GetCustomAttributes(TTarget, System.Boolean)
+  nameWithType: AttributeHelper<TTarget>.GetCustomAttributes(TTarget, Boolean)
+  nameWithType.vb: AttributeHelper(Of TTarget).GetCustomAttributes(TTarget, Boolean)
+- uid: Niacomsoft.Eips.AttributeHelper`1.GetCustomAttributes*
+  name: GetCustomAttributes
+  href: api/Niacomsoft.Eips.AttributeHelper-1.html#Niacomsoft_Eips_AttributeHelper_1_GetCustomAttributes_
+  commentId: Overload:Niacomsoft.Eips.AttributeHelper`1.GetCustomAttributes
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.AttributeHelper<TTarget>.GetCustomAttributes
+  fullName.vb: Niacomsoft.Eips.AttributeHelper(Of TTarget).GetCustomAttributes
+  nameWithType: AttributeHelper<TTarget>.GetCustomAttributes
+  nameWithType.vb: AttributeHelper(Of TTarget).GetCustomAttributes
+- uid: Niacomsoft.Eips.AttributeHelper`1.GetCustomAttributes``1(`0,System.Boolean)
+  name: GetCustomAttributes<TAttribute>(TTarget, Boolean)
+  href: api/Niacomsoft.Eips.AttributeHelper-1.html#Niacomsoft_Eips_AttributeHelper_1_GetCustomAttributes__1__0_System_Boolean_
+  commentId: M:Niacomsoft.Eips.AttributeHelper`1.GetCustomAttributes``1(`0,System.Boolean)
+  name.vb: GetCustomAttributes(Of TAttribute)(TTarget, Boolean)
+  fullName: Niacomsoft.Eips.AttributeHelper<TTarget>.GetCustomAttributes<TAttribute>(TTarget, System.Boolean)
+  fullName.vb: Niacomsoft.Eips.AttributeHelper(Of TTarget).GetCustomAttributes(Of TAttribute)(TTarget, System.Boolean)
+  nameWithType: AttributeHelper<TTarget>.GetCustomAttributes<TAttribute>(TTarget, Boolean)
+  nameWithType.vb: AttributeHelper(Of TTarget).GetCustomAttributes(Of TAttribute)(TTarget, Boolean)
+- uid: Niacomsoft.Eips.AttributeHelper`1.InvalidTarget(`0)
+  name: InvalidTarget(TTarget)
+  href: api/Niacomsoft.Eips.AttributeHelper-1.html#Niacomsoft_Eips_AttributeHelper_1_InvalidTarget__0_
+  commentId: M:Niacomsoft.Eips.AttributeHelper`1.InvalidTarget(`0)
+  fullName: Niacomsoft.Eips.AttributeHelper<TTarget>.InvalidTarget(TTarget)
+  fullName.vb: Niacomsoft.Eips.AttributeHelper(Of TTarget).InvalidTarget(TTarget)
+  nameWithType: AttributeHelper<TTarget>.InvalidTarget(TTarget)
+  nameWithType.vb: AttributeHelper(Of TTarget).InvalidTarget(TTarget)
+- uid: Niacomsoft.Eips.AttributeHelper`1.InvalidTarget*
+  name: InvalidTarget
+  href: api/Niacomsoft.Eips.AttributeHelper-1.html#Niacomsoft_Eips_AttributeHelper_1_InvalidTarget_
+  commentId: Overload:Niacomsoft.Eips.AttributeHelper`1.InvalidTarget
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.AttributeHelper<TTarget>.InvalidTarget
+  fullName.vb: Niacomsoft.Eips.AttributeHelper(Of TTarget).InvalidTarget
+  nameWithType: AttributeHelper<TTarget>.InvalidTarget
+  nameWithType.vb: AttributeHelper(Of TTarget).InvalidTarget
+- uid: Niacomsoft.Eips.Configuration
+  name: Niacomsoft.Eips.Configuration
+  href: api/Niacomsoft.Eips.Configuration.html
+  commentId: N:Niacomsoft.Eips.Configuration
+  fullName: Niacomsoft.Eips.Configuration
+  nameWithType: Niacomsoft.Eips.Configuration
+- uid: Niacomsoft.Eips.Configuration.ConfigurationBroker`1
+  name: ConfigurationBroker<TOptions>
+  href: api/Niacomsoft.Eips.Configuration.ConfigurationBroker-1.html
+  commentId: T:Niacomsoft.Eips.Configuration.ConfigurationBroker`1
+  name.vb: ConfigurationBroker(Of TOptions)
+  fullName: Niacomsoft.Eips.Configuration.ConfigurationBroker<TOptions>
+  fullName.vb: Niacomsoft.Eips.Configuration.ConfigurationBroker(Of TOptions)
+  nameWithType: ConfigurationBroker<TOptions>
+  nameWithType.vb: ConfigurationBroker(Of TOptions)
+- uid: Niacomsoft.Eips.Configuration.ConfigurationBroker`1.GetOptions
+  name: GetOptions()
+  href: api/Niacomsoft.Eips.Configuration.ConfigurationBroker-1.html#Niacomsoft_Eips_Configuration_ConfigurationBroker_1_GetOptions
+  commentId: M:Niacomsoft.Eips.Configuration.ConfigurationBroker`1.GetOptions
+  fullName: Niacomsoft.Eips.Configuration.ConfigurationBroker<TOptions>.GetOptions()
+  fullName.vb: Niacomsoft.Eips.Configuration.ConfigurationBroker(Of TOptions).GetOptions()
+  nameWithType: ConfigurationBroker<TOptions>.GetOptions()
+  nameWithType.vb: ConfigurationBroker(Of TOptions).GetOptions()
+- uid: Niacomsoft.Eips.Configuration.ConfigurationBroker`1.GetOptions*
+  name: GetOptions
+  href: api/Niacomsoft.Eips.Configuration.ConfigurationBroker-1.html#Niacomsoft_Eips_Configuration_ConfigurationBroker_1_GetOptions_
+  commentId: Overload:Niacomsoft.Eips.Configuration.ConfigurationBroker`1.GetOptions
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Configuration.ConfigurationBroker<TOptions>.GetOptions
+  fullName.vb: Niacomsoft.Eips.Configuration.ConfigurationBroker(Of TOptions).GetOptions
+  nameWithType: ConfigurationBroker<TOptions>.GetOptions
+  nameWithType.vb: ConfigurationBroker(Of TOptions).GetOptions
+- uid: Niacomsoft.Eips.Configuration.IConfigurationBroker`1
+  name: IConfigurationBroker<TOptions>
+  href: api/Niacomsoft.Eips.Configuration.IConfigurationBroker-1.html
+  commentId: T:Niacomsoft.Eips.Configuration.IConfigurationBroker`1
+  name.vb: IConfigurationBroker(Of TOptions)
+  fullName: Niacomsoft.Eips.Configuration.IConfigurationBroker<TOptions>
+  fullName.vb: Niacomsoft.Eips.Configuration.IConfigurationBroker(Of TOptions)
+  nameWithType: IConfigurationBroker<TOptions>
+  nameWithType.vb: IConfigurationBroker(Of TOptions)
+- uid: Niacomsoft.Eips.Configuration.IConfigurationBroker`1.GetOptions
+  name: GetOptions()
+  href: api/Niacomsoft.Eips.Configuration.IConfigurationBroker-1.html#Niacomsoft_Eips_Configuration_IConfigurationBroker_1_GetOptions
+  commentId: M:Niacomsoft.Eips.Configuration.IConfigurationBroker`1.GetOptions
+  fullName: Niacomsoft.Eips.Configuration.IConfigurationBroker<TOptions>.GetOptions()
+  fullName.vb: Niacomsoft.Eips.Configuration.IConfigurationBroker(Of TOptions).GetOptions()
+  nameWithType: IConfigurationBroker<TOptions>.GetOptions()
+  nameWithType.vb: IConfigurationBroker(Of TOptions).GetOptions()
+- uid: Niacomsoft.Eips.Configuration.IConfigurationBroker`1.GetOptions*
+  name: GetOptions
+  href: api/Niacomsoft.Eips.Configuration.IConfigurationBroker-1.html#Niacomsoft_Eips_Configuration_IConfigurationBroker_1_GetOptions_
+  commentId: Overload:Niacomsoft.Eips.Configuration.IConfigurationBroker`1.GetOptions
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Configuration.IConfigurationBroker<TOptions>.GetOptions
+  fullName.vb: Niacomsoft.Eips.Configuration.IConfigurationBroker(Of TOptions).GetOptions
+  nameWithType: IConfigurationBroker<TOptions>.GetOptions
+  nameWithType.vb: IConfigurationBroker(Of TOptions).GetOptions
 - uid: Niacomsoft.Eips.DateTimeComparer
   name: DateTimeComparer
   href: api/Niacomsoft.Eips.DateTimeComparer.html
@@ -538,6 +666,328 @@ references:
   commentId: F:Niacomsoft.Eips.EmptyCompareOptions.OnlyNull
   fullName: Niacomsoft.Eips.EmptyCompareOptions.OnlyNull
   nameWithType: EmptyCompareOptions.OnlyNull
+- uid: Niacomsoft.Eips.Extensions
+  name: Niacomsoft.Eips.Extensions
+  href: api/Niacomsoft.Eips.Extensions.html
+  commentId: N:Niacomsoft.Eips.Extensions
+  fullName: Niacomsoft.Eips.Extensions
+  nameWithType: Niacomsoft.Eips.Extensions
+- uid: Niacomsoft.Eips.Extensions.HashIdCryptographyKeyProvider
+  name: HashIdCryptographyKeyProvider
+  href: api/Niacomsoft.Eips.Extensions.HashIdCryptographyKeyProvider.html
+  commentId: T:Niacomsoft.Eips.Extensions.HashIdCryptographyKeyProvider
+  fullName: Niacomsoft.Eips.Extensions.HashIdCryptographyKeyProvider
+  nameWithType: HashIdCryptographyKeyProvider
+- uid: Niacomsoft.Eips.Extensions.HashIdCryptographyKeyProvider.Key
+  name: Key
+  href: api/Niacomsoft.Eips.Extensions.HashIdCryptographyKeyProvider.html#Niacomsoft_Eips_Extensions_HashIdCryptographyKeyProvider_Key
+  commentId: P:Niacomsoft.Eips.Extensions.HashIdCryptographyKeyProvider.Key
+  fullName: Niacomsoft.Eips.Extensions.HashIdCryptographyKeyProvider.Key
+  nameWithType: HashIdCryptographyKeyProvider.Key
+- uid: Niacomsoft.Eips.Extensions.HashIdCryptographyKeyProvider.Key*
+  name: Key
+  href: api/Niacomsoft.Eips.Extensions.HashIdCryptographyKeyProvider.html#Niacomsoft_Eips_Extensions_HashIdCryptographyKeyProvider_Key_
+  commentId: Overload:Niacomsoft.Eips.Extensions.HashIdCryptographyKeyProvider.Key
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Extensions.HashIdCryptographyKeyProvider.Key
+  nameWithType: HashIdCryptographyKeyProvider.Key
+- uid: Niacomsoft.Eips.Extensions.HashIdFormatter`1
+  name: HashIdFormatter<T>
+  href: api/Niacomsoft.Eips.Extensions.HashIdFormatter-1.html
+  commentId: T:Niacomsoft.Eips.Extensions.HashIdFormatter`1
+  name.vb: HashIdFormatter(Of T)
+  fullName: Niacomsoft.Eips.Extensions.HashIdFormatter<T>
+  fullName.vb: Niacomsoft.Eips.Extensions.HashIdFormatter(Of T)
+  nameWithType: HashIdFormatter<T>
+  nameWithType.vb: HashIdFormatter(Of T)
+- uid: Niacomsoft.Eips.Extensions.HashIdFormatter`1.#ctor(Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider)
+  name: HashIdFormatter(IHashIdCryptographyKeyProvider)
+  href: api/Niacomsoft.Eips.Extensions.HashIdFormatter-1.html#Niacomsoft_Eips_Extensions_HashIdFormatter_1__ctor_Niacomsoft_Eips_Extensions_IHashIdCryptographyKeyProvider_
+  commentId: M:Niacomsoft.Eips.Extensions.HashIdFormatter`1.#ctor(Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider)
+  fullName: Niacomsoft.Eips.Extensions.HashIdFormatter<T>.HashIdFormatter(Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider)
+  fullName.vb: Niacomsoft.Eips.Extensions.HashIdFormatter(Of T).HashIdFormatter(Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider)
+  nameWithType: HashIdFormatter<T>.HashIdFormatter(IHashIdCryptographyKeyProvider)
+  nameWithType.vb: HashIdFormatter(Of T).HashIdFormatter(IHashIdCryptographyKeyProvider)
+- uid: Niacomsoft.Eips.Extensions.HashIdFormatter`1.#ctor*
+  name: HashIdFormatter
+  href: api/Niacomsoft.Eips.Extensions.HashIdFormatter-1.html#Niacomsoft_Eips_Extensions_HashIdFormatter_1__ctor_
+  commentId: Overload:Niacomsoft.Eips.Extensions.HashIdFormatter`1.#ctor
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Extensions.HashIdFormatter<T>.HashIdFormatter
+  fullName.vb: Niacomsoft.Eips.Extensions.HashIdFormatter(Of T).HashIdFormatter
+  nameWithType: HashIdFormatter<T>.HashIdFormatter
+  nameWithType.vb: HashIdFormatter(Of T).HashIdFormatter
+- uid: Niacomsoft.Eips.Extensions.HashIdFormatter`1.FromString(System.String)
+  name: FromString(String)
+  href: api/Niacomsoft.Eips.Extensions.HashIdFormatter-1.html#Niacomsoft_Eips_Extensions_HashIdFormatter_1_FromString_System_String_
+  commentId: M:Niacomsoft.Eips.Extensions.HashIdFormatter`1.FromString(System.String)
+  fullName: Niacomsoft.Eips.Extensions.HashIdFormatter<T>.FromString(System.String)
+  fullName.vb: Niacomsoft.Eips.Extensions.HashIdFormatter(Of T).FromString(System.String)
+  nameWithType: HashIdFormatter<T>.FromString(String)
+  nameWithType.vb: HashIdFormatter(Of T).FromString(String)
+- uid: Niacomsoft.Eips.Extensions.HashIdFormatter`1.FromString*
+  name: FromString
+  href: api/Niacomsoft.Eips.Extensions.HashIdFormatter-1.html#Niacomsoft_Eips_Extensions_HashIdFormatter_1_FromString_
+  commentId: Overload:Niacomsoft.Eips.Extensions.HashIdFormatter`1.FromString
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Extensions.HashIdFormatter<T>.FromString
+  fullName.vb: Niacomsoft.Eips.Extensions.HashIdFormatter(Of T).FromString
+  nameWithType: HashIdFormatter<T>.FromString
+  nameWithType.vb: HashIdFormatter(Of T).FromString
+- uid: Niacomsoft.Eips.Extensions.HashIdFormatter`1.InvalidHashString(System.String)
+  name: InvalidHashString(String)
+  href: api/Niacomsoft.Eips.Extensions.HashIdFormatter-1.html#Niacomsoft_Eips_Extensions_HashIdFormatter_1_InvalidHashString_System_String_
+  commentId: M:Niacomsoft.Eips.Extensions.HashIdFormatter`1.InvalidHashString(System.String)
+  fullName: Niacomsoft.Eips.Extensions.HashIdFormatter<T>.InvalidHashString(System.String)
+  fullName.vb: Niacomsoft.Eips.Extensions.HashIdFormatter(Of T).InvalidHashString(System.String)
+  nameWithType: HashIdFormatter<T>.InvalidHashString(String)
+  nameWithType.vb: HashIdFormatter(Of T).InvalidHashString(String)
+- uid: Niacomsoft.Eips.Extensions.HashIdFormatter`1.InvalidHashString*
+  name: InvalidHashString
+  href: api/Niacomsoft.Eips.Extensions.HashIdFormatter-1.html#Niacomsoft_Eips_Extensions_HashIdFormatter_1_InvalidHashString_
+  commentId: Overload:Niacomsoft.Eips.Extensions.HashIdFormatter`1.InvalidHashString
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Extensions.HashIdFormatter<T>.InvalidHashString
+  fullName.vb: Niacomsoft.Eips.Extensions.HashIdFormatter(Of T).InvalidHashString
+  nameWithType: HashIdFormatter<T>.InvalidHashString
+  nameWithType.vb: HashIdFormatter(Of T).InvalidHashString
+- uid: Niacomsoft.Eips.Extensions.HashIdFormatter`1.KeyProvider
+  name: KeyProvider
+  href: api/Niacomsoft.Eips.Extensions.HashIdFormatter-1.html#Niacomsoft_Eips_Extensions_HashIdFormatter_1_KeyProvider
+  commentId: P:Niacomsoft.Eips.Extensions.HashIdFormatter`1.KeyProvider
+  fullName: Niacomsoft.Eips.Extensions.HashIdFormatter<T>.KeyProvider
+  fullName.vb: Niacomsoft.Eips.Extensions.HashIdFormatter(Of T).KeyProvider
+  nameWithType: HashIdFormatter<T>.KeyProvider
+  nameWithType.vb: HashIdFormatter(Of T).KeyProvider
+- uid: Niacomsoft.Eips.Extensions.HashIdFormatter`1.KeyProvider*
+  name: KeyProvider
+  href: api/Niacomsoft.Eips.Extensions.HashIdFormatter-1.html#Niacomsoft_Eips_Extensions_HashIdFormatter_1_KeyProvider_
+  commentId: Overload:Niacomsoft.Eips.Extensions.HashIdFormatter`1.KeyProvider
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Extensions.HashIdFormatter<T>.KeyProvider
+  fullName.vb: Niacomsoft.Eips.Extensions.HashIdFormatter(Of T).KeyProvider
+  nameWithType: HashIdFormatter<T>.KeyProvider
+  nameWithType.vb: HashIdFormatter(Of T).KeyProvider
+- uid: Niacomsoft.Eips.Extensions.HashIdFormatter`1.Provider
+  name: Provider
+  href: api/Niacomsoft.Eips.Extensions.HashIdFormatter-1.html#Niacomsoft_Eips_Extensions_HashIdFormatter_1_Provider
+  commentId: P:Niacomsoft.Eips.Extensions.HashIdFormatter`1.Provider
+  fullName: Niacomsoft.Eips.Extensions.HashIdFormatter<T>.Provider
+  fullName.vb: Niacomsoft.Eips.Extensions.HashIdFormatter(Of T).Provider
+  nameWithType: HashIdFormatter<T>.Provider
+  nameWithType.vb: HashIdFormatter(Of T).Provider
+- uid: Niacomsoft.Eips.Extensions.HashIdFormatter`1.Provider*
+  name: Provider
+  href: api/Niacomsoft.Eips.Extensions.HashIdFormatter-1.html#Niacomsoft_Eips_Extensions_HashIdFormatter_1_Provider_
+  commentId: Overload:Niacomsoft.Eips.Extensions.HashIdFormatter`1.Provider
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Extensions.HashIdFormatter<T>.Provider
+  fullName.vb: Niacomsoft.Eips.Extensions.HashIdFormatter(Of T).Provider
+  nameWithType: HashIdFormatter<T>.Provider
+  nameWithType.vb: HashIdFormatter(Of T).Provider
+- uid: Niacomsoft.Eips.Extensions.HashIdFormatter`1.ToString(`0)
+  name: ToString(T)
+  href: api/Niacomsoft.Eips.Extensions.HashIdFormatter-1.html#Niacomsoft_Eips_Extensions_HashIdFormatter_1_ToString__0_
+  commentId: M:Niacomsoft.Eips.Extensions.HashIdFormatter`1.ToString(`0)
+  fullName: Niacomsoft.Eips.Extensions.HashIdFormatter<T>.ToString(T)
+  fullName.vb: Niacomsoft.Eips.Extensions.HashIdFormatter(Of T).ToString(T)
+  nameWithType: HashIdFormatter<T>.ToString(T)
+  nameWithType.vb: HashIdFormatter(Of T).ToString(T)
+- uid: Niacomsoft.Eips.Extensions.HashIdFormatter`1.ToString*
+  name: ToString
+  href: api/Niacomsoft.Eips.Extensions.HashIdFormatter-1.html#Niacomsoft_Eips_Extensions_HashIdFormatter_1_ToString_
+  commentId: Overload:Niacomsoft.Eips.Extensions.HashIdFormatter`1.ToString
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Extensions.HashIdFormatter<T>.ToString
+  fullName.vb: Niacomsoft.Eips.Extensions.HashIdFormatter(Of T).ToString
+  nameWithType: HashIdFormatter<T>.ToString
+  nameWithType.vb: HashIdFormatter(Of T).ToString
+- uid: Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider
+  name: IHashIdCryptographyKeyProvider
+  href: api/Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider.html
+  commentId: T:Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider
+  fullName: Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider
+  nameWithType: IHashIdCryptographyKeyProvider
+- uid: Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider.Key
+  name: Key
+  href: api/Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider.html#Niacomsoft_Eips_Extensions_IHashIdCryptographyKeyProvider_Key
+  commentId: P:Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider.Key
+  fullName: Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider.Key
+  nameWithType: IHashIdCryptographyKeyProvider.Key
+- uid: Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider.Key*
+  name: Key
+  href: api/Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider.html#Niacomsoft_Eips_Extensions_IHashIdCryptographyKeyProvider_Key_
+  commentId: Overload:Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider.Key
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider.Key
+  nameWithType: IHashIdCryptographyKeyProvider.Key
+- uid: Niacomsoft.Eips.Extensions.IHashIdFormatter`1
+  name: IHashIdFormatter<T>
+  href: api/Niacomsoft.Eips.Extensions.IHashIdFormatter-1.html
+  commentId: T:Niacomsoft.Eips.Extensions.IHashIdFormatter`1
+  name.vb: IHashIdFormatter(Of T)
+  fullName: Niacomsoft.Eips.Extensions.IHashIdFormatter<T>
+  fullName.vb: Niacomsoft.Eips.Extensions.IHashIdFormatter(Of T)
+  nameWithType: IHashIdFormatter<T>
+  nameWithType.vb: IHashIdFormatter(Of T)
+- uid: Niacomsoft.Eips.Extensions.IHashIdFormatter`1.FromString(System.String)
+  name: FromString(String)
+  href: api/Niacomsoft.Eips.Extensions.IHashIdFormatter-1.html#Niacomsoft_Eips_Extensions_IHashIdFormatter_1_FromString_System_String_
+  commentId: M:Niacomsoft.Eips.Extensions.IHashIdFormatter`1.FromString(System.String)
+  fullName: Niacomsoft.Eips.Extensions.IHashIdFormatter<T>.FromString(System.String)
+  fullName.vb: Niacomsoft.Eips.Extensions.IHashIdFormatter(Of T).FromString(System.String)
+  nameWithType: IHashIdFormatter<T>.FromString(String)
+  nameWithType.vb: IHashIdFormatter(Of T).FromString(String)
+- uid: Niacomsoft.Eips.Extensions.IHashIdFormatter`1.FromString*
+  name: FromString
+  href: api/Niacomsoft.Eips.Extensions.IHashIdFormatter-1.html#Niacomsoft_Eips_Extensions_IHashIdFormatter_1_FromString_
+  commentId: Overload:Niacomsoft.Eips.Extensions.IHashIdFormatter`1.FromString
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Extensions.IHashIdFormatter<T>.FromString
+  fullName.vb: Niacomsoft.Eips.Extensions.IHashIdFormatter(Of T).FromString
+  nameWithType: IHashIdFormatter<T>.FromString
+  nameWithType.vb: IHashIdFormatter(Of T).FromString
+- uid: Niacomsoft.Eips.Extensions.IHashIdFormatter`1.KeyProvider
+  name: KeyProvider
+  href: api/Niacomsoft.Eips.Extensions.IHashIdFormatter-1.html#Niacomsoft_Eips_Extensions_IHashIdFormatter_1_KeyProvider
+  commentId: P:Niacomsoft.Eips.Extensions.IHashIdFormatter`1.KeyProvider
+  fullName: Niacomsoft.Eips.Extensions.IHashIdFormatter<T>.KeyProvider
+  fullName.vb: Niacomsoft.Eips.Extensions.IHashIdFormatter(Of T).KeyProvider
+  nameWithType: IHashIdFormatter<T>.KeyProvider
+  nameWithType.vb: IHashIdFormatter(Of T).KeyProvider
+- uid: Niacomsoft.Eips.Extensions.IHashIdFormatter`1.KeyProvider*
+  name: KeyProvider
+  href: api/Niacomsoft.Eips.Extensions.IHashIdFormatter-1.html#Niacomsoft_Eips_Extensions_IHashIdFormatter_1_KeyProvider_
+  commentId: Overload:Niacomsoft.Eips.Extensions.IHashIdFormatter`1.KeyProvider
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Extensions.IHashIdFormatter<T>.KeyProvider
+  fullName.vb: Niacomsoft.Eips.Extensions.IHashIdFormatter(Of T).KeyProvider
+  nameWithType: IHashIdFormatter<T>.KeyProvider
+  nameWithType.vb: IHashIdFormatter(Of T).KeyProvider
+- uid: Niacomsoft.Eips.Extensions.IHashIdFormatter`1.Provider
+  name: Provider
+  href: api/Niacomsoft.Eips.Extensions.IHashIdFormatter-1.html#Niacomsoft_Eips_Extensions_IHashIdFormatter_1_Provider
+  commentId: P:Niacomsoft.Eips.Extensions.IHashIdFormatter`1.Provider
+  fullName: Niacomsoft.Eips.Extensions.IHashIdFormatter<T>.Provider
+  fullName.vb: Niacomsoft.Eips.Extensions.IHashIdFormatter(Of T).Provider
+  nameWithType: IHashIdFormatter<T>.Provider
+  nameWithType.vb: IHashIdFormatter(Of T).Provider
+- uid: Niacomsoft.Eips.Extensions.IHashIdFormatter`1.Provider*
+  name: Provider
+  href: api/Niacomsoft.Eips.Extensions.IHashIdFormatter-1.html#Niacomsoft_Eips_Extensions_IHashIdFormatter_1_Provider_
+  commentId: Overload:Niacomsoft.Eips.Extensions.IHashIdFormatter`1.Provider
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Extensions.IHashIdFormatter<T>.Provider
+  fullName.vb: Niacomsoft.Eips.Extensions.IHashIdFormatter(Of T).Provider
+  nameWithType: IHashIdFormatter<T>.Provider
+  nameWithType.vb: IHashIdFormatter(Of T).Provider
+- uid: Niacomsoft.Eips.Extensions.IHashIdFormatter`1.ToString(`0)
+  name: ToString(T)
+  href: api/Niacomsoft.Eips.Extensions.IHashIdFormatter-1.html#Niacomsoft_Eips_Extensions_IHashIdFormatter_1_ToString__0_
+  commentId: M:Niacomsoft.Eips.Extensions.IHashIdFormatter`1.ToString(`0)
+  fullName: Niacomsoft.Eips.Extensions.IHashIdFormatter<T>.ToString(T)
+  fullName.vb: Niacomsoft.Eips.Extensions.IHashIdFormatter(Of T).ToString(T)
+  nameWithType: IHashIdFormatter<T>.ToString(T)
+  nameWithType.vb: IHashIdFormatter(Of T).ToString(T)
+- uid: Niacomsoft.Eips.Extensions.IHashIdFormatter`1.ToString*
+  name: ToString
+  href: api/Niacomsoft.Eips.Extensions.IHashIdFormatter-1.html#Niacomsoft_Eips_Extensions_IHashIdFormatter_1_ToString_
+  commentId: Overload:Niacomsoft.Eips.Extensions.IHashIdFormatter`1.ToString
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Extensions.IHashIdFormatter<T>.ToString
+  fullName.vb: Niacomsoft.Eips.Extensions.IHashIdFormatter(Of T).ToString
+  nameWithType: IHashIdFormatter<T>.ToString
+  nameWithType.vb: IHashIdFormatter(Of T).ToString
+- uid: Niacomsoft.Eips.Extensions.Int32HashFormatter
+  name: Int32HashFormatter
+  href: api/Niacomsoft.Eips.Extensions.Int32HashFormatter.html
+  commentId: T:Niacomsoft.Eips.Extensions.Int32HashFormatter
+  fullName: Niacomsoft.Eips.Extensions.Int32HashFormatter
+  nameWithType: Int32HashFormatter
+- uid: Niacomsoft.Eips.Extensions.Int32HashFormatter.#ctor(Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider)
+  name: Int32HashFormatter(IHashIdCryptographyKeyProvider)
+  href: api/Niacomsoft.Eips.Extensions.Int32HashFormatter.html#Niacomsoft_Eips_Extensions_Int32HashFormatter__ctor_Niacomsoft_Eips_Extensions_IHashIdCryptographyKeyProvider_
+  commentId: M:Niacomsoft.Eips.Extensions.Int32HashFormatter.#ctor(Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider)
+  fullName: Niacomsoft.Eips.Extensions.Int32HashFormatter.Int32HashFormatter(Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider)
+  nameWithType: Int32HashFormatter.Int32HashFormatter(IHashIdCryptographyKeyProvider)
+- uid: Niacomsoft.Eips.Extensions.Int32HashFormatter.#ctor*
+  name: Int32HashFormatter
+  href: api/Niacomsoft.Eips.Extensions.Int32HashFormatter.html#Niacomsoft_Eips_Extensions_Int32HashFormatter__ctor_
+  commentId: Overload:Niacomsoft.Eips.Extensions.Int32HashFormatter.#ctor
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Extensions.Int32HashFormatter.Int32HashFormatter
+  nameWithType: Int32HashFormatter.Int32HashFormatter
+- uid: Niacomsoft.Eips.Extensions.Int32HashFormatter.FromString(System.String)
+  name: FromString(String)
+  href: api/Niacomsoft.Eips.Extensions.Int32HashFormatter.html#Niacomsoft_Eips_Extensions_Int32HashFormatter_FromString_System_String_
+  commentId: M:Niacomsoft.Eips.Extensions.Int32HashFormatter.FromString(System.String)
+  fullName: Niacomsoft.Eips.Extensions.Int32HashFormatter.FromString(System.String)
+  nameWithType: Int32HashFormatter.FromString(String)
+- uid: Niacomsoft.Eips.Extensions.Int32HashFormatter.FromString*
+  name: FromString
+  href: api/Niacomsoft.Eips.Extensions.Int32HashFormatter.html#Niacomsoft_Eips_Extensions_Int32HashFormatter_FromString_
+  commentId: Overload:Niacomsoft.Eips.Extensions.Int32HashFormatter.FromString
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Extensions.Int32HashFormatter.FromString
+  nameWithType: Int32HashFormatter.FromString
+- uid: Niacomsoft.Eips.Extensions.Int32HashFormatter.ToString(System.Int32)
+  name: ToString(Int32)
+  href: api/Niacomsoft.Eips.Extensions.Int32HashFormatter.html#Niacomsoft_Eips_Extensions_Int32HashFormatter_ToString_System_Int32_
+  commentId: M:Niacomsoft.Eips.Extensions.Int32HashFormatter.ToString(System.Int32)
+  fullName: Niacomsoft.Eips.Extensions.Int32HashFormatter.ToString(System.Int32)
+  nameWithType: Int32HashFormatter.ToString(Int32)
+- uid: Niacomsoft.Eips.Extensions.Int32HashFormatter.ToString*
+  name: ToString
+  href: api/Niacomsoft.Eips.Extensions.Int32HashFormatter.html#Niacomsoft_Eips_Extensions_Int32HashFormatter_ToString_
+  commentId: Overload:Niacomsoft.Eips.Extensions.Int32HashFormatter.ToString
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Extensions.Int32HashFormatter.ToString
+  nameWithType: Int32HashFormatter.ToString
+- uid: Niacomsoft.Eips.Extensions.Int64HashFormatter
+  name: Int64HashFormatter
+  href: api/Niacomsoft.Eips.Extensions.Int64HashFormatter.html
+  commentId: T:Niacomsoft.Eips.Extensions.Int64HashFormatter
+  fullName: Niacomsoft.Eips.Extensions.Int64HashFormatter
+  nameWithType: Int64HashFormatter
+- uid: Niacomsoft.Eips.Extensions.Int64HashFormatter.#ctor(Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider)
+  name: Int64HashFormatter(IHashIdCryptographyKeyProvider)
+  href: api/Niacomsoft.Eips.Extensions.Int64HashFormatter.html#Niacomsoft_Eips_Extensions_Int64HashFormatter__ctor_Niacomsoft_Eips_Extensions_IHashIdCryptographyKeyProvider_
+  commentId: M:Niacomsoft.Eips.Extensions.Int64HashFormatter.#ctor(Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider)
+  fullName: Niacomsoft.Eips.Extensions.Int64HashFormatter.Int64HashFormatter(Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider)
+  nameWithType: Int64HashFormatter.Int64HashFormatter(IHashIdCryptographyKeyProvider)
+- uid: Niacomsoft.Eips.Extensions.Int64HashFormatter.#ctor*
+  name: Int64HashFormatter
+  href: api/Niacomsoft.Eips.Extensions.Int64HashFormatter.html#Niacomsoft_Eips_Extensions_Int64HashFormatter__ctor_
+  commentId: Overload:Niacomsoft.Eips.Extensions.Int64HashFormatter.#ctor
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Extensions.Int64HashFormatter.Int64HashFormatter
+  nameWithType: Int64HashFormatter.Int64HashFormatter
+- uid: Niacomsoft.Eips.Extensions.Int64HashFormatter.FromString(System.String)
+  name: FromString(String)
+  href: api/Niacomsoft.Eips.Extensions.Int64HashFormatter.html#Niacomsoft_Eips_Extensions_Int64HashFormatter_FromString_System_String_
+  commentId: M:Niacomsoft.Eips.Extensions.Int64HashFormatter.FromString(System.String)
+  fullName: Niacomsoft.Eips.Extensions.Int64HashFormatter.FromString(System.String)
+  nameWithType: Int64HashFormatter.FromString(String)
+- uid: Niacomsoft.Eips.Extensions.Int64HashFormatter.FromString*
+  name: FromString
+  href: api/Niacomsoft.Eips.Extensions.Int64HashFormatter.html#Niacomsoft_Eips_Extensions_Int64HashFormatter_FromString_
+  commentId: Overload:Niacomsoft.Eips.Extensions.Int64HashFormatter.FromString
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Extensions.Int64HashFormatter.FromString
+  nameWithType: Int64HashFormatter.FromString
+- uid: Niacomsoft.Eips.Extensions.Int64HashFormatter.ToString(System.Int64)
+  name: ToString(Int64)
+  href: api/Niacomsoft.Eips.Extensions.Int64HashFormatter.html#Niacomsoft_Eips_Extensions_Int64HashFormatter_ToString_System_Int64_
+  commentId: M:Niacomsoft.Eips.Extensions.Int64HashFormatter.ToString(System.Int64)
+  fullName: Niacomsoft.Eips.Extensions.Int64HashFormatter.ToString(System.Int64)
+  nameWithType: Int64HashFormatter.ToString(Int64)
+- uid: Niacomsoft.Eips.Extensions.Int64HashFormatter.ToString*
+  name: ToString
+  href: api/Niacomsoft.Eips.Extensions.Int64HashFormatter.html#Niacomsoft_Eips_Extensions_Int64HashFormatter_ToString_
+  commentId: Overload:Niacomsoft.Eips.Extensions.Int64HashFormatter.ToString
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Extensions.Int64HashFormatter.ToString
+  nameWithType: Int64HashFormatter.ToString
 - uid: Niacomsoft.Eips.Globalization
   name: Niacomsoft.Eips.Globalization
   href: api/Niacomsoft.Eips.Globalization.html
@@ -653,6 +1103,238 @@ references:
   commentId: F:Niacomsoft.Eips.Globalization.SupportedCultures.USA
   fullName: Niacomsoft.Eips.Globalization.SupportedCultures.USA
   nameWithType: SupportedCultures.USA
+- uid: Niacomsoft.Eips.GuidGenerator
+  name: GuidGenerator
+  href: api/Niacomsoft.Eips.GuidGenerator.html
+  commentId: T:Niacomsoft.Eips.GuidGenerator
+  fullName: Niacomsoft.Eips.GuidGenerator
+  nameWithType: GuidGenerator
+- uid: Niacomsoft.Eips.GuidGenerator.NewId(System.Object[])
+  name: NewId(Object[])
+  href: api/Niacomsoft.Eips.GuidGenerator.html#Niacomsoft_Eips_GuidGenerator_NewId_System_Object___
+  commentId: M:Niacomsoft.Eips.GuidGenerator.NewId(System.Object[])
+  name.vb: NewId(Object())
+  fullName: Niacomsoft.Eips.GuidGenerator.NewId(System.Object[])
+  fullName.vb: Niacomsoft.Eips.GuidGenerator.NewId(System.Object())
+  nameWithType: GuidGenerator.NewId(Object[])
+  nameWithType.vb: GuidGenerator.NewId(Object())
+- uid: Niacomsoft.Eips.GuidGenerator.NewId*
+  name: NewId
+  href: api/Niacomsoft.Eips.GuidGenerator.html#Niacomsoft_Eips_GuidGenerator_NewId_
+  commentId: Overload:Niacomsoft.Eips.GuidGenerator.NewId
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.GuidGenerator.NewId
+  nameWithType: GuidGenerator.NewId
+- uid: Niacomsoft.Eips.IAsyncAttributeHelper`1
+  name: IAsyncAttributeHelper<TTarget>
+  href: api/Niacomsoft.Eips.IAsyncAttributeHelper-1.html
+  commentId: T:Niacomsoft.Eips.IAsyncAttributeHelper`1
+  name.vb: IAsyncAttributeHelper(Of TTarget)
+  fullName: Niacomsoft.Eips.IAsyncAttributeHelper<TTarget>
+  fullName.vb: Niacomsoft.Eips.IAsyncAttributeHelper(Of TTarget)
+  nameWithType: IAsyncAttributeHelper<TTarget>
+  nameWithType.vb: IAsyncAttributeHelper(Of TTarget)
+- uid: Niacomsoft.Eips.IAsyncAttributeHelper`1.GetCustomAttributeAsync*
+  name: GetCustomAttributeAsync
+  href: api/Niacomsoft.Eips.IAsyncAttributeHelper-1.html#Niacomsoft_Eips_IAsyncAttributeHelper_1_GetCustomAttributeAsync_
+  commentId: Overload:Niacomsoft.Eips.IAsyncAttributeHelper`1.GetCustomAttributeAsync
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.IAsyncAttributeHelper<TTarget>.GetCustomAttributeAsync
+  fullName.vb: Niacomsoft.Eips.IAsyncAttributeHelper(Of TTarget).GetCustomAttributeAsync
+  nameWithType: IAsyncAttributeHelper<TTarget>.GetCustomAttributeAsync
+  nameWithType.vb: IAsyncAttributeHelper(Of TTarget).GetCustomAttributeAsync
+- uid: Niacomsoft.Eips.IAsyncAttributeHelper`1.GetCustomAttributeAsync``1(`0,System.Boolean)
+  name: GetCustomAttributeAsync<TAttribute>(TTarget, Boolean)
+  href: api/Niacomsoft.Eips.IAsyncAttributeHelper-1.html#Niacomsoft_Eips_IAsyncAttributeHelper_1_GetCustomAttributeAsync__1__0_System_Boolean_
+  commentId: M:Niacomsoft.Eips.IAsyncAttributeHelper`1.GetCustomAttributeAsync``1(`0,System.Boolean)
+  name.vb: GetCustomAttributeAsync(Of TAttribute)(TTarget, Boolean)
+  fullName: Niacomsoft.Eips.IAsyncAttributeHelper<TTarget>.GetCustomAttributeAsync<TAttribute>(TTarget, System.Boolean)
+  fullName.vb: Niacomsoft.Eips.IAsyncAttributeHelper(Of TTarget).GetCustomAttributeAsync(Of TAttribute)(TTarget, System.Boolean)
+  nameWithType: IAsyncAttributeHelper<TTarget>.GetCustomAttributeAsync<TAttribute>(TTarget, Boolean)
+  nameWithType.vb: IAsyncAttributeHelper(Of TTarget).GetCustomAttributeAsync(Of TAttribute)(TTarget, Boolean)
+- uid: Niacomsoft.Eips.IAsyncAttributeHelper`1.GetCustomAttributesAsync(`0,System.Boolean)
+  name: GetCustomAttributesAsync(TTarget, Boolean)
+  href: api/Niacomsoft.Eips.IAsyncAttributeHelper-1.html#Niacomsoft_Eips_IAsyncAttributeHelper_1_GetCustomAttributesAsync__0_System_Boolean_
+  commentId: M:Niacomsoft.Eips.IAsyncAttributeHelper`1.GetCustomAttributesAsync(`0,System.Boolean)
+  fullName: Niacomsoft.Eips.IAsyncAttributeHelper<TTarget>.GetCustomAttributesAsync(TTarget, System.Boolean)
+  fullName.vb: Niacomsoft.Eips.IAsyncAttributeHelper(Of TTarget).GetCustomAttributesAsync(TTarget, System.Boolean)
+  nameWithType: IAsyncAttributeHelper<TTarget>.GetCustomAttributesAsync(TTarget, Boolean)
+  nameWithType.vb: IAsyncAttributeHelper(Of TTarget).GetCustomAttributesAsync(TTarget, Boolean)
+- uid: Niacomsoft.Eips.IAsyncAttributeHelper`1.GetCustomAttributesAsync*
+  name: GetCustomAttributesAsync
+  href: api/Niacomsoft.Eips.IAsyncAttributeHelper-1.html#Niacomsoft_Eips_IAsyncAttributeHelper_1_GetCustomAttributesAsync_
+  commentId: Overload:Niacomsoft.Eips.IAsyncAttributeHelper`1.GetCustomAttributesAsync
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.IAsyncAttributeHelper<TTarget>.GetCustomAttributesAsync
+  fullName.vb: Niacomsoft.Eips.IAsyncAttributeHelper(Of TTarget).GetCustomAttributesAsync
+  nameWithType: IAsyncAttributeHelper<TTarget>.GetCustomAttributesAsync
+  nameWithType.vb: IAsyncAttributeHelper(Of TTarget).GetCustomAttributesAsync
+- uid: Niacomsoft.Eips.IAsyncAttributeHelper`1.GetCustomAttributesAsync``1(`0,System.Boolean)
+  name: GetCustomAttributesAsync<TAttribute>(TTarget, Boolean)
+  href: api/Niacomsoft.Eips.IAsyncAttributeHelper-1.html#Niacomsoft_Eips_IAsyncAttributeHelper_1_GetCustomAttributesAsync__1__0_System_Boolean_
+  commentId: M:Niacomsoft.Eips.IAsyncAttributeHelper`1.GetCustomAttributesAsync``1(`0,System.Boolean)
+  name.vb: GetCustomAttributesAsync(Of TAttribute)(TTarget, Boolean)
+  fullName: Niacomsoft.Eips.IAsyncAttributeHelper<TTarget>.GetCustomAttributesAsync<TAttribute>(TTarget, System.Boolean)
+  fullName.vb: Niacomsoft.Eips.IAsyncAttributeHelper(Of TTarget).GetCustomAttributesAsync(Of TAttribute)(TTarget, System.Boolean)
+  nameWithType: IAsyncAttributeHelper<TTarget>.GetCustomAttributesAsync<TAttribute>(TTarget, Boolean)
+  nameWithType.vb: IAsyncAttributeHelper(Of TTarget).GetCustomAttributesAsync(Of TAttribute)(TTarget, Boolean)
+- uid: Niacomsoft.Eips.IAttributeHelper`1
+  name: IAttributeHelper<TTarget>
+  href: api/Niacomsoft.Eips.IAttributeHelper-1.html
+  commentId: T:Niacomsoft.Eips.IAttributeHelper`1
+  name.vb: IAttributeHelper(Of TTarget)
+  fullName: Niacomsoft.Eips.IAttributeHelper<TTarget>
+  fullName.vb: Niacomsoft.Eips.IAttributeHelper(Of TTarget)
+  nameWithType: IAttributeHelper<TTarget>
+  nameWithType.vb: IAttributeHelper(Of TTarget)
+- uid: Niacomsoft.Eips.IAttributeHelper`1.GetCustomAttribute*
+  name: GetCustomAttribute
+  href: api/Niacomsoft.Eips.IAttributeHelper-1.html#Niacomsoft_Eips_IAttributeHelper_1_GetCustomAttribute_
+  commentId: Overload:Niacomsoft.Eips.IAttributeHelper`1.GetCustomAttribute
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.IAttributeHelper<TTarget>.GetCustomAttribute
+  fullName.vb: Niacomsoft.Eips.IAttributeHelper(Of TTarget).GetCustomAttribute
+  nameWithType: IAttributeHelper<TTarget>.GetCustomAttribute
+  nameWithType.vb: IAttributeHelper(Of TTarget).GetCustomAttribute
+- uid: Niacomsoft.Eips.IAttributeHelper`1.GetCustomAttribute``1(`0,System.Boolean)
+  name: GetCustomAttribute<TAttribute>(TTarget, Boolean)
+  href: api/Niacomsoft.Eips.IAttributeHelper-1.html#Niacomsoft_Eips_IAttributeHelper_1_GetCustomAttribute__1__0_System_Boolean_
+  commentId: M:Niacomsoft.Eips.IAttributeHelper`1.GetCustomAttribute``1(`0,System.Boolean)
+  name.vb: GetCustomAttribute(Of TAttribute)(TTarget, Boolean)
+  fullName: Niacomsoft.Eips.IAttributeHelper<TTarget>.GetCustomAttribute<TAttribute>(TTarget, System.Boolean)
+  fullName.vb: Niacomsoft.Eips.IAttributeHelper(Of TTarget).GetCustomAttribute(Of TAttribute)(TTarget, System.Boolean)
+  nameWithType: IAttributeHelper<TTarget>.GetCustomAttribute<TAttribute>(TTarget, Boolean)
+  nameWithType.vb: IAttributeHelper(Of TTarget).GetCustomAttribute(Of TAttribute)(TTarget, Boolean)
+- uid: Niacomsoft.Eips.IAttributeHelper`1.GetCustomAttributes(`0,System.Boolean)
+  name: GetCustomAttributes(TTarget, Boolean)
+  href: api/Niacomsoft.Eips.IAttributeHelper-1.html#Niacomsoft_Eips_IAttributeHelper_1_GetCustomAttributes__0_System_Boolean_
+  commentId: M:Niacomsoft.Eips.IAttributeHelper`1.GetCustomAttributes(`0,System.Boolean)
+  fullName: Niacomsoft.Eips.IAttributeHelper<TTarget>.GetCustomAttributes(TTarget, System.Boolean)
+  fullName.vb: Niacomsoft.Eips.IAttributeHelper(Of TTarget).GetCustomAttributes(TTarget, System.Boolean)
+  nameWithType: IAttributeHelper<TTarget>.GetCustomAttributes(TTarget, Boolean)
+  nameWithType.vb: IAttributeHelper(Of TTarget).GetCustomAttributes(TTarget, Boolean)
+- uid: Niacomsoft.Eips.IAttributeHelper`1.GetCustomAttributes*
+  name: GetCustomAttributes
+  href: api/Niacomsoft.Eips.IAttributeHelper-1.html#Niacomsoft_Eips_IAttributeHelper_1_GetCustomAttributes_
+  commentId: Overload:Niacomsoft.Eips.IAttributeHelper`1.GetCustomAttributes
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.IAttributeHelper<TTarget>.GetCustomAttributes
+  fullName.vb: Niacomsoft.Eips.IAttributeHelper(Of TTarget).GetCustomAttributes
+  nameWithType: IAttributeHelper<TTarget>.GetCustomAttributes
+  nameWithType.vb: IAttributeHelper(Of TTarget).GetCustomAttributes
+- uid: Niacomsoft.Eips.IAttributeHelper`1.GetCustomAttributes``1(`0,System.Boolean)
+  name: GetCustomAttributes<TAttribute>(TTarget, Boolean)
+  href: api/Niacomsoft.Eips.IAttributeHelper-1.html#Niacomsoft_Eips_IAttributeHelper_1_GetCustomAttributes__1__0_System_Boolean_
+  commentId: M:Niacomsoft.Eips.IAttributeHelper`1.GetCustomAttributes``1(`0,System.Boolean)
+  name.vb: GetCustomAttributes(Of TAttribute)(TTarget, Boolean)
+  fullName: Niacomsoft.Eips.IAttributeHelper<TTarget>.GetCustomAttributes<TAttribute>(TTarget, System.Boolean)
+  fullName.vb: Niacomsoft.Eips.IAttributeHelper(Of TTarget).GetCustomAttributes(Of TAttribute)(TTarget, System.Boolean)
+  nameWithType: IAttributeHelper<TTarget>.GetCustomAttributes<TAttribute>(TTarget, Boolean)
+  nameWithType.vb: IAttributeHelper(Of TTarget).GetCustomAttributes(Of TAttribute)(TTarget, Boolean)
+- uid: Niacomsoft.Eips.IFluentInterface
+  name: IFluentInterface
+  href: api/Niacomsoft.Eips.IFluentInterface.html
+  commentId: T:Niacomsoft.Eips.IFluentInterface
+  fullName: Niacomsoft.Eips.IFluentInterface
+  nameWithType: IFluentInterface
+- uid: Niacomsoft.Eips.IIDGenerateUtilities`1
+  name: IIDGenerateUtilities<T>
+  href: api/Niacomsoft.Eips.IIDGenerateUtilities-1.html
+  commentId: T:Niacomsoft.Eips.IIDGenerateUtilities`1
+  name.vb: IIDGenerateUtilities(Of T)
+  fullName: Niacomsoft.Eips.IIDGenerateUtilities<T>
+  fullName.vb: Niacomsoft.Eips.IIDGenerateUtilities(Of T)
+  nameWithType: IIDGenerateUtilities<T>
+  nameWithType.vb: IIDGenerateUtilities(Of T)
+- uid: Niacomsoft.Eips.IIDGenerateUtilities`1.NewId(System.Object[])
+  name: NewId(Object[])
+  href: api/Niacomsoft.Eips.IIDGenerateUtilities-1.html#Niacomsoft_Eips_IIDGenerateUtilities_1_NewId_System_Object___
+  commentId: M:Niacomsoft.Eips.IIDGenerateUtilities`1.NewId(System.Object[])
+  name.vb: NewId(Object())
+  fullName: Niacomsoft.Eips.IIDGenerateUtilities<T>.NewId(System.Object[])
+  fullName.vb: Niacomsoft.Eips.IIDGenerateUtilities(Of T).NewId(System.Object())
+  nameWithType: IIDGenerateUtilities<T>.NewId(Object[])
+  nameWithType.vb: IIDGenerateUtilities(Of T).NewId(Object())
+- uid: Niacomsoft.Eips.IIDGenerateUtilities`1.NewId*
+  name: NewId
+  href: api/Niacomsoft.Eips.IIDGenerateUtilities-1.html#Niacomsoft_Eips_IIDGenerateUtilities_1_NewId_
+  commentId: Overload:Niacomsoft.Eips.IIDGenerateUtilities`1.NewId
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.IIDGenerateUtilities<T>.NewId
+  fullName.vb: Niacomsoft.Eips.IIDGenerateUtilities(Of T).NewId
+  nameWithType: IIDGenerateUtilities<T>.NewId
+  nameWithType.vb: IIDGenerateUtilities(Of T).NewId
+- uid: Niacomsoft.Eips.IStringifyIDGenerateUtilities
+  name: IStringifyIDGenerateUtilities
+  href: api/Niacomsoft.Eips.IStringifyIDGenerateUtilities.html
+  commentId: T:Niacomsoft.Eips.IStringifyIDGenerateUtilities
+  fullName: Niacomsoft.Eips.IStringifyIDGenerateUtilities
+  nameWithType: IStringifyIDGenerateUtilities
+- uid: Niacomsoft.Eips.IValueTypedIDGenerateUtilities`1
+  name: IValueTypedIDGenerateUtilities<TValueType>
+  href: api/Niacomsoft.Eips.IValueTypedIDGenerateUtilities-1.html
+  commentId: T:Niacomsoft.Eips.IValueTypedIDGenerateUtilities`1
+  name.vb: IValueTypedIDGenerateUtilities(Of TValueType)
+  fullName: Niacomsoft.Eips.IValueTypedIDGenerateUtilities<TValueType>
+  fullName.vb: Niacomsoft.Eips.IValueTypedIDGenerateUtilities(Of TValueType)
+  nameWithType: IValueTypedIDGenerateUtilities<TValueType>
+  nameWithType.vb: IValueTypedIDGenerateUtilities(Of TValueType)
+- uid: Niacomsoft.Eips.NotNaturalNumberException
+  name: NotNaturalNumberException
+  href: api/Niacomsoft.Eips.NotNaturalNumberException.html
+  commentId: T:Niacomsoft.Eips.NotNaturalNumberException
+  fullName: Niacomsoft.Eips.NotNaturalNumberException
+  nameWithType: NotNaturalNumberException
+- uid: Niacomsoft.Eips.NotNaturalNumberException.#ctor(System.Int16)
+  name: NotNaturalNumberException(Int16)
+  href: api/Niacomsoft.Eips.NotNaturalNumberException.html#Niacomsoft_Eips_NotNaturalNumberException__ctor_System_Int16_
+  commentId: M:Niacomsoft.Eips.NotNaturalNumberException.#ctor(System.Int16)
+  fullName: Niacomsoft.Eips.NotNaturalNumberException.NotNaturalNumberException(System.Int16)
+  nameWithType: NotNaturalNumberException.NotNaturalNumberException(Int16)
+- uid: Niacomsoft.Eips.NotNaturalNumberException.#ctor(System.Int32)
+  name: NotNaturalNumberException(Int32)
+  href: api/Niacomsoft.Eips.NotNaturalNumberException.html#Niacomsoft_Eips_NotNaturalNumberException__ctor_System_Int32_
+  commentId: M:Niacomsoft.Eips.NotNaturalNumberException.#ctor(System.Int32)
+  fullName: Niacomsoft.Eips.NotNaturalNumberException.NotNaturalNumberException(System.Int32)
+  nameWithType: NotNaturalNumberException.NotNaturalNumberException(Int32)
+- uid: Niacomsoft.Eips.NotNaturalNumberException.#ctor(System.Int64)
+  name: NotNaturalNumberException(Int64)
+  href: api/Niacomsoft.Eips.NotNaturalNumberException.html#Niacomsoft_Eips_NotNaturalNumberException__ctor_System_Int64_
+  commentId: M:Niacomsoft.Eips.NotNaturalNumberException.#ctor(System.Int64)
+  fullName: Niacomsoft.Eips.NotNaturalNumberException.NotNaturalNumberException(System.Int64)
+  nameWithType: NotNaturalNumberException.NotNaturalNumberException(Int64)
+- uid: Niacomsoft.Eips.NotNaturalNumberException.#ctor*
+  name: NotNaturalNumberException
+  href: api/Niacomsoft.Eips.NotNaturalNumberException.html#Niacomsoft_Eips_NotNaturalNumberException__ctor_
+  commentId: Overload:Niacomsoft.Eips.NotNaturalNumberException.#ctor
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.NotNaturalNumberException.NotNaturalNumberException
+  nameWithType: NotNaturalNumberException.NotNaturalNumberException
+- uid: Niacomsoft.Eips.NotNaturalNumberException.Throw(System.Int16)
+  name: Throw(Int16)
+  href: api/Niacomsoft.Eips.NotNaturalNumberException.html#Niacomsoft_Eips_NotNaturalNumberException_Throw_System_Int16_
+  commentId: M:Niacomsoft.Eips.NotNaturalNumberException.Throw(System.Int16)
+  fullName: Niacomsoft.Eips.NotNaturalNumberException.Throw(System.Int16)
+  nameWithType: NotNaturalNumberException.Throw(Int16)
+- uid: Niacomsoft.Eips.NotNaturalNumberException.Throw(System.Int32)
+  name: Throw(Int32)
+  href: api/Niacomsoft.Eips.NotNaturalNumberException.html#Niacomsoft_Eips_NotNaturalNumberException_Throw_System_Int32_
+  commentId: M:Niacomsoft.Eips.NotNaturalNumberException.Throw(System.Int32)
+  fullName: Niacomsoft.Eips.NotNaturalNumberException.Throw(System.Int32)
+  nameWithType: NotNaturalNumberException.Throw(Int32)
+- uid: Niacomsoft.Eips.NotNaturalNumberException.Throw(System.Int64)
+  name: Throw(Int64)
+  href: api/Niacomsoft.Eips.NotNaturalNumberException.html#Niacomsoft_Eips_NotNaturalNumberException_Throw_System_Int64_
+  commentId: M:Niacomsoft.Eips.NotNaturalNumberException.Throw(System.Int64)
+  fullName: Niacomsoft.Eips.NotNaturalNumberException.Throw(System.Int64)
+  nameWithType: NotNaturalNumberException.Throw(Int64)
+- uid: Niacomsoft.Eips.NotNaturalNumberException.Throw*
+  name: Throw
+  href: api/Niacomsoft.Eips.NotNaturalNumberException.html#Niacomsoft_Eips_NotNaturalNumberException_Throw_
+  commentId: Overload:Niacomsoft.Eips.NotNaturalNumberException.Throw
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.NotNaturalNumberException.Throw
+  nameWithType: NotNaturalNumberException.Throw
 - uid: Niacomsoft.Eips.NumberComparisonSymbols
   name: NumberComparisonSymbols
   href: api/Niacomsoft.Eips.NumberComparisonSymbols.html
@@ -695,6 +1377,18 @@ references:
   commentId: F:Niacomsoft.Eips.NumberComparisonSymbols.LessThanOrEqual
   fullName: Niacomsoft.Eips.NumberComparisonSymbols.LessThanOrEqual
   nameWithType: NumberComparisonSymbols.LessThanOrEqual
+- uid: Niacomsoft.Eips.Options
+  name: Niacomsoft.Eips.Options
+  href: api/Niacomsoft.Eips.Options.html
+  commentId: N:Niacomsoft.Eips.Options
+  fullName: Niacomsoft.Eips.Options
+  nameWithType: Niacomsoft.Eips.Options
+- uid: Niacomsoft.Eips.Options.IConfigurableOptions
+  name: IConfigurableOptions
+  href: api/Niacomsoft.Eips.Options.IConfigurableOptions.html
+  commentId: T:Niacomsoft.Eips.Options.IConfigurableOptions
+  fullName: Niacomsoft.Eips.Options.IConfigurableOptions
+  nameWithType: IConfigurableOptions
 - uid: Niacomsoft.Eips.ParameterGuard
   name: ParameterGuard
   href: api/Niacomsoft.Eips.ParameterGuard.html
@@ -780,6 +1474,126 @@ references:
   isSpec: "True"
   fullName: Niacomsoft.Eips.ReferenceTypeEqualityComparer.NotNone
   nameWithType: ReferenceTypeEqualityComparer.NotNone
+- uid: Niacomsoft.Eips.Reflection
+  name: Niacomsoft.Eips.Reflection
+  href: api/Niacomsoft.Eips.Reflection.html
+  commentId: N:Niacomsoft.Eips.Reflection
+  fullName: Niacomsoft.Eips.Reflection
+  nameWithType: Niacomsoft.Eips.Reflection
+- uid: Niacomsoft.Eips.Reflection.AssemblyAttributeHelper
+  name: AssemblyAttributeHelper
+  href: api/Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.html
+  commentId: T:Niacomsoft.Eips.Reflection.AssemblyAttributeHelper
+  fullName: Niacomsoft.Eips.Reflection.AssemblyAttributeHelper
+  nameWithType: AssemblyAttributeHelper
+- uid: Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttribute*
+  name: GetCustomAttribute
+  href: api/Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.html#Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_GetCustomAttribute_
+  commentId: Overload:Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttribute
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttribute
+  nameWithType: AssemblyAttributeHelper.GetCustomAttribute
+- uid: Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttribute``1(System.Reflection.Assembly,System.Boolean)
+  name: GetCustomAttribute<TAttribute>(Assembly, Boolean)
+  href: api/Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.html#Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_GetCustomAttribute__1_System_Reflection_Assembly_System_Boolean_
+  commentId: M:Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttribute``1(System.Reflection.Assembly,System.Boolean)
+  name.vb: GetCustomAttribute(Of TAttribute)(Assembly, Boolean)
+  fullName: Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttribute<TAttribute>(System.Reflection.Assembly, System.Boolean)
+  fullName.vb: Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttribute(Of TAttribute)(System.Reflection.Assembly, System.Boolean)
+  nameWithType: AssemblyAttributeHelper.GetCustomAttribute<TAttribute>(Assembly, Boolean)
+  nameWithType.vb: AssemblyAttributeHelper.GetCustomAttribute(Of TAttribute)(Assembly, Boolean)
+- uid: Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttributes(System.Reflection.Assembly,System.Boolean)
+  name: GetCustomAttributes(Assembly, Boolean)
+  href: api/Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.html#Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_GetCustomAttributes_System_Reflection_Assembly_System_Boolean_
+  commentId: M:Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttributes(System.Reflection.Assembly,System.Boolean)
+  fullName: Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttributes(System.Reflection.Assembly, System.Boolean)
+  nameWithType: AssemblyAttributeHelper.GetCustomAttributes(Assembly, Boolean)
+- uid: Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttributes*
+  name: GetCustomAttributes
+  href: api/Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.html#Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_GetCustomAttributes_
+  commentId: Overload:Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttributes
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttributes
+  nameWithType: AssemblyAttributeHelper.GetCustomAttributes
+- uid: Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttributes``1(System.Reflection.Assembly,System.Boolean)
+  name: GetCustomAttributes<TAttribute>(Assembly, Boolean)
+  href: api/Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.html#Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_GetCustomAttributes__1_System_Reflection_Assembly_System_Boolean_
+  commentId: M:Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttributes``1(System.Reflection.Assembly,System.Boolean)
+  name.vb: GetCustomAttributes(Of TAttribute)(Assembly, Boolean)
+  fullName: Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttributes<TAttribute>(System.Reflection.Assembly, System.Boolean)
+  fullName.vb: Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttributes(Of TAttribute)(System.Reflection.Assembly, System.Boolean)
+  nameWithType: AssemblyAttributeHelper.GetCustomAttributes<TAttribute>(Assembly, Boolean)
+  nameWithType.vb: AssemblyAttributeHelper.GetCustomAttributes(Of TAttribute)(Assembly, Boolean)
+- uid: Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.Instance
+  name: Instance
+  href: api/Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.html#Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_Instance
+  commentId: P:Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.Instance
+  fullName: Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.Instance
+  nameWithType: AssemblyAttributeHelper.Instance
+- uid: Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.Instance*
+  name: Instance
+  href: api/Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.html#Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_Instance_
+  commentId: Overload:Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.Instance
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.Instance
+  nameWithType: AssemblyAttributeHelper.Instance
+- uid: Niacomsoft.Eips.Reflection.MemberAttributeHelper
+  name: MemberAttributeHelper
+  href: api/Niacomsoft.Eips.Reflection.MemberAttributeHelper.html
+  commentId: T:Niacomsoft.Eips.Reflection.MemberAttributeHelper
+  fullName: Niacomsoft.Eips.Reflection.MemberAttributeHelper
+  nameWithType: MemberAttributeHelper
+- uid: Niacomsoft.Eips.Reflection.MemberAttributeHelper.GetCustomAttribute*
+  name: GetCustomAttribute
+  href: api/Niacomsoft.Eips.Reflection.MemberAttributeHelper.html#Niacomsoft_Eips_Reflection_MemberAttributeHelper_GetCustomAttribute_
+  commentId: Overload:Niacomsoft.Eips.Reflection.MemberAttributeHelper.GetCustomAttribute
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Reflection.MemberAttributeHelper.GetCustomAttribute
+  nameWithType: MemberAttributeHelper.GetCustomAttribute
+- uid: Niacomsoft.Eips.Reflection.MemberAttributeHelper.GetCustomAttribute``1(System.Reflection.MemberInfo,System.Boolean)
+  name: GetCustomAttribute<TAttribute>(MemberInfo, Boolean)
+  href: api/Niacomsoft.Eips.Reflection.MemberAttributeHelper.html#Niacomsoft_Eips_Reflection_MemberAttributeHelper_GetCustomAttribute__1_System_Reflection_MemberInfo_System_Boolean_
+  commentId: M:Niacomsoft.Eips.Reflection.MemberAttributeHelper.GetCustomAttribute``1(System.Reflection.MemberInfo,System.Boolean)
+  name.vb: GetCustomAttribute(Of TAttribute)(MemberInfo, Boolean)
+  fullName: Niacomsoft.Eips.Reflection.MemberAttributeHelper.GetCustomAttribute<TAttribute>(System.Reflection.MemberInfo, System.Boolean)
+  fullName.vb: Niacomsoft.Eips.Reflection.MemberAttributeHelper.GetCustomAttribute(Of TAttribute)(System.Reflection.MemberInfo, System.Boolean)
+  nameWithType: MemberAttributeHelper.GetCustomAttribute<TAttribute>(MemberInfo, Boolean)
+  nameWithType.vb: MemberAttributeHelper.GetCustomAttribute(Of TAttribute)(MemberInfo, Boolean)
+- uid: Niacomsoft.Eips.Reflection.MemberAttributeHelper.GetCustomAttributes(System.Reflection.MemberInfo,System.Boolean)
+  name: GetCustomAttributes(MemberInfo, Boolean)
+  href: api/Niacomsoft.Eips.Reflection.MemberAttributeHelper.html#Niacomsoft_Eips_Reflection_MemberAttributeHelper_GetCustomAttributes_System_Reflection_MemberInfo_System_Boolean_
+  commentId: M:Niacomsoft.Eips.Reflection.MemberAttributeHelper.GetCustomAttributes(System.Reflection.MemberInfo,System.Boolean)
+  fullName: Niacomsoft.Eips.Reflection.MemberAttributeHelper.GetCustomAttributes(System.Reflection.MemberInfo, System.Boolean)
+  nameWithType: MemberAttributeHelper.GetCustomAttributes(MemberInfo, Boolean)
+- uid: Niacomsoft.Eips.Reflection.MemberAttributeHelper.GetCustomAttributes*
+  name: GetCustomAttributes
+  href: api/Niacomsoft.Eips.Reflection.MemberAttributeHelper.html#Niacomsoft_Eips_Reflection_MemberAttributeHelper_GetCustomAttributes_
+  commentId: Overload:Niacomsoft.Eips.Reflection.MemberAttributeHelper.GetCustomAttributes
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Reflection.MemberAttributeHelper.GetCustomAttributes
+  nameWithType: MemberAttributeHelper.GetCustomAttributes
+- uid: Niacomsoft.Eips.Reflection.MemberAttributeHelper.GetCustomAttributes``1(System.Reflection.MemberInfo,System.Boolean)
+  name: GetCustomAttributes<TAttribute>(MemberInfo, Boolean)
+  href: api/Niacomsoft.Eips.Reflection.MemberAttributeHelper.html#Niacomsoft_Eips_Reflection_MemberAttributeHelper_GetCustomAttributes__1_System_Reflection_MemberInfo_System_Boolean_
+  commentId: M:Niacomsoft.Eips.Reflection.MemberAttributeHelper.GetCustomAttributes``1(System.Reflection.MemberInfo,System.Boolean)
+  name.vb: GetCustomAttributes(Of TAttribute)(MemberInfo, Boolean)
+  fullName: Niacomsoft.Eips.Reflection.MemberAttributeHelper.GetCustomAttributes<TAttribute>(System.Reflection.MemberInfo, System.Boolean)
+  fullName.vb: Niacomsoft.Eips.Reflection.MemberAttributeHelper.GetCustomAttributes(Of TAttribute)(System.Reflection.MemberInfo, System.Boolean)
+  nameWithType: MemberAttributeHelper.GetCustomAttributes<TAttribute>(MemberInfo, Boolean)
+  nameWithType.vb: MemberAttributeHelper.GetCustomAttributes(Of TAttribute)(MemberInfo, Boolean)
+- uid: Niacomsoft.Eips.Reflection.MemberAttributeHelper.Instance
+  name: Instance
+  href: api/Niacomsoft.Eips.Reflection.MemberAttributeHelper.html#Niacomsoft_Eips_Reflection_MemberAttributeHelper_Instance
+  commentId: P:Niacomsoft.Eips.Reflection.MemberAttributeHelper.Instance
+  fullName: Niacomsoft.Eips.Reflection.MemberAttributeHelper.Instance
+  nameWithType: MemberAttributeHelper.Instance
+- uid: Niacomsoft.Eips.Reflection.MemberAttributeHelper.Instance*
+  name: Instance
+  href: api/Niacomsoft.Eips.Reflection.MemberAttributeHelper.html#Niacomsoft_Eips_Reflection_MemberAttributeHelper_Instance_
+  commentId: Overload:Niacomsoft.Eips.Reflection.MemberAttributeHelper.Instance
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Reflection.MemberAttributeHelper.Instance
+  nameWithType: MemberAttributeHelper.Instance
 - uid: Niacomsoft.Eips.StringEqualityComparer
   name: StringEqualityComparer
   href: api/Niacomsoft.Eips.StringEqualityComparer.html

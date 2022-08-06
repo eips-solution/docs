@@ -18,7 +18,55 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.ActivatorUtilities.html",
-          "hash": "yb6U0qPZibQgx1xmAQFHP4tnNcAzjyXqJWLmG4p9KOM="
+          "hash": "rwAWp8ZRFHOqKDDTFCFxtRWzFCZE+PtVtuWvTUWSw/A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.AttributeHelper-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.AttributeHelper-1.html",
+          "hash": "40t2uqiLMdTphCyiUp+7FDxxGCCqAgPy1j8x8M6lFCc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Configuration.ConfigurationBroker-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Configuration.ConfigurationBroker-1.html",
+          "hash": "ldl5Fz8mLXp8fIjfuAy/rlEtYtBO4zbscnkC23i1/HY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Configuration.IConfigurationBroker-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Configuration.IConfigurationBroker-1.html",
+          "hash": "3UsVdBjlVl2JBIYXhqc7II8Wf18yXAgaZqMXfSJKPuc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Configuration.html",
+          "hash": "KjzyQziCUy/ZnMZF/+0ghXngKr4mS2uDGY78APiKWTg="
         }
       },
       "is_incremental": false,
@@ -134,6 +182,90 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Extensions.HashIdCryptographyKeyProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Extensions.HashIdCryptographyKeyProvider.html",
+          "hash": "cIsZ7NaOyUHcja1kyyDGBg1IbLKZJQR0Efc7ZkekwnY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Extensions.HashIdFormatter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Extensions.HashIdFormatter-1.html",
+          "hash": "WJhrnrIAn5LIrW5iIkkRPli8fryoqBb6CJPzc6g0G+g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider.html",
+          "hash": "7YntpZ5Rv6Y7cbGvww1ahLgBWJWfsMHm6AFAuYJI3mY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Extensions.IHashIdFormatter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Extensions.IHashIdFormatter-1.html",
+          "hash": "jy6u4nSiVq+C5gQPylyde75ZNdm/NRuFnfAu3vKqyuY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Extensions.Int32HashFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Extensions.Int32HashFormatter.html",
+          "hash": "oX34O6XmdQ/dl/28xRYHqBNE1nF43s6jvYRMgq0/CvE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Extensions.Int64HashFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Extensions.Int64HashFormatter.html",
+          "hash": "kkEv+vL6P2PyCP9y6YHax5zi+dUWwQKB570JTWH7YPM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Extensions.html",
+          "hash": "exbLUaCPXtye8+WAcS2ep7G2jvSDbQo/SJBxd9EYYq4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Globalization.ContextCultureConfigurator.yml",
       "output": {
         ".html": {
@@ -182,6 +314,102 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.GuidGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.GuidGenerator.html",
+          "hash": "rtcozSOnNlADfL3xy1eRdhhva4gIpkxwCkuv805+nLI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.IAsyncAttributeHelper-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.IAsyncAttributeHelper-1.html",
+          "hash": "xCmVhvx90IVrGLuPaHhyL+j22zLUBXmqbSBu2XKy9N4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.IAttributeHelper-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.IAttributeHelper-1.html",
+          "hash": "w/HGbqSxeQLoztEUfycZClU2eTrbKuLL4evCH/b4zWA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.IFluentInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.IFluentInterface.html",
+          "hash": "taOiWpHKVHKLYIFCF0+FUKGdEIdvHPXdieaJR/Vaomg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.IIDGenerateUtilities-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.IIDGenerateUtilities-1.html",
+          "hash": "TIZRFsIEN+Erobrh0CaEErIFf+nzP/LoZS9ca0O9fc8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.IStringifyIDGenerateUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.IStringifyIDGenerateUtilities.html",
+          "hash": "07/zUFzDcBAa9aSZTo30ZO/4VdOxYxsQATMO7AFhFRQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.IValueTypedIDGenerateUtilities-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.IValueTypedIDGenerateUtilities-1.html",
+          "hash": "1iVxeEXiEUymizhsbL3fJV8stG4JmHTqcBF+Z4sRIRM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.NotNaturalNumberException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.NotNaturalNumberException.html",
+          "hash": "c/0Rf9cP5kPu+GoUOBRHEUTRvhKfWZVIH8doyz5rluk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.NumberComparisonSymbols.yml",
       "output": {
         ".html": {
@@ -194,11 +422,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Options.IConfigurableOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Options.IConfigurableOptions.html",
+          "hash": "/xdgEpSUfiJoO2NufWK7HC4cq1LZcr/CuBqaBUwz/IY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Options.html",
+          "hash": "KMZQJGcAWAGpIKHD9t+aZXpiwxGJX22Lk6Zvj7n8wkw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.ParameterGuard.yml",
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.ParameterGuard.html",
-          "hash": "o+C3oO1OYMfTwv8787nfHyPmKe8qpgZasK9Idw6Rqes="
+          "hash": "N9DBFn22Su4DTr5CSNhqycLqry02dH9oq3tqwWGLe6Q="
         }
       },
       "is_incremental": false,
@@ -211,6 +463,42 @@
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.ReferenceTypeEqualityComparer.html",
           "hash": "6GweAOFqm/0peMYbTr2RBQY1e6ayFuQ5sDzm/naOnl0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.html",
+          "hash": "R2zziU7Y/XP/PGwusBCm7cLrWKNIh9mZiQVCJzzLsfI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Reflection.MemberAttributeHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Reflection.MemberAttributeHelper.html",
+          "hash": "/2UY/uN5Ve4Lnr8d7hSHmbYRb0+EP1bTGCaeVdcqt+0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Reflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Reflection.html",
+          "hash": "FYxkL74cxlKI4bJUMJCtfFxwbOlMBnf9eEaLySkDXDo="
         }
       },
       "is_incremental": false,
@@ -258,7 +546,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.html",
-          "hash": "UHjeQBBEkjrJqFEmNTGRhoqiXTyt1ycNqwdFT/Us7wc="
+          "hash": "Jl0WitkJFa9d6PUgNBaoRxE2ipRIF9iMPMUQ3IGw7Qc="
         }
       },
       "is_incremental": false,
@@ -270,7 +558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "RZg1zYmUEhMu5tUHjO07to212PdydIotphVe5TvvD7s="
+          "hash": "MGwTxJckOBozFprv1XSjrBRxyMZYSJFecEEnidmacKM="
         }
       },
       "is_incremental": false,
@@ -289,8 +577,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 21,
-          "skipped_file_count": 21
+          "total_file_count": 45,
+          "skipped_file_count": 45
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

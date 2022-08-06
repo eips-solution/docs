@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ActivatorUtilities
+    <title>Class GuidGenerator
    | &#20225;&#19994;&#31169;&#26377;&#21270; SaaS &#26381;&#21153; - API &#35828;&#26126; </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ActivatorUtilities
+    <meta name="title" content="Class GuidGenerator
    | &#20225;&#19994;&#31169;&#26377;&#21270; SaaS &#26381;&#21153; - API &#35828;&#26126; ">
     <meta name="generator" content="docfx 2.59.3.0">
     
@@ -78,18 +78,24 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Niacomsoft.Eips.ActivatorUtilities">
+            <article class="content wrap" id="_content" data-uid="Niacomsoft.Eips.GuidGenerator">
   
   
-  <h1 id="Niacomsoft_Eips_ActivatorUtilities" data-uid="Niacomsoft.Eips.ActivatorUtilities" class="text-break">Class ActivatorUtilities
+  <h1 id="Niacomsoft_Eips_GuidGenerator" data-uid="Niacomsoft.Eips.GuidGenerator" class="text-break">Class GuidGenerator
   </h1>
-  <div class="markdown level0 summary"><p>提供了动态创建对象实例相关的辅助方法。</p>
+  <div class="markdown level0 summary"><p>提供了生成 <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.guid">Guid</a> 类型 ID 相关的方法。</p>
+<p> 密闭的，不可以从此类型派生。 </p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">ActivatorUtilities</span></div>
+    <div class="level1"><span class="xref">GuidGenerator</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Niacomsoft.Eips.IValueTypedIDGenerateUtilities-1.html">IValueTypedIDGenerateUtilities</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.guid">Guid</a>&gt;</div>
+    <div><a class="xref" href="Niacomsoft.Eips.IIDGenerateUtilities-1.html">IIDGenerateUtilities</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.guid">Guid</a>&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -116,29 +122,28 @@
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Niacomsoft.Eips.html">Niacomsoft.Eips</a></h6>
-  <h6><strong>Assembly</strong>: Niacomsoft.Eips.Common.dll</h6>
-  <h5 id="Niacomsoft_Eips_ActivatorUtilities_syntax">Syntax</h5>
+  <h6><strong>Assembly</strong>: Niacomsoft.Eips.Core.dll</h6>
+  <h5 id="Niacomsoft_Eips_GuidGenerator_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ActivatorUtilities</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class GuidGenerator : IValueTypedIDGenerateUtilities&lt;Guid&gt;, IIDGenerateUtilities&lt;Guid&gt;</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/eips-solution/runtime/new/dev/apiSpec/new?filename=Niacomsoft_Eips_ActivatorUtilities_CreateInstance__1_System_Object___.md&amp;value=---%0Auid%3A%20Niacomsoft.Eips.ActivatorUtilities.CreateInstance%60%601(System.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/eips-solution/runtime/new/dev/apiSpec/new?filename=Niacomsoft_Eips_GuidGenerator_NewId_System_Object___.md&amp;value=---%0Auid%3A%20Niacomsoft.Eips.GuidGenerator.NewId(System.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/eips-solution/runtime/blob/dev/src/Eips.Common/Utilities/ActivatorUtilities.cs/#L26">View Source</a>
+    <a href="https://github.com/eips-solution/runtime/blob/dev/src/Eips.Core/Utilities/GuidGenerator.cs/#L22">View Source</a>
   </span>
-  <a id="Niacomsoft_Eips_ActivatorUtilities_CreateInstance_" data-uid="Niacomsoft.Eips.ActivatorUtilities.CreateInstance*"></a>
-  <h4 id="Niacomsoft_Eips_ActivatorUtilities_CreateInstance__1_System_Object___" data-uid="Niacomsoft.Eips.ActivatorUtilities.CreateInstance``1(System.Object[])">CreateInstance&lt;T&gt;(Object[])</h4>
-  <div class="markdown level1 summary"><p>创建 <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的对象实例。</p>
+  <a id="Niacomsoft_Eips_GuidGenerator_NewId_" data-uid="Niacomsoft.Eips.GuidGenerator.NewId*"></a>
+  <h4 id="Niacomsoft_Eips_GuidGenerator_NewId_System_Object___" data-uid="Niacomsoft.Eips.GuidGenerator.NewId(System.Object[])">NewId(Object[])</h4>
+  <div class="markdown level1 summary"><p>产生一个新的 <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.guid">Guid</a> 类型 ID。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T CreateInstance&lt;T&gt;(params object[] args)
-    where T : class</code></pre>
+    <pre><code class="lang-csharp hljs">public Guid NewId(params object[] args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -153,7 +158,7 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
         <td><span class="parametername">args</span></td>
-        <td><p>构造函数参数数组。</p>
+        <td><p>生成新的 ID 所需的扩展参数。</p>
 </td>
       </tr>
     </tbody>
@@ -168,47 +173,24 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
-        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的对象实例。</p>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.guid">Guid</a></td>
+        <td><p><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.guid">Guid</a> 类型 ID。</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>引用类型。</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Niacomsoft.Eips.DynamicCreateObjectInstanceException.html">DynamicCreateObjectInstanceException</a></td>
-        <td><p>当调用 <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.activator.createinstance#system-activator-createinstance(system-type-system-object())">CreateInstance(Type, Object[])</a> 方法时，可能引发此类型的异常。</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Niacomsoft.Eips.IValueTypedIDGenerateUtilities-1.html">IValueTypedIDGenerateUtilities&lt;TValueType&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="Niacomsoft.Eips.IIDGenerateUtilities-1.html">IIDGenerateUtilities&lt;T&gt;</a>
+  </div>
   <h3 id="seealso">See Also</h3>
   <div class="seealso">
-      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.activator">Activator</a></div>
+      <div><a class="xref" href="Niacomsoft.Eips.IValueTypedIDGenerateUtilities-1.html">IValueTypedIDGenerateUtilities</a>&lt;TValueType&gt;</div>
+      <div><a class="xref" href="Niacomsoft.Eips.IIDGenerateUtilities-1.html">IIDGenerateUtilities</a>&lt;T&gt;</div>
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.guid">Guid</a></div>
   </div>
 </article>
           </div>
@@ -218,10 +200,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/eips-solution/runtime/new/dev/apiSpec/new?filename=Niacomsoft_Eips_ActivatorUtilities.md&amp;value=---%0Auid%3A%20Niacomsoft.Eips.ActivatorUtilities%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/eips-solution/runtime/new/dev/apiSpec/new?filename=Niacomsoft_Eips_GuidGenerator.md&amp;value=---%0Auid%3A%20Niacomsoft.Eips.GuidGenerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/eips-solution/runtime/blob/dev/src/Eips.Common/Utilities/ActivatorUtilities.cs/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/eips-solution/runtime/blob/dev/src/Eips.Core/Utilities/GuidGenerator.cs/#L17" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

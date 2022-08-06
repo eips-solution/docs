@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ActivatorUtilities
+    <title>Class ConfigurationBroker&lt;TOptions&gt;
    | &#20225;&#19994;&#31169;&#26377;&#21270; SaaS &#26381;&#21153; - API &#35828;&#26126; </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ActivatorUtilities
+    <meta name="title" content="Class ConfigurationBroker&lt;TOptions&gt;
    | &#20225;&#19994;&#31169;&#26377;&#21270; SaaS &#26381;&#21153; - API &#35828;&#26126; ">
     <meta name="generator" content="docfx 2.59.3.0">
     
@@ -78,18 +78,22 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Niacomsoft.Eips.ActivatorUtilities">
+            <article class="content wrap" id="_content" data-uid="Niacomsoft.Eips.Configuration.ConfigurationBroker`1">
   
   
-  <h1 id="Niacomsoft_Eips_ActivatorUtilities" data-uid="Niacomsoft.Eips.ActivatorUtilities" class="text-break">Class ActivatorUtilities
+  <h1 id="Niacomsoft_Eips_Configuration_ConfigurationBroker_1" data-uid="Niacomsoft.Eips.Configuration.ConfigurationBroker`1" class="text-break">Class ConfigurationBroker&lt;TOptions&gt;
   </h1>
-  <div class="markdown level0 summary"><p>提供了动态创建对象实例相关的辅助方法。</p>
+  <div class="markdown level0 summary"><p>提供了访问配置信息相关的基本方法。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">ActivatorUtilities</span></div>
+    <div class="level1"><span class="xref">ConfigurationBroker&lt;TOptions&gt;</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Niacomsoft.Eips.Configuration.IConfigurationBroker-1.html">IConfigurationBroker</a>&lt;TOptions&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -115,65 +119,12 @@
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Niacomsoft.Eips.html">Niacomsoft.Eips</a></h6>
-  <h6><strong>Assembly</strong>: Niacomsoft.Eips.Common.dll</h6>
-  <h5 id="Niacomsoft_Eips_ActivatorUtilities_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Niacomsoft.Eips.Configuration.html">Niacomsoft.Eips.Configuration</a></h6>
+  <h6><strong>Assembly</strong>: Niacomsoft.Eips.Core.Abstractions.dll</h6>
+  <h5 id="Niacomsoft_Eips_Configuration_ConfigurationBroker_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ActivatorUtilities</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class ConfigurationBroker&lt;TOptions&gt; : IConfigurationBroker&lt;TOptions&gt; where TOptions : IConfigurableOptions</code></pre>
   </div>
-  <h3 id="methods">Methods
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/eips-solution/runtime/new/dev/apiSpec/new?filename=Niacomsoft_Eips_ActivatorUtilities_CreateInstance__1_System_Object___.md&amp;value=---%0Auid%3A%20Niacomsoft.Eips.ActivatorUtilities.CreateInstance%60%601(System.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/eips-solution/runtime/blob/dev/src/Eips.Common/Utilities/ActivatorUtilities.cs/#L26">View Source</a>
-  </span>
-  <a id="Niacomsoft_Eips_ActivatorUtilities_CreateInstance_" data-uid="Niacomsoft.Eips.ActivatorUtilities.CreateInstance*"></a>
-  <h4 id="Niacomsoft_Eips_ActivatorUtilities_CreateInstance__1_System_Object___" data-uid="Niacomsoft.Eips.ActivatorUtilities.CreateInstance``1(System.Object[])">CreateInstance&lt;T&gt;(Object[])</h4>
-  <div class="markdown level1 summary"><p>创建 <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的对象实例。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T CreateInstance&lt;T&gt;(params object[] args)
-    where T : class</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
-        <td><span class="parametername">args</span></td>
-        <td><p>构造函数参数数组。</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的对象实例。</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -184,31 +135,54 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>引用类型。</p>
+        <td><span class="parametername">TOptions</span></td>
+        <td><p>实现了 <a class="xref" href="Niacomsoft.Eips.Options.IConfigurableOptions.html">IConfigurableOptions</a> 接口的类型。</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/eips-solution/runtime/new/dev/apiSpec/new?filename=Niacomsoft_Eips_Configuration_ConfigurationBroker_1_GetOptions.md&amp;value=---%0Auid%3A%20Niacomsoft.Eips.Configuration.ConfigurationBroker%601.GetOptions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/eips-solution/runtime/blob/dev/src/Eips.Core.Abstractions/Configuration/ConfigurationBroker.cs/#L21">View Source</a>
+  </span>
+  <a id="Niacomsoft_Eips_Configuration_ConfigurationBroker_1_GetOptions_" data-uid="Niacomsoft.Eips.Configuration.ConfigurationBroker`1.GetOptions*"></a>
+  <h4 id="Niacomsoft_Eips_Configuration_ConfigurationBroker_1_GetOptions" data-uid="Niacomsoft.Eips.Configuration.ConfigurationBroker`1.GetOptions">GetOptions()</h4>
+  <div class="markdown level1 summary"><p>获取配置选项。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract TOptions GetOptions()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Condition</th>
+        <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Niacomsoft.Eips.DynamicCreateObjectInstanceException.html">DynamicCreateObjectInstanceException</a></td>
-        <td><p>当调用 <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.activator.createinstance#system-activator-createinstance(system-type-system-object())">CreateInstance(Type, Object[])</a> 方法时，可能引发此类型的异常。</p>
+        <td><span class="xref">TOptions</span></td>
+        <td><p>实现了 <a class="xref" href="Niacomsoft.Eips.Options.IConfigurableOptions.html">IConfigurableOptions</a> 类型接口的对象实例。</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Niacomsoft.Eips.Configuration.IConfigurationBroker-1.html">IConfigurationBroker&lt;TOptions&gt;</a>
+  </div>
   <h3 id="seealso">See Also</h3>
   <div class="seealso">
-      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.activator">Activator</a></div>
+      <div><a class="xref" href="Niacomsoft.Eips.Options.IConfigurableOptions.html">IConfigurableOptions</a></div>
+      <div><a class="xref" href="Niacomsoft.Eips.Configuration.IConfigurationBroker-1.html">IConfigurationBroker</a>&lt;TOptions&gt;</div>
   </div>
 </article>
           </div>
@@ -218,10 +192,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/eips-solution/runtime/new/dev/apiSpec/new?filename=Niacomsoft_Eips_ActivatorUtilities.md&amp;value=---%0Auid%3A%20Niacomsoft.Eips.ActivatorUtilities%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/eips-solution/runtime/new/dev/apiSpec/new?filename=Niacomsoft_Eips_Configuration_ConfigurationBroker_1.md&amp;value=---%0Auid%3A%20Niacomsoft.Eips.Configuration.ConfigurationBroker%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/eips-solution/runtime/blob/dev/src/Eips.Common/Utilities/ActivatorUtilities.cs/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/eips-solution/runtime/blob/dev/src/Eips.Core.Abstractions/Configuration/ConfigurationBroker.cs/#L16" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
