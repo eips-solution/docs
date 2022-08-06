@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.ActivatorUtilities.html",
-          "hash": "oIZA374GoePYZmT7dUvpXBcghppW8k+yiVnVm9jo3iE="
+          "hash": "yb6U0qPZibQgx1xmAQFHP4tnNcAzjyXqJWLmG4p9KOM="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.DateTimeComparer.html",
-          "hash": "uBY6jcCoPQp/NCtYMDYRulK/3ESEdVGYYI1apa3QyYY="
+          "hash": "8RQuTrw88m/+YZhG0V2ShFaUHhyawaS3L/pHW7Q0pD4="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.DateTimeDescriptor.html",
-          "hash": "E6H/o904M5LeTCCSsz507m8tZqnrnqyEPjmNASWRBYI="
+          "hash": "q1WlblI9ESIPWF3yh1p+QwlVM9vTQWWITnieAYhnBso="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Defaults.html",
-          "hash": "it7QpMOnJVzvnrvNYEiP6bRJYXHdXm+/zADEkpyq5uQ="
+          "hash": "kJ9SaEfu2AkR/2Hf2UC7sSRUCzvU2/SREVKQXyAa3tw="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Diagnostics.TraceInformation-1.html",
-          "hash": "EeMFVfn24sqNowT/tTu1XDEKTtnVI0vyKj22zDykCX0="
+          "hash": "4O50MST4NzckzX99GPC+AZkt4AM+08003iB6jW+dJKo="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Diagnostics.TraceInformation.html",
-          "hash": "8jyStapkfezb9QHanDMq6gDusdAsMDKxQFAVpVeYwv4="
+          "hash": "MSApCdp+GsSUhWWJO8iaC9pFceRpOD+BFc1mGgVpQ68="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Diagnostics.TraceInformationBuilder.html",
-          "hash": "StJiWSC4Su8EwQr6Hq7A/ZN4e1cEu4uuP7H6A83BNlQ="
+          "hash": "N6Y/CaE4TjU8ZE9oQp3YmAZokyYZZVNkDxgEsfgG23A="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Diagnostics.html",
-          "hash": "uXM1IsLZECVFbHrZqgx+9KliYbDpHsSWYr81EIxCwWQ="
+          "hash": "Rw/ZbcvIsnLD9FmP4+wLcG2o9cuGe1vfwaLyq1Hiwwg="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.DynamicCreateObjectInstanceException.html",
-          "hash": "V291v6Ln+isGkHF3fgL9z6FcGCWDrAr5UO2CkyMoi9U="
+          "hash": "tESoPXEOGoY6NnAxwia3NufIpO5FKRKux0j3B5k/yt8="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.EmptyCompareOptions.html",
-          "hash": "DVxg+5ZvRjc//KYFIUWdL/B73NW3+cKo6S+Ln/hsdrU="
+          "hash": "Ae13J/x/unxDMJGM8I1ff/FtaSj82k5GRBZEX4mNPvg="
         }
       },
       "is_incremental": false,
@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Globalization.ContextCultureConfigurator.html",
-          "hash": "R1xqgZQepPhSGJ2a1//8PEQ1jsRZMl/urLauoq1RfWI="
+          "hash": "3rJ5YdDZVN51mohGR/kkHIInz/1PK2aTvX2mD33sMr0="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Globalization.SR.html",
-          "hash": "5hoDFoVazrFcAJYOdzvJdDzcQkWblOvqctAftRC/Tto="
+          "hash": "SQEt7kGNoRoRydBkEFgmZdq7IzDV9cdSaOfGlkqgrAw="
         }
       },
       "is_incremental": false,
@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Globalization.SupportedCultures.html",
-          "hash": "r3hgiIYnBJwStpgJ+U0Ky26NUkKLd6/DUyz9jQSkHCQ="
+          "hash": "QlSeDGrDcMF8GXi1fnbS6QsvbI0RjhS24N1AKoVLO5s="
         }
       },
       "is_incremental": false,
@@ -174,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Globalization.html",
-          "hash": "ZQra8mBjozZ0yDUs5L8T/yCeAwPNbhjRF+zuJaMRn6U="
+          "hash": "LNLsC8laQRsxgaLghHL/uWjXMkvsZvfsvPLJUOdZs0k="
         }
       },
       "is_incremental": false,
@@ -186,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.NumberComparisonSymbols.html",
-          "hash": "N6k3vdjdIxaHqzTBkQk1eTE9xcX+ZIeMKhw8S+qbMIY="
+          "hash": "Y6G9ygCZf5ayryOxO+1ogN7kZp+SZu0DW5FW1pB2B6E="
         }
       },
       "is_incremental": false,
@@ -198,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.ParameterGuard.html",
-          "hash": "vkQfpMAkmxILz/l5IReU6mblr8W2njaAn8FAb1nYpm8="
+          "hash": "o+C3oO1OYMfTwv8787nfHyPmKe8qpgZasK9Idw6Rqes="
         }
       },
       "is_incremental": false,
@@ -210,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.ReferenceTypeEqualityComparer.html",
-          "hash": "0amMQP0CPM/Y7eVZPXvohADlXYTAs++R7rvEMLQEJlM="
+          "hash": "6GweAOFqm/0peMYbTr2RBQY1e6ayFuQ5sDzm/naOnl0="
         }
       },
       "is_incremental": false,
@@ -222,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.StringEqualityComparer.html",
-          "hash": "/xGWbNmdJW2Q1KvURRSa8/xaaiFruRygfHywkcbXy1Y="
+          "hash": "gKpVQCv6NMbkEve2x7Rrs9HQQ1WRy3TpjRy251L61+U="
         }
       },
       "is_incremental": false,
@@ -234,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.StringUtilities.html",
-          "hash": "OIZaTl7JM7lDz/fGi5VkbpTSnfqcczFPrpScftVkKko="
+          "hash": "mFFCPpqQRFptv83gr5BrURuruZM0W/36UpJGb9/ThYg="
         }
       },
       "is_incremental": false,
@@ -246,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.ValueTypeComparer.html",
-          "hash": "wuW7sH+K4WvLRospADYvJZpvllifJptBSRFu4zxI0YM="
+          "hash": "7H8rDh/exV8PFclpy5cLnWPmVRsCfR9pKWo+SCp2qVM="
         }
       },
       "is_incremental": false,
@@ -258,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.html",
-          "hash": "TtMheo3dt8KeSvJAbA5gLUr+bHxVcLU83fKZM6SQHXk="
+          "hash": "UHjeQBBEkjrJqFEmNTGRhoqiXTyt1ycNqwdFT/Us7wc="
         }
       },
       "is_incremental": false,
@@ -280,19 +280,17 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because config changed.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "ConfigChanged"
+        "skipped_file_count": 0
       },
       "processors": {
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 21,
-          "skipped_file_count": 0
+          "skipped_file_count": 21
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
