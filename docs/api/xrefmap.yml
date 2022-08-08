@@ -157,6 +157,1637 @@ references:
   fullName.vb: Niacomsoft.Eips.Configuration.IConfigurationBroker(Of TOptions).GetOptions
   nameWithType: IConfigurationBroker<TOptions>.GetOptions
   nameWithType.vb: IConfigurationBroker(Of TOptions).GetOptions
+- uid: Niacomsoft.Eips.Data
+  name: Niacomsoft.Eips.Data
+  href: api/Niacomsoft.Eips.Data.html
+  commentId: N:Niacomsoft.Eips.Data
+  fullName: Niacomsoft.Eips.Data
+  nameWithType: Niacomsoft.Eips.Data
+- uid: Niacomsoft.Eips.Data.DbExecutionException
+  name: DbExecutionException
+  href: api/Niacomsoft.Eips.Data.DbExecutionException.html
+  commentId: T:Niacomsoft.Eips.Data.DbExecutionException
+  fullName: Niacomsoft.Eips.Data.DbExecutionException
+  nameWithType: DbExecutionException
+- uid: Niacomsoft.Eips.Data.DbExecutionException.#ctor
+  name: DbExecutionException()
+  href: api/Niacomsoft.Eips.Data.DbExecutionException.html#Niacomsoft_Eips_Data_DbExecutionException__ctor
+  commentId: M:Niacomsoft.Eips.Data.DbExecutionException.#ctor
+  fullName: Niacomsoft.Eips.Data.DbExecutionException.DbExecutionException()
+  nameWithType: DbExecutionException.DbExecutionException()
+- uid: Niacomsoft.Eips.Data.DbExecutionException.#ctor(System.Exception)
+  name: DbExecutionException(Exception)
+  href: api/Niacomsoft.Eips.Data.DbExecutionException.html#Niacomsoft_Eips_Data_DbExecutionException__ctor_System_Exception_
+  commentId: M:Niacomsoft.Eips.Data.DbExecutionException.#ctor(System.Exception)
+  fullName: Niacomsoft.Eips.Data.DbExecutionException.DbExecutionException(System.Exception)
+  nameWithType: DbExecutionException.DbExecutionException(Exception)
+- uid: Niacomsoft.Eips.Data.DbExecutionException.#ctor*
+  name: DbExecutionException
+  href: api/Niacomsoft.Eips.Data.DbExecutionException.html#Niacomsoft_Eips_Data_DbExecutionException__ctor_
+  commentId: Overload:Niacomsoft.Eips.Data.DbExecutionException.#ctor
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.DbExecutionException.DbExecutionException
+  nameWithType: DbExecutionException.DbExecutionException
+- uid: Niacomsoft.Eips.Data.Entity
+  name: Niacomsoft.Eips.Data.Entity
+  href: api/Niacomsoft.Eips.Data.Entity.html
+  commentId: N:Niacomsoft.Eips.Data.Entity
+  fullName: Niacomsoft.Eips.Data.Entity
+  nameWithType: Niacomsoft.Eips.Data.Entity
+- uid: Niacomsoft.Eips.Data.Entity.DbResult
+  name: DbResult
+  href: api/Niacomsoft.Eips.Data.Entity.DbResult.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.DbResult
+  fullName: Niacomsoft.Eips.Data.Entity.DbResult
+  nameWithType: DbResult
+- uid: Niacomsoft.Eips.Data.Entity.DbResult.#ctor
+  name: DbResult()
+  href: api/Niacomsoft.Eips.Data.Entity.DbResult.html#Niacomsoft_Eips_Data_Entity_DbResult__ctor
+  commentId: M:Niacomsoft.Eips.Data.Entity.DbResult.#ctor
+  fullName: Niacomsoft.Eips.Data.Entity.DbResult.DbResult()
+  nameWithType: DbResult.DbResult()
+- uid: Niacomsoft.Eips.Data.Entity.DbResult.#ctor(System.Boolean)
+  name: DbResult(Boolean)
+  href: api/Niacomsoft.Eips.Data.Entity.DbResult.html#Niacomsoft_Eips_Data_Entity_DbResult__ctor_System_Boolean_
+  commentId: M:Niacomsoft.Eips.Data.Entity.DbResult.#ctor(System.Boolean)
+  fullName: Niacomsoft.Eips.Data.Entity.DbResult.DbResult(System.Boolean)
+  nameWithType: DbResult.DbResult(Boolean)
+- uid: Niacomsoft.Eips.Data.Entity.DbResult.#ctor(System.Boolean,System.Exception)
+  name: DbResult(Boolean, Exception)
+  href: api/Niacomsoft.Eips.Data.Entity.DbResult.html#Niacomsoft_Eips_Data_Entity_DbResult__ctor_System_Boolean_System_Exception_
+  commentId: M:Niacomsoft.Eips.Data.Entity.DbResult.#ctor(System.Boolean,System.Exception)
+  fullName: Niacomsoft.Eips.Data.Entity.DbResult.DbResult(System.Boolean, System.Exception)
+  nameWithType: DbResult.DbResult(Boolean, Exception)
+- uid: Niacomsoft.Eips.Data.Entity.DbResult.#ctor(System.Exception)
+  name: DbResult(Exception)
+  href: api/Niacomsoft.Eips.Data.Entity.DbResult.html#Niacomsoft_Eips_Data_Entity_DbResult__ctor_System_Exception_
+  commentId: M:Niacomsoft.Eips.Data.Entity.DbResult.#ctor(System.Exception)
+  fullName: Niacomsoft.Eips.Data.Entity.DbResult.DbResult(System.Exception)
+  nameWithType: DbResult.DbResult(Exception)
+- uid: Niacomsoft.Eips.Data.Entity.DbResult.#ctor*
+  name: DbResult
+  href: api/Niacomsoft.Eips.Data.Entity.DbResult.html#Niacomsoft_Eips_Data_Entity_DbResult__ctor_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.DbResult.#ctor
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.DbResult.DbResult
+  nameWithType: DbResult.DbResult
+- uid: Niacomsoft.Eips.Data.Entity.DbResult.Completed
+  name: Completed
+  href: api/Niacomsoft.Eips.Data.Entity.DbResult.html#Niacomsoft_Eips_Data_Entity_DbResult_Completed
+  commentId: P:Niacomsoft.Eips.Data.Entity.DbResult.Completed
+  fullName: Niacomsoft.Eips.Data.Entity.DbResult.Completed
+  nameWithType: DbResult.Completed
+- uid: Niacomsoft.Eips.Data.Entity.DbResult.Completed*
+  name: Completed
+  href: api/Niacomsoft.Eips.Data.Entity.DbResult.html#Niacomsoft_Eips_Data_Entity_DbResult_Completed_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.DbResult.Completed
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.DbResult.Completed
+  nameWithType: DbResult.Completed
+- uid: Niacomsoft.Eips.Data.Entity.DbResult.ExecutionException
+  name: ExecutionException
+  href: api/Niacomsoft.Eips.Data.Entity.DbResult.html#Niacomsoft_Eips_Data_Entity_DbResult_ExecutionException
+  commentId: P:Niacomsoft.Eips.Data.Entity.DbResult.ExecutionException
+  fullName: Niacomsoft.Eips.Data.Entity.DbResult.ExecutionException
+  nameWithType: DbResult.ExecutionException
+- uid: Niacomsoft.Eips.Data.Entity.DbResult.ExecutionException*
+  name: ExecutionException
+  href: api/Niacomsoft.Eips.Data.Entity.DbResult.html#Niacomsoft_Eips_Data_Entity_DbResult_ExecutionException_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.DbResult.ExecutionException
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.DbResult.ExecutionException
+  nameWithType: DbResult.ExecutionException
+- uid: Niacomsoft.Eips.Data.Entity.DbResult`1
+  name: DbResult<T>
+  href: api/Niacomsoft.Eips.Data.Entity.DbResult-1.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.DbResult`1
+  name.vb: DbResult(Of T)
+  fullName: Niacomsoft.Eips.Data.Entity.DbResult<T>
+  fullName.vb: Niacomsoft.Eips.Data.Entity.DbResult(Of T)
+  nameWithType: DbResult<T>
+  nameWithType.vb: DbResult(Of T)
+- uid: Niacomsoft.Eips.Data.Entity.DbResult`1.#ctor
+  name: DbResult()
+  href: api/Niacomsoft.Eips.Data.Entity.DbResult-1.html#Niacomsoft_Eips_Data_Entity_DbResult_1__ctor
+  commentId: M:Niacomsoft.Eips.Data.Entity.DbResult`1.#ctor
+  fullName: Niacomsoft.Eips.Data.Entity.DbResult<T>.DbResult()
+  fullName.vb: Niacomsoft.Eips.Data.Entity.DbResult(Of T).DbResult()
+  nameWithType: DbResult<T>.DbResult()
+  nameWithType.vb: DbResult(Of T).DbResult()
+- uid: Niacomsoft.Eips.Data.Entity.DbResult`1.#ctor(System.Boolean)
+  name: DbResult(Boolean)
+  href: api/Niacomsoft.Eips.Data.Entity.DbResult-1.html#Niacomsoft_Eips_Data_Entity_DbResult_1__ctor_System_Boolean_
+  commentId: M:Niacomsoft.Eips.Data.Entity.DbResult`1.#ctor(System.Boolean)
+  fullName: Niacomsoft.Eips.Data.Entity.DbResult<T>.DbResult(System.Boolean)
+  fullName.vb: Niacomsoft.Eips.Data.Entity.DbResult(Of T).DbResult(System.Boolean)
+  nameWithType: DbResult<T>.DbResult(Boolean)
+  nameWithType.vb: DbResult(Of T).DbResult(Boolean)
+- uid: Niacomsoft.Eips.Data.Entity.DbResult`1.#ctor(System.Boolean,System.Exception)
+  name: DbResult(Boolean, Exception)
+  href: api/Niacomsoft.Eips.Data.Entity.DbResult-1.html#Niacomsoft_Eips_Data_Entity_DbResult_1__ctor_System_Boolean_System_Exception_
+  commentId: M:Niacomsoft.Eips.Data.Entity.DbResult`1.#ctor(System.Boolean,System.Exception)
+  fullName: Niacomsoft.Eips.Data.Entity.DbResult<T>.DbResult(System.Boolean, System.Exception)
+  fullName.vb: Niacomsoft.Eips.Data.Entity.DbResult(Of T).DbResult(System.Boolean, System.Exception)
+  nameWithType: DbResult<T>.DbResult(Boolean, Exception)
+  nameWithType.vb: DbResult(Of T).DbResult(Boolean, Exception)
+- uid: Niacomsoft.Eips.Data.Entity.DbResult`1.#ctor(System.Exception)
+  name: DbResult(Exception)
+  href: api/Niacomsoft.Eips.Data.Entity.DbResult-1.html#Niacomsoft_Eips_Data_Entity_DbResult_1__ctor_System_Exception_
+  commentId: M:Niacomsoft.Eips.Data.Entity.DbResult`1.#ctor(System.Exception)
+  fullName: Niacomsoft.Eips.Data.Entity.DbResult<T>.DbResult(System.Exception)
+  fullName.vb: Niacomsoft.Eips.Data.Entity.DbResult(Of T).DbResult(System.Exception)
+  nameWithType: DbResult<T>.DbResult(Exception)
+  nameWithType.vb: DbResult(Of T).DbResult(Exception)
+- uid: Niacomsoft.Eips.Data.Entity.DbResult`1.#ctor*
+  name: DbResult
+  href: api/Niacomsoft.Eips.Data.Entity.DbResult-1.html#Niacomsoft_Eips_Data_Entity_DbResult_1__ctor_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.DbResult`1.#ctor
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.DbResult<T>.DbResult
+  fullName.vb: Niacomsoft.Eips.Data.Entity.DbResult(Of T).DbResult
+  nameWithType: DbResult<T>.DbResult
+  nameWithType.vb: DbResult(Of T).DbResult
+- uid: Niacomsoft.Eips.Data.Entity.DbResult`1.Result
+  name: Result
+  href: api/Niacomsoft.Eips.Data.Entity.DbResult-1.html#Niacomsoft_Eips_Data_Entity_DbResult_1_Result
+  commentId: P:Niacomsoft.Eips.Data.Entity.DbResult`1.Result
+  fullName: Niacomsoft.Eips.Data.Entity.DbResult<T>.Result
+  fullName.vb: Niacomsoft.Eips.Data.Entity.DbResult(Of T).Result
+  nameWithType: DbResult<T>.Result
+  nameWithType.vb: DbResult(Of T).Result
+- uid: Niacomsoft.Eips.Data.Entity.DbResult`1.Result*
+  name: Result
+  href: api/Niacomsoft.Eips.Data.Entity.DbResult-1.html#Niacomsoft_Eips_Data_Entity_DbResult_1_Result_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.DbResult`1.Result
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.DbResult<T>.Result
+  fullName.vb: Niacomsoft.Eips.Data.Entity.DbResult(Of T).Result
+  nameWithType: DbResult<T>.Result
+  nameWithType.vb: DbResult(Of T).Result
+- uid: Niacomsoft.Eips.Data.Entity.DbResultBuilder
+  name: DbResultBuilder
+  href: api/Niacomsoft.Eips.Data.Entity.DbResultBuilder.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.DbResultBuilder
+  fullName: Niacomsoft.Eips.Data.Entity.DbResultBuilder
+  nameWithType: DbResultBuilder
+- uid: Niacomsoft.Eips.Data.Entity.DbResultBuilder.#ctor
+  name: DbResultBuilder()
+  href: api/Niacomsoft.Eips.Data.Entity.DbResultBuilder.html#Niacomsoft_Eips_Data_Entity_DbResultBuilder__ctor
+  commentId: M:Niacomsoft.Eips.Data.Entity.DbResultBuilder.#ctor
+  fullName: Niacomsoft.Eips.Data.Entity.DbResultBuilder.DbResultBuilder()
+  nameWithType: DbResultBuilder.DbResultBuilder()
+- uid: Niacomsoft.Eips.Data.Entity.DbResultBuilder.#ctor*
+  name: DbResultBuilder
+  href: api/Niacomsoft.Eips.Data.Entity.DbResultBuilder.html#Niacomsoft_Eips_Data_Entity_DbResultBuilder__ctor_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.DbResultBuilder.#ctor
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.DbResultBuilder.DbResultBuilder
+  nameWithType: DbResultBuilder.DbResultBuilder
+- uid: Niacomsoft.Eips.Data.Entity.DbResultBuilder.Build
+  name: Build()
+  href: api/Niacomsoft.Eips.Data.Entity.DbResultBuilder.html#Niacomsoft_Eips_Data_Entity_DbResultBuilder_Build
+  commentId: M:Niacomsoft.Eips.Data.Entity.DbResultBuilder.Build
+  fullName: Niacomsoft.Eips.Data.Entity.DbResultBuilder.Build()
+  nameWithType: DbResultBuilder.Build()
+- uid: Niacomsoft.Eips.Data.Entity.DbResultBuilder.Build*
+  name: Build
+  href: api/Niacomsoft.Eips.Data.Entity.DbResultBuilder.html#Niacomsoft_Eips_Data_Entity_DbResultBuilder_Build_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.DbResultBuilder.Build
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.DbResultBuilder.Build
+  nameWithType: DbResultBuilder.Build
+- uid: Niacomsoft.Eips.Data.Entity.DbResultBuilder.Build``1(``0)
+  name: Build<T>(T)
+  href: api/Niacomsoft.Eips.Data.Entity.DbResultBuilder.html#Niacomsoft_Eips_Data_Entity_DbResultBuilder_Build__1___0_
+  commentId: M:Niacomsoft.Eips.Data.Entity.DbResultBuilder.Build``1(``0)
+  name.vb: Build(Of T)(T)
+  fullName: Niacomsoft.Eips.Data.Entity.DbResultBuilder.Build<T>(T)
+  fullName.vb: Niacomsoft.Eips.Data.Entity.DbResultBuilder.Build(Of T)(T)
+  nameWithType: DbResultBuilder.Build<T>(T)
+  nameWithType.vb: DbResultBuilder.Build(Of T)(T)
+- uid: Niacomsoft.Eips.Data.Entity.DbResultBuilder.Reset
+  name: Reset()
+  href: api/Niacomsoft.Eips.Data.Entity.DbResultBuilder.html#Niacomsoft_Eips_Data_Entity_DbResultBuilder_Reset
+  commentId: M:Niacomsoft.Eips.Data.Entity.DbResultBuilder.Reset
+  fullName: Niacomsoft.Eips.Data.Entity.DbResultBuilder.Reset()
+  nameWithType: DbResultBuilder.Reset()
+- uid: Niacomsoft.Eips.Data.Entity.DbResultBuilder.Reset*
+  name: Reset
+  href: api/Niacomsoft.Eips.Data.Entity.DbResultBuilder.html#Niacomsoft_Eips_Data_Entity_DbResultBuilder_Reset_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.DbResultBuilder.Reset
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.DbResultBuilder.Reset
+  nameWithType: DbResultBuilder.Reset
+- uid: Niacomsoft.Eips.Data.Entity.DbResultBuilder.WithCompleted(System.Boolean)
+  name: WithCompleted(Boolean)
+  href: api/Niacomsoft.Eips.Data.Entity.DbResultBuilder.html#Niacomsoft_Eips_Data_Entity_DbResultBuilder_WithCompleted_System_Boolean_
+  commentId: M:Niacomsoft.Eips.Data.Entity.DbResultBuilder.WithCompleted(System.Boolean)
+  fullName: Niacomsoft.Eips.Data.Entity.DbResultBuilder.WithCompleted(System.Boolean)
+  nameWithType: DbResultBuilder.WithCompleted(Boolean)
+- uid: Niacomsoft.Eips.Data.Entity.DbResultBuilder.WithCompleted*
+  name: WithCompleted
+  href: api/Niacomsoft.Eips.Data.Entity.DbResultBuilder.html#Niacomsoft_Eips_Data_Entity_DbResultBuilder_WithCompleted_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.DbResultBuilder.WithCompleted
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.DbResultBuilder.WithCompleted
+  nameWithType: DbResultBuilder.WithCompleted
+- uid: Niacomsoft.Eips.Data.Entity.DbResultBuilder.WithExecutionException(System.Exception)
+  name: WithExecutionException(Exception)
+  href: api/Niacomsoft.Eips.Data.Entity.DbResultBuilder.html#Niacomsoft_Eips_Data_Entity_DbResultBuilder_WithExecutionException_System_Exception_
+  commentId: M:Niacomsoft.Eips.Data.Entity.DbResultBuilder.WithExecutionException(System.Exception)
+  fullName: Niacomsoft.Eips.Data.Entity.DbResultBuilder.WithExecutionException(System.Exception)
+  nameWithType: DbResultBuilder.WithExecutionException(Exception)
+- uid: Niacomsoft.Eips.Data.Entity.DbResultBuilder.WithExecutionException*
+  name: WithExecutionException
+  href: api/Niacomsoft.Eips.Data.Entity.DbResultBuilder.html#Niacomsoft_Eips_Data_Entity_DbResultBuilder_WithExecutionException_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.DbResultBuilder.WithExecutionException
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.DbResultBuilder.WithExecutionException
+  nameWithType: DbResultBuilder.WithExecutionException
+- uid: Niacomsoft.Eips.Data.Entity.DbTypeExtensions
+  name: DbTypeExtensions
+  href: api/Niacomsoft.Eips.Data.Entity.DbTypeExtensions.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.DbTypeExtensions
+  fullName: Niacomsoft.Eips.Data.Entity.DbTypeExtensions
+  nameWithType: DbTypeExtensions
+- uid: Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToBoolean(System.Int32)
+  name: ToBoolean(Int32)
+  href: api/Niacomsoft.Eips.Data.Entity.DbTypeExtensions.html#Niacomsoft_Eips_Data_Entity_DbTypeExtensions_ToBoolean_System_Int32_
+  commentId: M:Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToBoolean(System.Int32)
+  fullName: Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToBoolean(System.Int32)
+  nameWithType: DbTypeExtensions.ToBoolean(Int32)
+- uid: Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToBoolean(System.Nullable{System.Int32})
+  name: ToBoolean(Nullable<Int32>)
+  href: api/Niacomsoft.Eips.Data.Entity.DbTypeExtensions.html#Niacomsoft_Eips_Data_Entity_DbTypeExtensions_ToBoolean_System_Nullable_System_Int32__
+  commentId: M:Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToBoolean(System.Nullable{System.Int32})
+  name.vb: ToBoolean(Nullable(Of Int32))
+  fullName: Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToBoolean(System.Nullable<System.Int32>)
+  fullName.vb: Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToBoolean(System.Nullable(Of System.Int32))
+  nameWithType: DbTypeExtensions.ToBoolean(Nullable<Int32>)
+  nameWithType.vb: DbTypeExtensions.ToBoolean(Nullable(Of Int32))
+- uid: Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToBoolean(System.Nullable{System.Int32},System.Boolean)
+  name: ToBoolean(Nullable<Int32>, Boolean)
+  href: api/Niacomsoft.Eips.Data.Entity.DbTypeExtensions.html#Niacomsoft_Eips_Data_Entity_DbTypeExtensions_ToBoolean_System_Nullable_System_Int32__System_Boolean_
+  commentId: M:Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToBoolean(System.Nullable{System.Int32},System.Boolean)
+  name.vb: ToBoolean(Nullable(Of Int32), Boolean)
+  fullName: Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToBoolean(System.Nullable<System.Int32>, System.Boolean)
+  fullName.vb: Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToBoolean(System.Nullable(Of System.Int32), System.Boolean)
+  nameWithType: DbTypeExtensions.ToBoolean(Nullable<Int32>, Boolean)
+  nameWithType.vb: DbTypeExtensions.ToBoolean(Nullable(Of Int32), Boolean)
+- uid: Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToBoolean*
+  name: ToBoolean
+  href: api/Niacomsoft.Eips.Data.Entity.DbTypeExtensions.html#Niacomsoft_Eips_Data_Entity_DbTypeExtensions_ToBoolean_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToBoolean
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToBoolean
+  nameWithType: DbTypeExtensions.ToBoolean
+- uid: Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToGender(System.Nullable{System.Int32})
+  name: ToGender(Nullable<Int32>)
+  href: api/Niacomsoft.Eips.Data.Entity.DbTypeExtensions.html#Niacomsoft_Eips_Data_Entity_DbTypeExtensions_ToGender_System_Nullable_System_Int32__
+  commentId: M:Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToGender(System.Nullable{System.Int32})
+  name.vb: ToGender(Nullable(Of Int32))
+  fullName: Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToGender(System.Nullable<System.Int32>)
+  fullName.vb: Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToGender(System.Nullable(Of System.Int32))
+  nameWithType: DbTypeExtensions.ToGender(Nullable<Int32>)
+  nameWithType.vb: DbTypeExtensions.ToGender(Nullable(Of Int32))
+- uid: Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToGender*
+  name: ToGender
+  href: api/Niacomsoft.Eips.Data.Entity.DbTypeExtensions.html#Niacomsoft_Eips_Data_Entity_DbTypeExtensions_ToGender_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToGender
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToGender
+  nameWithType: DbTypeExtensions.ToGender
+- uid: Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToInt(Niacomsoft.Eips.Gender)
+  name: ToInt(Gender)
+  href: api/Niacomsoft.Eips.Data.Entity.DbTypeExtensions.html#Niacomsoft_Eips_Data_Entity_DbTypeExtensions_ToInt_Niacomsoft_Eips_Gender_
+  commentId: M:Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToInt(Niacomsoft.Eips.Gender)
+  fullName: Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToInt(Niacomsoft.Eips.Gender)
+  nameWithType: DbTypeExtensions.ToInt(Gender)
+- uid: Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToInt(System.Boolean)
+  name: ToInt(Boolean)
+  href: api/Niacomsoft.Eips.Data.Entity.DbTypeExtensions.html#Niacomsoft_Eips_Data_Entity_DbTypeExtensions_ToInt_System_Boolean_
+  commentId: M:Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToInt(System.Boolean)
+  fullName: Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToInt(System.Boolean)
+  nameWithType: DbTypeExtensions.ToInt(Boolean)
+- uid: Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToInt(System.Boolean,System.Int32,System.Int32)
+  name: ToInt(Boolean, Int32, Int32)
+  href: api/Niacomsoft.Eips.Data.Entity.DbTypeExtensions.html#Niacomsoft_Eips_Data_Entity_DbTypeExtensions_ToInt_System_Boolean_System_Int32_System_Int32_
+  commentId: M:Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToInt(System.Boolean,System.Int32,System.Int32)
+  fullName: Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToInt(System.Boolean, System.Int32, System.Int32)
+  nameWithType: DbTypeExtensions.ToInt(Boolean, Int32, Int32)
+- uid: Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToInt(System.Nullable{System.Boolean})
+  name: ToInt(Nullable<Boolean>)
+  href: api/Niacomsoft.Eips.Data.Entity.DbTypeExtensions.html#Niacomsoft_Eips_Data_Entity_DbTypeExtensions_ToInt_System_Nullable_System_Boolean__
+  commentId: M:Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToInt(System.Nullable{System.Boolean})
+  name.vb: ToInt(Nullable(Of Boolean))
+  fullName: Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToInt(System.Nullable<System.Boolean>)
+  fullName.vb: Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToInt(System.Nullable(Of System.Boolean))
+  nameWithType: DbTypeExtensions.ToInt(Nullable<Boolean>)
+  nameWithType.vb: DbTypeExtensions.ToInt(Nullable(Of Boolean))
+- uid: Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToInt*
+  name: ToInt
+  href: api/Niacomsoft.Eips.Data.Entity.DbTypeExtensions.html#Niacomsoft_Eips_Data_Entity_DbTypeExtensions_ToInt_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToInt
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToInt
+  nameWithType: DbTypeExtensions.ToInt
+- uid: Niacomsoft.Eips.Data.Entity.Fields
+  name: Niacomsoft.Eips.Data.Entity.Fields
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.html
+  commentId: N:Niacomsoft.Eips.Data.Entity.Fields
+  fullName: Niacomsoft.Eips.Data.Entity.Fields
+  nameWithType: Niacomsoft.Eips.Data.Entity.Fields
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IAutoGenerationId`1
+  name: IAutoGenerationId<T>
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IAutoGenerationId-1.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.Fields.IAutoGenerationId`1
+  name.vb: IAutoGenerationId(Of T)
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IAutoGenerationId<T>
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IAutoGenerationId(Of T)
+  nameWithType: IAutoGenerationId<T>
+  nameWithType.vb: IAutoGenerationId(Of T)
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IAutoGenerationId`1.AutoId
+  name: AutoId
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IAutoGenerationId-1.html#Niacomsoft_Eips_Data_Entity_Fields_IAutoGenerationId_1_AutoId
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IAutoGenerationId`1.AutoId
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IAutoGenerationId<T>.AutoId
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IAutoGenerationId(Of T).AutoId
+  nameWithType: IAutoGenerationId<T>.AutoId
+  nameWithType.vb: IAutoGenerationId(Of T).AutoId
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IAutoGenerationId`1.AutoId*
+  name: AutoId
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IAutoGenerationId-1.html#Niacomsoft_Eips_Data_Entity_Fields_IAutoGenerationId_1_AutoId_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IAutoGenerationId`1.AutoId
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IAutoGenerationId<T>.AutoId
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IAutoGenerationId(Of T).AutoId
+  nameWithType: IAutoGenerationId<T>.AutoId
+  nameWithType.vb: IAutoGenerationId(Of T).AutoId
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IAvailable`1
+  name: IAvailable<T>
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IAvailable-1.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.Fields.IAvailable`1
+  name.vb: IAvailable(Of T)
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IAvailable<T>
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IAvailable(Of T)
+  nameWithType: IAvailable<T>
+  nameWithType.vb: IAvailable(Of T)
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IAvailable`1.Available
+  name: Available
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IAvailable-1.html#Niacomsoft_Eips_Data_Entity_Fields_IAvailable_1_Available
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IAvailable`1.Available
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IAvailable<T>.Available
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IAvailable(Of T).Available
+  nameWithType: IAvailable<T>.Available
+  nameWithType.vb: IAvailable(Of T).Available
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IAvailable`1.Available*
+  name: Available
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IAvailable-1.html#Niacomsoft_Eips_Data_Entity_Fields_IAvailable_1_Available_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IAvailable`1.Available
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IAvailable<T>.Available
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IAvailable(Of T).Available
+  nameWithType: IAvailable<T>.Available
+  nameWithType.vb: IAvailable(Of T).Available
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IAvailable`1.Unavailable
+  name: Unavailable
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IAvailable-1.html#Niacomsoft_Eips_Data_Entity_Fields_IAvailable_1_Unavailable
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IAvailable`1.Unavailable
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IAvailable<T>.Unavailable
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IAvailable(Of T).Unavailable
+  nameWithType: IAvailable<T>.Unavailable
+  nameWithType.vb: IAvailable(Of T).Unavailable
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IAvailable`1.Unavailable*
+  name: Unavailable
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IAvailable-1.html#Niacomsoft_Eips_Data_Entity_Fields_IAvailable_1_Unavailable_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IAvailable`1.Unavailable
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IAvailable<T>.Unavailable
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IAvailable(Of T).Unavailable
+  nameWithType: IAvailable<T>.Unavailable
+  nameWithType.vb: IAvailable(Of T).Unavailable
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IBuiltIn`1
+  name: IBuiltIn<T>
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IBuiltIn-1.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.Fields.IBuiltIn`1
+  name.vb: IBuiltIn(Of T)
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IBuiltIn<T>
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IBuiltIn(Of T)
+  nameWithType: IBuiltIn<T>
+  nameWithType.vb: IBuiltIn(Of T)
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IBuiltIn`1.BuiltIn
+  name: BuiltIn
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IBuiltIn-1.html#Niacomsoft_Eips_Data_Entity_Fields_IBuiltIn_1_BuiltIn
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IBuiltIn`1.BuiltIn
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IBuiltIn<T>.BuiltIn
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IBuiltIn(Of T).BuiltIn
+  nameWithType: IBuiltIn<T>.BuiltIn
+  nameWithType.vb: IBuiltIn(Of T).BuiltIn
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IBuiltIn`1.BuiltIn*
+  name: BuiltIn
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IBuiltIn-1.html#Niacomsoft_Eips_Data_Entity_Fields_IBuiltIn_1_BuiltIn_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IBuiltIn`1.BuiltIn
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IBuiltIn<T>.BuiltIn
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IBuiltIn(Of T).BuiltIn
+  nameWithType: IBuiltIn<T>.BuiltIn
+  nameWithType.vb: IBuiltIn(Of T).BuiltIn
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IBuiltIn`1.NotBuiltIn
+  name: NotBuiltIn
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IBuiltIn-1.html#Niacomsoft_Eips_Data_Entity_Fields_IBuiltIn_1_NotBuiltIn
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IBuiltIn`1.NotBuiltIn
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IBuiltIn<T>.NotBuiltIn
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IBuiltIn(Of T).NotBuiltIn
+  nameWithType: IBuiltIn<T>.NotBuiltIn
+  nameWithType.vb: IBuiltIn(Of T).NotBuiltIn
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IBuiltIn`1.NotBuiltIn*
+  name: NotBuiltIn
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IBuiltIn-1.html#Niacomsoft_Eips_Data_Entity_Fields_IBuiltIn_1_NotBuiltIn_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IBuiltIn`1.NotBuiltIn
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IBuiltIn<T>.NotBuiltIn
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IBuiltIn(Of T).NotBuiltIn
+  nameWithType: IBuiltIn<T>.NotBuiltIn
+  nameWithType.vb: IBuiltIn(Of T).NotBuiltIn
+- uid: Niacomsoft.Eips.Data.Entity.Fields.ICreatedBy`1
+  name: ICreatedBy<T>
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.ICreatedBy-1.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.Fields.ICreatedBy`1
+  name.vb: ICreatedBy(Of T)
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.ICreatedBy<T>
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.ICreatedBy(Of T)
+  nameWithType: ICreatedBy<T>
+  nameWithType.vb: ICreatedBy(Of T)
+- uid: Niacomsoft.Eips.Data.Entity.Fields.ICreatedBy`1.Creator
+  name: Creator
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.ICreatedBy-1.html#Niacomsoft_Eips_Data_Entity_Fields_ICreatedBy_1_Creator
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.ICreatedBy`1.Creator
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.ICreatedBy<T>.Creator
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.ICreatedBy(Of T).Creator
+  nameWithType: ICreatedBy<T>.Creator
+  nameWithType.vb: ICreatedBy(Of T).Creator
+- uid: Niacomsoft.Eips.Data.Entity.Fields.ICreatedBy`1.Creator*
+  name: Creator
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.ICreatedBy-1.html#Niacomsoft_Eips_Data_Entity_Fields_ICreatedBy_1_Creator_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.ICreatedBy`1.Creator
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.ICreatedBy<T>.Creator
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.ICreatedBy(Of T).Creator
+  nameWithType: ICreatedBy<T>.Creator
+  nameWithType.vb: ICreatedBy(Of T).Creator
+- uid: Niacomsoft.Eips.Data.Entity.Fields.ICreatedBy`1.CreatorId
+  name: CreatorId
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.ICreatedBy-1.html#Niacomsoft_Eips_Data_Entity_Fields_ICreatedBy_1_CreatorId
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.ICreatedBy`1.CreatorId
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.ICreatedBy<T>.CreatorId
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.ICreatedBy(Of T).CreatorId
+  nameWithType: ICreatedBy<T>.CreatorId
+  nameWithType.vb: ICreatedBy(Of T).CreatorId
+- uid: Niacomsoft.Eips.Data.Entity.Fields.ICreatedBy`1.CreatorId*
+  name: CreatorId
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.ICreatedBy-1.html#Niacomsoft_Eips_Data_Entity_Fields_ICreatedBy_1_CreatorId_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.ICreatedBy`1.CreatorId
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.ICreatedBy<T>.CreatorId
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.ICreatedBy(Of T).CreatorId
+  nameWithType: ICreatedBy<T>.CreatorId
+  nameWithType.vb: ICreatedBy(Of T).CreatorId
+- uid: Niacomsoft.Eips.Data.Entity.Fields.ICreatedTime
+  name: ICreatedTime
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.ICreatedTime.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.Fields.ICreatedTime
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.ICreatedTime
+  nameWithType: ICreatedTime
+- uid: Niacomsoft.Eips.Data.Entity.Fields.ICreatedTime.CreatedTime
+  name: CreatedTime
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.ICreatedTime.html#Niacomsoft_Eips_Data_Entity_Fields_ICreatedTime_CreatedTime
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.ICreatedTime.CreatedTime
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.ICreatedTime.CreatedTime
+  nameWithType: ICreatedTime.CreatedTime
+- uid: Niacomsoft.Eips.Data.Entity.Fields.ICreatedTime.CreatedTime*
+  name: CreatedTime
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.ICreatedTime.html#Niacomsoft_Eips_Data_Entity_Fields_ICreatedTime_CreatedTime_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.ICreatedTime.CreatedTime
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.ICreatedTime.CreatedTime
+  nameWithType: ICreatedTime.CreatedTime
+- uid: Niacomsoft.Eips.Data.Entity.Fields.ICreatedTime.CreatedTimeDescription
+  name: CreatedTimeDescription
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.ICreatedTime.html#Niacomsoft_Eips_Data_Entity_Fields_ICreatedTime_CreatedTimeDescription
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.ICreatedTime.CreatedTimeDescription
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.ICreatedTime.CreatedTimeDescription
+  nameWithType: ICreatedTime.CreatedTimeDescription
+- uid: Niacomsoft.Eips.Data.Entity.Fields.ICreatedTime.CreatedTimeDescription*
+  name: CreatedTimeDescription
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.ICreatedTime.html#Niacomsoft_Eips_Data_Entity_Fields_ICreatedTime_CreatedTimeDescription_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.ICreatedTime.CreatedTimeDescription
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.ICreatedTime.CreatedTimeDescription
+  nameWithType: ICreatedTime.CreatedTimeDescription
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IDefaultOptions`1
+  name: IDefaultOptions<T>
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IDefaultOptions-1.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.Fields.IDefaultOptions`1
+  name.vb: IDefaultOptions(Of T)
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IDefaultOptions<T>
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IDefaultOptions(Of T)
+  nameWithType: IDefaultOptions<T>
+  nameWithType.vb: IDefaultOptions(Of T)
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IDefaultOptions`1.Default
+  name: Default
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IDefaultOptions-1.html#Niacomsoft_Eips_Data_Entity_Fields_IDefaultOptions_1_Default
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IDefaultOptions`1.Default
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IDefaultOptions<T>.Default
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IDefaultOptions(Of T).Default
+  nameWithType: IDefaultOptions<T>.Default
+  nameWithType.vb: IDefaultOptions(Of T).Default
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IDefaultOptions`1.Default*
+  name: Default
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IDefaultOptions-1.html#Niacomsoft_Eips_Data_Entity_Fields_IDefaultOptions_1_Default_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IDefaultOptions`1.Default
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IDefaultOptions<T>.Default
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IDefaultOptions(Of T).Default
+  nameWithType: IDefaultOptions<T>.Default
+  nameWithType.vb: IDefaultOptions(Of T).Default
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IEnabled`1
+  name: IEnabled<T>
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IEnabled-1.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.Fields.IEnabled`1
+  name.vb: IEnabled(Of T)
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IEnabled<T>
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IEnabled(Of T)
+  nameWithType: IEnabled<T>
+  nameWithType.vb: IEnabled(Of T)
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IEnabled`1.Disable
+  name: Disable
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IEnabled-1.html#Niacomsoft_Eips_Data_Entity_Fields_IEnabled_1_Disable
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IEnabled`1.Disable
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IEnabled<T>.Disable
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IEnabled(Of T).Disable
+  nameWithType: IEnabled<T>.Disable
+  nameWithType.vb: IEnabled(Of T).Disable
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IEnabled`1.Disable*
+  name: Disable
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IEnabled-1.html#Niacomsoft_Eips_Data_Entity_Fields_IEnabled_1_Disable_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IEnabled`1.Disable
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IEnabled<T>.Disable
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IEnabled(Of T).Disable
+  nameWithType: IEnabled<T>.Disable
+  nameWithType.vb: IEnabled(Of T).Disable
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IEnabled`1.Enable
+  name: Enable
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IEnabled-1.html#Niacomsoft_Eips_Data_Entity_Fields_IEnabled_1_Enable
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IEnabled`1.Enable
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IEnabled<T>.Enable
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IEnabled(Of T).Enable
+  nameWithType: IEnabled<T>.Enable
+  nameWithType.vb: IEnabled(Of T).Enable
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IEnabled`1.Enable*
+  name: Enable
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IEnabled-1.html#Niacomsoft_Eips_Data_Entity_Fields_IEnabled_1_Enable_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IEnabled`1.Enable
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IEnabled<T>.Enable
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IEnabled(Of T).Enable
+  nameWithType: IEnabled<T>.Enable
+  nameWithType.vb: IEnabled(Of T).Enable
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IFrozen`1
+  name: IFrozen<T>
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IFrozen-1.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.Fields.IFrozen`1
+  name.vb: IFrozen(Of T)
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IFrozen<T>
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IFrozen(Of T)
+  nameWithType: IFrozen<T>
+  nameWithType.vb: IFrozen(Of T)
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IFrozen`1.Frozen
+  name: Frozen
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IFrozen-1.html#Niacomsoft_Eips_Data_Entity_Fields_IFrozen_1_Frozen
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IFrozen`1.Frozen
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IFrozen<T>.Frozen
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IFrozen(Of T).Frozen
+  nameWithType: IFrozen<T>.Frozen
+  nameWithType.vb: IFrozen(Of T).Frozen
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IFrozen`1.Frozen*
+  name: Frozen
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IFrozen-1.html#Niacomsoft_Eips_Data_Entity_Fields_IFrozen_1_Frozen_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IFrozen`1.Frozen
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IFrozen<T>.Frozen
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IFrozen(Of T).Frozen
+  nameWithType: IFrozen<T>.Frozen
+  nameWithType.vb: IFrozen(Of T).Frozen
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IFrozen`1.Unfrozen
+  name: Unfrozen
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IFrozen-1.html#Niacomsoft_Eips_Data_Entity_Fields_IFrozen_1_Unfrozen
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IFrozen`1.Unfrozen
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IFrozen<T>.Unfrozen
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IFrozen(Of T).Unfrozen
+  nameWithType: IFrozen<T>.Unfrozen
+  nameWithType.vb: IFrozen(Of T).Unfrozen
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IFrozen`1.Unfrozen*
+  name: Unfrozen
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IFrozen-1.html#Niacomsoft_Eips_Data_Entity_Fields_IFrozen_1_Unfrozen_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IFrozen`1.Unfrozen
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IFrozen<T>.Unfrozen
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IFrozen(Of T).Unfrozen
+  nameWithType: IFrozen<T>.Unfrozen
+  nameWithType.vb: IFrozen(Of T).Unfrozen
+- uid: Niacomsoft.Eips.Data.Entity.Fields.ILocked`1
+  name: ILocked<T>
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.ILocked-1.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.Fields.ILocked`1
+  name.vb: ILocked(Of T)
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.ILocked<T>
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.ILocked(Of T)
+  nameWithType: ILocked<T>
+  nameWithType.vb: ILocked(Of T)
+- uid: Niacomsoft.Eips.Data.Entity.Fields.ILocked`1.Locked
+  name: Locked
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.ILocked-1.html#Niacomsoft_Eips_Data_Entity_Fields_ILocked_1_Locked
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.ILocked`1.Locked
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.ILocked<T>.Locked
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.ILocked(Of T).Locked
+  nameWithType: ILocked<T>.Locked
+  nameWithType.vb: ILocked(Of T).Locked
+- uid: Niacomsoft.Eips.Data.Entity.Fields.ILocked`1.Locked*
+  name: Locked
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.ILocked-1.html#Niacomsoft_Eips_Data_Entity_Fields_ILocked_1_Locked_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.ILocked`1.Locked
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.ILocked<T>.Locked
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.ILocked(Of T).Locked
+  nameWithType: ILocked<T>.Locked
+  nameWithType.vb: ILocked(Of T).Locked
+- uid: Niacomsoft.Eips.Data.Entity.Fields.ILocked`1.Unlock
+  name: Unlock
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.ILocked-1.html#Niacomsoft_Eips_Data_Entity_Fields_ILocked_1_Unlock
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.ILocked`1.Unlock
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.ILocked<T>.Unlock
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.ILocked(Of T).Unlock
+  nameWithType: ILocked<T>.Unlock
+  nameWithType.vb: ILocked(Of T).Unlock
+- uid: Niacomsoft.Eips.Data.Entity.Fields.ILocked`1.Unlock*
+  name: Unlock
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.ILocked-1.html#Niacomsoft_Eips_Data_Entity_Fields_ILocked_1_Unlock_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.ILocked`1.Unlock
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.ILocked<T>.Unlock
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.ILocked(Of T).Unlock
+  nameWithType: ILocked<T>.Unlock
+  nameWithType.vb: ILocked(Of T).Unlock
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IModifiedBy`1
+  name: IModifiedBy<T>
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IModifiedBy-1.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.Fields.IModifiedBy`1
+  name.vb: IModifiedBy(Of T)
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IModifiedBy<T>
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IModifiedBy(Of T)
+  nameWithType: IModifiedBy<T>
+  nameWithType.vb: IModifiedBy(Of T)
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IModifiedBy`1.LatestModifier
+  name: LatestModifier
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IModifiedBy-1.html#Niacomsoft_Eips_Data_Entity_Fields_IModifiedBy_1_LatestModifier
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IModifiedBy`1.LatestModifier
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IModifiedBy<T>.LatestModifier
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IModifiedBy(Of T).LatestModifier
+  nameWithType: IModifiedBy<T>.LatestModifier
+  nameWithType.vb: IModifiedBy(Of T).LatestModifier
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IModifiedBy`1.LatestModifier*
+  name: LatestModifier
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IModifiedBy-1.html#Niacomsoft_Eips_Data_Entity_Fields_IModifiedBy_1_LatestModifier_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IModifiedBy`1.LatestModifier
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IModifiedBy<T>.LatestModifier
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IModifiedBy(Of T).LatestModifier
+  nameWithType: IModifiedBy<T>.LatestModifier
+  nameWithType.vb: IModifiedBy(Of T).LatestModifier
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IModifiedBy`1.LatestModifierId
+  name: LatestModifierId
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IModifiedBy-1.html#Niacomsoft_Eips_Data_Entity_Fields_IModifiedBy_1_LatestModifierId
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IModifiedBy`1.LatestModifierId
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IModifiedBy<T>.LatestModifierId
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IModifiedBy(Of T).LatestModifierId
+  nameWithType: IModifiedBy<T>.LatestModifierId
+  nameWithType.vb: IModifiedBy(Of T).LatestModifierId
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IModifiedBy`1.LatestModifierId*
+  name: LatestModifierId
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IModifiedBy-1.html#Niacomsoft_Eips_Data_Entity_Fields_IModifiedBy_1_LatestModifierId_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IModifiedBy`1.LatestModifierId
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IModifiedBy<T>.LatestModifierId
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IModifiedBy(Of T).LatestModifierId
+  nameWithType: IModifiedBy<T>.LatestModifierId
+  nameWithType.vb: IModifiedBy(Of T).LatestModifierId
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IModifiedTime
+  name: IModifiedTime
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IModifiedTime.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.Fields.IModifiedTime
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IModifiedTime
+  nameWithType: IModifiedTime
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IModifiedTime.IsModified
+  name: IsModified
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IModifiedTime.html#Niacomsoft_Eips_Data_Entity_Fields_IModifiedTime_IsModified
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IModifiedTime.IsModified
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IModifiedTime.IsModified
+  nameWithType: IModifiedTime.IsModified
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IModifiedTime.IsModified*
+  name: IsModified
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IModifiedTime.html#Niacomsoft_Eips_Data_Entity_Fields_IModifiedTime_IsModified_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IModifiedTime.IsModified
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IModifiedTime.IsModified
+  nameWithType: IModifiedTime.IsModified
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IModifiedTime.LatestModifiedTime
+  name: LatestModifiedTime
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IModifiedTime.html#Niacomsoft_Eips_Data_Entity_Fields_IModifiedTime_LatestModifiedTime
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IModifiedTime.LatestModifiedTime
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IModifiedTime.LatestModifiedTime
+  nameWithType: IModifiedTime.LatestModifiedTime
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IModifiedTime.LatestModifiedTime*
+  name: LatestModifiedTime
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IModifiedTime.html#Niacomsoft_Eips_Data_Entity_Fields_IModifiedTime_LatestModifiedTime_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IModifiedTime.LatestModifiedTime
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IModifiedTime.LatestModifiedTime
+  nameWithType: IModifiedTime.LatestModifiedTime
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IModifiedTime.LatestModifiedTimeDescription
+  name: LatestModifiedTimeDescription
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IModifiedTime.html#Niacomsoft_Eips_Data_Entity_Fields_IModifiedTime_LatestModifiedTimeDescription
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IModifiedTime.LatestModifiedTimeDescription
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IModifiedTime.LatestModifiedTimeDescription
+  nameWithType: IModifiedTime.LatestModifiedTimeDescription
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IModifiedTime.LatestModifiedTimeDescription*
+  name: LatestModifiedTimeDescription
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IModifiedTime.html#Niacomsoft_Eips_Data_Entity_Fields_IModifiedTime_LatestModifiedTimeDescription_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IModifiedTime.LatestModifiedTimeDescription
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IModifiedTime.LatestModifiedTimeDescription
+  nameWithType: IModifiedTime.LatestModifiedTimeDescription
+- uid: Niacomsoft.Eips.Data.Entity.Fields.INotes
+  name: INotes
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.INotes.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.Fields.INotes
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.INotes
+  nameWithType: INotes
+- uid: Niacomsoft.Eips.Data.Entity.Fields.INotes.Notes
+  name: Notes
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.INotes.html#Niacomsoft_Eips_Data_Entity_Fields_INotes_Notes
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.INotes.Notes
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.INotes.Notes
+  nameWithType: INotes.Notes
+- uid: Niacomsoft.Eips.Data.Entity.Fields.INotes.Notes*
+  name: Notes
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.INotes.html#Niacomsoft_Eips_Data_Entity_Fields_INotes_Notes_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.INotes.Notes
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.INotes.Notes
+  nameWithType: INotes.Notes
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IOpenId`1
+  name: IOpenId<T>
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IOpenId-1.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.Fields.IOpenId`1
+  name.vb: IOpenId(Of T)
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IOpenId<T>
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IOpenId(Of T)
+  nameWithType: IOpenId<T>
+  nameWithType.vb: IOpenId(Of T)
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IOpenId`1.OpenId
+  name: OpenId
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IOpenId-1.html#Niacomsoft_Eips_Data_Entity_Fields_IOpenId_1_OpenId
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IOpenId`1.OpenId
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IOpenId<T>.OpenId
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IOpenId(Of T).OpenId
+  nameWithType: IOpenId<T>.OpenId
+  nameWithType.vb: IOpenId(Of T).OpenId
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IOpenId`1.OpenId*
+  name: OpenId
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IOpenId-1.html#Niacomsoft_Eips_Data_Entity_Fields_IOpenId_1_OpenId_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IOpenId`1.OpenId
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IOpenId<T>.OpenId
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IOpenId(Of T).OpenId
+  nameWithType: IOpenId<T>.OpenId
+  nameWithType.vb: IOpenId(Of T).OpenId
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IReadOnly`1
+  name: IReadOnly<T>
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IReadOnly-1.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.Fields.IReadOnly`1
+  name.vb: IReadOnly(Of T)
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IReadOnly<T>
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IReadOnly(Of T)
+  nameWithType: IReadOnly<T>
+  nameWithType.vb: IReadOnly(Of T)
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IReadOnly`1.ReadOnly
+  name: ReadOnly
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IReadOnly-1.html#Niacomsoft_Eips_Data_Entity_Fields_IReadOnly_1_ReadOnly
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IReadOnly`1.ReadOnly
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IReadOnly<T>.ReadOnly
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IReadOnly(Of T).ReadOnly
+  nameWithType: IReadOnly<T>.ReadOnly
+  nameWithType.vb: IReadOnly(Of T).ReadOnly
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IReadOnly`1.ReadOnly*
+  name: ReadOnly
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IReadOnly-1.html#Niacomsoft_Eips_Data_Entity_Fields_IReadOnly_1_ReadOnly_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IReadOnly`1.ReadOnly
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IReadOnly<T>.ReadOnly
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IReadOnly(Of T).ReadOnly
+  nameWithType: IReadOnly<T>.ReadOnly
+  nameWithType.vb: IReadOnly(Of T).ReadOnly
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IReadOnly`1.Writable
+  name: Writable
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IReadOnly-1.html#Niacomsoft_Eips_Data_Entity_Fields_IReadOnly_1_Writable
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IReadOnly`1.Writable
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IReadOnly<T>.Writable
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IReadOnly(Of T).Writable
+  nameWithType: IReadOnly<T>.Writable
+  nameWithType.vb: IReadOnly(Of T).Writable
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IReadOnly`1.Writable*
+  name: Writable
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IReadOnly-1.html#Niacomsoft_Eips_Data_Entity_Fields_IReadOnly_1_Writable_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IReadOnly`1.Writable
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IReadOnly<T>.Writable
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IReadOnly(Of T).Writable
+  nameWithType: IReadOnly<T>.Writable
+  nameWithType.vb: IReadOnly(Of T).Writable
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IRemoved`1
+  name: IRemoved<T>
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IRemoved-1.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.Fields.IRemoved`1
+  name.vb: IRemoved(Of T)
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IRemoved<T>
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IRemoved(Of T)
+  nameWithType: IRemoved<T>
+  nameWithType.vb: IRemoved(Of T)
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IRemoved`1.AllowRestore
+  name: AllowRestore
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IRemoved-1.html#Niacomsoft_Eips_Data_Entity_Fields_IRemoved_1_AllowRestore
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IRemoved`1.AllowRestore
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IRemoved<T>.AllowRestore
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IRemoved(Of T).AllowRestore
+  nameWithType: IRemoved<T>.AllowRestore
+  nameWithType.vb: IRemoved(Of T).AllowRestore
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IRemoved`1.AllowRestore*
+  name: AllowRestore
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IRemoved-1.html#Niacomsoft_Eips_Data_Entity_Fields_IRemoved_1_AllowRestore_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IRemoved`1.AllowRestore
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IRemoved<T>.AllowRestore
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IRemoved(Of T).AllowRestore
+  nameWithType: IRemoved<T>.AllowRestore
+  nameWithType.vb: IRemoved(Of T).AllowRestore
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IRemoved`1.HasRemoved
+  name: HasRemoved
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IRemoved-1.html#Niacomsoft_Eips_Data_Entity_Fields_IRemoved_1_HasRemoved
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IRemoved`1.HasRemoved
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IRemoved<T>.HasRemoved
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IRemoved(Of T).HasRemoved
+  nameWithType: IRemoved<T>.HasRemoved
+  nameWithType.vb: IRemoved(Of T).HasRemoved
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IRemoved`1.HasRemoved*
+  name: HasRemoved
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IRemoved-1.html#Niacomsoft_Eips_Data_Entity_Fields_IRemoved_1_HasRemoved_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IRemoved`1.HasRemoved
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IRemoved<T>.HasRemoved
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IRemoved(Of T).HasRemoved
+  nameWithType: IRemoved<T>.HasRemoved
+  nameWithType.vb: IRemoved(Of T).HasRemoved
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IRemoved`1.Normal
+  name: Normal
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IRemoved-1.html#Niacomsoft_Eips_Data_Entity_Fields_IRemoved_1_Normal
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IRemoved`1.Normal
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IRemoved<T>.Normal
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IRemoved(Of T).Normal
+  nameWithType: IRemoved<T>.Normal
+  nameWithType.vb: IRemoved(Of T).Normal
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IRemoved`1.Normal*
+  name: Normal
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IRemoved-1.html#Niacomsoft_Eips_Data_Entity_Fields_IRemoved_1_Normal_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IRemoved`1.Normal
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IRemoved<T>.Normal
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IRemoved(Of T).Normal
+  nameWithType: IRemoved<T>.Normal
+  nameWithType.vb: IRemoved(Of T).Normal
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IRemoved`1.PhysicalDeleted
+  name: PhysicalDeleted
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IRemoved-1.html#Niacomsoft_Eips_Data_Entity_Fields_IRemoved_1_PhysicalDeleted
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IRemoved`1.PhysicalDeleted
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IRemoved<T>.PhysicalDeleted
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IRemoved(Of T).PhysicalDeleted
+  nameWithType: IRemoved<T>.PhysicalDeleted
+  nameWithType.vb: IRemoved(Of T).PhysicalDeleted
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IRemoved`1.PhysicalDeleted*
+  name: PhysicalDeleted
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IRemoved-1.html#Niacomsoft_Eips_Data_Entity_Fields_IRemoved_1_PhysicalDeleted_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IRemoved`1.PhysicalDeleted
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IRemoved<T>.PhysicalDeleted
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IRemoved(Of T).PhysicalDeleted
+  nameWithType: IRemoved<T>.PhysicalDeleted
+  nameWithType.vb: IRemoved(Of T).PhysicalDeleted
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IRequired`1
+  name: IRequired<T>
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IRequired-1.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.Fields.IRequired`1
+  name.vb: IRequired(Of T)
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IRequired<T>
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IRequired(Of T)
+  nameWithType: IRequired<T>
+  nameWithType.vb: IRequired(Of T)
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IRequired`1.Optional
+  name: Optional
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IRequired-1.html#Niacomsoft_Eips_Data_Entity_Fields_IRequired_1_Optional
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IRequired`1.Optional
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IRequired<T>.Optional
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IRequired(Of T).Optional
+  nameWithType: IRequired<T>.Optional
+  nameWithType.vb: IRequired(Of T).Optional
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IRequired`1.Optional*
+  name: Optional
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IRequired-1.html#Niacomsoft_Eips_Data_Entity_Fields_IRequired_1_Optional_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IRequired`1.Optional
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IRequired<T>.Optional
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IRequired(Of T).Optional
+  nameWithType: IRequired<T>.Optional
+  nameWithType.vb: IRequired(Of T).Optional
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IRequired`1.Required
+  name: Required
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IRequired-1.html#Niacomsoft_Eips_Data_Entity_Fields_IRequired_1_Required
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IRequired`1.Required
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IRequired<T>.Required
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IRequired(Of T).Required
+  nameWithType: IRequired<T>.Required
+  nameWithType.vb: IRequired(Of T).Required
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IRequired`1.Required*
+  name: Required
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IRequired-1.html#Niacomsoft_Eips_Data_Entity_Fields_IRequired_1_Required_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IRequired`1.Required
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IRequired<T>.Required
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IRequired(Of T).Required
+  nameWithType: IRequired<T>.Required
+  nameWithType.vb: IRequired(Of T).Required
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IUniqueId`1
+  name: IUniqueId<T>
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IUniqueId-1.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.Fields.IUniqueId`1
+  name.vb: IUniqueId(Of T)
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IUniqueId<T>
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IUniqueId(Of T)
+  nameWithType: IUniqueId<T>
+  nameWithType.vb: IUniqueId(Of T)
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IUniqueId`1.Id
+  name: Id
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IUniqueId-1.html#Niacomsoft_Eips_Data_Entity_Fields_IUniqueId_1_Id
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IUniqueId`1.Id
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IUniqueId<T>.Id
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IUniqueId(Of T).Id
+  nameWithType: IUniqueId<T>.Id
+  nameWithType.vb: IUniqueId(Of T).Id
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IUniqueId`1.Id*
+  name: Id
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IUniqueId-1.html#Niacomsoft_Eips_Data_Entity_Fields_IUniqueId_1_Id_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IUniqueId`1.Id
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IUniqueId<T>.Id
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IUniqueId(Of T).Id
+  nameWithType: IUniqueId<T>.Id
+  nameWithType.vb: IUniqueId(Of T).Id
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IVersionNumber
+  name: IVersionNumber
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IVersionNumber.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.Fields.IVersionNumber
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IVersionNumber
+  nameWithType: IVersionNumber
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IVersionNumber.Version
+  name: Version
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IVersionNumber.html#Niacomsoft_Eips_Data_Entity_Fields_IVersionNumber_Version
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IVersionNumber.Version
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IVersionNumber.Version
+  nameWithType: IVersionNumber.Version
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IVersionNumber.Version*
+  name: Version
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IVersionNumber.html#Niacomsoft_Eips_Data_Entity_Fields_IVersionNumber_Version_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IVersionNumber.Version
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IVersionNumber.Version
+  nameWithType: IVersionNumber.Version
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IVirtual`1
+  name: IVirtual<T>
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IVirtual-1.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.Fields.IVirtual`1
+  name.vb: IVirtual(Of T)
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IVirtual<T>
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IVirtual(Of T)
+  nameWithType: IVirtual<T>
+  nameWithType.vb: IVirtual(Of T)
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IVirtual`1.NotVirtual
+  name: NotVirtual
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IVirtual-1.html#Niacomsoft_Eips_Data_Entity_Fields_IVirtual_1_NotVirtual
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IVirtual`1.NotVirtual
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IVirtual<T>.NotVirtual
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IVirtual(Of T).NotVirtual
+  nameWithType: IVirtual<T>.NotVirtual
+  nameWithType.vb: IVirtual(Of T).NotVirtual
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IVirtual`1.NotVirtual*
+  name: NotVirtual
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IVirtual-1.html#Niacomsoft_Eips_Data_Entity_Fields_IVirtual_1_NotVirtual_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IVirtual`1.NotVirtual
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IVirtual<T>.NotVirtual
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IVirtual(Of T).NotVirtual
+  nameWithType: IVirtual<T>.NotVirtual
+  nameWithType.vb: IVirtual(Of T).NotVirtual
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IVirtual`1.Virtual
+  name: Virtual
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IVirtual-1.html#Niacomsoft_Eips_Data_Entity_Fields_IVirtual_1_Virtual
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IVirtual`1.Virtual
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IVirtual<T>.Virtual
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IVirtual(Of T).Virtual
+  nameWithType: IVirtual<T>.Virtual
+  nameWithType.vb: IVirtual(Of T).Virtual
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IVirtual`1.Virtual*
+  name: Virtual
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IVirtual-1.html#Niacomsoft_Eips_Data_Entity_Fields_IVirtual_1_Virtual_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IVirtual`1.Virtual
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IVirtual<T>.Virtual
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IVirtual(Of T).Virtual
+  nameWithType: IVirtual<T>.Virtual
+  nameWithType.vb: IVirtual(Of T).Virtual
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IVisibility`1
+  name: IVisibility<T>
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IVisibility-1.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.Fields.IVisibility`1
+  name.vb: IVisibility(Of T)
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IVisibility<T>
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IVisibility(Of T)
+  nameWithType: IVisibility<T>
+  nameWithType.vb: IVisibility(Of T)
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IVisibility`1.Hidden
+  name: Hidden
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IVisibility-1.html#Niacomsoft_Eips_Data_Entity_Fields_IVisibility_1_Hidden
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IVisibility`1.Hidden
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IVisibility<T>.Hidden
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IVisibility(Of T).Hidden
+  nameWithType: IVisibility<T>.Hidden
+  nameWithType.vb: IVisibility(Of T).Hidden
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IVisibility`1.Hidden*
+  name: Hidden
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IVisibility-1.html#Niacomsoft_Eips_Data_Entity_Fields_IVisibility_1_Hidden_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IVisibility`1.Hidden
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IVisibility<T>.Hidden
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IVisibility(Of T).Hidden
+  nameWithType: IVisibility<T>.Hidden
+  nameWithType.vb: IVisibility(Of T).Hidden
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IVisibility`1.Visible
+  name: Visible
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IVisibility-1.html#Niacomsoft_Eips_Data_Entity_Fields_IVisibility_1_Visible
+  commentId: P:Niacomsoft.Eips.Data.Entity.Fields.IVisibility`1.Visible
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IVisibility<T>.Visible
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IVisibility(Of T).Visible
+  nameWithType: IVisibility<T>.Visible
+  nameWithType.vb: IVisibility(Of T).Visible
+- uid: Niacomsoft.Eips.Data.Entity.Fields.IVisibility`1.Visible*
+  name: Visible
+  href: api/Niacomsoft.Eips.Data.Entity.Fields.IVisibility-1.html#Niacomsoft_Eips_Data_Entity_Fields_IVisibility_1_Visible_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Fields.IVisibility`1.Visible
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Fields.IVisibility<T>.Visible
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Fields.IVisibility(Of T).Visible
+  nameWithType: IVisibility<T>.Visible
+  nameWithType.vb: IVisibility(Of T).Visible
+- uid: Niacomsoft.Eips.Data.Entity.IDbResult
+  name: IDbResult
+  href: api/Niacomsoft.Eips.Data.Entity.IDbResult.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.IDbResult
+  fullName: Niacomsoft.Eips.Data.Entity.IDbResult
+  nameWithType: IDbResult
+- uid: Niacomsoft.Eips.Data.Entity.IDbResult.Completed
+  name: Completed
+  href: api/Niacomsoft.Eips.Data.Entity.IDbResult.html#Niacomsoft_Eips_Data_Entity_IDbResult_Completed
+  commentId: P:Niacomsoft.Eips.Data.Entity.IDbResult.Completed
+  fullName: Niacomsoft.Eips.Data.Entity.IDbResult.Completed
+  nameWithType: IDbResult.Completed
+- uid: Niacomsoft.Eips.Data.Entity.IDbResult.Completed*
+  name: Completed
+  href: api/Niacomsoft.Eips.Data.Entity.IDbResult.html#Niacomsoft_Eips_Data_Entity_IDbResult_Completed_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.IDbResult.Completed
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.IDbResult.Completed
+  nameWithType: IDbResult.Completed
+- uid: Niacomsoft.Eips.Data.Entity.IDbResult.ExecutionException
+  name: ExecutionException
+  href: api/Niacomsoft.Eips.Data.Entity.IDbResult.html#Niacomsoft_Eips_Data_Entity_IDbResult_ExecutionException
+  commentId: P:Niacomsoft.Eips.Data.Entity.IDbResult.ExecutionException
+  fullName: Niacomsoft.Eips.Data.Entity.IDbResult.ExecutionException
+  nameWithType: IDbResult.ExecutionException
+- uid: Niacomsoft.Eips.Data.Entity.IDbResult.ExecutionException*
+  name: ExecutionException
+  href: api/Niacomsoft.Eips.Data.Entity.IDbResult.html#Niacomsoft_Eips_Data_Entity_IDbResult_ExecutionException_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.IDbResult.ExecutionException
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.IDbResult.ExecutionException
+  nameWithType: IDbResult.ExecutionException
+- uid: Niacomsoft.Eips.Data.Entity.IDbResult`1
+  name: IDbResult<T>
+  href: api/Niacomsoft.Eips.Data.Entity.IDbResult-1.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.IDbResult`1
+  name.vb: IDbResult(Of T)
+  fullName: Niacomsoft.Eips.Data.Entity.IDbResult<T>
+  fullName.vb: Niacomsoft.Eips.Data.Entity.IDbResult(Of T)
+  nameWithType: IDbResult<T>
+  nameWithType.vb: IDbResult(Of T)
+- uid: Niacomsoft.Eips.Data.Entity.IDbResult`1.Result
+  name: Result
+  href: api/Niacomsoft.Eips.Data.Entity.IDbResult-1.html#Niacomsoft_Eips_Data_Entity_IDbResult_1_Result
+  commentId: P:Niacomsoft.Eips.Data.Entity.IDbResult`1.Result
+  fullName: Niacomsoft.Eips.Data.Entity.IDbResult<T>.Result
+  fullName.vb: Niacomsoft.Eips.Data.Entity.IDbResult(Of T).Result
+  nameWithType: IDbResult<T>.Result
+  nameWithType.vb: IDbResult(Of T).Result
+- uid: Niacomsoft.Eips.Data.Entity.IDbResult`1.Result*
+  name: Result
+  href: api/Niacomsoft.Eips.Data.Entity.IDbResult-1.html#Niacomsoft_Eips_Data_Entity_IDbResult_1_Result_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.IDbResult`1.Result
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.IDbResult<T>.Result
+  fullName.vb: Niacomsoft.Eips.Data.Entity.IDbResult(Of T).Result
+  nameWithType: IDbResult<T>.Result
+  nameWithType.vb: IDbResult(Of T).Result
+- uid: Niacomsoft.Eips.Data.Entity.Queryable
+  name: Niacomsoft.Eips.Data.Entity.Queryable
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.html
+  commentId: N:Niacomsoft.Eips.Data.Entity.Queryable
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable
+  nameWithType: Niacomsoft.Eips.Data.Entity.Queryable
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.IPagedList`1
+  name: IPagedList<T>
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.IPagedList-1.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.Queryable.IPagedList`1
+  name.vb: IPagedList(Of T)
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.IPagedList<T>
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.IPagedList(Of T)
+  nameWithType: IPagedList<T>
+  nameWithType.vb: IPagedList(Of T)
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.IPagedList`1.Elements
+  name: Elements
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.IPagedList-1.html#Niacomsoft_Eips_Data_Entity_Queryable_IPagedList_1_Elements
+  commentId: P:Niacomsoft.Eips.Data.Entity.Queryable.IPagedList`1.Elements
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.IPagedList<T>.Elements
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.IPagedList(Of T).Elements
+  nameWithType: IPagedList<T>.Elements
+  nameWithType.vb: IPagedList(Of T).Elements
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.IPagedList`1.Elements*
+  name: Elements
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.IPagedList-1.html#Niacomsoft_Eips_Data_Entity_Queryable_IPagedList_1_Elements_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Queryable.IPagedList`1.Elements
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.IPagedList<T>.Elements
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.IPagedList(Of T).Elements
+  nameWithType: IPagedList<T>.Elements
+  nameWithType.vb: IPagedList(Of T).Elements
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.IPagedList`1.TotalElementsCount
+  name: TotalElementsCount
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.IPagedList-1.html#Niacomsoft_Eips_Data_Entity_Queryable_IPagedList_1_TotalElementsCount
+  commentId: P:Niacomsoft.Eips.Data.Entity.Queryable.IPagedList`1.TotalElementsCount
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.IPagedList<T>.TotalElementsCount
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.IPagedList(Of T).TotalElementsCount
+  nameWithType: IPagedList<T>.TotalElementsCount
+  nameWithType.vb: IPagedList(Of T).TotalElementsCount
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.IPagedList`1.TotalElementsCount*
+  name: TotalElementsCount
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.IPagedList-1.html#Niacomsoft_Eips_Data_Entity_Queryable_IPagedList_1_TotalElementsCount_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Queryable.IPagedList`1.TotalElementsCount
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.IPagedList<T>.TotalElementsCount
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.IPagedList(Of T).TotalElementsCount
+  nameWithType: IPagedList<T>.TotalElementsCount
+  nameWithType.vb: IPagedList(Of T).TotalElementsCount
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.IPagedParameter
+  name: IPagedParameter
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.IPagedParameter.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.Queryable.IPagedParameter
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.IPagedParameter
+  nameWithType: IPagedParameter
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.IPagedParameter.CurrentIndex
+  name: CurrentIndex
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.IPagedParameter.html#Niacomsoft_Eips_Data_Entity_Queryable_IPagedParameter_CurrentIndex
+  commentId: P:Niacomsoft.Eips.Data.Entity.Queryable.IPagedParameter.CurrentIndex
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.IPagedParameter.CurrentIndex
+  nameWithType: IPagedParameter.CurrentIndex
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.IPagedParameter.CurrentIndex*
+  name: CurrentIndex
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.IPagedParameter.html#Niacomsoft_Eips_Data_Entity_Queryable_IPagedParameter_CurrentIndex_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Queryable.IPagedParameter.CurrentIndex
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.IPagedParameter.CurrentIndex
+  nameWithType: IPagedParameter.CurrentIndex
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.IPagedParameter.PerPageSize
+  name: PerPageSize
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.IPagedParameter.html#Niacomsoft_Eips_Data_Entity_Queryable_IPagedParameter_PerPageSize
+  commentId: P:Niacomsoft.Eips.Data.Entity.Queryable.IPagedParameter.PerPageSize
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.IPagedParameter.PerPageSize
+  nameWithType: IPagedParameter.PerPageSize
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.IPagedParameter.PerPageSize*
+  name: PerPageSize
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.IPagedParameter.html#Niacomsoft_Eips_Data_Entity_Queryable_IPagedParameter_PerPageSize_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Queryable.IPagedParameter.PerPageSize
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.IPagedParameter.PerPageSize
+  nameWithType: IPagedParameter.PerPageSize
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.ISortParameter
+  name: ISortParameter
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.ISortParameter.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.Queryable.ISortParameter
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.ISortParameter
+  nameWithType: ISortParameter
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.ISortParameter.Fields
+  name: Fields
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.ISortParameter.html#Niacomsoft_Eips_Data_Entity_Queryable_ISortParameter_Fields
+  commentId: P:Niacomsoft.Eips.Data.Entity.Queryable.ISortParameter.Fields
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.ISortParameter.Fields
+  nameWithType: ISortParameter.Fields
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.ISortParameter.Fields*
+  name: Fields
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.ISortParameter.html#Niacomsoft_Eips_Data_Entity_Queryable_ISortParameter_Fields_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Queryable.ISortParameter.Fields
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.ISortParameter.Fields
+  nameWithType: ISortParameter.Fields
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.ISortParameter.Mode
+  name: Mode
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.ISortParameter.html#Niacomsoft_Eips_Data_Entity_Queryable_ISortParameter_Mode
+  commentId: P:Niacomsoft.Eips.Data.Entity.Queryable.ISortParameter.Mode
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.ISortParameter.Mode
+  nameWithType: ISortParameter.Mode
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.ISortParameter.Mode*
+  name: Mode
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.ISortParameter.html#Niacomsoft_Eips_Data_Entity_Queryable_ISortParameter_Mode_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Queryable.ISortParameter.Mode
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.ISortParameter.Mode
+  nameWithType: ISortParameter.Mode
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1
+  name: PagedList<T>
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedList-1.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1
+  name.vb: PagedList(Of T)
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedList<T>
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.PagedList(Of T)
+  nameWithType: PagedList<T>
+  nameWithType.vb: PagedList(Of T)
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.#ctor
+  name: PagedList()
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedList-1.html#Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1__ctor
+  commentId: M:Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.#ctor
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedList<T>.PagedList()
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.PagedList(Of T).PagedList()
+  nameWithType: PagedList<T>.PagedList()
+  nameWithType.vb: PagedList(Of T).PagedList()
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.#ctor(System.Collections.Generic.IEnumerable{`0})
+  name: PagedList(IEnumerable<T>)
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedList-1.html#Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1__ctor_System_Collections_Generic_IEnumerable__0__
+  commentId: M:Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.#ctor(System.Collections.Generic.IEnumerable{`0})
+  name.vb: PagedList(IEnumerable(Of T))
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedList<T>.PagedList(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.PagedList(Of T).PagedList(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: PagedList<T>.PagedList(IEnumerable<T>)
+  nameWithType.vb: PagedList(Of T).PagedList(IEnumerable(Of T))
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.#ctor(System.Collections.Generic.IEnumerable{`0},System.Int64)
+  name: PagedList(IEnumerable<T>, Int64)
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedList-1.html#Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1__ctor_System_Collections_Generic_IEnumerable__0__System_Int64_
+  commentId: M:Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.#ctor(System.Collections.Generic.IEnumerable{`0},System.Int64)
+  name.vb: PagedList(IEnumerable(Of T), Int64)
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedList<T>.PagedList(System.Collections.Generic.IEnumerable<T>, System.Int64)
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.PagedList(Of T).PagedList(System.Collections.Generic.IEnumerable(Of T), System.Int64)
+  nameWithType: PagedList<T>.PagedList(IEnumerable<T>, Int64)
+  nameWithType.vb: PagedList(Of T).PagedList(IEnumerable(Of T), Int64)
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.#ctor*
+  name: PagedList
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedList-1.html#Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1__ctor_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.#ctor
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedList<T>.PagedList
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.PagedList(Of T).PagedList
+  nameWithType: PagedList<T>.PagedList
+  nameWithType.vb: PagedList(Of T).PagedList
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.Elements
+  name: Elements
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedList-1.html#Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1_Elements
+  commentId: P:Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.Elements
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedList<T>.Elements
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.PagedList(Of T).Elements
+  nameWithType: PagedList<T>.Elements
+  nameWithType.vb: PagedList(Of T).Elements
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.Elements*
+  name: Elements
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedList-1.html#Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1_Elements_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.Elements
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedList<T>.Elements
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.PagedList(Of T).Elements
+  nameWithType: PagedList<T>.Elements
+  nameWithType.vb: PagedList(Of T).Elements
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.Niacomsoft#Eips#Data#Entity#Queryable#IPagedList{T}#Elements
+  name: IPagedList<T>.Elements
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedList-1.html#Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1_Niacomsoft_Eips_Data_Entity_Queryable_IPagedList_T__Elements
+  commentId: P:Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.Niacomsoft#Eips#Data#Entity#Queryable#IPagedList{T}#Elements
+  name.vb: Niacomsoft.Eips.Data.Entity.Queryable.IPagedList<T>.Elements
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedList<T>.Niacomsoft.Eips.Data.Entity.Queryable.IPagedList<T>.Elements
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.PagedList(Of T).Niacomsoft.Eips.Data.Entity.Queryable.IPagedList<T>.Elements
+  nameWithType: PagedList<T>.IPagedList<T>.Elements
+  nameWithType.vb: PagedList(Of T).Niacomsoft.Eips.Data.Entity.Queryable.IPagedList<T>.Elements
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.Niacomsoft#Eips#Data#Entity#Queryable#IPagedList{T}#Elements*
+  name: IPagedList<T>.Elements
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedList-1.html#Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1_Niacomsoft_Eips_Data_Entity_Queryable_IPagedList_T__Elements_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.Niacomsoft#Eips#Data#Entity#Queryable#IPagedList{T}#Elements
+  isSpec: "True"
+  name.vb: Niacomsoft.Eips.Data.Entity.Queryable.IPagedList<T>.Elements
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedList<T>.Niacomsoft.Eips.Data.Entity.Queryable.IPagedList<T>.Elements
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.PagedList(Of T).Niacomsoft.Eips.Data.Entity.Queryable.IPagedList<T>.Elements
+  nameWithType: PagedList<T>.IPagedList<T>.Elements
+  nameWithType.vb: PagedList(Of T).Niacomsoft.Eips.Data.Entity.Queryable.IPagedList<T>.Elements
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.TotalElementsCount
+  name: TotalElementsCount
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedList-1.html#Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1_TotalElementsCount
+  commentId: P:Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.TotalElementsCount
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedList<T>.TotalElementsCount
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.PagedList(Of T).TotalElementsCount
+  nameWithType: PagedList<T>.TotalElementsCount
+  nameWithType.vb: PagedList(Of T).TotalElementsCount
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.TotalElementsCount*
+  name: TotalElementsCount
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedList-1.html#Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1_TotalElementsCount_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.TotalElementsCount
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedList<T>.TotalElementsCount
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.PagedList(Of T).TotalElementsCount
+  nameWithType: PagedList<T>.TotalElementsCount
+  nameWithType.vb: PagedList(Of T).TotalElementsCount
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder`1
+  name: PagedListBuilder<T>
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder-1.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder`1
+  name.vb: PagedListBuilder(Of T)
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder<T>
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder(Of T)
+  nameWithType: PagedListBuilder<T>
+  nameWithType.vb: PagedListBuilder(Of T)
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder`1.#ctor
+  name: PagedListBuilder()
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder-1.html#Niacomsoft_Eips_Data_Entity_Queryable_PagedListBuilder_1__ctor
+  commentId: M:Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder`1.#ctor
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder<T>.PagedListBuilder()
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder(Of T).PagedListBuilder()
+  nameWithType: PagedListBuilder<T>.PagedListBuilder()
+  nameWithType.vb: PagedListBuilder(Of T).PagedListBuilder()
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder`1.#ctor*
+  name: PagedListBuilder
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder-1.html#Niacomsoft_Eips_Data_Entity_Queryable_PagedListBuilder_1__ctor_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder`1.#ctor
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder<T>.PagedListBuilder
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder(Of T).PagedListBuilder
+  nameWithType: PagedListBuilder<T>.PagedListBuilder
+  nameWithType.vb: PagedListBuilder(Of T).PagedListBuilder
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder`1.Build
+  name: Build()
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder-1.html#Niacomsoft_Eips_Data_Entity_Queryable_PagedListBuilder_1_Build
+  commentId: M:Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder`1.Build
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder<T>.Build()
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder(Of T).Build()
+  nameWithType: PagedListBuilder<T>.Build()
+  nameWithType.vb: PagedListBuilder(Of T).Build()
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder`1.Build*
+  name: Build
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder-1.html#Niacomsoft_Eips_Data_Entity_Queryable_PagedListBuilder_1_Build_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder`1.Build
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder<T>.Build
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder(Of T).Build
+  nameWithType: PagedListBuilder<T>.Build
+  nameWithType.vb: PagedListBuilder(Of T).Build
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder`1.Reset
+  name: Reset()
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder-1.html#Niacomsoft_Eips_Data_Entity_Queryable_PagedListBuilder_1_Reset
+  commentId: M:Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder`1.Reset
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder<T>.Reset()
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder(Of T).Reset()
+  nameWithType: PagedListBuilder<T>.Reset()
+  nameWithType.vb: PagedListBuilder(Of T).Reset()
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder`1.Reset*
+  name: Reset
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder-1.html#Niacomsoft_Eips_Data_Entity_Queryable_PagedListBuilder_1_Reset_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder`1.Reset
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder<T>.Reset
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder(Of T).Reset
+  nameWithType: PagedListBuilder<T>.Reset
+  nameWithType.vb: PagedListBuilder(Of T).Reset
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder`1.WithElements(System.Collections.Generic.IEnumerable{`0})
+  name: WithElements(IEnumerable<T>)
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder-1.html#Niacomsoft_Eips_Data_Entity_Queryable_PagedListBuilder_1_WithElements_System_Collections_Generic_IEnumerable__0__
+  commentId: M:Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder`1.WithElements(System.Collections.Generic.IEnumerable{`0})
+  name.vb: WithElements(IEnumerable(Of T))
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder<T>.WithElements(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder(Of T).WithElements(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: PagedListBuilder<T>.WithElements(IEnumerable<T>)
+  nameWithType.vb: PagedListBuilder(Of T).WithElements(IEnumerable(Of T))
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder`1.WithElements*
+  name: WithElements
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder-1.html#Niacomsoft_Eips_Data_Entity_Queryable_PagedListBuilder_1_WithElements_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder`1.WithElements
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder<T>.WithElements
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder(Of T).WithElements
+  nameWithType: PagedListBuilder<T>.WithElements
+  nameWithType.vb: PagedListBuilder(Of T).WithElements
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder`1.WithTotalElementsCount(System.Int64)
+  name: WithTotalElementsCount(Int64)
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder-1.html#Niacomsoft_Eips_Data_Entity_Queryable_PagedListBuilder_1_WithTotalElementsCount_System_Int64_
+  commentId: M:Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder`1.WithTotalElementsCount(System.Int64)
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder<T>.WithTotalElementsCount(System.Int64)
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder(Of T).WithTotalElementsCount(System.Int64)
+  nameWithType: PagedListBuilder<T>.WithTotalElementsCount(Int64)
+  nameWithType.vb: PagedListBuilder(Of T).WithTotalElementsCount(Int64)
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder`1.WithTotalElementsCount*
+  name: WithTotalElementsCount
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder-1.html#Niacomsoft_Eips_Data_Entity_Queryable_PagedListBuilder_1_WithTotalElementsCount_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder`1.WithTotalElementsCount
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder<T>.WithTotalElementsCount
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder(Of T).WithTotalElementsCount
+  nameWithType: PagedListBuilder<T>.WithTotalElementsCount
+  nameWithType.vb: PagedListBuilder(Of T).WithTotalElementsCount
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter
+  name: PagedParameter
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter
+  nameWithType: PagedParameter
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.#ctor
+  name: PagedParameter()
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.html#Niacomsoft_Eips_Data_Entity_Queryable_PagedParameter__ctor
+  commentId: M:Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.#ctor
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.PagedParameter()
+  nameWithType: PagedParameter.PagedParameter()
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.#ctor(System.Int32)
+  name: PagedParameter(Int32)
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.html#Niacomsoft_Eips_Data_Entity_Queryable_PagedParameter__ctor_System_Int32_
+  commentId: M:Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.#ctor(System.Int32)
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.PagedParameter(System.Int32)
+  nameWithType: PagedParameter.PagedParameter(Int32)
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.#ctor(System.Int32,System.Int32)
+  name: PagedParameter(Int32, Int32)
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.html#Niacomsoft_Eips_Data_Entity_Queryable_PagedParameter__ctor_System_Int32_System_Int32_
+  commentId: M:Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.#ctor(System.Int32,System.Int32)
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.PagedParameter(System.Int32, System.Int32)
+  nameWithType: PagedParameter.PagedParameter(Int32, Int32)
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.#ctor*
+  name: PagedParameter
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.html#Niacomsoft_Eips_Data_Entity_Queryable_PagedParameter__ctor_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.#ctor
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.PagedParameter
+  nameWithType: PagedParameter.PagedParameter
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.CurrentIndex
+  name: CurrentIndex
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.html#Niacomsoft_Eips_Data_Entity_Queryable_PagedParameter_CurrentIndex
+  commentId: P:Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.CurrentIndex
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.CurrentIndex
+  nameWithType: PagedParameter.CurrentIndex
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.CurrentIndex*
+  name: CurrentIndex
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.html#Niacomsoft_Eips_Data_Entity_Queryable_PagedParameter_CurrentIndex_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.CurrentIndex
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.CurrentIndex
+  nameWithType: PagedParameter.CurrentIndex
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.PerPageSize
+  name: PerPageSize
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.html#Niacomsoft_Eips_Data_Entity_Queryable_PagedParameter_PerPageSize
+  commentId: P:Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.PerPageSize
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.PerPageSize
+  nameWithType: PagedParameter.PerPageSize
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.PerPageSize*
+  name: PerPageSize
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.html#Niacomsoft_Eips_Data_Entity_Queryable_PagedParameter_PerPageSize_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.PerPageSize
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.PagedParameter.PerPageSize
+  nameWithType: PagedParameter.PerPageSize
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.SortMode
+  name: SortMode
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.SortMode.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.Queryable.SortMode
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.SortMode
+  nameWithType: SortMode
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.SortMode.Ascending
+  name: Ascending
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.SortMode.html#Niacomsoft_Eips_Data_Entity_Queryable_SortMode_Ascending
+  commentId: F:Niacomsoft.Eips.Data.Entity.Queryable.SortMode.Ascending
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.SortMode.Ascending
+  nameWithType: SortMode.Ascending
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.SortMode.Default
+  name: Default
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.SortMode.html#Niacomsoft_Eips_Data_Entity_Queryable_SortMode_Default
+  commentId: F:Niacomsoft.Eips.Data.Entity.Queryable.SortMode.Default
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.SortMode.Default
+  nameWithType: SortMode.Default
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.SortMode.Descending
+  name: Descending
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.SortMode.html#Niacomsoft_Eips_Data_Entity_Queryable_SortMode_Descending
+  commentId: F:Niacomsoft.Eips.Data.Entity.Queryable.SortMode.Descending
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.SortMode.Descending
+  nameWithType: SortMode.Descending
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.SortParameter
+  name: SortParameter
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.html
+  commentId: T:Niacomsoft.Eips.Data.Entity.Queryable.SortParameter
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.SortParameter
+  nameWithType: SortParameter
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.#ctor
+  name: SortParameter()
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.html#Niacomsoft_Eips_Data_Entity_Queryable_SortParameter__ctor
+  commentId: M:Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.#ctor
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.SortParameter()
+  nameWithType: SortParameter.SortParameter()
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.#ctor(System.Nullable{Niacomsoft.Eips.Data.Entity.Queryable.SortMode})
+  name: SortParameter(Nullable<SortMode>)
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.html#Niacomsoft_Eips_Data_Entity_Queryable_SortParameter__ctor_System_Nullable_Niacomsoft_Eips_Data_Entity_Queryable_SortMode__
+  commentId: M:Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.#ctor(System.Nullable{Niacomsoft.Eips.Data.Entity.Queryable.SortMode})
+  name.vb: SortParameter(Nullable(Of SortMode))
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.SortParameter(System.Nullable<Niacomsoft.Eips.Data.Entity.Queryable.SortMode>)
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.SortParameter(System.Nullable(Of Niacomsoft.Eips.Data.Entity.Queryable.SortMode))
+  nameWithType: SortParameter.SortParameter(Nullable<SortMode>)
+  nameWithType.vb: SortParameter.SortParameter(Nullable(Of SortMode))
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.#ctor(System.Nullable{Niacomsoft.Eips.Data.Entity.Queryable.SortMode},System.String[])
+  name: SortParameter(Nullable<SortMode>, String[])
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.html#Niacomsoft_Eips_Data_Entity_Queryable_SortParameter__ctor_System_Nullable_Niacomsoft_Eips_Data_Entity_Queryable_SortMode__System_String___
+  commentId: M:Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.#ctor(System.Nullable{Niacomsoft.Eips.Data.Entity.Queryable.SortMode},System.String[])
+  name.vb: SortParameter(Nullable(Of SortMode), String())
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.SortParameter(System.Nullable<Niacomsoft.Eips.Data.Entity.Queryable.SortMode>, System.String[])
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.SortParameter(System.Nullable(Of Niacomsoft.Eips.Data.Entity.Queryable.SortMode), System.String())
+  nameWithType: SortParameter.SortParameter(Nullable<SortMode>, String[])
+  nameWithType.vb: SortParameter.SortParameter(Nullable(Of SortMode), String())
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.#ctor(System.String[])
+  name: SortParameter(String[])
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.html#Niacomsoft_Eips_Data_Entity_Queryable_SortParameter__ctor_System_String___
+  commentId: M:Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.#ctor(System.String[])
+  name.vb: SortParameter(String())
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.SortParameter(System.String[])
+  fullName.vb: Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.SortParameter(System.String())
+  nameWithType: SortParameter.SortParameter(String[])
+  nameWithType.vb: SortParameter.SortParameter(String())
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.#ctor*
+  name: SortParameter
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.html#Niacomsoft_Eips_Data_Entity_Queryable_SortParameter__ctor_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.#ctor
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.SortParameter
+  nameWithType: SortParameter.SortParameter
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.DefaultSortingFields
+  name: DefaultSortingFields
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.html#Niacomsoft_Eips_Data_Entity_Queryable_SortParameter_DefaultSortingFields
+  commentId: F:Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.DefaultSortingFields
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.DefaultSortingFields
+  nameWithType: SortParameter.DefaultSortingFields
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.Fields
+  name: Fields
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.html#Niacomsoft_Eips_Data_Entity_Queryable_SortParameter_Fields
+  commentId: P:Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.Fields
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.Fields
+  nameWithType: SortParameter.Fields
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.Fields*
+  name: Fields
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.html#Niacomsoft_Eips_Data_Entity_Queryable_SortParameter_Fields_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.Fields
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.Fields
+  nameWithType: SortParameter.Fields
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.Mode
+  name: Mode
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.html#Niacomsoft_Eips_Data_Entity_Queryable_SortParameter_Mode
+  commentId: P:Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.Mode
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.Mode
+  nameWithType: SortParameter.Mode
+- uid: Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.Mode*
+  name: Mode
+  href: api/Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.html#Niacomsoft_Eips_Data_Entity_Queryable_SortParameter_Mode_
+  commentId: Overload:Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.Mode
+  isSpec: "True"
+  fullName: Niacomsoft.Eips.Data.Entity.Queryable.SortParameter.Mode
+  nameWithType: SortParameter.Mode
 - uid: Niacomsoft.Eips.DateTimeComparer
   name: DateTimeComparer
   href: api/Niacomsoft.Eips.DateTimeComparer.html
@@ -347,6 +1978,30 @@ references:
   commentId: F:Niacomsoft.Eips.Defaults.DefaultEncoding
   fullName: Niacomsoft.Eips.Defaults.DefaultEncoding
   nameWithType: Defaults.DefaultEncoding
+- uid: Niacomsoft.Eips.Defaults.DefaultPerPaginationSize
+  name: DefaultPerPaginationSize
+  href: api/Niacomsoft.Eips.Defaults.html#Niacomsoft_Eips_Defaults_DefaultPerPaginationSize
+  commentId: F:Niacomsoft.Eips.Defaults.DefaultPerPaginationSize
+  fullName: Niacomsoft.Eips.Defaults.DefaultPerPaginationSize
+  nameWithType: Defaults.DefaultPerPaginationSize
+- uid: Niacomsoft.Eips.Defaults.FalseInt32
+  name: FalseInt32
+  href: api/Niacomsoft.Eips.Defaults.html#Niacomsoft_Eips_Defaults_FalseInt32
+  commentId: F:Niacomsoft.Eips.Defaults.FalseInt32
+  fullName: Niacomsoft.Eips.Defaults.FalseInt32
+  nameWithType: Defaults.FalseInt32
+- uid: Niacomsoft.Eips.Defaults.MinimumPaginationIndex
+  name: MinimumPaginationIndex
+  href: api/Niacomsoft.Eips.Defaults.html#Niacomsoft_Eips_Defaults_MinimumPaginationIndex
+  commentId: F:Niacomsoft.Eips.Defaults.MinimumPaginationIndex
+  fullName: Niacomsoft.Eips.Defaults.MinimumPaginationIndex
+  nameWithType: Defaults.MinimumPaginationIndex
+- uid: Niacomsoft.Eips.Defaults.TrueInt32
+  name: TrueInt32
+  href: api/Niacomsoft.Eips.Defaults.html#Niacomsoft_Eips_Defaults_TrueInt32
+  commentId: F:Niacomsoft.Eips.Defaults.TrueInt32
+  fullName: Niacomsoft.Eips.Defaults.TrueInt32
+  nameWithType: Defaults.TrueInt32
 - uid: Niacomsoft.Eips.Diagnostics
   name: Niacomsoft.Eips.Diagnostics
   href: api/Niacomsoft.Eips.Diagnostics.html
@@ -988,6 +2643,42 @@ references:
   isSpec: "True"
   fullName: Niacomsoft.Eips.Extensions.Int64HashFormatter.ToString
   nameWithType: Int64HashFormatter.ToString
+- uid: Niacomsoft.Eips.Gender
+  name: Gender
+  href: api/Niacomsoft.Eips.Gender.html
+  commentId: T:Niacomsoft.Eips.Gender
+  fullName: Niacomsoft.Eips.Gender
+  nameWithType: Gender
+- uid: Niacomsoft.Eips.Gender.Default
+  name: Default
+  href: api/Niacomsoft.Eips.Gender.html#Niacomsoft_Eips_Gender_Default
+  commentId: F:Niacomsoft.Eips.Gender.Default
+  fullName: Niacomsoft.Eips.Gender.Default
+  nameWithType: Gender.Default
+- uid: Niacomsoft.Eips.Gender.Female
+  name: Female
+  href: api/Niacomsoft.Eips.Gender.html#Niacomsoft_Eips_Gender_Female
+  commentId: F:Niacomsoft.Eips.Gender.Female
+  fullName: Niacomsoft.Eips.Gender.Female
+  nameWithType: Gender.Female
+- uid: Niacomsoft.Eips.Gender.Male
+  name: Male
+  href: api/Niacomsoft.Eips.Gender.html#Niacomsoft_Eips_Gender_Male
+  commentId: F:Niacomsoft.Eips.Gender.Male
+  fullName: Niacomsoft.Eips.Gender.Male
+  nameWithType: Gender.Male
+- uid: Niacomsoft.Eips.Gender.NotSupport
+  name: NotSupport
+  href: api/Niacomsoft.Eips.Gender.html#Niacomsoft_Eips_Gender_NotSupport
+  commentId: F:Niacomsoft.Eips.Gender.NotSupport
+  fullName: Niacomsoft.Eips.Gender.NotSupport
+  nameWithType: Gender.NotSupport
+- uid: Niacomsoft.Eips.Gender.Unknown
+  name: Unknown
+  href: api/Niacomsoft.Eips.Gender.html#Niacomsoft_Eips_Gender_Unknown
+  commentId: F:Niacomsoft.Eips.Gender.Unknown
+  fullName: Niacomsoft.Eips.Gender.Unknown
+  nameWithType: Gender.Unknown
 - uid: Niacomsoft.Eips.Globalization
   name: Niacomsoft.Eips.Globalization
   href: api/Niacomsoft.Eips.Globalization.html

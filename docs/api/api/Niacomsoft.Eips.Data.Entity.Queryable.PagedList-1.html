@@ -1,0 +1,390 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class PagedList&lt;T&gt;
+   | &#20225;&#19994;&#31169;&#26377;&#21270; SaaS &#26381;&#21153; - API &#35828;&#26126; </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class PagedList&lt;T&gt;
+   | &#20225;&#19994;&#31169;&#26377;&#21270; SaaS &#26381;&#21153; - API &#35828;&#26126; ">
+    <meta name="generator" content="docfx 2.59.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1">
+  
+  
+  <h1 id="Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1" data-uid="Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1" class="text-break">Class PagedList&lt;T&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>提供了供分页的数据列表相关的方法。</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">PagedList&lt;T&gt;</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Niacomsoft.Eips.Data.Entity.Queryable.IPagedList-1.html">IPagedList</a>&lt;T&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring">Object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#system-object-referenceequals(system-object-system-object)">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#system-object-gethashcode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#system-object-gettype">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Niacomsoft.Eips.Data.Entity.Queryable.html">Niacomsoft.Eips.Data.Entity.Queryable</a></h6>
+  <h6><strong>Assembly</strong>: Niacomsoft.Eips.Core.dll</h6>
+  <h5 id="Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PagedList&lt;T&gt; : IPagedList&lt;T&gt;</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>数据元素类型。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/eips-solution/runtime/new/dev/apiSpec/new?filename=Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1__ctor.md&amp;value=---%0Auid%3A%20Niacomsoft.Eips.Data.Entity.Queryable.PagedList%601.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/eips-solution/runtime/blob/dev/src/Eips.Core/Data/Entity/Queryable/PagedList.cs/#L32">View Source</a>
+  </span>
+  <a id="Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1__ctor_" data-uid="Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.#ctor*"></a>
+  <h4 id="Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1__ctor" data-uid="Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.#ctor">PagedList()</h4>
+  <div class="markdown level1 summary"><p>用于初始化一个 <a class="xref" href="Niacomsoft.Eips.Data.Entity.Queryable.PagedList-1.html">PagedList&lt;T&gt;</a> 类型的对象实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PagedList()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/eips-solution/runtime/new/dev/apiSpec/new?filename=Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1__ctor_System_Collections_Generic_IEnumerable__0__.md&amp;value=---%0Auid%3A%20Niacomsoft.Eips.Data.Entity.Queryable.PagedList%601.%23ctor(System.Collections.Generic.IEnumerable%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/eips-solution/runtime/blob/dev/src/Eips.Core/Data/Entity/Queryable/PagedList.cs/#L18">View Source</a>
+  </span>
+  <a id="Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1__ctor_" data-uid="Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.#ctor*"></a>
+  <h4 id="Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1__ctor_System_Collections_Generic_IEnumerable__0__" data-uid="Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.#ctor(System.Collections.Generic.IEnumerable{`0})">PagedList(IEnumerable&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>用于初始化一个 <a class="xref" href="Niacomsoft.Eips.Data.Entity.Queryable.PagedList-1.html">PagedList&lt;T&gt;</a> 类型的对象实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PagedList(IEnumerable&lt;T&gt; elements)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</td>
+        <td><span class="parametername">elements</span></td>
+        <td><p>元素集合。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/eips-solution/runtime/new/dev/apiSpec/new?filename=Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1__ctor_System_Collections_Generic_IEnumerable__0__System_Int64_.md&amp;value=---%0Auid%3A%20Niacomsoft.Eips.Data.Entity.Queryable.PagedList%601.%23ctor(System.Collections.Generic.IEnumerable%7B%600%7D%2CSystem.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/eips-solution/runtime/blob/dev/src/Eips.Core/Data/Entity/Queryable/PagedList.cs/#L25">View Source</a>
+  </span>
+  <a id="Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1__ctor_" data-uid="Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.#ctor*"></a>
+  <h4 id="Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1__ctor_System_Collections_Generic_IEnumerable__0__System_Int64_" data-uid="Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.#ctor(System.Collections.Generic.IEnumerable{`0},System.Int64)">PagedList(IEnumerable&lt;T&gt;, Int64)</h4>
+  <div class="markdown level1 summary"><p>用于初始化一个 <a class="xref" href="Niacomsoft.Eips.Data.Entity.Queryable.PagedList-1.html">PagedList&lt;T&gt;</a> 类型的对象实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PagedList(IEnumerable&lt;T&gt; elements, long total)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</td>
+        <td><span class="parametername">elements</span></td>
+        <td><p>元素集合。</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+        <td><span class="parametername">total</span></td>
+        <td><p>元素总数量。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/eips-solution/runtime/new/dev/apiSpec/new?filename=Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1_Elements.md&amp;value=---%0Auid%3A%20Niacomsoft.Eips.Data.Entity.Queryable.PagedList%601.Elements%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/eips-solution/runtime/blob/dev/src/Eips.Core/Data/Entity/Queryable/PagedList.cs/#L47">View Source</a>
+  </span>
+  <a id="Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1_Elements_" data-uid="Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.Elements*"></a>
+  <h4 id="Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1_Elements" data-uid="Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.Elements">Elements</h4>
+  <div class="markdown level1 summary"><p>元素集合。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual T[] Elements { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><p>设置或获取 <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的对象实例或值的集合，用于表示元素集合。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/eips-solution/runtime/new/dev/apiSpec/new?filename=Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1_TotalElementsCount.md&amp;value=---%0Auid%3A%20Niacomsoft.Eips.Data.Entity.Queryable.PagedList%601.TotalElementsCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/eips-solution/runtime/blob/dev/src/Eips.Core/Data/Entity/Queryable/PagedList.cs/#L51">View Source</a>
+  </span>
+  <a id="Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1_TotalElementsCount_" data-uid="Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.TotalElementsCount*"></a>
+  <h4 id="Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1_TotalElementsCount" data-uid="Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.TotalElementsCount">TotalElementsCount</h4>
+  <div class="markdown level1 summary"><p>元素总数量。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long TotalElementsCount { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+        <td><p>设置或获取一个值，用于表示元素总数量。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/eips-solution/runtime/new/dev/apiSpec/new?filename=Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1_Niacomsoft_Eips_Data_Entity_Queryable_IPagedList_T__Elements.md&amp;value=---%0Auid%3A%20Niacomsoft.Eips.Data.Entity.Queryable.PagedList%601.Niacomsoft%23Eips%23Data%23Entity%23Queryable%23IPagedList%7BT%7D%23Elements%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/eips-solution/runtime/blob/dev/src/Eips.Core/Data/Entity/Queryable/PagedList.cs/#L39">View Source</a>
+  </span>
+  <a id="Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1_Niacomsoft_Eips_Data_Entity_Queryable_IPagedList_T__Elements_" data-uid="Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.Niacomsoft#Eips#Data#Entity#Queryable#IPagedList{T}#Elements*"></a>
+  <h4 id="Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1_Niacomsoft_Eips_Data_Entity_Queryable_IPagedList_T__Elements" data-uid="Niacomsoft.Eips.Data.Entity.Queryable.PagedList`1.Niacomsoft#Eips#Data#Entity#Queryable#IPagedList{T}#Elements">IPagedList&lt;T&gt;.Elements</h4>
+  <div class="markdown level1 summary"><p>元素集合。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;T&gt; IPagedList&lt;T&gt;.Elements { get; set; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</td>
+        <td><p>设置或获取 <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的对象实例或值的集合，用于表示元素集合。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1_Niacomsoft_Eips_Data_Entity_Queryable_IPagedList_T__Elements_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</div>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Niacomsoft.Eips.Data.Entity.Queryable.IPagedList-1.html">IPagedList&lt;T&gt;</a>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="Niacomsoft.Eips.Data.Entity.Queryable.IPagedList-1.html">IPagedList</a>&lt;T&gt;</div>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/eips-solution/runtime/new/dev/apiSpec/new?filename=Niacomsoft_Eips_Data_Entity_Queryable_PagedList_1.md&amp;value=---%0Auid%3A%20Niacomsoft.Eips.Data.Entity.Queryable.PagedList%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/eips-solution/runtime/blob/dev/src/Eips.Core/Data/Entity/Queryable/PagedList.cs/#L14" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright © Wang Yucai.<br>Generated by <strong>DocFX</strong></span>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
