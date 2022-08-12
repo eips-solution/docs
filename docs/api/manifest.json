@@ -414,7 +414,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Data.Entity.Queryable.IPagedList-1.html",
-          "hash": "IffM88+quCQKblc8WUjck4IQwlClgwfTpCCqE67MFSU="
+          "hash": "J3v2zgEUayXZx+OmKcz2EzxLevfslNKlDtouRZbfNJM="
         }
       },
       "is_incremental": false,
@@ -450,7 +450,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Data.Entity.Queryable.PagedList-1.html",
-          "hash": "EssJ5/PLb5AvS3Gpa6hekzQFADrTVs5vj9I0nYnEaZ4="
+          "hash": "Rlp0K9JnljSeQsAS3SwsGSbYs14eXTo+r918U4yZZr4="
         }
       },
       "is_incremental": false,
@@ -462,7 +462,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Data.Entity.Queryable.PagedListBuilder-1.html",
-          "hash": "1/Zq1pMaZWoCTXLLoDYPfXk6SQ1d7UzanYz9sTw27UA="
+          "hash": "ybs3eS3+87Opq9srsehBXFcw1UIISid8EnPLklOiNxQ="
         }
       },
       "is_incremental": false,
@@ -510,7 +510,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Data.Entity.Queryable.html",
-          "hash": "RA/rkVD15HeVdn22XDwVu7X0+Eo0WvwCf0sbUOvC8WM="
+          "hash": "cjRzEjhC3edr7b9qiGf6UC+fUqQzu9iXC2cpsRRuBr0="
         }
       },
       "is_incremental": false,
@@ -570,7 +570,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Defaults.html",
-          "hash": "u0WElYXkUtIYcYgFfDoVyMTq0zzwvBHfgSL8Gih5YA0="
+          "hash": "6UbmNpS8rMHFz6Fb3c6L4CmWoiYry+/Go/heVAFoRvw="
         }
       },
       "is_incremental": false,
@@ -643,6 +643,30 @@
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.EmptyCompareOptions.html",
           "hash": "Ae13J/x/unxDMJGM8I1ff/FtaSj82k5GRBZEX4mNPvg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.EnvironmentVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.EnvironmentVariable.html",
+          "hash": "lIMwzWT8ge6eouROAR/fZeM/eqCvpi1PSCD1p8mFxCM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.EnvironmentVariableAccessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.EnvironmentVariableAccessor.html",
+          "hash": "bPaft2BR5V5wNC8SbrPUYRgmKi8YDYO+rmtKISGqH/s="
         }
       },
       "is_incremental": false,
@@ -818,11 +842,47 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.IAsyncEnvironmentVariableAccessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.IAsyncEnvironmentVariableAccessor.html",
+          "hash": "HKoJkCns4NATpE0nhHJVmMG2mgEPFZaEpwxWh3XeLZI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.IAttributeHelper-1.yml",
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.IAttributeHelper-1.html",
           "hash": "w/HGbqSxeQLoztEUfycZClU2eTrbKuLL4evCH/b4zWA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.IEnvironmentVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.IEnvironmentVariable.html",
+          "hash": "9pb8P1auGrPK8B+AAofQNOtPuDhepMezcsC7CbV4ou8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.IEnvironmentVariableAccessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.IEnvironmentVariableAccessor.html",
+          "hash": "A5eHB1DJqws/qpyqjILP6z2EcC0LrWPK0/Ev7XbitZM="
         }
       },
       "is_incremental": false,
@@ -986,6 +1046,474 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Runtime.Serialization.JsonSerializerProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Runtime.Serialization.JsonSerializerProperties.html",
+          "hash": "wy2BcSLUjAAallz8vcV275nCsExxob1U3p9U+GtrQOw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Runtime.Serialization.XmlSerializerProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Runtime.Serialization.XmlSerializerProperties.html",
+          "hash": "aRFdfuPldBsuJEMwQvYCQrm7TS5mlnK5+gAZkYNuSV4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Runtime.Serialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Runtime.Serialization.html",
+          "hash": "o9eHoHJkrwxfPjcVy0xOTyupD0KQN1betBRvAvRX/3o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Authentication.AuthenticationFailureReason.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Authentication.AuthenticationFailureReason.html",
+          "hash": "zIwOmBzTWBXfhus9mN+JSG+i9a68r9MRTMcWqx5z9Po="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Authentication.AuthenticationFailureReasonExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Authentication.AuthenticationFailureReasonExtensions.html",
+          "hash": "dq4zERA89Fuai1OoKkbmnAxcEAU05DYjj/2ZWCfkG9k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Authentication.BasicCredentials.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Authentication.BasicCredentials.html",
+          "hash": "s2tgprI1ze8kkTd7DL6hkgdnOAevwyx7DrVVpGmPzB8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Authentication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Authentication.html",
+          "hash": "Rm0BQpffp7cQ0mVOlCltfKZsdhMJnqgXsUTqfbr4kZQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Cryptography.AES128AlgorithmsProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Cryptography.AES128AlgorithmsProvider.html",
+          "hash": "vcl0Cd/YiKZpnI//ZfPJVeakOtMhUQkRuDpgRy93LoI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Cryptography.AES192AlgorithmsProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Cryptography.AES192AlgorithmsProvider.html",
+          "hash": "BBxb4LAhxGDUO1v1MEH7ULqmNNxegHnpcR1rvBdwgSk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Cryptography.AES256AlgorithmsProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Cryptography.AES256AlgorithmsProvider.html",
+          "hash": "y4NVstcyxr6gLTf7F/2+c99MlF6utsvbtrSi3oGW18g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Cryptography.AESAlgorithmsProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Cryptography.AESAlgorithmsProvider.html",
+          "hash": "4innGTiSPRg4AAFJBVz7cI/5+278Q/7/ZsOBFvDWeUs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Cryptography.AESCryptographicKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Cryptography.AESCryptographicKey.html",
+          "hash": "DSsoeBoqKCsDTnqblF3TovOlnlR5zm8IZYEeF6Tr89g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Cryptography.CryptographicAlgorithms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Cryptography.CryptographicAlgorithms.html",
+          "hash": "C6l6RCy+MviuVzp2qcWmdaTnJJbkFQClKlfMw2Wzxv4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Cryptography.DESAlgorithmsProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Cryptography.DESAlgorithmsProvider.html",
+          "hash": "fV+Nzh5kKcwGu9QypPg+SbIUr1FAtuDjWnIsX/DJ+vk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Cryptography.DESCryptographicKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Cryptography.DESCryptographicKey.html",
+          "hash": "NdNma/0rSRrwCwgMNpZOwjoPUv6JBVvu/3ifi4rHneA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Cryptography.HashAlgorithms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Cryptography.HashAlgorithms.html",
+          "hash": "wRqyAGcWYbbPCHDrxvHeX3GBd0BX4Kp1ckQNdfDz3fs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Cryptography.HashAlgorithmsFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Cryptography.HashAlgorithmsFactory.html",
+          "hash": "7zpThDW6U0sxLGKGcaW1GHtKnzSh1SZRPjvmOi3dxIA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Cryptography.IAESCryptographicKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Cryptography.IAESCryptographicKey.html",
+          "hash": "5ygzBBzmII03iX9qmKkpBu2tz000JoRvEzjjlgvx6hA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Cryptography.IAsyncHashAlgorithms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Cryptography.IAsyncHashAlgorithms.html",
+          "hash": "btgI2XLBn3dGSZPx2BQU9uCJHK5r+n/Qr0Fa+Zq0ZJI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Cryptography.IAsyncSymmetricAlgorithms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Cryptography.IAsyncSymmetricAlgorithms.html",
+          "hash": "uI3zIAEb+2pYOQeeHFmnOYoFAkC0RzX8op4yqjEwG1g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Cryptography.IHashAlgorithms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Cryptography.IHashAlgorithms.html",
+          "hash": "/Ruxu6E4omuu9Tlj/8coBrxgzMUh8PJBShjTVBIewYM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Cryptography.IHashAlgorithmsFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Cryptography.IHashAlgorithmsFactory.html",
+          "hash": "ddjgF9PmLGiN8WkE7flI+OEbGmeqwT2Khy8ENfI0Is8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Cryptography.ISymmetricAlgorithms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Cryptography.ISymmetricAlgorithms.html",
+          "hash": "CS6x6OVHmylD9KA9LhHUK0IxJhNiAxnl/3H4jnHKDYY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Cryptography.ISymmetricCryptographicKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Cryptography.ISymmetricCryptographicKey.html",
+          "hash": "u292sP2zZYkq+7CQpBHcLqXyKPw45YUtgDlRN8alWpQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Cryptography.MD5AlgorithmsProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Cryptography.MD5AlgorithmsProvider.html",
+          "hash": "2gdn6IaipqJkfelOBIV8ADuC/vatgso1stOKJ85U1fA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Cryptography.SHA1AlgorithmsProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Cryptography.SHA1AlgorithmsProvider.html",
+          "hash": "5lG633R1xsAZBFWwo8DA9hEafI3vRjvCy7uAIfjdg7M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Cryptography.SHA256AlgorithmsProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Cryptography.SHA256AlgorithmsProvider.html",
+          "hash": "WrHLbV/kr4Y45hqLtc+fcmVqHkxtvb5u5w2XYf3kBcY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Cryptography.SHA384AlgorithmsProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Cryptography.SHA384AlgorithmsProvider.html",
+          "hash": "0m2/leFN7K1FTgke/86ttAc4cRlEomLYpeGz4XH6suY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Cryptography.SHA512AlgorithmsProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Cryptography.SHA512AlgorithmsProvider.html",
+          "hash": "ietKIpUfybJtgkZWfmME+ofce/ckE360gEj2z+YaXLk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Cryptography.SupportedHashAlgorithms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Cryptography.SupportedHashAlgorithms.html",
+          "hash": "dNN3jf52h4NbxMT3Qa99QoggjC2zLTRCF1QGFsPPdmo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Cryptography.SymmetricAlgorithms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Cryptography.SymmetricAlgorithms.html",
+          "hash": "y2Y8bzBZoy8UAsrOOkMS+04HnFdLoX8M5Rbgmjq1aFo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Cryptography.SymmetricCryptographicKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Cryptography.SymmetricCryptographicKey.html",
+          "hash": "x8e0314vxY1lsLGyFulinNH/oPJeNUpTpEcMvIPg8bg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Cryptography.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Cryptography.html",
+          "hash": "l6ELUN1t/UfZGlVoRDHRfTdLLwtRZRNeOv1Mc00zjm4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.IPasswordGenerateUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.IPasswordGenerateUtilities.html",
+          "hash": "wnx1v/HWoDx4X7xCltzGegFBSYkc0cQA/5HpFCxuKbE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.IncorrectPasswordAlphabetLengthException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.IncorrectPasswordAlphabetLengthException.html",
+          "hash": "RBbLdCrgor3RV/Vxga0ltXT4VHf16O8I1sPdUEgLazY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Principal.ClaimsName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Principal.ClaimsName.html",
+          "hash": "tVDWxiXiPRqYe0Pnl4AmI1SdOCwCXNtXZxMlPa9nwoY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.Principal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.Principal.html",
+          "hash": "6WSq8ZOmmZTFdwCbgWqCrSrJ9bqmKzlK62I0QKlWtTI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.RandomPasswordGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.RandomPasswordGenerator.html",
+          "hash": "bba0WjpQpEqhV7wrCjV9miRbQVxJqcqfrJpCAyFTsPc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.Security.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Niacomsoft.Eips.Security.html",
+          "hash": "spTU4dAalYe5pMWJ5ZV00XfQvctcDWSGz5CwqW9XL1M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/temp/docfxapi/Niacomsoft.Eips.StringEqualityComparer.yml",
       "output": {
         ".html": {
@@ -1026,7 +1554,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.html",
-          "hash": "iwh01XJrtGdu6eNvIfCRkN1U29aZI7VqfcABdsobOMY="
+          "hash": "ZxM2MRWubK0mVrK4e0tPzH72tmUYqo2ebLE6qaQLoYs="
         }
       },
       "is_incremental": false,
@@ -1038,7 +1566,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "iOukE8Ke39uZ/APQjoOMG5suXoUxQt7P+Lw8m6WLLd0="
+          "hash": "fYdYfEvyPe+Yn9dWyuluyDl00+KtvxWIOGhiwyFsk1g="
         }
       },
       "is_incremental": false,
@@ -1057,8 +1585,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 85,
-          "skipped_file_count": 85
+          "total_file_count": 129,
+          "skipped_file_count": 129
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
