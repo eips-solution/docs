@@ -91,6 +91,7 @@
   <h5 id="Niacomsoft_Eips_IAttributeHelper_1_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public interface IAttributeHelper&lt;TTarget&gt;
+
     where TTarget : class</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
@@ -126,6 +127,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">TAttribute GetCustomAttribute&lt;TAttribute&gt;(TTarget target, bool inherit = false)
+
     where TAttribute : Attribute</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -266,6 +268,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">IEnumerable&lt;TAttribute&gt; GetCustomAttributes&lt;TAttribute&gt;(TTarget target, bool inherit = false)
+
     where TAttribute : Attribute</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>

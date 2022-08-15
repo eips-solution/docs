@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.ActivatorUtilities.html",
-          "hash": "rwAWp8ZRFHOqKDDTFCFxtRWzFCZE+PtVtuWvTUWSw/A="
+          "hash": "yb6U0qPZibQgx1xmAQFHP4tnNcAzjyXqJWLmG4p9KOM="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.AttributeHelper-1.html",
-          "hash": "40t2uqiLMdTphCyiUp+7FDxxGCCqAgPy1j8x8M6lFCc="
+          "hash": "tCwp5z9QmfuDny9NWsDjCr0Cg2x4GbVa9wuhWrnfztc="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Configuration.IConfigurationBroker-1.html",
-          "hash": "3UsVdBjlVl2JBIYXhqc7II8Wf18yXAgaZqMXfSJKPuc="
+          "hash": "jaImwoykDg/6ZerczyC9bw780UUVN6mLZf3fXjsWY64="
         }
       },
       "is_incremental": false,
@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Data.Entity.Fields.IAutoGenerationId-1.html",
-          "hash": "mAwuUHZKzlIasZauAxkEsXdljm5Koc87Pa/vMnoGPKY="
+          "hash": "OTxOXg+Wipfn+BbRmBPICSBWB7/oSVF4FxVNbEAKwls="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Data.Entity.Fields.IAvailable-1.html",
-          "hash": "Qbu7ZVdqq5ozq0pRtsoaNBrRZRnPRO+QPPNqC8NlQpA="
+          "hash": "ImgBJ/pem9YxB2u9cg8e3NouI4J8XlGkEv1E7J2Zvjg="
         }
       },
       "is_incremental": false,
@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Data.Entity.Fields.IBuiltIn-1.html",
-          "hash": "dDQFxoRB3MoLrEmPsHRDnaZJbqQT86b4dcJMFbI+wsc="
+          "hash": "nVuYPgPsgTK3L8cXdX0vIDQZV3vQBR6VthOTvIE0Hvw="
         }
       },
       "is_incremental": false,
@@ -198,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Data.Entity.Fields.IDefaultOptions-1.html",
-          "hash": "o9Zt1ASN6Wtq6+6r5KT/8v90R6HbTPEOshd2YfmyoFw="
+          "hash": "SJ90G71puvOE8+VdBWZkHG8kmrSkgJDGSsEC7+khHLY="
         }
       },
       "is_incremental": false,
@@ -210,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Data.Entity.Fields.IEnabled-1.html",
-          "hash": "z5YARW0Dx/6Pi2qIDRd6MZ1KXdF5FzwLaZ2q2oDxMts="
+          "hash": "t+rDz5texsHwDXM5NpeyJVh8PuuP0jsisFn7aBP+244="
         }
       },
       "is_incremental": false,
@@ -222,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Data.Entity.Fields.IFrozen-1.html",
-          "hash": "rv/mr11cyirIRujGCRJFE11U7AaQhJK/hy4oAaQnGF4="
+          "hash": "BGUzNSLhTLI/RZhmhidkrnlPHPbi0pOxkDH7oCPDGeo="
         }
       },
       "is_incremental": false,
@@ -234,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Data.Entity.Fields.ILocked-1.html",
-          "hash": "PUR+F4HuR527SzegfVysyJBFGcwqwFDbPMp+AQnA4W0="
+          "hash": "39BVTf+B96/1fi/JEQM9jZIfuva8xkJMsI0PLHo8RIc="
         }
       },
       "is_incremental": false,
@@ -294,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Data.Entity.Fields.IReadOnly-1.html",
-          "hash": "pmw+URB7iKVvg/inXo66KpjmPOGzyWKyE86tG2s4IB4="
+          "hash": "XvUPEFs+2TE8NzGnmdLHNOwJWO8e/lmm8VPvOCFHBAc="
         }
       },
       "is_incremental": false,
@@ -306,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Data.Entity.Fields.IRemoved-1.html",
-          "hash": "1RMuVyZmy5yoW6GocvgS6U3qLKvPrn6JJBpAYmU2vvs="
+          "hash": "ppRFBHEcDlfA8LRNda0Yp5VHgpDcDvC+ItAPQA8jHDo="
         }
       },
       "is_incremental": false,
@@ -318,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Data.Entity.Fields.IRequired-1.html",
-          "hash": "E4CMxSn6iS8/q8j5YG5yaAvO8ACyVqK0NnNiEovJDAY="
+          "hash": "haoGj30shUtHSHsKH1x4/7DQIwJ8ZMkxmwe7onkbylA="
         }
       },
       "is_incremental": false,
@@ -354,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Data.Entity.Fields.IVirtual-1.html",
-          "hash": "AzvEBWqeWwG5vIu/HG8jNYGZq38MMiLlWpxMtr9MGdM="
+          "hash": "6M02eiumRnzhIJ0OPdL+5Y4ajYLfi1daR8yYIBZB6X4="
         }
       },
       "is_incremental": false,
@@ -366,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Data.Entity.Fields.IVisibility-1.html",
-          "hash": "epvhx75q3LNw82wEmU1GJj//v0kbByLmKnyuBDa0qYM="
+          "hash": "+k/j3Vr9ggcaWkX5wTLXktrbfNaUCgREhGYGsNF8//I="
         }
       },
       "is_incremental": false,
@@ -714,7 +714,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Extensions.IHashIdFormatter-1.html",
-          "hash": "jy6u4nSiVq+C5gQPylyde75ZNdm/NRuFnfAu3vKqyuY="
+          "hash": "lA1gXnqiLsBDkvpei9htzucdjaFXpSqI3l97lnFwe6A="
         }
       },
       "is_incremental": false,
@@ -834,7 +834,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.IAsyncAttributeHelper-1.html",
-          "hash": "xCmVhvx90IVrGLuPaHhyL+j22zLUBXmqbSBu2XKy9N4="
+          "hash": "5AXQMF0hGf3LU5/wv1AKCHN0w5MC6g9+u82GfWgfDQg="
         }
       },
       "is_incremental": false,
@@ -858,7 +858,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.IAttributeHelper-1.html",
-          "hash": "w/HGbqSxeQLoztEUfycZClU2eTrbKuLL4evCH/b4zWA="
+          "hash": "WHPbTkmwuef7VV67AYJ1AfAx0MjRx/amYEMaYjQdRPo="
         }
       },
       "is_incremental": false,
@@ -990,7 +990,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.ParameterGuard.html",
-          "hash": "N9DBFn22Su4DTr5CSNhqycLqry02dH9oq3tqwWGLe6Q="
+          "hash": "o+C3oO1OYMfTwv8787nfHyPmKe8qpgZasK9Idw6Rqes="
         }
       },
       "is_incremental": false,
@@ -1014,7 +1014,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.html",
-          "hash": "R2zziU7Y/XP/PGwusBCm7cLrWKNIh9mZiQVCJzzLsfI="
+          "hash": "Hb5g8xXezu63LatoACk2YDtU2+NRsTvVcTf1mDBb4rQ="
         }
       },
       "is_incremental": false,
@@ -1026,7 +1026,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Niacomsoft.Eips.Reflection.MemberAttributeHelper.html",
-          "hash": "/2UY/uN5Ve4Lnr8d7hSHmbYRb0+EP1bTGCaeVdcqt+0="
+          "hash": "coD66YWqRlAxTmKMu2WBgWe3KScBwb3Rop8SuAGp3Uk="
         }
       },
       "is_incremental": false,
@@ -1576,17 +1576,19 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 129,
-          "skipped_file_count": 129
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
