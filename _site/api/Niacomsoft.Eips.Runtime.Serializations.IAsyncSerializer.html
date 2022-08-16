@@ -107,6 +107,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">Task&lt;T&gt; DeserializeAsync&lt;T&gt;(byte[] input)
+
     where T : class, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -165,6 +166,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">Task&lt;T&gt; DeserializeAsync&lt;T&gt;(Stream deserializeStream)
+
     where T : class, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -223,6 +225,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">Task&lt;byte[]&gt; SerializeAsync&lt;T&gt;(T obj)
+
     where T : class, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -281,6 +284,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">Task SerializeAsync&lt;T&gt;(T obj, Stream serializeStream)
+
     where T : class, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
