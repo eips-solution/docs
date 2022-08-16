@@ -73,7 +73,9 @@
   
   <h1 id="Niacomsoft_Eips_Runtime_Serializations_BinarySerializer" data-uid="Niacomsoft.Eips.Runtime.Serializations.BinarySerializer" class="text-break">Class BinarySerializer
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>提供了二进制序列化相关的方法。</p>
+<p> 密闭的，不可以从此类型派生。 </p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -119,7 +121,8 @@
   
   <a id="Niacomsoft_Eips_Runtime_Serializations_BinarySerializer__ctor_" data-uid="Niacomsoft.Eips.Runtime.Serializations.BinarySerializer.#ctor*"></a>
   <h4 id="Niacomsoft_Eips_Runtime_Serializations_BinarySerializer__ctor_Niacomsoft_Eips_IAttributeHelper_System_Reflection_MemberInfo__" data-uid="Niacomsoft.Eips.Runtime.Serializations.BinarySerializer.#ctor(Niacomsoft.Eips.IAttributeHelper{System.Reflection.MemberInfo})">BinarySerializer(IAttributeHelper&lt;MemberInfo&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>用于初始化一个 <a class="xref" href="Niacomsoft.Eips.Runtime.Serializations.BinarySerializer.html">BinarySerializer</a> 类型的对象实例。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -138,22 +141,30 @@
       <tr>
         <td><a class="xref" href="Niacomsoft.Eips.IAttributeHelper-1.html">IAttributeHelper</a>&lt;<span class="xref">System.Reflection.MemberInfo</span>&gt;</td>
         <td><span class="parametername">memberAttribute</span></td>
-        <td></td>
+        <td><p>访问程序注解的方法。</p>
+<p> 实现了 <a class="xref" href="Niacomsoft.Eips.IAsyncAttributeHelper-1.html">IAsyncAttributeHelper&lt;TTarget&gt;</a> 类型接口的对象实例。 </p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_Runtime_Serializations_BinarySerializer__ctor_Niacomsoft_Eips_IAttributeHelper_System_Reflection_MemberInfo___seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Niacomsoft.Eips.IAttributeHelper-1.html">IAttributeHelper</a>&lt;TTarget&gt;</div>
+      <div><span class="xref">System.Reflection.MemberInfo</span></div>
+  </div>
   <h3 id="methods">Methods
   </h3>
   
   
   <a id="Niacomsoft_Eips_Runtime_Serializations_BinarySerializer_Deserialize_" data-uid="Niacomsoft.Eips.Runtime.Serializations.BinarySerializer.Deserialize*"></a>
   <h4 id="Niacomsoft_Eips_Runtime_Serializations_BinarySerializer_Deserialize__1_System_IO_Stream_" data-uid="Niacomsoft.Eips.Runtime.Serializations.BinarySerializer.Deserialize``1(System.IO.Stream)">Deserialize&lt;T&gt;(Stream)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>从流 <code data-dev-comment-type="paramref" class="paramref">deserializeStream</code> 中反序列化得到
+<code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的对象实例。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override T Deserialize&lt;T&gt;(Stream deserializeStream)
-
     where T : class, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -169,7 +180,8 @@
       <tr>
         <td><span class="xref">System.IO.Stream</span></td>
         <td><span class="parametername">deserializeStream</span></td>
-        <td></td>
+        <td><p>派生自 <span class="xref">System.IO.Stream</span> 类型的对象实例。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -184,7 +196,8 @@
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的对象实例。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -199,22 +212,64 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>引用类型。</p>
+</td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Niacomsoft.Eips.Runtime.Serializations.Serializer.html#Niacomsoft_Eips_Runtime_Serializations_Serializer_Deserialize__1_System_IO_Stream_">Serializer.Deserialize&lt;T&gt;(Stream)</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>当 <code data-dev-comment-type="paramref" class="paramref">deserializeStream</code> 等于 <code> null </code> 时，将引发此类型的异常。</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Niacomsoft.Eips.TypeAnnotationNotFoundException.html">TypeAnnotationNotFoundException</a></td>
+        <td><p>当 <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型中未找到
+<span class="xref">System.SerializableAttribute</span> 注解时，将引发此类型的异常。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Runtime.Serialization.SerializationException</span></td>
+        <td><p>当调用 <span class="xref">System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(System.IO.Stream)</span> 方法时，可能引发此类型的异常。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Security.SecurityException</span></td>
+        <td><p>当调用 <span class="xref">System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(System.IO.Stream)</span> 方法时，可能引发此类型的异常。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.NotSupportedException</span></td>
+        <td><p>当调用 <span class="xref">System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(System.IO.Stream)</span> 方法时，可能引发此类型的异常。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Niacomsoft_Eips_Runtime_Serializations_BinarySerializer_Deserialize__1_System_IO_Stream__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.IO.Stream</span></div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_Runtime_Serializations_BinarySerializer_Serialize_" data-uid="Niacomsoft.Eips.Runtime.Serializations.BinarySerializer.Serialize*"></a>
   <h4 id="Niacomsoft_Eips_Runtime_Serializations_BinarySerializer_Serialize__1___0_System_IO_Stream_" data-uid="Niacomsoft.Eips.Runtime.Serializations.BinarySerializer.Serialize``1(``0,System.IO.Stream)">Serialize&lt;T&gt;(T, Stream)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>序列化 <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的对象实例，并写入流 <code data-dev-comment-type="paramref" class="paramref">serializeStream</code>。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override void Serialize&lt;T&gt;(T obj, Stream serializeStream)
-
     where T : class, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -230,12 +285,14 @@
       <tr>
         <td><span class="xref">T</span></td>
         <td><span class="parametername">obj</span></td>
-        <td></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的对象实例。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.IO.Stream</span></td>
         <td><span class="parametername">serializeStream</span></td>
-        <td></td>
+        <td><p>派生自 <span class="xref">System.IO.Stream</span> 类型的对象实例。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -250,18 +307,64 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>引用类型。</p>
+</td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">Niacomsoft.Eips.Runtime.Serializations.Serializer.Serialize&lt;T&gt;(T, System.IO.Stream)</span></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>当 <code data-dev-comment-type="paramref" class="paramref">serializeStream</code> 等于 <code> null </code> 时，将引发此类型的异常。</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Niacomsoft.Eips.TypeAnnotationNotFoundException.html">TypeAnnotationNotFoundException</a></td>
+        <td><p>当 <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型中未找到
+<span class="xref">System.SerializableAttribute</span> 注解时，将引发此类型的异常。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Runtime.Serialization.SerializationException</span></td>
+        <td><p>当调用 <span class="xref">System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize(System.IO.Stream,System.Object)</span> 方法时，可能引发此类型的异常。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Security.SecurityException</span></td>
+        <td><p>当调用 <span class="xref">System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize(System.IO.Stream,System.Object)</span> 方法时，可能引发此类型的异常。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.NotSupportedException</span></td>
+        <td><p>当调用 <span class="xref">System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize(System.IO.Stream,System.Object)</span> 方法时，可能引发此类型的异常。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Niacomsoft_Eips_Runtime_Serializations_BinarySerializer_Serialize__1___0_System_IO_Stream__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.IO.Stream</span></div>
+  </div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Niacomsoft.Eips.Runtime.Serializations.IAsyncSerializer.html">IAsyncSerializer</a>
   </div>
   <div>
       <a class="xref" href="Niacomsoft.Eips.Runtime.Serializations.ISerializer.html">ISerializer</a>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="Niacomsoft.Eips.Runtime.Serializations.Serializer.html">Serializer</a></div>
   </div>
 </article>
           </div>

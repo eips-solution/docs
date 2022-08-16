@@ -73,7 +73,9 @@
   
   <h1 id="Niacomsoft_Eips_Extensions_Int64HashFormatter" data-uid="Niacomsoft.Eips.Extensions.Int64HashFormatter" class="text-break">Class Int64HashFormatter
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>提供了计算 <span class="xref">System.Int64</span> 类型哈希格式化相关的方法。</p>
+<p> 密闭的，不可以从此类型派生。 </p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -109,7 +111,8 @@
   
   <a id="Niacomsoft_Eips_Extensions_Int64HashFormatter__ctor_" data-uid="Niacomsoft.Eips.Extensions.Int64HashFormatter.#ctor*"></a>
   <h4 id="Niacomsoft_Eips_Extensions_Int64HashFormatter__ctor_Niacomsoft_Eips_Extensions_IHashIdCryptographyKeyProvider_" data-uid="Niacomsoft.Eips.Extensions.Int64HashFormatter.#ctor(Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider)">Int64HashFormatter(IHashIdCryptographyKeyProvider)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>用于初始化一个 <a class="xref" href="Niacomsoft.Eips.Extensions.Int64HashFormatter.html">Int64HashFormatter</a> 类型的对象实例。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -128,7 +131,8 @@
       <tr>
         <td><a class="xref" href="Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider.html">IHashIdCryptographyKeyProvider</a></td>
         <td><span class="parametername">keyProvider</span></td>
-        <td></td>
+        <td><p>创建加密密钥的方法。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -138,7 +142,8 @@
   
   <a id="Niacomsoft_Eips_Extensions_Int64HashFormatter_FromString_" data-uid="Niacomsoft.Eips.Extensions.Int64HashFormatter.FromString*"></a>
   <h4 id="Niacomsoft_Eips_Extensions_Int64HashFormatter_FromString_System_String_" data-uid="Niacomsoft.Eips.Extensions.Int64HashFormatter.FromString(System.String)">FromString(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>从哈希字符串 <code data-dev-comment-type="paramref" class="paramref">hashStr</code> 还原 <span class="xref">System.Int64</span> 类型的值。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -157,7 +162,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">hashStr</span></td>
-        <td></td>
+        <td><p>哈希字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -172,17 +178,39 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
-        <td></td>
+        <td><p>可为空的 <span class="xref">System.Int64</span> 类型的值。</p>
+<p>
+当 <code data-dev-comment-type="paramref" class="paramref">hashStr</code> 等于 <code> null </code>、
+<span class="xref">System.String.Empty</span> 或者空格符时，则返回 <code> null </code>。
+</p>
+</td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">Niacomsoft.Eips.Extensions.HashIdFormatter&lt;System.Int64&gt;.FromString(System.String)</span></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HashidsNet.NoResultException</span></td>
+        <td><p>当调用 <span class="xref">HashidsNet.IHashids.DecodeSingleLong(System.String)</span> 方法时，可能引发此类型的异常。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Niacomsoft_Eips_Extensions_Int64HashFormatter_ToString_" data-uid="Niacomsoft.Eips.Extensions.Int64HashFormatter.ToString*"></a>
   <h4 id="Niacomsoft_Eips_Extensions_Int64HashFormatter_ToString_System_Int64_" data-uid="Niacomsoft.Eips.Extensions.Int64HashFormatter.ToString(System.Int64)">ToString(Int64)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将数值 <code data-dev-comment-type="paramref" class="paramref">value</code> 转换成哈希字符串。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -201,7 +229,8 @@
       <tr>
         <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p><span class="xref">System.Int64</span> 类型的值。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -216,15 +245,37 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>哈希字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">Niacomsoft.Eips.Extensions.HashIdFormatter&lt;System.Int64&gt;.ToString(System.Int64)</span></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Niacomsoft.Eips.NotNaturalNumberException.html">NotNaturalNumberException</a></td>
+        <td><p>当 <code data-dev-comment-type="paramref" class="paramref">value</code> 不是一个自然数时，将引发此类型的异常。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Niacomsoft.Eips.Extensions.IHashIdFormatter-1.html">IHashIdFormatter&lt;T&gt;</a>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="Niacomsoft.Eips.Extensions.IHashIdFormatter-1.html">IHashIdFormatter</a>&lt;T&gt;</div>
+      <div><a class="xref" href="Niacomsoft.Eips.Extensions.HashIdFormatter-1.html">HashIdFormatter</a>&lt;T&gt;</div>
   </div>
 </article>
           </div>

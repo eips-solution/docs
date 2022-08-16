@@ -1,0 +1,1489 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BsonWriter
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BsonWriter
+   ">
+    <meta name="generator" content="docfx 2.59.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Newtonsoft.Json.Bson.BsonWriter">
+  
+  
+  <h1 id="Newtonsoft_Json_Bson_BsonWriter" data-uid="Newtonsoft.Json.Bson.BsonWriter" class="text-break">Class BsonWriter
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Newtonsoft.Json.JsonWriter.html">JsonWriter</a></div>
+    <div class="level2"><span class="xref">BsonWriter</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_CloseAsync_System_Threading_CancellationToken_">JsonWriter.CloseAsync(CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_FlushAsync_System_Threading_CancellationToken_">JsonWriter.FlushAsync(CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteEndAsync_Newtonsoft_Json_JsonToken_System_Threading_CancellationToken_">JsonWriter.WriteEndAsync(JsonToken, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteIndentAsync_System_Threading_CancellationToken_">JsonWriter.WriteIndentAsync(CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueDelimiterAsync_System_Threading_CancellationToken_">JsonWriter.WriteValueDelimiterAsync(CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteIndentSpaceAsync_System_Threading_CancellationToken_">JsonWriter.WriteIndentSpaceAsync(CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteRawAsync_System_String_System_Threading_CancellationToken_">JsonWriter.WriteRawAsync(String, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteEndAsync_System_Threading_CancellationToken_">JsonWriter.WriteEndAsync(CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteEndArrayAsync_System_Threading_CancellationToken_">JsonWriter.WriteEndArrayAsync(CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteEndConstructorAsync_System_Threading_CancellationToken_">JsonWriter.WriteEndConstructorAsync(CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteEndObjectAsync_System_Threading_CancellationToken_">JsonWriter.WriteEndObjectAsync(CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteNullAsync_System_Threading_CancellationToken_">JsonWriter.WriteNullAsync(CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WritePropertyNameAsync_System_String_System_Threading_CancellationToken_">JsonWriter.WritePropertyNameAsync(String, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WritePropertyNameAsync_System_String_System_Boolean_System_Threading_CancellationToken_">JsonWriter.WritePropertyNameAsync(String, Boolean, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteStartArrayAsync_System_Threading_CancellationToken_">JsonWriter.WriteStartArrayAsync(CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteCommentAsync_System_String_System_Threading_CancellationToken_">JsonWriter.WriteCommentAsync(String, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteRawValueAsync_System_String_System_Threading_CancellationToken_">JsonWriter.WriteRawValueAsync(String, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteStartConstructorAsync_System_String_System_Threading_CancellationToken_">JsonWriter.WriteStartConstructorAsync(String, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteStartObjectAsync_System_Threading_CancellationToken_">JsonWriter.WriteStartObjectAsync(CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteTokenAsync_Newtonsoft_Json_JsonReader_System_Threading_CancellationToken_">JsonWriter.WriteTokenAsync(JsonReader, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteTokenAsync_Newtonsoft_Json_JsonReader_System_Boolean_System_Threading_CancellationToken_">JsonWriter.WriteTokenAsync(JsonReader, Boolean, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteTokenAsync_Newtonsoft_Json_JsonToken_System_Threading_CancellationToken_">JsonWriter.WriteTokenAsync(JsonToken, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteTokenAsync_Newtonsoft_Json_JsonToken_System_Object_System_Threading_CancellationToken_">JsonWriter.WriteTokenAsync(JsonToken, Object, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Boolean_System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Boolean, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Nullable_System_Boolean__System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Nullable&lt;Boolean&gt;, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Byte_System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Byte, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Nullable_System_Byte__System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Nullable&lt;Byte&gt;, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Byte___System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Byte[], CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Char_System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Char, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Nullable_System_Char__System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Nullable&lt;Char&gt;, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_DateTime_System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(DateTime, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Nullable_System_DateTime__System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Nullable&lt;DateTime&gt;, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_DateTimeOffset_System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(DateTimeOffset, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Nullable_System_DateTimeOffset__System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Nullable&lt;DateTimeOffset&gt;, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Decimal_System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Decimal, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Nullable_System_Decimal__System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Nullable&lt;Decimal&gt;, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Double_System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Double, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Nullable_System_Double__System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Nullable&lt;Double&gt;, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Single_System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Single, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Nullable_System_Single__System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Nullable&lt;Single&gt;, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Guid_System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Guid, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Nullable_System_Guid__System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Nullable&lt;Guid&gt;, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Int32_System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Int32, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Nullable_System_Int32__System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Nullable&lt;Int32&gt;, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Int64_System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Int64, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Nullable_System_Int64__System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Nullable&lt;Int64&gt;, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Object_System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Object, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_SByte_System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(SByte, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Nullable_System_SByte__System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Nullable&lt;SByte&gt;, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Int16_System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Int16, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Nullable_System_Int16__System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Nullable&lt;Int16&gt;, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_String_System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(String, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_TimeSpan_System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(TimeSpan, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Nullable_System_TimeSpan__System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Nullable&lt;TimeSpan&gt;, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_UInt32_System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(UInt32, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Nullable_System_UInt32__System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Nullable&lt;UInt32&gt;, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_UInt64_System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(UInt64, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Nullable_System_UInt64__System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Nullable&lt;UInt64&gt;, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Uri_System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Uri, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_UInt16_System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(UInt16, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueAsync_System_Nullable_System_UInt16__System_Threading_CancellationToken_">JsonWriter.WriteValueAsync(Nullable&lt;UInt16&gt;, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteUndefinedAsync_System_Threading_CancellationToken_">JsonWriter.WriteUndefinedAsync(CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteWhitespaceAsync_System_String_System_Threading_CancellationToken_">JsonWriter.WriteWhitespaceAsync(String, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_SetWriteStateAsync_Newtonsoft_Json_JsonToken_System_Object_System_Threading_CancellationToken_">JsonWriter.SetWriteStateAsync(JsonToken, Object, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteEndObject">JsonWriter.WriteEndObject()</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteEndArray">JsonWriter.WriteEndArray()</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteEndConstructor">JsonWriter.WriteEndConstructor()</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WritePropertyName_System_String_System_Boolean_">JsonWriter.WritePropertyName(String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteEnd">JsonWriter.WriteEnd()</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteToken_Newtonsoft_Json_JsonReader_">JsonWriter.WriteToken(JsonReader)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteToken_Newtonsoft_Json_JsonReader_System_Boolean_">JsonWriter.WriteToken(JsonReader, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteToken_Newtonsoft_Json_JsonToken_System_Object_">JsonWriter.WriteToken(JsonToken, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteToken_Newtonsoft_Json_JsonToken_">JsonWriter.WriteToken(JsonToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteIndent">JsonWriter.WriteIndent()</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValueDelimiter">JsonWriter.WriteValueDelimiter()</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteIndentSpace">JsonWriter.WriteIndentSpace()</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Nullable_System_Int32__">JsonWriter.WriteValue(Nullable&lt;Int32&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Nullable_System_UInt32__">JsonWriter.WriteValue(Nullable&lt;UInt32&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Nullable_System_Int64__">JsonWriter.WriteValue(Nullable&lt;Int64&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Nullable_System_UInt64__">JsonWriter.WriteValue(Nullable&lt;UInt64&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Nullable_System_Single__">JsonWriter.WriteValue(Nullable&lt;Single&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Nullable_System_Double__">JsonWriter.WriteValue(Nullable&lt;Double&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Nullable_System_Boolean__">JsonWriter.WriteValue(Nullable&lt;Boolean&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Nullable_System_Int16__">JsonWriter.WriteValue(Nullable&lt;Int16&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Nullable_System_UInt16__">JsonWriter.WriteValue(Nullable&lt;UInt16&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Nullable_System_Char__">JsonWriter.WriteValue(Nullable&lt;Char&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Nullable_System_Byte__">JsonWriter.WriteValue(Nullable&lt;Byte&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Nullable_System_SByte__">JsonWriter.WriteValue(Nullable&lt;SByte&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Nullable_System_Decimal__">JsonWriter.WriteValue(Nullable&lt;Decimal&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Nullable_System_DateTime__">JsonWriter.WriteValue(Nullable&lt;DateTime&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Nullable_System_DateTimeOffset__">JsonWriter.WriteValue(Nullable&lt;DateTimeOffset&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Nullable_System_Guid__">JsonWriter.WriteValue(Nullable&lt;Guid&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Nullable_System_TimeSpan__">JsonWriter.WriteValue(Nullable&lt;TimeSpan&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteWhitespace_System_String_">JsonWriter.WriteWhitespace(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_System_IDisposable_Dispose">JsonWriter.IDisposable.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_Dispose_System_Boolean_">JsonWriter.Dispose(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_SetWriteState_Newtonsoft_Json_JsonToken_System_Object_">JsonWriter.SetWriteState(JsonToken, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_CloseOutput">JsonWriter.CloseOutput</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_AutoCompleteOnClose">JsonWriter.AutoCompleteOnClose</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_Top">JsonWriter.Top</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteState">JsonWriter.WriteState</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_Path">JsonWriter.Path</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_Formatting">JsonWriter.Formatting</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_DateFormatHandling">JsonWriter.DateFormatHandling</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_DateTimeZoneHandling">JsonWriter.DateTimeZoneHandling</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_StringEscapeHandling">JsonWriter.StringEscapeHandling</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_FloatFormatHandling">JsonWriter.FloatFormatHandling</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_DateFormatString">JsonWriter.DateFormatString</a>
+    </div>
+    <div>
+      <a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_Culture">JsonWriter.Culture</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Newtonsoft.Json.Bson.html">Newtonsoft.Json.Bson</a></h6>
+  <h6><strong>Assembly</strong>: Newtonsoft.Json.dll</h6>
+  <h5 id="Newtonsoft_Json_Bson_BsonWriter_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;BSON reading and writing has been moved to its own package. See https://www.nuget.org/packages/Newtonsoft.Json.Bson for more details.&quot;)]
+public class BsonWriter : JsonWriter, IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter__ctor_" data-uid="Newtonsoft.Json.Bson.BsonWriter.#ctor*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter__ctor_System_IO_BinaryWriter_" data-uid="Newtonsoft.Json.Bson.BsonWriter.#ctor(System.IO.BinaryWriter)">BsonWriter(BinaryWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BsonWriter(BinaryWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.BinaryWriter</span></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter__ctor_" data-uid="Newtonsoft.Json.Bson.BsonWriter.#ctor*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter__ctor_System_IO_Stream_" data-uid="Newtonsoft.Json.Bson.BsonWriter.#ctor(System.IO.Stream)">BsonWriter(Stream)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BsonWriter(Stream stream)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_DateTimeKindHandling_" data-uid="Newtonsoft.Json.Bson.BsonWriter.DateTimeKindHandling*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_DateTimeKindHandling" data-uid="Newtonsoft.Json.Bson.BsonWriter.DateTimeKindHandling">DateTimeKindHandling</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeKind DateTimeKindHandling { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTimeKind</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_Close_" data-uid="Newtonsoft.Json.Bson.BsonWriter.Close*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_Close" data-uid="Newtonsoft.Json.Bson.BsonWriter.Close">Close()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Close()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_Close">JsonWriter.Close()</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_Flush_" data-uid="Newtonsoft.Json.Bson.BsonWriter.Flush*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_Flush" data-uid="Newtonsoft.Json.Bson.BsonWriter.Flush">Flush()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Flush()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_Flush">JsonWriter.Flush()</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteComment_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteComment*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteComment_System_String_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteComment(System.String)">WriteComment(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WriteComment(string text)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">text</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteComment_System_String_">JsonWriter.WriteComment(String)</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteEnd_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteEnd*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteEnd_Newtonsoft_Json_JsonToken_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteEnd(Newtonsoft.Json.JsonToken)">WriteEnd(JsonToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void WriteEnd(JsonToken token)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Newtonsoft.Json.JsonToken.html">JsonToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteEnd_Newtonsoft_Json_JsonToken_">JsonWriter.WriteEnd(JsonToken)</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteNull_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteNull*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteNull" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteNull">WriteNull()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WriteNull()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteNull">JsonWriter.WriteNull()</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteObjectId_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteObjectId*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteObjectId_System_Byte___" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteObjectId(System.Byte[])">WriteObjectId(Byte[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteObjectId(byte[] value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WritePropertyName_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WritePropertyName*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WritePropertyName_System_String_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WritePropertyName(System.String)">WritePropertyName(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WritePropertyName(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WritePropertyName_System_String_">JsonWriter.WritePropertyName(String)</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteRaw_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteRaw*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteRaw_System_String_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteRaw(System.String)">WriteRaw(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WriteRaw(string json)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">json</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteRaw_System_String_">JsonWriter.WriteRaw(String)</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteRawValue_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteRawValue*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteRawValue_System_String_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteRawValue(System.String)">WriteRawValue(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WriteRawValue(string json)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">json</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteRawValue_System_String_">JsonWriter.WriteRawValue(String)</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteRegex_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteRegex*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteRegex_System_String_System_String_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteRegex(System.String,System.String)">WriteRegex(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteRegex(string pattern, string options)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pattern</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteStartArray_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteStartArray*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteStartArray" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteStartArray">WriteStartArray()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WriteStartArray()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteStartArray">JsonWriter.WriteStartArray()</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteStartConstructor_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteStartConstructor*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteStartConstructor_System_String_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteStartConstructor(System.String)">WriteStartConstructor(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WriteStartConstructor(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteStartConstructor_System_String_">JsonWriter.WriteStartConstructor(String)</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteStartObject_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteStartObject*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteStartObject" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteStartObject">WriteStartObject()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WriteStartObject()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteStartObject">JsonWriter.WriteStartObject()</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteUndefined_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteUndefined*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteUndefined" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteUndefined">WriteUndefined()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WriteUndefined()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteUndefined">JsonWriter.WriteUndefined()</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_System_Boolean_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue(System.Boolean)">WriteValue(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WriteValue(bool value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Boolean_">JsonWriter.WriteValue(Boolean)</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_System_Byte_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue(System.Byte)">WriteValue(Byte)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WriteValue(byte value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Byte_">JsonWriter.WriteValue(Byte)</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_System_Byte___" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue(System.Byte[])">WriteValue(Byte[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WriteValue(byte[] value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Byte___">JsonWriter.WriteValue(Byte[])</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_System_Char_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue(System.Char)">WriteValue(Char)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WriteValue(char value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Char_">JsonWriter.WriteValue(Char)</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_System_DateTime_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue(System.DateTime)">WriteValue(DateTime)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WriteValue(DateTime value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_DateTime_">JsonWriter.WriteValue(DateTime)</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_System_DateTimeOffset_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue(System.DateTimeOffset)">WriteValue(DateTimeOffset)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WriteValue(DateTimeOffset value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTimeOffset</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_DateTimeOffset_">JsonWriter.WriteValue(DateTimeOffset)</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_System_Decimal_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue(System.Decimal)">WriteValue(Decimal)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WriteValue(decimal value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Decimal_">JsonWriter.WriteValue(Decimal)</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_System_Double_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue(System.Double)">WriteValue(Double)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WriteValue(double value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Double_">JsonWriter.WriteValue(Double)</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_System_Guid_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue(System.Guid)">WriteValue(Guid)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WriteValue(Guid value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Guid_">JsonWriter.WriteValue(Guid)</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_System_Int16_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue(System.Int16)">WriteValue(Int16)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WriteValue(short value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Int16_">JsonWriter.WriteValue(Int16)</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_System_Int32_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue(System.Int32)">WriteValue(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WriteValue(int value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Int32_">JsonWriter.WriteValue(Int32)</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_System_Int64_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue(System.Int64)">WriteValue(Int64)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WriteValue(long value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Int64_">JsonWriter.WriteValue(Int64)</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_System_Object_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue(System.Object)">WriteValue(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WriteValue(object value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Object_">JsonWriter.WriteValue(Object)</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_System_SByte_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue(System.SByte)">WriteValue(SByte)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[CLSCompliant(false)]
+public override void WriteValue(sbyte value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.SByte</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_SByte_">JsonWriter.WriteValue(SByte)</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_System_Single_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue(System.Single)">WriteValue(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WriteValue(float value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Single_">JsonWriter.WriteValue(Single)</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_System_String_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue(System.String)">WriteValue(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WriteValue(string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_String_">JsonWriter.WriteValue(String)</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_System_TimeSpan_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue(System.TimeSpan)">WriteValue(TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WriteValue(TimeSpan value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_TimeSpan_">JsonWriter.WriteValue(TimeSpan)</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_System_UInt16_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue(System.UInt16)">WriteValue(UInt16)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[CLSCompliant(false)]
+public override void WriteValue(ushort value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_UInt16_">JsonWriter.WriteValue(UInt16)</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_System_UInt32_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue(System.UInt32)">WriteValue(UInt32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[CLSCompliant(false)]
+public override void WriteValue(uint value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_UInt32_">JsonWriter.WriteValue(UInt32)</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_System_UInt64_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue(System.UInt64)">WriteValue(UInt64)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[CLSCompliant(false)]
+public override void WriteValue(ulong value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_UInt64_">JsonWriter.WriteValue(UInt64)</a></div>
+  
+  
+  <a id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue*"></a>
+  <h4 id="Newtonsoft_Json_Bson_BsonWriter_WriteValue_System_Uri_" data-uid="Newtonsoft.Json.Bson.BsonWriter.WriteValue(System.Uri)">WriteValue(Uri)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WriteValue(Uri value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Uri</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Newtonsoft.Json.JsonWriter.html#Newtonsoft_Json_JsonWriter_WriteValue_System_Uri_">JsonWriter.WriteValue(Uri)</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

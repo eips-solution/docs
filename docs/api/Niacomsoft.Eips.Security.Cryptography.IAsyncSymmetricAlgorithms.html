@@ -73,7 +73,8 @@
   
   <h1 id="Niacomsoft_Eips_Security_Cryptography_IAsyncSymmetricAlgorithms" data-uid="Niacomsoft.Eips.Security.Cryptography.IAsyncSymmetricAlgorithms" class="text-break">Interface IAsyncSymmetricAlgorithms
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>定义了异步对称加密算法的接口。</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -111,7 +112,8 @@
   
   <a id="Niacomsoft_Eips_Security_Cryptography_IAsyncSymmetricAlgorithms_DecryptAsync_" data-uid="Niacomsoft.Eips.Security.Cryptography.IAsyncSymmetricAlgorithms.DecryptAsync*"></a>
   <h4 id="Niacomsoft_Eips_Security_Cryptography_IAsyncSymmetricAlgorithms_DecryptAsync_System_Byte___Niacomsoft_Eips_Security_Cryptography_ISymmetricCryptographicKey_System_Nullable_System_Security_Cryptography_CipherMode__System_Nullable_System_Security_Cryptography_PaddingMode__" data-uid="Niacomsoft.Eips.Security.Cryptography.IAsyncSymmetricAlgorithms.DecryptAsync(System.Byte[],Niacomsoft.Eips.Security.Cryptography.ISymmetricCryptographicKey,System.Nullable{System.Security.Cryptography.CipherMode},System.Nullable{System.Security.Cryptography.PaddingMode})">DecryptAsync(Byte[], ISymmetricCryptographicKey, Nullable&lt;CipherMode&gt;, Nullable&lt;PaddingMode&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>(异步的方法) 解密。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -130,22 +132,33 @@
       <tr>
         <td><span class="xref">System.Byte</span>[]</td>
         <td><span class="parametername">encryptedData</span></td>
-        <td></td>
+        <td><p>需要解密的字节数据。</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="Niacomsoft.Eips.Security.Cryptography.ISymmetricCryptographicKey.html">ISymmetricCryptographicKey</a></td>
         <td><span class="parametername">key</span></td>
-        <td></td>
+        <td><p>加密密钥。</p>
+<p> 当 <code data-dev-comment-type="paramref" class="paramref">key</code> 等于 <code> null </code> 时，将使用 <a class="xref" href="Niacomsoft.Eips.Security.Cryptography.ISymmetricAlgorithms.html#Niacomsoft_Eips_Security_Cryptography_ISymmetricAlgorithms_DefaultKey">DefaultKey</a>。 </p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Security.Cryptography.CipherMode</span>&gt;</td>
         <td><span class="parametername">mode</span></td>
-        <td></td>
+        <td><p>可为空的 <span class="xref">System.Security.Cryptography.CipherMode</span> 类型的值。</p>
+<p>
+当 <code data-dev-comment-type="paramref" class="paramref">mode</code>.HasValue 等于 <code> false </code> 时，将使用 <a class="xref" href="Niacomsoft.Eips.Security.Cryptography.ISymmetricAlgorithms.html#Niacomsoft_Eips_Security_Cryptography_ISymmetricAlgorithms_DefaultCipherMode">DefaultCipherMode</a>。
+</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Security.Cryptography.PaddingMode</span>&gt;</td>
         <td><span class="parametername">padding</span></td>
-        <td></td>
+        <td><p>可为空的 <span class="xref">System.Security.Cryptography.PaddingMode</span> 类型的值。</p>
+<p>
+当 <code data-dev-comment-type="paramref" class="paramref">padding</code>.HasValue 等于 <code> false </code> 时，将使用 <a class="xref" href="Niacomsoft.Eips.Security.Cryptography.ISymmetricAlgorithms.html#Niacomsoft_Eips_Security_Cryptography_ISymmetricAlgorithms_DefaultPaddingMode">DefaultPaddingMode</a>。
+</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -160,15 +173,24 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Byte</span>[]&gt;</td>
-        <td></td>
+        <td><p>加密后的字节数据。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_Security_Cryptography_IAsyncSymmetricAlgorithms_DecryptAsync_System_Byte___Niacomsoft_Eips_Security_Cryptography_ISymmetricCryptographicKey_System_Nullable_System_Security_Cryptography_CipherMode__System_Nullable_System_Security_Cryptography_PaddingMode___seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Niacomsoft.Eips.Security.Cryptography.ISymmetricAlgorithms.html">ISymmetricAlgorithms</a></div>
+      <div><span class="xref">System.Security.Cryptography.CipherMode</span></div>
+      <div><span class="xref">System.Security.Cryptography.PaddingMode</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span>&lt;&gt;</div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_Security_Cryptography_IAsyncSymmetricAlgorithms_DecryptAsync_" data-uid="Niacomsoft.Eips.Security.Cryptography.IAsyncSymmetricAlgorithms.DecryptAsync*"></a>
   <h4 id="Niacomsoft_Eips_Security_Cryptography_IAsyncSymmetricAlgorithms_DecryptAsync_System_IO_Stream_Niacomsoft_Eips_Security_Cryptography_ISymmetricCryptographicKey_System_Nullable_System_Security_Cryptography_CipherMode__System_Nullable_System_Security_Cryptography_PaddingMode__" data-uid="Niacomsoft.Eips.Security.Cryptography.IAsyncSymmetricAlgorithms.DecryptAsync(System.IO.Stream,Niacomsoft.Eips.Security.Cryptography.ISymmetricCryptographicKey,System.Nullable{System.Security.Cryptography.CipherMode},System.Nullable{System.Security.Cryptography.PaddingMode})">DecryptAsync(Stream, ISymmetricCryptographicKey, Nullable&lt;CipherMode&gt;, Nullable&lt;PaddingMode&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>(异步的方法) 从 <code data-dev-comment-type="paramref" class="paramref">sourceStream</code> 读取数据并解密。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -187,22 +209,34 @@
       <tr>
         <td><span class="xref">System.IO.Stream</span></td>
         <td><span class="parametername">sourceStream</span></td>
-        <td></td>
+        <td><p>加密的输入流。</p>
+<p> 派生自 <span class="xref">System.IO.Stream</span> 类型的对象实例。 </p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="Niacomsoft.Eips.Security.Cryptography.ISymmetricCryptographicKey.html">ISymmetricCryptographicKey</a></td>
         <td><span class="parametername">key</span></td>
-        <td></td>
+        <td><p>加密密钥。</p>
+<p> 当 <code data-dev-comment-type="paramref" class="paramref">key</code> 等于 <code> null </code> 时，将使用 <a class="xref" href="Niacomsoft.Eips.Security.Cryptography.ISymmetricAlgorithms.html#Niacomsoft_Eips_Security_Cryptography_ISymmetricAlgorithms_DefaultKey">DefaultKey</a>。 </p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Security.Cryptography.CipherMode</span>&gt;</td>
         <td><span class="parametername">mode</span></td>
-        <td></td>
+        <td><p>可为空的 <span class="xref">System.Security.Cryptography.CipherMode</span> 类型的值。</p>
+<p>
+当 <code data-dev-comment-type="paramref" class="paramref">mode</code>.HasValue 等于 <code> false </code> 时，将使用 <a class="xref" href="Niacomsoft.Eips.Security.Cryptography.ISymmetricAlgorithms.html#Niacomsoft_Eips_Security_Cryptography_ISymmetricAlgorithms_DefaultCipherMode">DefaultCipherMode</a>。
+</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Security.Cryptography.PaddingMode</span>&gt;</td>
         <td><span class="parametername">padding</span></td>
-        <td></td>
+        <td><p>可为空的 <span class="xref">System.Security.Cryptography.PaddingMode</span> 类型的值。</p>
+<p>
+当 <code data-dev-comment-type="paramref" class="paramref">padding</code>.HasValue 等于 <code> false </code> 时，将使用 <a class="xref" href="Niacomsoft.Eips.Security.Cryptography.ISymmetricAlgorithms.html#Niacomsoft_Eips_Security_Cryptography_ISymmetricAlgorithms_DefaultPaddingMode">DefaultPaddingMode</a>。
+</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -217,15 +251,25 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Byte</span>[]&gt;</td>
-        <td></td>
+        <td><p>解密后的数据。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_Security_Cryptography_IAsyncSymmetricAlgorithms_DecryptAsync_System_IO_Stream_Niacomsoft_Eips_Security_Cryptography_ISymmetricCryptographicKey_System_Nullable_System_Security_Cryptography_CipherMode__System_Nullable_System_Security_Cryptography_PaddingMode___seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Niacomsoft.Eips.Security.Cryptography.ISymmetricAlgorithms.html">ISymmetricAlgorithms</a></div>
+      <div><span class="xref">System.Security.Cryptography.CipherMode</span></div>
+      <div><span class="xref">System.Security.Cryptography.PaddingMode</span></div>
+      <div><span class="xref">System.IO.Stream</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span>&lt;&gt;</div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_Security_Cryptography_IAsyncSymmetricAlgorithms_EncryptAsync_" data-uid="Niacomsoft.Eips.Security.Cryptography.IAsyncSymmetricAlgorithms.EncryptAsync*"></a>
   <h4 id="Niacomsoft_Eips_Security_Cryptography_IAsyncSymmetricAlgorithms_EncryptAsync_System_Byte___Niacomsoft_Eips_Security_Cryptography_ISymmetricCryptographicKey_System_Nullable_System_Security_Cryptography_CipherMode__System_Nullable_System_Security_Cryptography_PaddingMode__" data-uid="Niacomsoft.Eips.Security.Cryptography.IAsyncSymmetricAlgorithms.EncryptAsync(System.Byte[],Niacomsoft.Eips.Security.Cryptography.ISymmetricCryptographicKey,System.Nullable{System.Security.Cryptography.CipherMode},System.Nullable{System.Security.Cryptography.PaddingMode})">EncryptAsync(Byte[], ISymmetricCryptographicKey, Nullable&lt;CipherMode&gt;, Nullable&lt;PaddingMode&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>(异步的方法) 加密。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -244,22 +288,33 @@
       <tr>
         <td><span class="xref">System.Byte</span>[]</td>
         <td><span class="parametername">input</span></td>
-        <td></td>
+        <td><p>需要加密的字节数据。</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="Niacomsoft.Eips.Security.Cryptography.ISymmetricCryptographicKey.html">ISymmetricCryptographicKey</a></td>
         <td><span class="parametername">key</span></td>
-        <td></td>
+        <td><p>加密密钥。</p>
+<p> 当 <code data-dev-comment-type="paramref" class="paramref">key</code> 等于 <code> null </code> 时，将使用 <a class="xref" href="Niacomsoft.Eips.Security.Cryptography.ISymmetricAlgorithms.html#Niacomsoft_Eips_Security_Cryptography_ISymmetricAlgorithms_DefaultKey">DefaultKey</a>。 </p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Security.Cryptography.CipherMode</span>&gt;</td>
         <td><span class="parametername">mode</span></td>
-        <td></td>
+        <td><p>可为空的 <span class="xref">System.Security.Cryptography.CipherMode</span> 类型的值。</p>
+<p>
+当 <code data-dev-comment-type="paramref" class="paramref">mode</code>.HasValue 等于 <code> false </code> 时，将使用 <a class="xref" href="Niacomsoft.Eips.Security.Cryptography.ISymmetricAlgorithms.html#Niacomsoft_Eips_Security_Cryptography_ISymmetricAlgorithms_DefaultCipherMode">DefaultCipherMode</a>。
+</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Security.Cryptography.PaddingMode</span>&gt;</td>
         <td><span class="parametername">padding</span></td>
-        <td></td>
+        <td><p>可为空的 <span class="xref">System.Security.Cryptography.PaddingMode</span> 类型的值。</p>
+<p>
+当 <code data-dev-comment-type="paramref" class="paramref">padding</code>.HasValue 等于 <code> false </code> 时，将使用 <a class="xref" href="Niacomsoft.Eips.Security.Cryptography.ISymmetricAlgorithms.html#Niacomsoft_Eips_Security_Cryptography_ISymmetricAlgorithms_DefaultPaddingMode">DefaultPaddingMode</a>。
+</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -274,15 +329,24 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Byte</span>[]&gt;</td>
-        <td></td>
+        <td><p>加密后的字节数据。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_Security_Cryptography_IAsyncSymmetricAlgorithms_EncryptAsync_System_Byte___Niacomsoft_Eips_Security_Cryptography_ISymmetricCryptographicKey_System_Nullable_System_Security_Cryptography_CipherMode__System_Nullable_System_Security_Cryptography_PaddingMode___seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Niacomsoft.Eips.Security.Cryptography.ISymmetricAlgorithms.html">ISymmetricAlgorithms</a></div>
+      <div><span class="xref">System.Security.Cryptography.CipherMode</span></div>
+      <div><span class="xref">System.Security.Cryptography.PaddingMode</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span>&lt;&gt;</div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_Security_Cryptography_IAsyncSymmetricAlgorithms_EncryptAsync_" data-uid="Niacomsoft.Eips.Security.Cryptography.IAsyncSymmetricAlgorithms.EncryptAsync*"></a>
   <h4 id="Niacomsoft_Eips_Security_Cryptography_IAsyncSymmetricAlgorithms_EncryptAsync_System_Byte___System_IO_Stream_Niacomsoft_Eips_Security_Cryptography_ISymmetricCryptographicKey_System_Nullable_System_Security_Cryptography_CipherMode__System_Nullable_System_Security_Cryptography_PaddingMode__" data-uid="Niacomsoft.Eips.Security.Cryptography.IAsyncSymmetricAlgorithms.EncryptAsync(System.Byte[],System.IO.Stream,Niacomsoft.Eips.Security.Cryptography.ISymmetricCryptographicKey,System.Nullable{System.Security.Cryptography.CipherMode},System.Nullable{System.Security.Cryptography.PaddingMode})">EncryptAsync(Byte[], Stream, ISymmetricCryptographicKey, Nullable&lt;CipherMode&gt;, Nullable&lt;PaddingMode&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>(异步的方法) 加密并将加密后的数据写入 <code data-dev-comment-type="paramref" class="paramref">destionationStream</code>。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -301,27 +365,40 @@
       <tr>
         <td><span class="xref">System.Byte</span>[]</td>
         <td><span class="parametername">input</span></td>
-        <td></td>
+        <td><p>需要加密的字节数据。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.IO.Stream</span></td>
         <td><span class="parametername">destionationStream</span></td>
-        <td></td>
+        <td><p>目标流。</p>
+<p> 派生自 <span class="xref">System.IO.Stream</span> 类型的对象实例。 </p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="Niacomsoft.Eips.Security.Cryptography.ISymmetricCryptographicKey.html">ISymmetricCryptographicKey</a></td>
         <td><span class="parametername">key</span></td>
-        <td></td>
+        <td><p>加密密钥。</p>
+<p> 当 <code data-dev-comment-type="paramref" class="paramref">key</code> 等于 <code> null </code> 时，将使用 <a class="xref" href="Niacomsoft.Eips.Security.Cryptography.ISymmetricAlgorithms.html#Niacomsoft_Eips_Security_Cryptography_ISymmetricAlgorithms_DefaultKey">DefaultKey</a>。 </p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Security.Cryptography.CipherMode</span>&gt;</td>
         <td><span class="parametername">mode</span></td>
-        <td></td>
+        <td><p>可为空的 <span class="xref">System.Security.Cryptography.CipherMode</span> 类型的值。</p>
+<p>
+当 <code data-dev-comment-type="paramref" class="paramref">mode</code>.HasValue 等于 <code> false </code> 时，将使用 <a class="xref" href="Niacomsoft.Eips.Security.Cryptography.ISymmetricAlgorithms.html#Niacomsoft_Eips_Security_Cryptography_ISymmetricAlgorithms_DefaultCipherMode">DefaultCipherMode</a>。
+</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Security.Cryptography.PaddingMode</span>&gt;</td>
         <td><span class="parametername">padding</span></td>
-        <td></td>
+        <td><p>可为空的 <span class="xref">System.Security.Cryptography.PaddingMode</span> 类型的值。</p>
+<p>
+当 <code data-dev-comment-type="paramref" class="paramref">padding</code>.HasValue 等于 <code> false </code> 时，将使用 <a class="xref" href="Niacomsoft.Eips.Security.Cryptography.ISymmetricAlgorithms.html#Niacomsoft_Eips_Security_Cryptography_ISymmetricAlgorithms_DefaultPaddingMode">DefaultPaddingMode</a>。
+</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -336,10 +413,23 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span></td>
-        <td></td>
+        <td><p><span class="xref">System.Threading.Tasks.Task</span> 类型的对象实例。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_Security_Cryptography_IAsyncSymmetricAlgorithms_EncryptAsync_System_Byte___System_IO_Stream_Niacomsoft_Eips_Security_Cryptography_ISymmetricCryptographicKey_System_Nullable_System_Security_Cryptography_CipherMode__System_Nullable_System_Security_Cryptography_PaddingMode___seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Niacomsoft.Eips.Security.Cryptography.ISymmetricAlgorithms.html">ISymmetricAlgorithms</a></div>
+      <div><span class="xref">System.Security.Cryptography.CipherMode</span></div>
+      <div><span class="xref">System.Security.Cryptography.PaddingMode</span></div>
+      <div><span class="xref">System.IO.Stream</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span></div>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="Niacomsoft.Eips.Security.Cryptography.ISymmetricAlgorithms.html">ISymmetricAlgorithms</a></div>
+  </div>
 </article>
           </div>
           

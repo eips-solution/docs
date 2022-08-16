@@ -73,7 +73,8 @@
   
   <h1 id="Niacomsoft_Eips_DateTimeDescriptor" data-uid="Niacomsoft.Eips.DateTimeDescriptor" class="text-break">Class DateTimeDescriptor
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>提供了描述日期时间相关的方法。</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -92,7 +93,11 @@
   
   <a id="Niacomsoft_Eips_DateTimeDescriptor_GetDescription_" data-uid="Niacomsoft.Eips.DateTimeDescriptor.GetDescription*"></a>
   <h4 id="Niacomsoft_Eips_DateTimeDescriptor_GetDescription_System_Nullable_System_DateTime__" data-uid="Niacomsoft.Eips.DateTimeDescriptor.GetDescription(System.Nullable{System.DateTime})">GetDescription(Nullable&lt;DateTime&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取日期时间的描述。</p>
+<p>
+此方法将使用 <code data-dev-comment-type="paramref" class="paramref">dateTime</code> 与 <span class="xref">System.DateTime.UtcNow</span> 进行对比。
+</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -111,7 +116,8 @@
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
         <td><span class="parametername">dateTime</span></td>
-        <td></td>
+        <td><p>可为空的 <span class="xref">System.DateTime</span> 类型的值。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -126,7 +132,11 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>日期时间的描述信息。</p>
+<p>
+当 <code data-dev-comment-type="paramref" class="paramref">dateTime</code>.HasValue 等于 <code> false </code> 时，将返回 <code>null </code>。
+</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -134,7 +144,8 @@
   
   <a id="Niacomsoft_Eips_DateTimeDescriptor_GetDescription_" data-uid="Niacomsoft.Eips.DateTimeDescriptor.GetDescription*"></a>
   <h4 id="Niacomsoft_Eips_DateTimeDescriptor_GetDescription_System_Nullable_System_DateTimeOffset__" data-uid="Niacomsoft.Eips.DateTimeDescriptor.GetDescription(System.Nullable{System.DateTimeOffset})">GetDescription(Nullable&lt;DateTimeOffset&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取日期时间的描述。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -153,7 +164,8 @@
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTimeOffset</span>&gt;</td>
         <td><span class="parametername">dateTime</span></td>
-        <td></td>
+        <td><p>可为空的 <span class="xref">System.DateTimeOffset</span> 类型的值。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -168,7 +180,11 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>日期时间的描述信息。</p>
+<p>
+当 <code data-dev-comment-type="paramref" class="paramref">dateTime</code>.HasValue 等于 <code> false </code> 时，将返回 <code>null </code>。
+</p>
+</td>
       </tr>
     </tbody>
   </table>

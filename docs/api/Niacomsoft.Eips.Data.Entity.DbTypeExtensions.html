@@ -73,7 +73,9 @@
   
   <h1 id="Niacomsoft_Eips_Data_Entity_DbTypeExtensions" data-uid="Niacomsoft.Eips.Data.Entity.DbTypeExtensions" class="text-break">Class DbTypeExtensions
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>为 C# 类型提供的扩展方法。</p>
+<p> 提供了 C# 类型和数据库类型值相互转换的方法。 </p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -92,7 +94,8 @@
   
   <a id="Niacomsoft_Eips_Data_Entity_DbTypeExtensions_ToBoolean_" data-uid="Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToBoolean*"></a>
   <h4 id="Niacomsoft_Eips_Data_Entity_DbTypeExtensions_ToBoolean_System_Int32_" data-uid="Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToBoolean(System.Int32)">ToBoolean(Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将数据库中的 <span class="xref">System.Int32</span> 类型的值转换成 <span class="xref">System.Boolean</span> 类型的值。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -111,7 +114,8 @@
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">dbValue</span></td>
-        <td></td>
+        <td><p>存储在数据库中 <span class="xref">System.Int32</span> 类型的值。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -126,7 +130,12 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p><span class="xref">System.Boolean</span> 类型的值。</p>
+<p>
+当 <code data-dev-comment-type="paramref" class="paramref">dbValue</code> 等于 <code> 1 </code> 时，则返回 <code> true </code>；否则返回
+<code> false </code>。
+</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -134,7 +143,8 @@
   
   <a id="Niacomsoft_Eips_Data_Entity_DbTypeExtensions_ToBoolean_" data-uid="Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToBoolean*"></a>
   <h4 id="Niacomsoft_Eips_Data_Entity_DbTypeExtensions_ToBoolean_System_Nullable_System_Int32__" data-uid="Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToBoolean(System.Nullable{System.Int32})">ToBoolean(Nullable&lt;Int32&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将数据库中的可为空的 <span class="xref">System.Int32</span> 类型的值转换成 <span class="xref">System.Boolean</span> 类型的值。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -153,7 +163,8 @@
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
         <td><span class="parametername">dbValue</span></td>
-        <td></td>
+        <td><p>存储在数据库中可为空的 <span class="xref">System.Int32</span> 类型的值。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -168,7 +179,15 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
-        <td></td>
+        <td><p>可为空的 <span class="xref">System.Boolean</span> 类型的值。</p>
+<p>
+当 <code data-dev-comment-type="paramref" class="paramref">dbValue</code>.HasValue 等于 <code> false </code> 时，将返回 <code>null </code>。
+</p>
+<p>
+当 <code data-dev-comment-type="paramref" class="paramref">dbValue</code> 等于 <code> 1 </code> 时，则返回 <code> true </code>；否则返回
+<code> false </code>。
+</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -176,7 +195,8 @@
   
   <a id="Niacomsoft_Eips_Data_Entity_DbTypeExtensions_ToBoolean_" data-uid="Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToBoolean*"></a>
   <h4 id="Niacomsoft_Eips_Data_Entity_DbTypeExtensions_ToBoolean_System_Nullable_System_Int32__System_Boolean_" data-uid="Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToBoolean(System.Nullable{System.Int32},System.Boolean)">ToBoolean(Nullable&lt;Int32&gt;, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将数据库中的可为空的 <span class="xref">System.Int32</span> 类型的值转换成 <span class="xref">System.Boolean</span> 类型的值。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -195,12 +215,14 @@
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
         <td><span class="parametername">dbValue</span></td>
-        <td></td>
+        <td><p>存储在数据库中可为空的 <span class="xref">System.Int32</span> 类型的值。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">ifNull</span></td>
-        <td></td>
+        <td><p>当 <code data-dev-comment-type="paramref" class="paramref">ifNull</code> 等于 <code> null </code> 时的返回值。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -215,7 +237,15 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>等效的 <span class="xref">System.Boolean</span> 类型的值。</p>
+<p>
+当 <code data-dev-comment-type="paramref" class="paramref">dbValue</code>.HasValue 等于 <code> false </code> 时，将返回 <code data-dev-comment-type="paramref" class="paramref">ifNull</code>。
+</p>
+<p>
+当 <code data-dev-comment-type="paramref" class="paramref">dbValue</code> 等于 <code> 1 </code> 时，则返回 <code> true </code>；否则返回
+<code> false </code>。
+</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -223,7 +253,8 @@
   
   <a id="Niacomsoft_Eips_Data_Entity_DbTypeExtensions_ToGender_" data-uid="Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToGender*"></a>
   <h4 id="Niacomsoft_Eips_Data_Entity_DbTypeExtensions_ToGender_System_Nullable_System_Int32__" data-uid="Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToGender(System.Nullable{System.Int32})">ToGender(Nullable&lt;Int32&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将可为空的 <span class="xref">System.Int32</span> 类型的值转换成等效的 <a class="xref" href="Niacomsoft.Eips.Gender.html">Gender</a> 类型的值。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -242,7 +273,8 @@
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>可为空的 <span class="xref">System.Int32</span> 类型的值。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -257,7 +289,12 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Niacomsoft.Eips.Gender.html">Gender</a></td>
-        <td></td>
+        <td><p>等效的 <a class="xref" href="Niacomsoft.Eips.Gender.html">Gender</a> 类型的值。</p>
+<p> <code> null </code> 等效于 <a class="xref" href="Niacomsoft.Eips.Gender.html#Niacomsoft_Eips_Gender_NotSupport">NotSupport</a>； </p>
+<p> -1 等效于 <a class="xref" href="Niacomsoft.Eips.Gender.html#Niacomsoft_Eips_Gender_Unknown">Unknown</a>； </p>
+<p> 1 等效于 <a class="xref" href="Niacomsoft.Eips.Gender.html#Niacomsoft_Eips_Gender_Male">Male</a>； </p>
+<p> 2 等效于 <a class="xref" href="Niacomsoft.Eips.Gender.html#Niacomsoft_Eips_Gender_Female">Female</a>。 </p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -265,7 +302,8 @@
   
   <a id="Niacomsoft_Eips_Data_Entity_DbTypeExtensions_ToInt_" data-uid="Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToInt*"></a>
   <h4 id="Niacomsoft_Eips_Data_Entity_DbTypeExtensions_ToInt_Niacomsoft_Eips_Gender_" data-uid="Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToInt(Niacomsoft.Eips.Gender)">ToInt(Gender)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将 <a class="xref" href="Niacomsoft.Eips.Gender.html">Gender</a> 类型的值转换成等效的可为空的 <span class="xref">System.Int32</span> 类型的值。。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -284,7 +322,8 @@
       <tr>
         <td><a class="xref" href="Niacomsoft.Eips.Gender.html">Gender</a></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p><a class="xref" href="Niacomsoft.Eips.Gender.html">Gender</a> 类型的值。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -299,7 +338,12 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
-        <td></td>
+        <td><p>等效的可为空的 <span class="xref">System.Int32</span> 类型的值。</p>
+<p> <a class="xref" href="Niacomsoft.Eips.Gender.html#Niacomsoft_Eips_Gender_NotSupport">NotSupport</a> 等效于 <code> null </code>； </p>
+<p> <a class="xref" href="Niacomsoft.Eips.Gender.html#Niacomsoft_Eips_Gender_Unknown">Unknown</a> 等效于 -1； </p>
+<p> <a class="xref" href="Niacomsoft.Eips.Gender.html#Niacomsoft_Eips_Gender_Male">Male</a> 等效于 1； </p>
+<p> <a class="xref" href="Niacomsoft.Eips.Gender.html#Niacomsoft_Eips_Gender_Female">Female</a> 等效于 2。 </p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -307,7 +351,8 @@
   
   <a id="Niacomsoft_Eips_Data_Entity_DbTypeExtensions_ToInt_" data-uid="Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToInt*"></a>
   <h4 id="Niacomsoft_Eips_Data_Entity_DbTypeExtensions_ToInt_System_Boolean_" data-uid="Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToInt(System.Boolean)">ToInt(Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将 <span class="xref">System.Boolean</span> 类型的值转换成等效的 <span class="xref">System.Int32</span> 类型的值。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -326,7 +371,8 @@
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p><span class="xref">System.Boolean</span> 类型的值。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -341,7 +387,12 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td></td>
+        <td><p><span class="xref">System.Int32</span> 类型的值。</p>
+<p>
+当 <code data-dev-comment-type="paramref" class="paramref">value</code> 等于 <code> true </code> 时，将返回 <code> 1 </code>；否则返回
+<code> 0 </code>。
+</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -349,7 +400,8 @@
   
   <a id="Niacomsoft_Eips_Data_Entity_DbTypeExtensions_ToInt_" data-uid="Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToInt*"></a>
   <h4 id="Niacomsoft_Eips_Data_Entity_DbTypeExtensions_ToInt_System_Boolean_System_Int32_System_Int32_" data-uid="Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToInt(System.Boolean,System.Int32,System.Int32)">ToInt(Boolean, Int32, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将 <span class="xref">System.Boolean</span> 类型的值转换成等效的 <span class="xref">System.Int32</span> 类型的值。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -368,17 +420,20 @@
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p><span class="xref">System.Boolean</span> 类型的值。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">ifTrue</span></td>
-        <td></td>
+        <td><p><code> true </code> 等效的 <span class="xref">System.Int32</span> 类型的值。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">ifFalse</span></td>
-        <td></td>
+        <td><p><code> false </code> 等效的 <span class="xref">System.Int32</span> 类型的值。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -393,15 +448,25 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td></td>
+        <td><p><span class="xref">System.Int32</span> 类型的值。</p>
+<p>
+当 <code data-dev-comment-type="paramref" class="paramref">value</code> 等于 <code> true </code> 时，将返回
+<code data-dev-comment-type="paramref" class="paramref">ifTrue</code>；否则返回 <code data-dev-comment-type="paramref" class="paramref">ifFalse</code>。
+</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_Data_Entity_DbTypeExtensions_ToInt_System_Boolean_System_Int32_System_Int32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Niacomsoft.Eips.Defaults.html">Defaults</a></div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_Data_Entity_DbTypeExtensions_ToInt_" data-uid="Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToInt*"></a>
   <h4 id="Niacomsoft_Eips_Data_Entity_DbTypeExtensions_ToInt_System_Nullable_System_Boolean__" data-uid="Niacomsoft.Eips.Data.Entity.DbTypeExtensions.ToInt(System.Nullable{System.Boolean})">ToInt(Nullable&lt;Boolean&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将可为空的 <span class="xref">System.Boolean</span> 类型的值转换成等效的可为空的 <span class="xref">System.Int32</span> 类型的值。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -420,7 +485,8 @@
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>可为空的 <span class="xref">System.Boolean</span> 类型的值。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -435,7 +501,15 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
-        <td></td>
+        <td><p>可为空的 <span class="xref">System.Int32</span> 类型的值。</p>
+<p>
+当 <code data-dev-comment-type="paramref" class="paramref">value</code>.HasValue 等于 <code> false </code> 时，返回 <code> null </code>。
+</p>
+<p>
+当 <code data-dev-comment-type="paramref" class="paramref">value</code> 等于 <code> true </code> 时，将返回 <code> 1 </code>；否则返回
+<code> 0 </code>。
+</p>
+</td>
       </tr>
     </tbody>
   </table>

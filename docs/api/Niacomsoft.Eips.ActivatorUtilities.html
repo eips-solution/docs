@@ -73,7 +73,8 @@
   
   <h1 id="Niacomsoft_Eips_ActivatorUtilities" data-uid="Niacomsoft.Eips.ActivatorUtilities" class="text-break">Class ActivatorUtilities
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>提供了动态创建对象实例相关的辅助方法。</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -92,12 +93,12 @@
   
   <a id="Niacomsoft_Eips_ActivatorUtilities_CreateInstance_" data-uid="Niacomsoft.Eips.ActivatorUtilities.CreateInstance*"></a>
   <h4 id="Niacomsoft_Eips_ActivatorUtilities_CreateInstance__1_System_Object___" data-uid="Niacomsoft.Eips.ActivatorUtilities.CreateInstance``1(System.Object[])">CreateInstance&lt;T&gt;(Object[])</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>创建 <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的对象实例。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T CreateInstance&lt;T&gt;(params object[] args)
-
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -113,7 +114,8 @@
       <tr>
         <td><span class="xref">System.Object</span>[]</td>
         <td><span class="parametername">args</span></td>
-        <td></td>
+        <td><p>构造函数参数数组。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -128,7 +130,8 @@
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的对象实例。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -143,10 +146,31 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>引用类型。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Niacomsoft.Eips.DynamicCreateObjectInstanceException.html">DynamicCreateObjectInstanceException</a></td>
+        <td><p>当调用 <span class="xref">System.Activator.CreateInstance(System.Type,System.Object[])</span> 方法时，可能引发此类型的异常。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><span class="xref">System.Activator</span></div>
+  </div>
 </article>
           </div>
           

@@ -73,7 +73,9 @@
   
   <h1 id="Niacomsoft_Eips_Reflection_AssemblyAttributeHelper" data-uid="Niacomsoft.Eips.Reflection.AssemblyAttributeHelper" class="text-break">Class AssemblyAttributeHelper
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>提供了访问程序集注解信息相关的方法。</p>
+<p> 密闭的，不可以从此类型派生。 </p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -116,7 +118,8 @@
   
   
   <h4 id="Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_AsynchronousInstance" data-uid="Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.AsynchronousInstance">AsynchronousInstance</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>异步访问程序集注解信息的方法。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -133,17 +136,23 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Niacomsoft.Eips.IAsyncAttributeHelper-1.html">IAsyncAttributeHelper</a>&lt;<span class="xref">System.Reflection.Assembly</span>&gt;</td>
-        <td></td>
+        <td><p>获取 <a class="xref" href="Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.html">AssemblyAttributeHelper</a> 类型的对象实例，用于表示异步访问程序集注解信息的方法。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_AsynchronousInstance_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Niacomsoft.Eips.IAsyncAttributeHelper-1.html">IAsyncAttributeHelper</a>&lt;TTarget&gt;</div>
+  </div>
   <h3 id="properties">Properties
   </h3>
   
   
   <a id="Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_Instance_" data-uid="Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.Instance*"></a>
   <h4 id="Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_Instance" data-uid="Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.Instance">Instance</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>访问程序集注解信息的方法。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -160,22 +169,27 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Niacomsoft.Eips.IAttributeHelper-1.html">IAttributeHelper</a>&lt;<span class="xref">System.Reflection.Assembly</span>&gt;</td>
-        <td></td>
+        <td><p>获取 <a class="xref" href="Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.html">AssemblyAttributeHelper</a> 类型的对象实例，用于表示访问程序集注解信息的方法。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_Instance_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Niacomsoft.Eips.IAttributeHelper-1.html">IAttributeHelper</a>&lt;TTarget&gt;</div>
+  </div>
   <h3 id="methods">Methods
   </h3>
   
   
   <a id="Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_GetCustomAttribute_" data-uid="Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttribute*"></a>
   <h4 id="Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_GetCustomAttribute__1_System_Reflection_Assembly_System_Boolean_" data-uid="Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttribute``1(System.Reflection.Assembly,System.Boolean)">GetCustomAttribute&lt;TAttribute&gt;(Assembly, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取 <code data-dev-comment-type="paramref" class="paramref">assm</code> 中 <code data-dev-comment-type="typeparamref" class="typeparamref">TAttribute</code> 类型的注解。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override TAttribute GetCustomAttribute&lt;TAttribute&gt;(Assembly assm, bool inherit = false)
-
     where TAttribute : Attribute</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -191,12 +205,15 @@
       <tr>
         <td><span class="xref">System.Reflection.Assembly</span></td>
         <td><span class="parametername">assm</span></td>
-        <td></td>
+        <td><p>注解目标。</p>
+<p> <span class="xref">System.Reflection.Assembly</span> 类型的对象实例。 </p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">inherit</span></td>
-        <td></td>
+        <td><p>是否检索 <span class="xref">System.Reflection.Assembly</span> 的继承链。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -211,7 +228,8 @@
     <tbody>
       <tr>
         <td><span class="xref">TAttribute</span></td>
-        <td></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">TAttribute</code> 类型的对象实例。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -232,16 +250,38 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">Niacomsoft.Eips.AttributeHelper&lt;System.Reflection.Assembly&gt;.GetCustomAttribute&lt;TAttribute&gt;(System.Reflection.Assembly, System.Boolean)</span></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.AmbiguousMatchException</span></td>
+        <td><p>当调用
+<span class="xref">System.Attribute.GetCustomAttribute(System.Reflection.Assembly, System.Type, System.Boolean)</span> 方法时，可能引发此类型的异常。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_GetCustomAttribute__1_System_Reflection_Assembly_System_Boolean__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Attribute</span></div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_GetCustomAttributeAsync_" data-uid="Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttributeAsync*"></a>
   <h4 id="Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_GetCustomAttributeAsync__1_System_Reflection_Assembly_System_Boolean_" data-uid="Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttributeAsync``1(System.Reflection.Assembly,System.Boolean)">GetCustomAttributeAsync&lt;TAttribute&gt;(Assembly, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>(异步的方法) 获取 <code data-dev-comment-type="paramref" class="paramref">assm</code> 中
+<code data-dev-comment-type="typeparamref" class="typeparamref">TAttribute</code> 类型的注解。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override Task&lt;TAttribute&gt; GetCustomAttributeAsync&lt;TAttribute&gt;(Assembly assm, bool inherit = false)
-
     where TAttribute : Attribute</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -257,12 +297,15 @@
       <tr>
         <td><span class="xref">System.Reflection.Assembly</span></td>
         <td><span class="parametername">assm</span></td>
-        <td></td>
+        <td><p>注解目标。</p>
+<p> <span class="xref">System.Reflection.Assembly</span> 类型的对象实例。 </p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">inherit</span></td>
-        <td></td>
+        <td><p>是否检索 <span class="xref">System.Reflection.Assembly</span> 的继承链。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -277,7 +320,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;TAttribute&gt;</td>
-        <td></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">TAttribute</code> 类型的对象实例。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -298,11 +342,17 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">Niacomsoft.Eips.AsyncAttributeHelper&lt;System.Reflection.Assembly&gt;.GetCustomAttributeAsync&lt;TAttribute&gt;(System.Reflection.Assembly, System.Boolean)</span></div>
+  <h5 id="Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_GetCustomAttributeAsync__1_System_Reflection_Assembly_System_Boolean__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Attribute</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span>&lt;&gt;</div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_GetCustomAttributes_" data-uid="Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttributes*"></a>
   <h4 id="Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_GetCustomAttributes_System_Reflection_Assembly_System_Boolean_" data-uid="Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttributes(System.Reflection.Assembly,System.Boolean)">GetCustomAttributes(Assembly, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取 <code data-dev-comment-type="paramref" class="paramref">assm</code> 所有的注解。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -321,12 +371,15 @@
       <tr>
         <td><span class="xref">System.Reflection.Assembly</span></td>
         <td><span class="parametername">assm</span></td>
-        <td></td>
+        <td><p>注解目标。</p>
+<p> <span class="xref">System.Reflection.Assembly</span> 类型的对象实例。 </p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">inherit</span></td>
-        <td></td>
+        <td><p>是否检索 <span class="xref">System.Reflection.Assembly</span> 的继承链。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -341,22 +394,28 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Attribute</span>&gt;</td>
-        <td></td>
+        <td><p><span class="xref">System.Attribute</span> 类型的对象实例集合。</p>
+</td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">Niacomsoft.Eips.AttributeHelper&lt;System.Reflection.Assembly&gt;.GetCustomAttributes(System.Reflection.Assembly, System.Boolean)</span></div>
+  <h5 id="Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_GetCustomAttributes_System_Reflection_Assembly_System_Boolean__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;&gt;</div>
+      <div><span class="xref">System.Attribute</span></div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_GetCustomAttributes_" data-uid="Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttributes*"></a>
   <h4 id="Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_GetCustomAttributes__1_System_Reflection_Assembly_System_Boolean_" data-uid="Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttributes``1(System.Reflection.Assembly,System.Boolean)">GetCustomAttributes&lt;TAttribute&gt;(Assembly, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取 <code data-dev-comment-type="paramref" class="paramref">assm</code> 所有的 <code data-dev-comment-type="typeparamref" class="typeparamref">TAttribute</code> 类型注解。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override IEnumerable&lt;TAttribute&gt; GetCustomAttributes&lt;TAttribute&gt;(Assembly assm, bool inherit = false)
-
     where TAttribute : Attribute</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -372,12 +431,15 @@
       <tr>
         <td><span class="xref">System.Reflection.Assembly</span></td>
         <td><span class="parametername">assm</span></td>
-        <td></td>
+        <td><p>注解目标。</p>
+<p> <span class="xref">System.Reflection.Assembly</span> 类型的对象实例。 </p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">inherit</span></td>
-        <td></td>
+        <td><p>是否检索 <span class="xref">System.Reflection.Assembly</span> 的继承链。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -392,7 +454,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TAttribute&gt;</td>
-        <td></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">TAttribute</code> 类型的对象实例集合。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -413,11 +476,17 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">Niacomsoft.Eips.AttributeHelper&lt;System.Reflection.Assembly&gt;.GetCustomAttributes&lt;TAttribute&gt;(System.Reflection.Assembly, System.Boolean)</span></div>
+  <h5 id="Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_GetCustomAttributes__1_System_Reflection_Assembly_System_Boolean__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;&gt;</div>
+      <div><span class="xref">System.Attribute</span></div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_GetCustomAttributesAsync_" data-uid="Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttributesAsync*"></a>
   <h4 id="Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_GetCustomAttributesAsync_System_Reflection_Assembly_System_Boolean_" data-uid="Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttributesAsync(System.Reflection.Assembly,System.Boolean)">GetCustomAttributesAsync(Assembly, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>(异步的方法) 获取 <code data-dev-comment-type="paramref" class="paramref">assm</code> 所有的注解。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -436,12 +505,15 @@
       <tr>
         <td><span class="xref">System.Reflection.Assembly</span></td>
         <td><span class="parametername">assm</span></td>
-        <td></td>
+        <td><p>注解目标。</p>
+<p> <span class="xref">System.Reflection.Assembly</span> 类型的对象实例。 </p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">inherit</span></td>
-        <td></td>
+        <td><p>是否检索 <span class="xref">System.Reflection.Assembly</span> 的继承链。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -456,22 +528,30 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Attribute</span>&gt;&gt;</td>
-        <td></td>
+        <td><p><span class="xref">System.Attribute</span> 类型的对象实例集合。</p>
+</td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">Niacomsoft.Eips.AsyncAttributeHelper&lt;System.Reflection.Assembly&gt;.GetCustomAttributesAsync(System.Reflection.Assembly, System.Boolean)</span></div>
+  <h5 id="Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_GetCustomAttributesAsync_System_Reflection_Assembly_System_Boolean__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;&gt;</div>
+      <div><span class="xref">System.Attribute</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span>&lt;&gt;</div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_GetCustomAttributesAsync_" data-uid="Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttributesAsync*"></a>
   <h4 id="Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_GetCustomAttributesAsync__1_System_Reflection_Assembly_System_Boolean_" data-uid="Niacomsoft.Eips.Reflection.AssemblyAttributeHelper.GetCustomAttributesAsync``1(System.Reflection.Assembly,System.Boolean)">GetCustomAttributesAsync&lt;TAttribute&gt;(Assembly, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>(异步的方法) 获取 <code data-dev-comment-type="paramref" class="paramref">assm</code> 所有的
+<code data-dev-comment-type="typeparamref" class="typeparamref">TAttribute</code> 类型注解。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override Task&lt;IEnumerable&lt;TAttribute&gt;&gt; GetCustomAttributesAsync&lt;TAttribute&gt;(Assembly assm, bool inherit = false)
-
     where TAttribute : Attribute</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -487,12 +567,15 @@
       <tr>
         <td><span class="xref">System.Reflection.Assembly</span></td>
         <td><span class="parametername">assm</span></td>
-        <td></td>
+        <td><p>注解目标。</p>
+<p> <span class="xref">System.Reflection.Assembly</span> 类型的对象实例。 </p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">inherit</span></td>
-        <td></td>
+        <td><p>是否检索 <span class="xref">System.Reflection.Assembly</span> 的继承链。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -507,7 +590,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TAttribute&gt;&gt;</td>
-        <td></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">TAttribute</code> 类型的对象实例集合。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -528,12 +612,25 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">Niacomsoft.Eips.AsyncAttributeHelper&lt;System.Reflection.Assembly&gt;.GetCustomAttributesAsync&lt;TAttribute&gt;(System.Reflection.Assembly, System.Boolean)</span></div>
+  <h5 id="Niacomsoft_Eips_Reflection_AssemblyAttributeHelper_GetCustomAttributesAsync__1_System_Reflection_Assembly_System_Boolean__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;&gt;</div>
+      <div><span class="xref">System.Attribute</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span>&lt;&gt;</div>
+  </div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Niacomsoft.Eips.IAsyncAttributeHelper-1.html">IAsyncAttributeHelper&lt;TTarget&gt;</a>
   </div>
   <div>
       <a class="xref" href="Niacomsoft.Eips.IAttributeHelper-1.html">IAttributeHelper&lt;TTarget&gt;</a>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="Niacomsoft.Eips.IAttributeHelper-1.html">IAttributeHelper</a>&lt;TTarget&gt;</div>
+      <div><a class="xref" href="Niacomsoft.Eips.IAsyncAttributeHelper-1.html">IAsyncAttributeHelper</a>&lt;TTarget&gt;</div>
+      <div><a class="xref" href="Niacomsoft.Eips.AttributeHelper-1.html">AttributeHelper</a>&lt;TTarget&gt;</div>
+      <div><span class="xref">System.Reflection.Assembly</span></div>
   </div>
 </article>
           </div>

@@ -73,7 +73,8 @@
   
   <h1 id="Niacomsoft_Eips_StringUtilities" data-uid="Niacomsoft.Eips.StringUtilities" class="text-break">Class StringUtilities
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>提供了字符串相关的辅助方法。</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -92,7 +93,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_FromBase64String_" data-uid="Niacomsoft.Eips.StringUtilities.FromBase64String*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_FromBase64String_System_String_" data-uid="Niacomsoft.Eips.StringUtilities.FromBase64String(System.String)">FromBase64String(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>从 BASE-64 格式字符串获取字节数组。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -111,7 +113,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">base64Str</span></td>
-        <td></td>
+        <td><p>BASE-64 格式字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -126,15 +129,41 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Byte</span>[]</td>
-        <td></td>
+        <td><p>字节数组。</p>
+<p>
+当字符串 <code data-dev-comment-type="paramref" class="paramref">base64Str</code> 等于 <code> null </code> 或者
+<span class="xref">System.String.Empty</span> 时，将返回 <code> null </code>。
+</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.FormatException</span></td>
+        <td><p>当调用 <span class="xref">System.Convert.FromBase64String(System.String)</span> 方法时，可能引发此类型的异常。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Niacomsoft_Eips_StringUtilities_FromBase64String_System_String__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Convert</span></div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_StringUtilities_GetBytes_" data-uid="Niacomsoft.Eips.StringUtilities.GetBytes*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_GetBytes_System_String_System_Text_Encoding_" data-uid="Niacomsoft.Eips.StringUtilities.GetBytes(System.String,System.Text.Encoding)">GetBytes(String, Encoding)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>使用指定的编码获取字符串 <code data-dev-comment-type="paramref" class="paramref">s</code> 的字节数组。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -153,12 +182,16 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">s</span></td>
-        <td></td>
+        <td><p>字符串。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Text.Encoding</span></td>
         <td><span class="parametername">encoding</span></td>
-        <td></td>
+        <td><p>编码程序。</p>
+<p> 派生自 <span class="xref">System.Text.Encoding</span> 类型的对象实例。 </p>
+<p> 当 <code data-dev-comment-type="paramref" class="paramref">encoding</code> 等于 <code> null </code> 时，将使用 <a class="xref" href="Niacomsoft.Eips.Defaults.html#Niacomsoft_Eips_Defaults_DefaultEncoding">DefaultEncoding</a>。 </p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -173,15 +206,25 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Byte</span>[]</td>
-        <td></td>
+        <td><p>字节数组。</p>
+<p>
+当 <code data-dev-comment-type="paramref" class="paramref">s</code> 等于 <code> null </code> 时，将返回 <code> null </code>。
+</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_StringUtilities_GetBytes_System_String_System_Text_Encoding__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Text.Encoding</span></div>
+      <div><a class="xref" href="Niacomsoft.Eips.Defaults.html#Niacomsoft_Eips_Defaults_DefaultEncoding">DefaultEncoding</a></div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_StringUtilities_GetString_" data-uid="Niacomsoft.Eips.StringUtilities.GetString*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_GetString_System_Byte___System_Text_Encoding_" data-uid="Niacomsoft.Eips.StringUtilities.GetString(System.Byte[],System.Text.Encoding)">GetString(Byte[], Encoding)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>使用指定的编码获取字符串。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -200,12 +243,15 @@
       <tr>
         <td><span class="xref">System.Byte</span>[]</td>
         <td><span class="parametername">bytes</span></td>
-        <td></td>
+        <td><p>字节数组。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Text.Encoding</span></td>
         <td><span class="parametername">encoding</span></td>
-        <td></td>
+        <td><p>编码程序。</p>
+<p> 当 <code data-dev-comment-type="paramref" class="paramref">encoding</code> 等于 <code> null </code> 时，将使用 <a class="xref" href="Niacomsoft.Eips.Defaults.html#Niacomsoft_Eips_Defaults_DefaultEncoding">DefaultEncoding</a>。 </p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -220,15 +266,25 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>字符串。</p>
+<p>
+当 <code data-dev-comment-type="paramref" class="paramref">bytes</code> 等于 <code> null </code> 或者长度等于 0 时，将返回 <code> null </code>。
+</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_StringUtilities_GetString_System_Byte___System_Text_Encoding__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Text.Encoding</span></div>
+      <div><a class="xref" href="Niacomsoft.Eips.Defaults.html#Niacomsoft_Eips_Defaults_DefaultEncoding">DefaultEncoding</a></div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_StringUtilities_ToBase64String_" data-uid="Niacomsoft.Eips.StringUtilities.ToBase64String*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_ToBase64String_System_Byte___System_Base64FormattingOptions_" data-uid="Niacomsoft.Eips.StringUtilities.ToBase64String(System.Byte[],System.Base64FormattingOptions)">ToBase64String(Byte[], Base64FormattingOptions)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将字节数组 <code data-dev-comment-type="paramref" class="paramref">bytes</code> 转换成 BASE-64 格式字符串。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -247,12 +303,15 @@
       <tr>
         <td><span class="xref">System.Byte</span>[]</td>
         <td><span class="parametername">bytes</span></td>
-        <td></td>
+        <td><p>字节数组。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Base64FormattingOptions</span></td>
         <td><span class="parametername">options</span></td>
-        <td></td>
+        <td><p>BASE-64 格式化选项。</p>
+<p> <span class="xref">System.Base64FormattingOptions</span> 类型的值。 </p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -267,15 +326,25 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>BASE-64 格式字符串。</p>
+<p>
+当 <code data-dev-comment-type="paramref" class="paramref">bytes</code> 等于 <code> null </code> 或者长度等于 0 时，将返回 <code> null </code>。
+</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_StringUtilities_ToBase64String_System_Byte___System_Base64FormattingOptions__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Base64FormattingOptions</span></div>
+      <div><span class="xref">System.Convert</span></div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_StringUtilities_ToCurrency_" data-uid="Niacomsoft.Eips.StringUtilities.ToCurrency*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_ToCurrency_System_Decimal_System_Int32_System_Globalization_CultureInfo_" data-uid="Niacomsoft.Eips.StringUtilities.ToCurrency(System.Decimal,System.Int32,System.Globalization.CultureInfo)">ToCurrency(Decimal, Int32, CultureInfo)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将 <code data-dev-comment-type="paramref" class="paramref">value</code> 转换成货币格式字符串。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -294,17 +363,21 @@
       <tr>
         <td><span class="xref">System.Decimal</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p><span class="xref">System.Decimal</span> 类型的值。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">precision</span></td>
-        <td></td>
+        <td><p>货币精度。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Globalization.CultureInfo</span></td>
         <td><span class="parametername">culture</span></td>
-        <td></td>
+        <td><p>文化区域。</p>
+<p> <span class="xref">System.Globalization.CultureInfo</span> 类型的对象实例。 </p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -319,15 +392,21 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>货币字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_StringUtilities_ToCurrency_System_Decimal_System_Int32_System_Globalization_CultureInfo__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Globalization.CultureInfo</span></div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_StringUtilities_ToCurrency_" data-uid="Niacomsoft.Eips.StringUtilities.ToCurrency*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_ToCurrency_System_Double_System_Int32_System_Globalization_CultureInfo_" data-uid="Niacomsoft.Eips.StringUtilities.ToCurrency(System.Double,System.Int32,System.Globalization.CultureInfo)">ToCurrency(Double, Int32, CultureInfo)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将 <code data-dev-comment-type="paramref" class="paramref">value</code> 转换成货币格式字符串。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -346,17 +425,21 @@
       <tr>
         <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p><span class="xref">System.Double</span> 类型的值。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">precision</span></td>
-        <td></td>
+        <td><p>货币精度。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Globalization.CultureInfo</span></td>
         <td><span class="parametername">culture</span></td>
-        <td></td>
+        <td><p>文化区域。</p>
+<p> <span class="xref">System.Globalization.CultureInfo</span> 类型的对象实例。 </p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -371,15 +454,21 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>货币字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_StringUtilities_ToCurrency_System_Double_System_Int32_System_Globalization_CultureInfo__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Globalization.CultureInfo</span></div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_StringUtilities_ToCurrency_" data-uid="Niacomsoft.Eips.StringUtilities.ToCurrency*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_ToCurrency_System_Int16_System_Int16_System_Globalization_CultureInfo_" data-uid="Niacomsoft.Eips.StringUtilities.ToCurrency(System.Int16,System.Int16,System.Globalization.CultureInfo)">ToCurrency(Int16, Int16, CultureInfo)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将 <code data-dev-comment-type="paramref" class="paramref">value</code> 转换成货币格式字符串。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -398,17 +487,21 @@
       <tr>
         <td><span class="xref">System.Int16</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p><span class="xref">System.Int16</span> 类型的值。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int16</span></td>
         <td><span class="parametername">precision</span></td>
-        <td></td>
+        <td><p>货币精度。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Globalization.CultureInfo</span></td>
         <td><span class="parametername">culture</span></td>
-        <td></td>
+        <td><p>文化区域。</p>
+<p> <span class="xref">System.Globalization.CultureInfo</span> 类型的对象实例。 </p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -423,15 +516,21 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>货币字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_StringUtilities_ToCurrency_System_Int16_System_Int16_System_Globalization_CultureInfo__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Globalization.CultureInfo</span></div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_StringUtilities_ToCurrency_" data-uid="Niacomsoft.Eips.StringUtilities.ToCurrency*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_ToCurrency_System_Int32_System_Int32_System_Globalization_CultureInfo_" data-uid="Niacomsoft.Eips.StringUtilities.ToCurrency(System.Int32,System.Int32,System.Globalization.CultureInfo)">ToCurrency(Int32, Int32, CultureInfo)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将 <code data-dev-comment-type="paramref" class="paramref">value</code> 转换成货币格式字符串。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -450,17 +549,21 @@
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p><span class="xref">System.Int32</span> 类型的值。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">precision</span></td>
-        <td></td>
+        <td><p>货币精度。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Globalization.CultureInfo</span></td>
         <td><span class="parametername">culture</span></td>
-        <td></td>
+        <td><p>文化区域。</p>
+<p> <span class="xref">System.Globalization.CultureInfo</span> 类型的对象实例。 </p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -475,15 +578,21 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>货币字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_StringUtilities_ToCurrency_System_Int32_System_Int32_System_Globalization_CultureInfo__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Globalization.CultureInfo</span></div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_StringUtilities_ToCurrency_" data-uid="Niacomsoft.Eips.StringUtilities.ToCurrency*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_ToCurrency_System_Int64_System_Int64_System_Globalization_CultureInfo_" data-uid="Niacomsoft.Eips.StringUtilities.ToCurrency(System.Int64,System.Int64,System.Globalization.CultureInfo)">ToCurrency(Int64, Int64, CultureInfo)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将 <code data-dev-comment-type="paramref" class="paramref">value</code> 转换成货币格式字符串。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -502,17 +611,21 @@
       <tr>
         <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p><span class="xref">System.Int64</span> 类型的值。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">precision</span></td>
-        <td></td>
+        <td><p>货币精度。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Globalization.CultureInfo</span></td>
         <td><span class="parametername">culture</span></td>
-        <td></td>
+        <td><p>文化区域。</p>
+<p> <span class="xref">System.Globalization.CultureInfo</span> 类型的对象实例。 </p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -527,15 +640,21 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>货币字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_StringUtilities_ToCurrency_System_Int64_System_Int64_System_Globalization_CultureInfo__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Globalization.CultureInfo</span></div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_StringUtilities_ToCurrency_" data-uid="Niacomsoft.Eips.StringUtilities.ToCurrency*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_ToCurrency_System_Single_System_Int32_System_Globalization_CultureInfo_" data-uid="Niacomsoft.Eips.StringUtilities.ToCurrency(System.Single,System.Int32,System.Globalization.CultureInfo)">ToCurrency(Single, Int32, CultureInfo)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将 <code data-dev-comment-type="paramref" class="paramref">value</code> 转换成货币格式字符串。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -554,17 +673,21 @@
       <tr>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p><span class="xref">System.Single</span> 类型的值。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">precision</span></td>
-        <td></td>
+        <td><p>货币精度。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Globalization.CultureInfo</span></td>
         <td><span class="parametername">culture</span></td>
-        <td></td>
+        <td><p>文化区域。</p>
+<p> <span class="xref">System.Globalization.CultureInfo</span> 类型的对象实例。 </p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -579,15 +702,21 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>货币字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_StringUtilities_ToCurrency_System_Single_System_Int32_System_Globalization_CultureInfo__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Globalization.CultureInfo</span></div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_StringUtilities_ToDateTime_" data-uid="Niacomsoft.Eips.StringUtilities.ToDateTime*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_ToDateTime_System_String_" data-uid="Niacomsoft.Eips.StringUtilities.ToDateTime(System.String)">ToDateTime(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将字符串转换成等效的 <span class="xref">System.DateTime</span> 类型的值。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -606,7 +735,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">s</span></td>
-        <td></td>
+        <td><p>字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -621,7 +751,29 @@
     <tbody>
       <tr>
         <td><span class="xref">System.DateTime</span></td>
-        <td></td>
+        <td><p>等效的 <span class="xref">System.DateTime</span> 类型的值。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.FormatException</span></td>
+        <td><p>当调用 <span class="xref">System.DateTime.Parse(System.String)</span> 方法时，可能引发此类型的异常。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>当调用 <span class="xref">System.DateTime.Parse(System.String)</span> 方法时，可能引发此类型的异常。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -629,7 +781,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_ToDecimal_" data-uid="Niacomsoft.Eips.StringUtilities.ToDecimal*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_ToDecimal_System_String_" data-uid="Niacomsoft.Eips.StringUtilities.ToDecimal(System.String)">ToDecimal(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将字符串转换成等效的 <span class="xref">System.Decimal</span> 类型的值。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -648,7 +801,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">s</span></td>
-        <td></td>
+        <td><p>字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -663,7 +817,29 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Decimal</span></td>
-        <td></td>
+        <td><p>等效的 <span class="xref">System.Decimal</span> 类型的值。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.FormatException</span></td>
+        <td><p>当调用 <span class="xref">System.Decimal.Parse(System.String)</span> 方法时，可能引发此类型的异常。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>当调用 <span class="xref">System.Decimal.Parse(System.String)</span> 方法时，可能引发此类型的异常。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -671,7 +847,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_ToDouble_" data-uid="Niacomsoft.Eips.StringUtilities.ToDouble*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_ToDouble_System_String_" data-uid="Niacomsoft.Eips.StringUtilities.ToDouble(System.String)">ToDouble(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将字符串转换成等效的 <span class="xref">System.Double</span> 类型的值。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -690,7 +867,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">s</span></td>
-        <td></td>
+        <td><p>字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -705,7 +883,29 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Double</span></td>
-        <td></td>
+        <td><p>等效的 <span class="xref">System.Double</span> 类型的值。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.FormatException</span></td>
+        <td><p>当调用 <span class="xref">System.Double.Parse(System.String)</span> 方法时，可能引发此类型的异常。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>当调用 <span class="xref">System.Double.Parse(System.String)</span> 方法时，可能引发此类型的异常。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -713,7 +913,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_ToFixed_" data-uid="Niacomsoft.Eips.StringUtilities.ToFixed*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_ToFixed_System_Decimal_System_Int32_" data-uid="Niacomsoft.Eips.StringUtilities.ToFixed(System.Decimal,System.Int32)">ToFixed(Decimal, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将 <code data-dev-comment-type="paramref" class="paramref">value</code> 转换成固定点数字字符串。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -732,12 +933,14 @@
       <tr>
         <td><span class="xref">System.Decimal</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p><span class="xref">System.Decimal</span> 类型的值。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">precision</span></td>
-        <td></td>
+        <td><p>小数精度。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -752,7 +955,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>固定小数精度的数字字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -760,7 +964,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_ToFixed_" data-uid="Niacomsoft.Eips.StringUtilities.ToFixed*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_ToFixed_System_Double_System_Int32_" data-uid="Niacomsoft.Eips.StringUtilities.ToFixed(System.Double,System.Int32)">ToFixed(Double, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将 <code data-dev-comment-type="paramref" class="paramref">value</code> 转换成固定点数字字符串。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -779,12 +984,14 @@
       <tr>
         <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p><span class="xref">System.Double</span> 类型的值。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">precision</span></td>
-        <td></td>
+        <td><p>小数精度。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -799,7 +1006,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>固定小数精度的数字字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -807,7 +1015,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_ToFixed_" data-uid="Niacomsoft.Eips.StringUtilities.ToFixed*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_ToFixed_System_Int16_System_Int16_" data-uid="Niacomsoft.Eips.StringUtilities.ToFixed(System.Int16,System.Int16)">ToFixed(Int16, Int16)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将 <code data-dev-comment-type="paramref" class="paramref">value</code> 转换成固定点数字字符串。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -826,12 +1035,14 @@
       <tr>
         <td><span class="xref">System.Int16</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p><span class="xref">System.Int16</span> 类型的值。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int16</span></td>
         <td><span class="parametername">precision</span></td>
-        <td></td>
+        <td><p>小数精度。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -846,7 +1057,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>固定小数精度的数字字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -854,7 +1066,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_ToFixed_" data-uid="Niacomsoft.Eips.StringUtilities.ToFixed*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_ToFixed_System_Int32_System_Int32_" data-uid="Niacomsoft.Eips.StringUtilities.ToFixed(System.Int32,System.Int32)">ToFixed(Int32, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将 <code data-dev-comment-type="paramref" class="paramref">value</code> 转换成固定点数字字符串。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -873,12 +1086,14 @@
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p><span class="xref">System.Int32</span> 类型的值。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">precision</span></td>
-        <td></td>
+        <td><p>小数精度。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -893,7 +1108,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>固定小数精度的数字字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -901,7 +1117,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_ToFixed_" data-uid="Niacomsoft.Eips.StringUtilities.ToFixed*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_ToFixed_System_Int64_System_Int64_" data-uid="Niacomsoft.Eips.StringUtilities.ToFixed(System.Int64,System.Int64)">ToFixed(Int64, Int64)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将 <code data-dev-comment-type="paramref" class="paramref">value</code> 转换成固定点数字字符串。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -920,12 +1137,14 @@
       <tr>
         <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p><span class="xref">System.Int64</span> 类型的值。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">precision</span></td>
-        <td></td>
+        <td><p>小数精度。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -940,7 +1159,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>固定小数精度的数字字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -948,7 +1168,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_ToFixed_" data-uid="Niacomsoft.Eips.StringUtilities.ToFixed*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_ToFixed_System_Single_System_Int32_" data-uid="Niacomsoft.Eips.StringUtilities.ToFixed(System.Single,System.Int32)">ToFixed(Single, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将 <code data-dev-comment-type="paramref" class="paramref">value</code> 转换成固定点数字字符串。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -967,12 +1188,14 @@
       <tr>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p><span class="xref">System.Single</span> 类型的值。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">precision</span></td>
-        <td></td>
+        <td><p>小数精度。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -987,7 +1210,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>固定小数精度的数字字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -995,7 +1219,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_ToGuid_" data-uid="Niacomsoft.Eips.StringUtilities.ToGuid*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_ToGuid_System_String_" data-uid="Niacomsoft.Eips.StringUtilities.ToGuid(System.String)">ToGuid(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将字符串转换成等效的 <span class="xref">System.Guid</span> 类型的值。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1014,7 +1239,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">s</span></td>
-        <td></td>
+        <td><p>字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1029,7 +1255,29 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Guid</span></td>
-        <td></td>
+        <td><p>等效的 <span class="xref">System.Guid</span> 类型的值。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.FormatException</span></td>
+        <td><p>当调用 <span class="xref">System.Guid.Parse(System.String)</span> 方法时，可能引发此类型的异常。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>当调用 <span class="xref">System.Guid.Parse(System.String)</span> 方法时，可能引发此类型的异常。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1037,7 +1285,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_ToHex_" data-uid="Niacomsoft.Eips.StringUtilities.ToHex*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_ToHex_System_Int16_" data-uid="Niacomsoft.Eips.StringUtilities.ToHex(System.Int16)">ToHex(Int16)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将 <code data-dev-comment-type="paramref" class="paramref">value</code> 转换成十六进制字符串。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1056,7 +1305,8 @@
       <tr>
         <td><span class="xref">System.Int16</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p><span class="xref">System.Int16</span> 类型的值。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1071,7 +1321,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>十六进制字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1079,7 +1330,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_ToHex_" data-uid="Niacomsoft.Eips.StringUtilities.ToHex*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_ToHex_System_Int32_" data-uid="Niacomsoft.Eips.StringUtilities.ToHex(System.Int32)">ToHex(Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将 <code data-dev-comment-type="paramref" class="paramref">value</code> 转换成十六进制字符串。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1098,7 +1350,8 @@
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p><span class="xref">System.Int32</span> 类型的值。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1113,7 +1366,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>十六进制字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1121,7 +1375,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_ToHex_" data-uid="Niacomsoft.Eips.StringUtilities.ToHex*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_ToHex_System_Int64_" data-uid="Niacomsoft.Eips.StringUtilities.ToHex(System.Int64)">ToHex(Int64)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将 <code data-dev-comment-type="paramref" class="paramref">value</code> 转换成十六进制字符串。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1140,7 +1395,8 @@
       <tr>
         <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p><span class="xref">System.Int64</span> 类型的值。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1155,7 +1411,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>十六进制字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1163,7 +1420,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_ToInt_" data-uid="Niacomsoft.Eips.StringUtilities.ToInt*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_ToInt_System_String_" data-uid="Niacomsoft.Eips.StringUtilities.ToInt(System.String)">ToInt(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将字符串转换成等效的 <span class="xref">System.Int32</span> 类型的值。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1182,7 +1440,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">s</span></td>
-        <td></td>
+        <td><p>字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1197,7 +1456,29 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td></td>
+        <td><p>等效的 <span class="xref">System.Int32</span> 类型的值。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.FormatException</span></td>
+        <td><p>当调用 <span class="xref">System.Int32.Parse(System.String)</span> 方法时，可能引发此类型的异常。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>当调用 <span class="xref">System.Int32.Parse(System.String)</span> 方法时，可能引发此类型的异常。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1205,7 +1486,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_ToInt16_" data-uid="Niacomsoft.Eips.StringUtilities.ToInt16*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_ToInt16_System_String_" data-uid="Niacomsoft.Eips.StringUtilities.ToInt16(System.String)">ToInt16(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将字符串转换成等效的 <span class="xref">System.Int16</span> 类型的值。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1224,7 +1506,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">s</span></td>
-        <td></td>
+        <td><p>字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1239,7 +1522,29 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int16</span></td>
-        <td></td>
+        <td><p>等效的 <span class="xref">System.Int16</span> 类型的值。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.FormatException</span></td>
+        <td><p>当调用 <span class="xref">System.Int16.Parse(System.String)</span> 方法时，可能引发此类型的异常。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>当调用 <span class="xref">System.Int16.Parse(System.String)</span> 方法时，可能引发此类型的异常。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1247,7 +1552,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_ToInt64_" data-uid="Niacomsoft.Eips.StringUtilities.ToInt64*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_ToInt64_System_String_" data-uid="Niacomsoft.Eips.StringUtilities.ToInt64(System.String)">ToInt64(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将字符串转换成等效的 <span class="xref">System.Int64</span> 类型的值。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1266,7 +1572,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">s</span></td>
-        <td></td>
+        <td><p>字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1281,7 +1588,29 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int64</span></td>
-        <td></td>
+        <td><p>等效的 <span class="xref">System.Int64</span> 类型的值。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.FormatException</span></td>
+        <td><p>当调用 <span class="xref">System.Int64.Parse(System.String)</span> 方法时，可能引发此类型的异常。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>当调用 <span class="xref">System.Int64.Parse(System.String)</span> 方法时，可能引发此类型的异常。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1289,7 +1618,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_ToSingle_" data-uid="Niacomsoft.Eips.StringUtilities.ToSingle*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_ToSingle_System_String_" data-uid="Niacomsoft.Eips.StringUtilities.ToSingle(System.String)">ToSingle(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将字符串转换成等效的 <span class="xref">System.Single</span> 类型的值。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1308,7 +1638,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">s</span></td>
-        <td></td>
+        <td><p>字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1323,7 +1654,29 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Single</span></td>
-        <td></td>
+        <td><p>等效的 <span class="xref">System.Single</span> 类型的值。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.FormatException</span></td>
+        <td><p>当调用 <span class="xref">System.Single.Parse(System.String)</span> 方法时，可能引发此类型的异常。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>当调用 <span class="xref">System.Single.Parse(System.String)</span> 方法时，可能引发此类型的异常。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1331,7 +1684,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_TryToDateTime_" data-uid="Niacomsoft.Eips.StringUtilities.TryToDateTime*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_TryToDateTime_System_String_" data-uid="Niacomsoft.Eips.StringUtilities.TryToDateTime(System.String)">TryToDateTime(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>尝试将字符串转换成等效的可为空的 <span class="xref">System.DateTime</span> 类型的值。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1350,7 +1704,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">s</span></td>
-        <td></td>
+        <td><p>字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1365,7 +1720,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
-        <td></td>
+        <td><p>当调用 <span class="xref">System.DateTime.TryParse(System.String,System.DateTime@)</span> 方法返回 <code>false </code> 时，将返回 <code> null </code>。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1373,7 +1729,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_TryToDecimal_" data-uid="Niacomsoft.Eips.StringUtilities.TryToDecimal*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_TryToDecimal_System_String_" data-uid="Niacomsoft.Eips.StringUtilities.TryToDecimal(System.String)">TryToDecimal(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>尝试将字符串转换成等效的可为空的 <span class="xref">System.Decimal</span> 类型的值。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1392,7 +1749,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">s</span></td>
-        <td></td>
+        <td><p>字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1407,7 +1765,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Decimal</span>&gt;</td>
-        <td></td>
+        <td><p>当调用 <span class="xref">System.Decimal.TryParse(System.String,System.Decimal@)</span> 方法返回 <code>false </code> 时，将返回 <code> null </code>。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1415,7 +1774,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_TryToDouble_" data-uid="Niacomsoft.Eips.StringUtilities.TryToDouble*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_TryToDouble_System_String_" data-uid="Niacomsoft.Eips.StringUtilities.TryToDouble(System.String)">TryToDouble(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>尝试将字符串转换成等效的可为空的 <span class="xref">System.Double</span> 类型的值。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1434,7 +1794,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">s</span></td>
-        <td></td>
+        <td><p>字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1449,7 +1810,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
-        <td></td>
+        <td><p>当调用 <span class="xref">System.Double.TryParse(System.String,System.Double@)</span> 方法返回 <code>false </code> 时，将返回 <code> null </code>。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1457,7 +1819,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_TryToGuid_" data-uid="Niacomsoft.Eips.StringUtilities.TryToGuid*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_TryToGuid_System_String_" data-uid="Niacomsoft.Eips.StringUtilities.TryToGuid(System.String)">TryToGuid(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>尝试将字符串转换成等效的可为空的 <span class="xref">System.Guid</span> 类型的值。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1476,7 +1839,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">s</span></td>
-        <td></td>
+        <td><p>字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1491,7 +1855,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Guid</span>&gt;</td>
-        <td></td>
+        <td><p>当调用 <span class="xref">System.Guid.TryParse(System.String,System.Guid@)</span> 方法返回 <code> false</code> 时，将返回 <code> null </code>。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1499,7 +1864,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_TryToInt_" data-uid="Niacomsoft.Eips.StringUtilities.TryToInt*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_TryToInt_System_String_" data-uid="Niacomsoft.Eips.StringUtilities.TryToInt(System.String)">TryToInt(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>尝试将字符串转换成等效的可为空的 <span class="xref">System.Int32</span> 类型的值。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1518,7 +1884,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">s</span></td>
-        <td></td>
+        <td><p>字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1533,7 +1900,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
-        <td></td>
+        <td><p>当调用 <span class="xref">System.Int32.TryParse(System.String,System.Int32@)</span> 方法返回 <code> false</code> 时，将返回 <code> null </code>。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1541,7 +1909,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_TryToInt16_" data-uid="Niacomsoft.Eips.StringUtilities.TryToInt16*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_TryToInt16_System_String_" data-uid="Niacomsoft.Eips.StringUtilities.TryToInt16(System.String)">TryToInt16(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>尝试将字符串转换成等效的可为空的 <span class="xref">System.Int16</span> 类型的值。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1560,7 +1929,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">s</span></td>
-        <td></td>
+        <td><p>字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1575,7 +1945,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int16</span>&gt;</td>
-        <td></td>
+        <td><p>当调用 <span class="xref">System.Int16.TryParse(System.String,System.Int16@)</span> 方法返回 <code> false</code> 时，将返回 <code> null </code>。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1583,7 +1954,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_TryToInt64_" data-uid="Niacomsoft.Eips.StringUtilities.TryToInt64*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_TryToInt64_System_String_" data-uid="Niacomsoft.Eips.StringUtilities.TryToInt64(System.String)">TryToInt64(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>尝试将字符串转换成等效的可为空的 <span class="xref">System.Int64</span> 类型的值。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1602,7 +1974,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">s</span></td>
-        <td></td>
+        <td><p>字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1617,7 +1990,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
-        <td></td>
+        <td><p>当调用 <span class="xref">System.Int64.TryParse(System.String,System.Int64@)</span> 方法返回 <code> false</code> 时，将返回 <code> null </code>。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1625,7 +1999,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_TryToSingle_" data-uid="Niacomsoft.Eips.StringUtilities.TryToSingle*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_TryToSingle_System_String_" data-uid="Niacomsoft.Eips.StringUtilities.TryToSingle(System.String)">TryToSingle(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>尝试将字符串转换成等效的可为空的 <span class="xref">System.Single</span> 类型的值。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1644,7 +2019,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">s</span></td>
-        <td></td>
+        <td><p>字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1659,7 +2035,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Single</span>&gt;</td>
-        <td></td>
+        <td><p>当调用 <span class="xref">System.Single.TryParse(System.String,System.Single@)</span> 方法返回 <code>false </code> 时，将返回 <code> null </code>。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1667,7 +2044,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_WithThousandSeparators_" data-uid="Niacomsoft.Eips.StringUtilities.WithThousandSeparators*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_WithThousandSeparators_System_Decimal_System_Int32_" data-uid="Niacomsoft.Eips.StringUtilities.WithThousandSeparators(System.Decimal,System.Int32)">WithThousandSeparators(Decimal, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将 <code data-dev-comment-type="paramref" class="paramref">value</code> 转换成含千分符的数字字符串。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1686,12 +2064,14 @@
       <tr>
         <td><span class="xref">System.Decimal</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p><span class="xref">System.Decimal</span> 类型的值。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">precision</span></td>
-        <td></td>
+        <td><p>小数精度。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1706,7 +2086,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>包含千分符的数字字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1714,7 +2095,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_WithThousandSeparators_" data-uid="Niacomsoft.Eips.StringUtilities.WithThousandSeparators*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_WithThousandSeparators_System_Double_System_Int32_" data-uid="Niacomsoft.Eips.StringUtilities.WithThousandSeparators(System.Double,System.Int32)">WithThousandSeparators(Double, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将 <code data-dev-comment-type="paramref" class="paramref">value</code> 转换成含千分符的数字字符串。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1733,12 +2115,14 @@
       <tr>
         <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p><span class="xref">System.Double</span> 类型的值。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">precision</span></td>
-        <td></td>
+        <td><p>小数精度。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1753,7 +2137,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>包含千分符的数字字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1761,7 +2146,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_WithThousandSeparators_" data-uid="Niacomsoft.Eips.StringUtilities.WithThousandSeparators*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_WithThousandSeparators_System_Int16_System_Int16_" data-uid="Niacomsoft.Eips.StringUtilities.WithThousandSeparators(System.Int16,System.Int16)">WithThousandSeparators(Int16, Int16)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将 <code data-dev-comment-type="paramref" class="paramref">value</code> 转换成含千分符的数字字符串。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1780,12 +2166,14 @@
       <tr>
         <td><span class="xref">System.Int16</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p><span class="xref">System.Int16</span> 类型的值。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int16</span></td>
         <td><span class="parametername">precision</span></td>
-        <td></td>
+        <td><p>小数精度。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1800,7 +2188,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>包含千分符的数字字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1808,7 +2197,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_WithThousandSeparators_" data-uid="Niacomsoft.Eips.StringUtilities.WithThousandSeparators*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_WithThousandSeparators_System_Int32_System_Int32_" data-uid="Niacomsoft.Eips.StringUtilities.WithThousandSeparators(System.Int32,System.Int32)">WithThousandSeparators(Int32, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将 <code data-dev-comment-type="paramref" class="paramref">value</code> 转换成含千分符的数字字符串。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1827,12 +2217,14 @@
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p><span class="xref">System.Int32</span> 类型的值。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">precision</span></td>
-        <td></td>
+        <td><p>小数精度。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1847,7 +2239,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>包含千分符的数字字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1855,7 +2248,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_WithThousandSeparators_" data-uid="Niacomsoft.Eips.StringUtilities.WithThousandSeparators*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_WithThousandSeparators_System_Int64_System_Int64_" data-uid="Niacomsoft.Eips.StringUtilities.WithThousandSeparators(System.Int64,System.Int64)">WithThousandSeparators(Int64, Int64)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将 <code data-dev-comment-type="paramref" class="paramref">value</code> 转换成含千分符的数字字符串。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1874,12 +2268,14 @@
       <tr>
         <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p><span class="xref">System.Int64</span> 类型的值。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">precision</span></td>
-        <td></td>
+        <td><p>小数精度。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1894,7 +2290,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>包含千分符的数字字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1902,7 +2299,8 @@
   
   <a id="Niacomsoft_Eips_StringUtilities_WithThousandSeparators_" data-uid="Niacomsoft.Eips.StringUtilities.WithThousandSeparators*"></a>
   <h4 id="Niacomsoft_Eips_StringUtilities_WithThousandSeparators_System_Single_System_Int32_" data-uid="Niacomsoft.Eips.StringUtilities.WithThousandSeparators(System.Single,System.Int32)">WithThousandSeparators(Single, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将 <code data-dev-comment-type="paramref" class="paramref">value</code> 转换成含千分符的数字字符串。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1921,12 +2319,14 @@
       <tr>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p><span class="xref">System.Single</span> 类型的值。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">precision</span></td>
-        <td></td>
+        <td><p>小数精度。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1941,7 +2341,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>包含千分符的数字字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>

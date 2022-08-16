@@ -73,7 +73,8 @@
   
   <h1 id="Niacomsoft_Eips_IAsyncAttributeHelper_1" data-uid="Niacomsoft.Eips.IAsyncAttributeHelper`1" class="text-break">Interface IAsyncAttributeHelper&lt;TTarget&gt;
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>定义了异步的访问注解信息的接口。</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -104,7 +105,8 @@
     <tbody>
       <tr>
         <td><span class="parametername">TTarget</span></td>
-        <td></td>
+        <td><p>注解目标类型。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -114,12 +116,13 @@
   
   <a id="Niacomsoft_Eips_IAsyncAttributeHelper_1_GetCustomAttributeAsync_" data-uid="Niacomsoft.Eips.IAsyncAttributeHelper`1.GetCustomAttributeAsync*"></a>
   <h4 id="Niacomsoft_Eips_IAsyncAttributeHelper_1_GetCustomAttributeAsync__1__0_System_Boolean_" data-uid="Niacomsoft.Eips.IAsyncAttributeHelper`1.GetCustomAttributeAsync``1(`0,System.Boolean)">GetCustomAttributeAsync&lt;TAttribute&gt;(TTarget, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>(异步的方法) 获取 <code data-dev-comment-type="paramref" class="paramref">target</code> 中
+<code data-dev-comment-type="typeparamref" class="typeparamref">TAttribute</code> 类型的注解。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">Task&lt;TAttribute&gt; GetCustomAttributeAsync&lt;TAttribute&gt;(TTarget target, bool inherit = false)
-
     where TAttribute : Attribute</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -135,12 +138,15 @@
       <tr>
         <td><span class="xref">TTarget</span></td>
         <td><span class="parametername">target</span></td>
-        <td></td>
+        <td><p>注解目标。</p>
+<p> <code data-dev-comment-type="typeparamref" class="typeparamref">TTarget</code> 类型的对象实例。 </p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">inherit</span></td>
-        <td></td>
+        <td><p>是否检索 <code data-dev-comment-type="typeparamref" class="typeparamref">TTarget</code> 的继承链。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -155,7 +161,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;TAttribute&gt;</td>
-        <td></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">TAttribute</code> 类型的对象实例。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -170,15 +177,22 @@
     <tbody>
       <tr>
         <td><span class="parametername">TAttribute</span></td>
-        <td></td>
+        <td><p>派生自 <span class="xref">System.Attribute</span> 的类型。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_IAsyncAttributeHelper_1_GetCustomAttributeAsync__1__0_System_Boolean__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Attribute</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span>&lt;&gt;</div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_IAsyncAttributeHelper_1_GetCustomAttributesAsync_" data-uid="Niacomsoft.Eips.IAsyncAttributeHelper`1.GetCustomAttributesAsync*"></a>
   <h4 id="Niacomsoft_Eips_IAsyncAttributeHelper_1_GetCustomAttributesAsync__0_System_Boolean_" data-uid="Niacomsoft.Eips.IAsyncAttributeHelper`1.GetCustomAttributesAsync(`0,System.Boolean)">GetCustomAttributesAsync(TTarget, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>(异步的方法) 获取 <code data-dev-comment-type="paramref" class="paramref">target</code> 所有的注解。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -197,12 +211,15 @@
       <tr>
         <td><span class="xref">TTarget</span></td>
         <td><span class="parametername">target</span></td>
-        <td></td>
+        <td><p>注解目标。</p>
+<p> <code data-dev-comment-type="typeparamref" class="typeparamref">TTarget</code> 类型的对象实例。 </p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">inherit</span></td>
-        <td></td>
+        <td><p>是否检索 <code data-dev-comment-type="typeparamref" class="typeparamref">TTarget</code> 的继承链。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -217,20 +234,28 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Attribute</span>&gt;&gt;</td>
-        <td></td>
+        <td><p><span class="xref">System.Attribute</span> 类型的对象实例集合。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_IAsyncAttributeHelper_1_GetCustomAttributesAsync__0_System_Boolean__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;&gt;</div>
+      <div><span class="xref">System.Attribute</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span>&lt;&gt;</div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_IAsyncAttributeHelper_1_GetCustomAttributesAsync_" data-uid="Niacomsoft.Eips.IAsyncAttributeHelper`1.GetCustomAttributesAsync*"></a>
   <h4 id="Niacomsoft_Eips_IAsyncAttributeHelper_1_GetCustomAttributesAsync__1__0_System_Boolean_" data-uid="Niacomsoft.Eips.IAsyncAttributeHelper`1.GetCustomAttributesAsync``1(`0,System.Boolean)">GetCustomAttributesAsync&lt;TAttribute&gt;(TTarget, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>(异步的方法) 获取 <code data-dev-comment-type="paramref" class="paramref">target</code> 所有的
+<code data-dev-comment-type="typeparamref" class="typeparamref">TAttribute</code> 类型注解。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">Task&lt;IEnumerable&lt;TAttribute&gt;&gt; GetCustomAttributesAsync&lt;TAttribute&gt;(TTarget target, bool inherit = false)
-
     where TAttribute : Attribute</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -246,12 +271,15 @@
       <tr>
         <td><span class="xref">TTarget</span></td>
         <td><span class="parametername">target</span></td>
-        <td></td>
+        <td><p>注解目标。</p>
+<p> <code data-dev-comment-type="typeparamref" class="typeparamref">TTarget</code> 类型的对象实例。 </p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">inherit</span></td>
-        <td></td>
+        <td><p>是否检索 <code data-dev-comment-type="typeparamref" class="typeparamref">TTarget</code> 的继承链。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -266,7 +294,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TAttribute&gt;&gt;</td>
-        <td></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">TAttribute</code> 类型的对象实例集合。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -281,10 +310,21 @@
     <tbody>
       <tr>
         <td><span class="parametername">TAttribute</span></td>
-        <td></td>
+        <td><p>派生自 <span class="xref">System.Attribute</span> 的类型。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_IAsyncAttributeHelper_1_GetCustomAttributesAsync__1__0_System_Boolean__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;&gt;</div>
+      <div><span class="xref">System.Attribute</span></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span>&lt;&gt;</div>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="Niacomsoft.Eips.IAttributeHelper-1.html">IAttributeHelper</a>&lt;TTarget&gt;</div>
+  </div>
 </article>
           </div>
           

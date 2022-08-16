@@ -73,7 +73,8 @@
   
   <h1 id="Niacomsoft_Eips_Security_Cryptography_IHashAlgorithmsFactory" data-uid="Niacomsoft.Eips.Security.Cryptography.IHashAlgorithmsFactory" class="text-break">Interface IHashAlgorithmsFactory
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>定义了创建哈希算法的工厂接口。</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Niacomsoft.Eips.Security.Cryptography.html">Niacomsoft.Eips.Security.Cryptography</a></h6>
   <h6><strong>Assembly</strong>: Niacomsoft.Eips.Core.Abstractions.dll</h6>
@@ -87,7 +88,9 @@
   
   <a id="Niacomsoft_Eips_Security_Cryptography_IHashAlgorithmsFactory_Create_" data-uid="Niacomsoft.Eips.Security.Cryptography.IHashAlgorithmsFactory.Create*"></a>
   <h4 id="Niacomsoft_Eips_Security_Cryptography_IHashAlgorithmsFactory_Create_Niacomsoft_Eips_Security_Cryptography_SupportedHashAlgorithms_" data-uid="Niacomsoft.Eips.Security.Cryptography.IHashAlgorithmsFactory.Create(Niacomsoft.Eips.Security.Cryptography.SupportedHashAlgorithms)">Create(SupportedHashAlgorithms)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>创建哈希算法。</p>
+<p> 实现了 <a class="xref" href="Niacomsoft.Eips.Security.Cryptography.IHashAlgorithms.html">IHashAlgorithms</a> 类型接口的对象实例。 </p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -106,7 +109,9 @@
       <tr>
         <td><a class="xref" href="Niacomsoft.Eips.Security.Cryptography.SupportedHashAlgorithms.html">SupportedHashAlgorithms</a></td>
         <td><span class="parametername">alg</span></td>
-        <td></td>
+        <td><p>哈希算法。</p>
+<p> <a class="xref" href="Niacomsoft.Eips.Security.Cryptography.SupportedHashAlgorithms.html">SupportedHashAlgorithms</a> 类型的值。 </p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -121,10 +126,70 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Niacomsoft.Eips.Security.Cryptography.IHashAlgorithms.html">IHashAlgorithms</a></td>
-        <td></td>
+        <td><p>哈希算法对象实例。</p>
+<p> 实现了 <a class="xref" href="Niacomsoft.Eips.Security.Cryptography.IHashAlgorithms.html">IHashAlgorithms</a> 类型接口的对象实例。 </p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_Security_Cryptography_IHashAlgorithmsFactory_Create_Niacomsoft_Eips_Security_Cryptography_SupportedHashAlgorithms__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Niacomsoft.Eips.Security.Cryptography.IHashAlgorithms.html">IHashAlgorithms</a></div>
+      <div><a class="xref" href="Niacomsoft.Eips.Security.Cryptography.SupportedHashAlgorithms.html">SupportedHashAlgorithms</a></div>
+  </div>
+  
+  
+  <a id="Niacomsoft_Eips_Security_Cryptography_IHashAlgorithmsFactory_CreateAsynchronous_" data-uid="Niacomsoft.Eips.Security.Cryptography.IHashAlgorithmsFactory.CreateAsynchronous*"></a>
+  <h4 id="Niacomsoft_Eips_Security_Cryptography_IHashAlgorithmsFactory_CreateAsynchronous_Niacomsoft_Eips_Security_Cryptography_SupportedHashAlgorithms_" data-uid="Niacomsoft.Eips.Security.Cryptography.IHashAlgorithmsFactory.CreateAsynchronous(Niacomsoft.Eips.Security.Cryptography.SupportedHashAlgorithms)">CreateAsynchronous(SupportedHashAlgorithms)</h4>
+  <div class="markdown level1 summary"><p>创建异步的哈希算法。</p>
+<p> 实现了 <a class="xref" href="Niacomsoft.Eips.Security.Cryptography.IAsyncHashAlgorithms.html">IAsyncHashAlgorithms</a> 类型接口的对象实例。 </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IAsyncHashAlgorithms CreateAsynchronous(SupportedHashAlgorithms alg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Niacomsoft.Eips.Security.Cryptography.SupportedHashAlgorithms.html">SupportedHashAlgorithms</a></td>
+        <td><span class="parametername">alg</span></td>
+        <td><p>哈希算法。</p>
+<p> <a class="xref" href="Niacomsoft.Eips.Security.Cryptography.SupportedHashAlgorithms.html">SupportedHashAlgorithms</a> 类型的值。 </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Niacomsoft.Eips.Security.Cryptography.IAsyncHashAlgorithms.html">IAsyncHashAlgorithms</a></td>
+        <td><p>异步的哈希算法实例。</p>
+<p> 实现了 <a class="xref" href="Niacomsoft.Eips.Security.Cryptography.IAsyncHashAlgorithms.html">IAsyncHashAlgorithms</a> 类型接口的对象实例。 </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Niacomsoft_Eips_Security_Cryptography_IHashAlgorithmsFactory_CreateAsynchronous_Niacomsoft_Eips_Security_Cryptography_SupportedHashAlgorithms__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Niacomsoft.Eips.Security.Cryptography.IAsyncHashAlgorithms.html">IAsyncHashAlgorithms</a></div>
+      <div><a class="xref" href="Niacomsoft.Eips.Security.Cryptography.SupportedHashAlgorithms.html">SupportedHashAlgorithms</a></div>
+  </div>
 </article>
           </div>
           

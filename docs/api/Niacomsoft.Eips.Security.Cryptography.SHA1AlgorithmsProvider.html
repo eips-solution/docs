@@ -73,7 +73,9 @@
   
   <h1 id="Niacomsoft_Eips_Security_Cryptography_SHA1AlgorithmsProvider" data-uid="Niacomsoft.Eips.Security.Cryptography.SHA1AlgorithmsProvider" class="text-break">Class SHA1AlgorithmsProvider
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>提供了 SHA-1 哈希算法相关的方法。</p>
+<p> 密闭的，不可以从此类型派生。 </p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -114,7 +116,8 @@
   
   <a id="Niacomsoft_Eips_Security_Cryptography_SHA1AlgorithmsProvider__ctor_" data-uid="Niacomsoft.Eips.Security.Cryptography.SHA1AlgorithmsProvider.#ctor*"></a>
   <h4 id="Niacomsoft_Eips_Security_Cryptography_SHA1AlgorithmsProvider__ctor" data-uid="Niacomsoft.Eips.Security.Cryptography.SHA1AlgorithmsProvider.#ctor">SHA1AlgorithmsProvider()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>用于初始化一个 <a class="xref" href="Niacomsoft.Eips.Security.Cryptography.SHA1AlgorithmsProvider.html">SHA1AlgorithmsProvider</a> 类型的对象实例。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -126,7 +129,8 @@
   
   <a id="Niacomsoft_Eips_Security_Cryptography_SHA1AlgorithmsProvider_Provider_" data-uid="Niacomsoft.Eips.Security.Cryptography.SHA1AlgorithmsProvider.Provider*"></a>
   <h4 id="Niacomsoft_Eips_Security_Cryptography_SHA1AlgorithmsProvider_Provider" data-uid="Niacomsoft.Eips.Security.Cryptography.SHA1AlgorithmsProvider.Provider">Provider</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>哈希算法。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -143,19 +147,30 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Security.Cryptography.HashAlgorithm</span></td>
-        <td></td>
+        <td><p>获取
+<span class="xref">Niacomsoft.Eips.Security.Cryptography.HashAlgorithms.HashAlgorithm</span> 类型的对象实例，用于表示哈希算法。</p>
+<p>
+派生自
+<span class="xref">Niacomsoft.Eips.Security.Cryptography.HashAlgorithms.HashAlgorithm</span> 类型的对象实例。
+</p>
+</td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Niacomsoft.Eips.Security.Cryptography.HashAlgorithms.html#Niacomsoft_Eips_Security_Cryptography_HashAlgorithms_Provider">HashAlgorithms.Provider</a></div>
+  <h5 id="Niacomsoft_Eips_Security_Cryptography_SHA1AlgorithmsProvider_Provider_seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">Niacomsoft.Eips.Security.Cryptography.HashAlgorithms.HashAlgorithm</span></div>
+  </div>
   <h3 id="methods">Methods
   </h3>
   
   
   <a id="Niacomsoft_Eips_Security_Cryptography_SHA1AlgorithmsProvider_ComputeHash_" data-uid="Niacomsoft.Eips.Security.Cryptography.SHA1AlgorithmsProvider.ComputeHash*"></a>
   <h4 id="Niacomsoft_Eips_Security_Cryptography_SHA1AlgorithmsProvider_ComputeHash_System_Byte___" data-uid="Niacomsoft.Eips.Security.Cryptography.SHA1AlgorithmsProvider.ComputeHash(System.Byte[])">ComputeHash(Byte[])</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>计算哈希。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -174,7 +189,8 @@
       <tr>
         <td><span class="xref">System.Byte</span>[]</td>
         <td><span class="parametername">input</span></td>
-        <td></td>
+        <td><p>需要计算的字节数组。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -189,17 +205,35 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Byte</span>[]</td>
-        <td></td>
+        <td><p>哈希计算后的字节数组。</p>
+</td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Niacomsoft.Eips.Security.Cryptography.HashAlgorithms.html#Niacomsoft_Eips_Security_Cryptography_HashAlgorithms_ComputeHash_System_Byte___">HashAlgorithms.ComputeHash(Byte[])</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Cryptography.CryptographicException</span></td>
+        <td><p>当 <code data-dev-comment-type="paramref" class="paramref">input</code> 等于 <code> null </code> 时，可能引发此类型的异常。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Niacomsoft_Eips_Security_Cryptography_SHA1AlgorithmsProvider_ComputeHash_" data-uid="Niacomsoft.Eips.Security.Cryptography.SHA1AlgorithmsProvider.ComputeHash*"></a>
   <h4 id="Niacomsoft_Eips_Security_Cryptography_SHA1AlgorithmsProvider_ComputeHash_System_Byte___System_IO_Stream_" data-uid="Niacomsoft.Eips.Security.Cryptography.SHA1AlgorithmsProvider.ComputeHash(System.Byte[],System.IO.Stream)">ComputeHash(Byte[], Stream)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>计算哈希数据，并写入流 <code data-dev-comment-type="paramref" class="paramref">stream</code>。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -218,23 +252,57 @@
       <tr>
         <td><span class="xref">System.Byte</span>[]</td>
         <td><span class="parametername">input</span></td>
-        <td></td>
+        <td><p>字节数组。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.IO.Stream</span></td>
         <td><span class="parametername">stream</span></td>
-        <td></td>
+        <td><p>目标流。</p>
+<p> 派生自 <span class="xref">System.IO.Stream</span> 类型的对象实例。 </p>
+</td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Niacomsoft.Eips.Security.Cryptography.HashAlgorithms.html#Niacomsoft_Eips_Security_Cryptography_HashAlgorithms_ComputeHash_System_Byte___System_IO_Stream_">HashAlgorithms.ComputeHash(Byte[], Stream)</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Cryptography.CryptographicException</span></td>
+        <td><p>当 <code data-dev-comment-type="paramref" class="paramref">input</code> 等于 <code> null </code> 时，可能引发此类型的异常。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>当 <code data-dev-comment-type="paramref" class="paramref">stream</code> 等于 <code> null </code> 时，将引发此类型的异常。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Niacomsoft_Eips_Security_Cryptography_SHA1AlgorithmsProvider_ComputeHash_System_Byte___System_IO_Stream__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.IO.Stream</span></div>
+  </div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Niacomsoft.Eips.Security.Cryptography.IAsyncHashAlgorithms.html">IAsyncHashAlgorithms</a>
   </div>
   <div>
       <a class="xref" href="Niacomsoft.Eips.Security.Cryptography.IHashAlgorithms.html">IHashAlgorithms</a>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="Niacomsoft.Eips.Security.Cryptography.IHashAlgorithms.html">IHashAlgorithms</a></div>
+      <div><a class="xref" href="Niacomsoft.Eips.Security.Cryptography.IAsyncHashAlgorithms.html">IAsyncHashAlgorithms</a></div>
+      <div><a class="xref" href="Niacomsoft.Eips.Security.Cryptography.HashAlgorithms.html">HashAlgorithms</a></div>
   </div>
 </article>
           </div>

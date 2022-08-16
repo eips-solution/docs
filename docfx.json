@@ -8,6 +8,9 @@
           ]
         }
       ],
+      "properties": {
+        "TargetFramework": "net6.0"
+      },
       "dest": "api",
       "disableGitFeatures": false,
       "disableDefaultFilter": false

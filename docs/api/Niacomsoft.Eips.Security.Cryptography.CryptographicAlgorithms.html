@@ -73,7 +73,8 @@
   
   <h1 id="Niacomsoft_Eips_Security_Cryptography_CryptographicAlgorithms" data-uid="Niacomsoft.Eips.Security.Cryptography.CryptographicAlgorithms" class="text-break">Class CryptographicAlgorithms
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>提供了加密算法相关的基本方法。</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -106,7 +107,10 @@
   
   <a id="Niacomsoft_Eips_Security_Cryptography_CryptographicAlgorithms_NullBinaryData_" data-uid="Niacomsoft.Eips.Security.Cryptography.CryptographicAlgorithms.NullBinaryData*"></a>
   <h4 id="Niacomsoft_Eips_Security_Cryptography_CryptographicAlgorithms_NullBinaryData_System_Byte___" data-uid="Niacomsoft.Eips.Security.Cryptography.CryptographicAlgorithms.NullBinaryData(System.Byte[])">NullBinaryData(Byte[])</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>当 <code data-dev-comment-type="paramref" class="paramref">data</code> 等于 <code> null </code> 或
+<code data-dev-comment-type="paramref" class="paramref">data</code>.LongLength 等于 0 时，将引发一个
+<span class="xref">System.Security.Cryptography.CryptographicException</span> 类型的异常。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -125,6 +129,22 @@
       <tr>
         <td><span class="xref">System.Byte</span>[]</td>
         <td><span class="parametername">data</span></td>
+        <td><p>需要校验的字节数据。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Cryptography.CryptographicException</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -133,7 +153,8 @@
   
   <a id="Niacomsoft_Eips_Security_Cryptography_CryptographicAlgorithms_WriteToStream_" data-uid="Niacomsoft.Eips.Security.Cryptography.CryptographicAlgorithms.WriteToStream*"></a>
   <h4 id="Niacomsoft_Eips_Security_Cryptography_CryptographicAlgorithms_WriteToStream_System_Byte___System_IO_Stream_" data-uid="Niacomsoft.Eips.Security.Cryptography.CryptographicAlgorithms.WriteToStream(System.Byte[],System.IO.Stream)">WriteToStream(Byte[], Stream)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将字节数据写入流 <code data-dev-comment-type="paramref" class="paramref">destinationStream</code>。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -152,15 +173,22 @@
       <tr>
         <td><span class="xref">System.Byte</span>[]</td>
         <td><span class="parametername">input</span></td>
-        <td></td>
+        <td><p>字节数据。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.IO.Stream</span></td>
         <td><span class="parametername">destinationStream</span></td>
-        <td></td>
+        <td><p>目标流。</p>
+<p> 派生自 <span class="xref">System.IO.Stream</span> 类型的对象实例。 </p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_Security_Cryptography_CryptographicAlgorithms_WriteToStream_System_Byte___System_IO_Stream__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.IO.Stream</span></div>
+  </div>
 </article>
           </div>
           

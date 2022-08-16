@@ -73,7 +73,8 @@
   
   <h1 id="Niacomsoft_Eips_Security_Cryptography_SymmetricCryptographicKey" data-uid="Niacomsoft.Eips.Security.Cryptography.SymmetricCryptographicKey" class="text-break">Class SymmetricCryptographicKey
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>提供了访问对称加密算法密钥相关的基本方法。</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -109,7 +110,8 @@
   
   <a id="Niacomsoft_Eips_Security_Cryptography_SymmetricCryptographicKey_GetKeyData_" data-uid="Niacomsoft.Eips.Security.Cryptography.SymmetricCryptographicKey.GetKeyData*"></a>
   <h4 id="Niacomsoft_Eips_Security_Cryptography_SymmetricCryptographicKey_GetKeyData" data-uid="Niacomsoft.Eips.Security.Cryptography.SymmetricCryptographicKey.GetKeyData">GetKeyData()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取密钥字节数据。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -126,15 +128,38 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Byte</span>[]</td>
-        <td></td>
+        <td><p>字节数组。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>当方法 <a class="xref" href="Niacomsoft.Eips.Security.Cryptography.SymmetricCryptographicKey.html#Niacomsoft_Eips_Security_Cryptography_SymmetricCryptographicKey_InternalGetKeyString">InternalGetKeyString()</a> 返回 <code> null </code> 或
+<span class="xref">System.String.Empty</span> 时，将引发此类型的异常。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Niacomsoft_Eips_Security_Cryptography_SymmetricCryptographicKey_GetKeyData_seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Text.UTF8Encoding</span></div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_Security_Cryptography_SymmetricCryptographicKey_InternalGetKeyString_" data-uid="Niacomsoft.Eips.Security.Cryptography.SymmetricCryptographicKey.InternalGetKeyString*"></a>
   <h4 id="Niacomsoft_Eips_Security_Cryptography_SymmetricCryptographicKey_InternalGetKeyString" data-uid="Niacomsoft.Eips.Security.Cryptography.SymmetricCryptographicKey.InternalGetKeyString">InternalGetKeyString()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取密钥字符串。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -151,13 +176,18 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>密钥字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Niacomsoft.Eips.Security.Cryptography.ISymmetricCryptographicKey.html">ISymmetricCryptographicKey</a>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="Niacomsoft.Eips.Security.Cryptography.ISymmetricCryptographicKey.html">ISymmetricCryptographicKey</a></div>
   </div>
 </article>
           </div>

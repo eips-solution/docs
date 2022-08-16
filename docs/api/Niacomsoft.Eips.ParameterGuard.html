@@ -73,7 +73,8 @@
   
   <h1 id="Niacomsoft_Eips_ParameterGuard" data-uid="Niacomsoft.Eips.ParameterGuard" class="text-break">Class ParameterGuard
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>提供了安全的参数值相关的方法。</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -92,7 +93,10 @@
   
   <a id="Niacomsoft_Eips_ParameterGuard_SafeGet_" data-uid="Niacomsoft.Eips.ParameterGuard.SafeGet*"></a>
   <h4 id="Niacomsoft_Eips_ParameterGuard_SafeGet_System_String_System_String_Niacomsoft_Eips_EmptyCompareOptions_" data-uid="Niacomsoft.Eips.ParameterGuard.SafeGet(System.String,System.String,Niacomsoft.Eips.EmptyCompareOptions)">SafeGet(String, String, EmptyCompareOptions)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>当
+<a class="xref" href="Niacomsoft.Eips.StringEqualityComparer.html#Niacomsoft_Eips_StringEqualityComparer_Empty_System_String_Niacomsoft_Eips_EmptyCompareOptions_">Empty(String, EmptyCompareOptions)</a>
+返回 <code> true </code> 时，则返回 <code data-dev-comment-type="paramref" class="paramref">safeString</code>；否则返回 <code data-dev-comment-type="paramref" class="paramref">s</code>。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -111,17 +115,21 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">s</span></td>
-        <td></td>
+        <td><p>原始字符串。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">safeString</span></td>
-        <td></td>
+        <td><p>安全字符串。</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="Niacomsoft.Eips.EmptyCompareOptions.html">EmptyCompareOptions</a></td>
         <td><span class="parametername">options</span></td>
-        <td></td>
+        <td><p>空白字符串选项。</p>
+<p> <a class="xref" href="Niacomsoft.Eips.EmptyCompareOptions.html">EmptyCompareOptions</a> 类型的值。 </p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -136,20 +144,26 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_ParameterGuard_SafeGet_System_String_System_String_Niacomsoft_Eips_EmptyCompareOptions__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Niacomsoft.Eips.EmptyCompareOptions.html">EmptyCompareOptions</a></div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_ParameterGuard_SafeGet_" data-uid="Niacomsoft.Eips.ParameterGuard.SafeGet*"></a>
   <h4 id="Niacomsoft_Eips_ParameterGuard_SafeGet__1___0_System_Func___0__" data-uid="Niacomsoft.Eips.ParameterGuard.SafeGet``1(``0,System.Func{``0})">SafeGet&lt;T&gt;(T, Func&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>当 <code data-dev-comment-type="paramref" class="paramref">instance</code> 等于 <code> null </code> 时，则使用
+<code data-dev-comment-type="paramref" class="paramref">safeGuard</code> 的返回值；否则使用 <code data-dev-comment-type="paramref" class="paramref">instance</code>。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T SafeGet&lt;T&gt;(T instance, Func&lt;T&gt; safeGuard)
-
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -165,12 +179,14 @@
       <tr>
         <td><span class="xref">T</span></td>
         <td><span class="parametername">instance</span></td>
-        <td></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的对象实例。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Func</span>&lt;T&gt;</td>
         <td><span class="parametername">safeGuard</span></td>
-        <td></td>
+        <td><p>构建安全参数值的方法。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -185,7 +201,8 @@
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的对象实例。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -200,7 +217,8 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>引用类型。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -208,12 +226,12 @@
   
   <a id="Niacomsoft_Eips_ParameterGuard_SafeGet_" data-uid="Niacomsoft.Eips.ParameterGuard.SafeGet*"></a>
   <h4 id="Niacomsoft_Eips_ParameterGuard_SafeGet__1_System_Nullable___0____0_" data-uid="Niacomsoft.Eips.ParameterGuard.SafeGet``1(System.Nullable{``0},``0)">SafeGet&lt;T&gt;(Nullable&lt;T&gt;, T)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>当 <code> value.HasValue </code> 等于 <code> true </code> 时，则返回 <code> value.Value</code>；否则返回 <code data-dev-comment-type="paramref" class="paramref">safeValue</code>。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T SafeGet&lt;T&gt;(Nullable&lt;T&gt; value, T safeValue)
-
     where T : struct, ValueType</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -229,12 +247,14 @@
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;T&gt;</td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>可能为空的 <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的值。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">T</span></td>
         <td><span class="parametername">safeValue</span></td>
-        <td></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的值。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -249,7 +269,8 @@
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的值。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -264,15 +285,22 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>值类型。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_ParameterGuard_SafeGet__1_System_Nullable___0____0__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Nullable</span>&lt;&gt;</div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_ParameterGuard_TrueGet_" data-uid="Niacomsoft.Eips.ParameterGuard.TrueGet*"></a>
   <h4 id="Niacomsoft_Eips_ParameterGuard_TrueGet__1___0_System_Func___0_System_Boolean__System_Func___0__" data-uid="Niacomsoft.Eips.ParameterGuard.TrueGet``1(``0,System.Func{``0,System.Boolean},System.Func{``0})">TrueGet&lt;T&gt;(T, Func&lt;T, Boolean&gt;, Func&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>当条件表达式 <code data-dev-comment-type="paramref" class="paramref">where</code> 返回 <code> true </code> 时，则使用
+<code data-dev-comment-type="paramref" class="paramref">safeGuard</code> 作为参数值；否则使用 <code data-dev-comment-type="paramref" class="paramref">source</code> 作为最终参数值。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -291,17 +319,20 @@
       <tr>
         <td><span class="xref">T</span></td>
         <td><span class="parametername">source</span></td>
-        <td></td>
+        <td><p>原始参数值。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Func</span>&lt;T, <span class="xref">System.Boolean</span>&gt;</td>
         <td><span class="parametername">where</span></td>
-        <td></td>
+        <td><p>条件表达式。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Func</span>&lt;T&gt;</td>
         <td><span class="parametername">safeGuard</span></td>
-        <td></td>
+        <td><p>构建安全参数值的方法。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -316,7 +347,8 @@
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的参数值。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -331,10 +363,32 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>参数值类型。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>当 <code data-dev-comment-type="paramref" class="paramref">safeGuard</code> 等于 <code> null </code> 时，将引发此类型的异常。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Niacomsoft_Eips_ParameterGuard_TrueGet__1___0_System_Func___0_System_Boolean__System_Func___0___seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Func</span>&lt;T, TResult&gt;</div>
+      <div><span class="xref">System.Func</span>&lt;TResult&gt;</div>
+  </div>
 </article>
           </div>
           

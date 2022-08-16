@@ -73,7 +73,8 @@
   
   <h1 id="Niacomsoft_Eips_EnvironmentVariableAccessor" data-uid="Niacomsoft.Eips.EnvironmentVariableAccessor" class="text-break">Class EnvironmentVariableAccessor
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>提供了访问环境变量信息相关的方法。</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -109,7 +110,8 @@
   
   <a id="Niacomsoft_Eips_EnvironmentVariableAccessor_CreateEnvironmentVariableTuple_" data-uid="Niacomsoft.Eips.EnvironmentVariableAccessor.CreateEnvironmentVariableTuple*"></a>
   <h4 id="Niacomsoft_Eips_EnvironmentVariableAccessor_CreateEnvironmentVariableTuple_System_String_System_EnvironmentVariableTarget_" data-uid="Niacomsoft.Eips.EnvironmentVariableAccessor.CreateEnvironmentVariableTuple(System.String,System.EnvironmentVariableTarget)">CreateEnvironmentVariableTuple(String, EnvironmentVariableTarget)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>创建环境变量元祖。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -128,12 +130,15 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">envVarValue</span></td>
-        <td></td>
+        <td><p>环境变量值。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.EnvironmentVariableTarget</span></td>
         <td><span class="parametername">target</span></td>
-        <td></td>
+        <td><p>环境变量位置。</p>
+<p> <span class="xref">System.EnvironmentVariableTarget</span> 类型的值。 </p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -148,15 +153,23 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Tuple</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.EnvironmentVariableTarget</span>&gt;, <span class="xref">System.String</span>&gt;</td>
-        <td></td>
+        <td><p>包含了可为空的 <span class="xref">System.EnvironmentVariableTarget</span> 类型、字符串的
+<span class="xref">System.Tuple&lt;, &gt;</span> 类型的对象实例。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_EnvironmentVariableAccessor_CreateEnvironmentVariableTuple_System_String_System_EnvironmentVariableTarget__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.EnvironmentVariableTarget</span></div>
+      <div><span class="xref">System.Tuple</span>&lt;, &gt;</div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_EnvironmentVariableAccessor_GetEnvironmentVariable_" data-uid="Niacomsoft.Eips.EnvironmentVariableAccessor.GetEnvironmentVariable*"></a>
   <h4 id="Niacomsoft_Eips_EnvironmentVariableAccessor_GetEnvironmentVariable_System_String_" data-uid="Niacomsoft.Eips.EnvironmentVariableAccessor.GetEnvironmentVariable(System.String)">GetEnvironmentVariable(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取指定名称的环境变量信息。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -175,7 +188,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">name</span></td>
-        <td></td>
+        <td><p>环境变量名称。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -190,15 +204,39 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Niacomsoft.Eips.IEnvironmentVariable.html">IEnvironmentVariable</a></td>
-        <td></td>
+        <td><p>环境变量信息。</p>
+<p> 实现了 <a class="xref" href="Niacomsoft.Eips.IEnvironmentVariable.html">IEnvironmentVariable</a> 类型接口的对象实例。 </p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>当 <code data-dev-comment-type="paramref" class="paramref">name</code> 等于 <code> null </code>、或者
+<span class="xref">System.String.Empty</span> 时，将引发此类型的异常。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Niacomsoft_Eips_EnvironmentVariableAccessor_GetEnvironmentVariable_System_String__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Niacomsoft.Eips.IEnvironmentVariable.html">IEnvironmentVariable</a></div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_EnvironmentVariableAccessor_GetEnvironmentVariableAsync_" data-uid="Niacomsoft.Eips.EnvironmentVariableAccessor.GetEnvironmentVariableAsync*"></a>
   <h4 id="Niacomsoft_Eips_EnvironmentVariableAccessor_GetEnvironmentVariableAsync_System_String_" data-uid="Niacomsoft.Eips.EnvironmentVariableAccessor.GetEnvironmentVariableAsync(System.String)">GetEnvironmentVariableAsync(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>(异步的方法) 获取指定名称的环境变量。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -217,7 +255,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">name</span></td>
-        <td></td>
+        <td><p>环境变量名称。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -232,15 +271,22 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Niacomsoft.Eips.IEnvironmentVariable.html">IEnvironmentVariable</a>&gt;</td>
-        <td></td>
+        <td><p>环境变量信息。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_EnvironmentVariableAccessor_GetEnvironmentVariableAsync_System_String__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Niacomsoft.Eips.IEnvironmentVariable.html">IEnvironmentVariable</a></div>
+      <div><span class="xref">System.Threading.Tasks.Task</span>&lt;&gt;</div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_EnvironmentVariableAccessor_GetMachineScopedEnvironmentVariable_" data-uid="Niacomsoft.Eips.EnvironmentVariableAccessor.GetMachineScopedEnvironmentVariable*"></a>
   <h4 id="Niacomsoft_Eips_EnvironmentVariableAccessor_GetMachineScopedEnvironmentVariable_System_String_" data-uid="Niacomsoft.Eips.EnvironmentVariableAccessor.GetMachineScopedEnvironmentVariable(System.String)">GetMachineScopedEnvironmentVariable(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取系统级环境变量。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -259,7 +305,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">name</span></td>
-        <td></td>
+        <td><p>环境变量名称。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -274,15 +321,40 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Tuple</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.EnvironmentVariableTarget</span>&gt;, <span class="xref">System.String</span>&gt;</td>
-        <td></td>
+        <td><p>包含了可为空的 <span class="xref">System.EnvironmentVariableTarget</span> 类型、字符串的
+<span class="xref">System.Tuple&lt;, &gt;</span> 类型的对象实例。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.SecurityException</span></td>
+        <td><p>当调用
+<span class="xref">System.Environment.GetEnvironmentVariable(System.String,System.EnvironmentVariableTarget)</span> 方法时，可能引发此类型的异常。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Niacomsoft_Eips_EnvironmentVariableAccessor_GetMachineScopedEnvironmentVariable_System_String__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.EnvironmentVariableTarget</span></div>
+      <div><span class="xref">System.Tuple</span>&lt;, &gt;</div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_EnvironmentVariableAccessor_GetProcessScopedEnvironmentVariable_" data-uid="Niacomsoft.Eips.EnvironmentVariableAccessor.GetProcessScopedEnvironmentVariable*"></a>
   <h4 id="Niacomsoft_Eips_EnvironmentVariableAccessor_GetProcessScopedEnvironmentVariable_System_String_" data-uid="Niacomsoft.Eips.EnvironmentVariableAccessor.GetProcessScopedEnvironmentVariable(System.String)">GetProcessScopedEnvironmentVariable(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取进程级环境变量。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -301,7 +373,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">name</span></td>
-        <td></td>
+        <td><p>环境变量名称。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -316,15 +389,40 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Tuple</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.EnvironmentVariableTarget</span>&gt;, <span class="xref">System.String</span>&gt;</td>
-        <td></td>
+        <td><p>包含了可为空的 <span class="xref">System.EnvironmentVariableTarget</span> 类型、字符串的
+<span class="xref">System.Tuple&lt;, &gt;</span> 类型的对象实例。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.SecurityException</span></td>
+        <td><p>当调用
+<span class="xref">System.Environment.GetEnvironmentVariable(System.String,System.EnvironmentVariableTarget)</span> 方法时，可能引发此类型的异常。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Niacomsoft_Eips_EnvironmentVariableAccessor_GetProcessScopedEnvironmentVariable_System_String__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.EnvironmentVariableTarget</span></div>
+      <div><span class="xref">System.Tuple</span>&lt;, &gt;</div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_EnvironmentVariableAccessor_GetUserScopedEnvironmentVariable_" data-uid="Niacomsoft.Eips.EnvironmentVariableAccessor.GetUserScopedEnvironmentVariable*"></a>
   <h4 id="Niacomsoft_Eips_EnvironmentVariableAccessor_GetUserScopedEnvironmentVariable_System_String_" data-uid="Niacomsoft.Eips.EnvironmentVariableAccessor.GetUserScopedEnvironmentVariable(System.String)">GetUserScopedEnvironmentVariable(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取用户级环境变量。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -343,7 +441,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">name</span></td>
-        <td></td>
+        <td><p>环境变量名称。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -358,16 +457,45 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Tuple</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.EnvironmentVariableTarget</span>&gt;, <span class="xref">System.String</span>&gt;</td>
-        <td></td>
+        <td><p>包含了可为空的 <span class="xref">System.EnvironmentVariableTarget</span> 类型、字符串的
+<span class="xref">System.Tuple&lt;, &gt;</span> 类型的对象实例。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.SecurityException</span></td>
+        <td><p>当调用
+<span class="xref">System.Environment.GetEnvironmentVariable(System.String,System.EnvironmentVariableTarget)</span> 方法时，可能引发此类型的异常。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Niacomsoft_Eips_EnvironmentVariableAccessor_GetUserScopedEnvironmentVariable_System_String__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.EnvironmentVariableTarget</span></div>
+      <div><span class="xref">System.Tuple</span>&lt;, &gt;</div>
+  </div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Niacomsoft.Eips.IAsyncEnvironmentVariableAccessor.html">IAsyncEnvironmentVariableAccessor</a>
   </div>
   <div>
       <a class="xref" href="Niacomsoft.Eips.IEnvironmentVariableAccessor.html">IEnvironmentVariableAccessor</a>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="Niacomsoft.Eips.IEnvironmentVariableAccessor.html">IEnvironmentVariableAccessor</a></div>
+      <div><a class="xref" href="Niacomsoft.Eips.IAsyncEnvironmentVariableAccessor.html">IAsyncEnvironmentVariableAccessor</a></div>
   </div>
 </article>
           </div>

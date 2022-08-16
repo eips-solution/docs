@@ -73,7 +73,8 @@
   
   <h1 id="Niacomsoft_Eips_Runtime_Serializations_Json_IJsonSerializerExtensions" data-uid="Niacomsoft.Eips.Runtime.Serializations.Json.IJsonSerializerExtensions" class="text-break">Interface IJsonSerializerExtensions
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>定义了 JSON 序列化扩展方法接口。</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -102,12 +103,13 @@
   
   <a id="Niacomsoft_Eips_Runtime_Serializations_Json_IJsonSerializerExtensions_DeserializeFromJsonString_" data-uid="Niacomsoft.Eips.Runtime.Serializations.Json.IJsonSerializerExtensions.DeserializeFromJsonString*"></a>
   <h4 id="Niacomsoft_Eips_Runtime_Serializations_Json_IJsonSerializerExtensions_DeserializeFromJsonString__1_System_String_" data-uid="Niacomsoft.Eips.Runtime.Serializations.Json.IJsonSerializerExtensions.DeserializeFromJsonString``1(System.String)">DeserializeFromJsonString&lt;T&gt;(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>从 JSON 字符串 <code data-dev-comment-type="paramref" class="paramref">jsonStr</code> 反序列化得到
+<code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的对象实例。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">T DeserializeFromJsonString&lt;T&gt;(string jsonStr)
-
     where T : class, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -123,7 +125,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">jsonStr</span></td>
-        <td></td>
+        <td><p>JSON 字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -138,7 +141,12 @@
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的对象实例。</p>
+<p>
+当 <code data-dev-comment-type="paramref" class="paramref">jsonStr</code> 等于 <code> null </code>、
+<span class="xref">System.String.Empty</span> 或者空格符时，则返回 <code> null </code>。
+</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -153,7 +161,8 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>引用类型。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -161,12 +170,12 @@
   
   <a id="Niacomsoft_Eips_Runtime_Serializations_Json_IJsonSerializerExtensions_SerializeToJsonString_" data-uid="Niacomsoft.Eips.Runtime.Serializations.Json.IJsonSerializerExtensions.SerializeToJsonString*"></a>
   <h4 id="Niacomsoft_Eips_Runtime_Serializations_Json_IJsonSerializerExtensions_SerializeToJsonString__1___0_" data-uid="Niacomsoft.Eips.Runtime.Serializations.Json.IJsonSerializerExtensions.SerializeToJsonString``1(``0)">SerializeToJsonString&lt;T&gt;(T)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>序列化 <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的对象实例，并获取 JSON 字符串。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">string SerializeToJsonString&lt;T&gt;(T obj)
-
     where T : class, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -182,7 +191,8 @@
       <tr>
         <td><span class="xref">T</span></td>
         <td><span class="parametername">obj</span></td>
-        <td></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的对象实例。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -197,7 +207,11 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>JSON 字符串。</p>
+<p>
+当 <code data-dev-comment-type="paramref" class="paramref">obj</code> 等于 <code> null </code> 时，则返回 <code> null </code>。
+</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -212,10 +226,15 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>引用类型。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="Niacomsoft.Eips.Runtime.Serializations.ISerializer.html">ISerializer</a></div>
+  </div>
 </article>
           </div>
           

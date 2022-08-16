@@ -73,7 +73,8 @@
   
   <h1 id="Niacomsoft_Eips_Extensions_HashIdFormatter_1" data-uid="Niacomsoft.Eips.Extensions.HashIdFormatter`1" class="text-break">Class HashIdFormatter&lt;T&gt;
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>提供了数值哈希格式化相关的基本方法。</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -103,7 +104,9 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>值类型。</p>
+<p> 仅支持 <span class="xref">System.Int32</span> 和 <span class="xref">System.Int64</span> 类型。 </p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -113,7 +116,8 @@
   
   <a id="Niacomsoft_Eips_Extensions_HashIdFormatter_1__ctor_" data-uid="Niacomsoft.Eips.Extensions.HashIdFormatter`1.#ctor*"></a>
   <h4 id="Niacomsoft_Eips_Extensions_HashIdFormatter_1__ctor_Niacomsoft_Eips_Extensions_IHashIdCryptographyKeyProvider_" data-uid="Niacomsoft.Eips.Extensions.HashIdFormatter`1.#ctor(Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider)">HashIdFormatter(IHashIdCryptographyKeyProvider)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>用于初始化一个 <a class="xref" href="Niacomsoft.Eips.Extensions.HashIdFormatter-1.html">HashIdFormatter&lt;T&gt;</a> 类型的对象实例。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -132,7 +136,8 @@
       <tr>
         <td><a class="xref" href="Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider.html">IHashIdCryptographyKeyProvider</a></td>
         <td><span class="parametername">keyProvider</span></td>
-        <td></td>
+        <td><p>创建加密密钥的方法。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -142,7 +147,8 @@
   
   <a id="Niacomsoft_Eips_Extensions_HashIdFormatter_1_KeyProvider_" data-uid="Niacomsoft.Eips.Extensions.HashIdFormatter`1.KeyProvider*"></a>
   <h4 id="Niacomsoft_Eips_Extensions_HashIdFormatter_1_KeyProvider" data-uid="Niacomsoft.Eips.Extensions.HashIdFormatter`1.KeyProvider">KeyProvider</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>生成加密密钥的方法。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -159,15 +165,21 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider.html">IHashIdCryptographyKeyProvider</a></td>
-        <td></td>
+        <td><p>获取 <a class="xref" href="Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider.html">IHashIdCryptographyKeyProvider</a> 类型的对象实例，用于表示生成加密密钥的方法。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_Extensions_HashIdFormatter_1_KeyProvider_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Niacomsoft.Eips.Extensions.IHashIdCryptographyKeyProvider.html">IHashIdCryptographyKeyProvider</a></div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_Extensions_HashIdFormatter_1_Provider_" data-uid="Niacomsoft.Eips.Extensions.HashIdFormatter`1.Provider*"></a>
   <h4 id="Niacomsoft_Eips_Extensions_HashIdFormatter_1_Provider" data-uid="Niacomsoft.Eips.Extensions.HashIdFormatter`1.Provider">Provider</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>计算哈希格式数值的方法。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -184,17 +196,23 @@
     <tbody>
       <tr>
         <td><span class="xref">HashidsNet.IHashids</span></td>
-        <td></td>
+        <td><p>获取 <span class="xref">HashidsNet.IHashids</span> 类型的对象实例，用于表示计算哈希格式数值的方法。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_Extensions_HashIdFormatter_1_Provider_seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">HashidsNet.IHashids</span></div>
+  </div>
   <h3 id="methods">Methods
   </h3>
   
   
   <a id="Niacomsoft_Eips_Extensions_HashIdFormatter_1_FromString_" data-uid="Niacomsoft.Eips.Extensions.HashIdFormatter`1.FromString*"></a>
   <h4 id="Niacomsoft_Eips_Extensions_HashIdFormatter_1_FromString_System_String_" data-uid="Niacomsoft.Eips.Extensions.HashIdFormatter`1.FromString(System.String)">FromString(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>从哈希字符串 <code data-dev-comment-type="paramref" class="paramref">hashStr</code> 还原 <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的值。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -213,7 +231,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">hashStr</span></td>
-        <td></td>
+        <td><p>哈希字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -228,7 +247,12 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;T&gt;</td>
-        <td></td>
+        <td><p>可为空的 <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的值。</p>
+<p>
+当 <code data-dev-comment-type="paramref" class="paramref">hashStr</code> 等于 <code> null </code>、
+<span class="xref">System.String.Empty</span> 或者空格符时，则返回 <code> null </code>。
+</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -236,7 +260,9 @@
   
   <a id="Niacomsoft_Eips_Extensions_HashIdFormatter_1_InvalidHashString_" data-uid="Niacomsoft.Eips.Extensions.HashIdFormatter`1.InvalidHashString*"></a>
   <h4 id="Niacomsoft_Eips_Extensions_HashIdFormatter_1_InvalidHashString_System_String_" data-uid="Niacomsoft.Eips.Extensions.HashIdFormatter`1.InvalidHashString(System.String)">InvalidHashString(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>校验字符串 <code data-dev-comment-type="paramref" class="paramref">s</code> 是否等于 <code> null </code>、
+<span class="xref">System.String.Empty</span> 或者空格符。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -255,7 +281,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">s</span></td>
-        <td></td>
+        <td><p>哈希字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -270,7 +297,9 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>当字符串 <code data-dev-comment-type="paramref" class="paramref">s</code> 等于 <code> null </code>、
+<span class="xref">System.String.Empty</span> 或者空格符时，则返回 <code> true </code>；否则返回 <code> false </code>。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -278,7 +307,8 @@
   
   <a id="Niacomsoft_Eips_Extensions_HashIdFormatter_1_ToString_" data-uid="Niacomsoft.Eips.Extensions.HashIdFormatter`1.ToString*"></a>
   <h4 id="Niacomsoft_Eips_Extensions_HashIdFormatter_1_ToString__0_" data-uid="Niacomsoft.Eips.Extensions.HashIdFormatter`1.ToString(`0)">ToString(T)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>将数值 <code data-dev-comment-type="paramref" class="paramref">value</code> 转换成哈希字符串。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -297,7 +327,8 @@
       <tr>
         <td><span class="xref">T</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> 类型的值。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -312,7 +343,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>哈希字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>

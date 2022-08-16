@@ -73,7 +73,8 @@
   
   <h1 id="Niacomsoft_Eips_StringEqualityComparer" data-uid="Niacomsoft.Eips.StringEqualityComparer" class="text-break">Class StringEqualityComparer
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>提供了字符串相等对比相关的方法。</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -92,7 +93,9 @@
   
   <a id="Niacomsoft_Eips_StringEqualityComparer_Empty_" data-uid="Niacomsoft.Eips.StringEqualityComparer.Empty*"></a>
   <h4 id="Niacomsoft_Eips_StringEqualityComparer_Empty_System_String_Niacomsoft_Eips_EmptyCompareOptions_" data-uid="Niacomsoft.Eips.StringEqualityComparer.Empty(System.String,Niacomsoft.Eips.EmptyCompareOptions)">Empty(String, EmptyCompareOptions)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>用于校验字符串 <code data-dev-comment-type="paramref" class="paramref">s</code> 是否等于 <code> null </code>、
+<span class="xref">System.String.Empty</span> 或者空格符（需要参考 <code data-dev-comment-type="paramref" class="paramref">options</code> 的值）。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -111,12 +114,15 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">s</span></td>
-        <td></td>
+        <td><p>需要对比的字符串。</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="Niacomsoft.Eips.EmptyCompareOptions.html">EmptyCompareOptions</a></td>
         <td><span class="parametername">options</span></td>
-        <td></td>
+        <td><p>空白字符串对比选项。</p>
+<p> 默认为 <a class="xref" href="Niacomsoft.Eips.EmptyCompareOptions.html#Niacomsoft_Eips_EmptyCompareOptions_Default">Default</a>。 </p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -131,15 +137,23 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>当字符串 <code data-dev-comment-type="paramref" class="paramref">s</code> 等于 <code> null </code>、
+<span class="xref">System.String.Empty</span> 或者空格符（需要参考 <code data-dev-comment-type="paramref" class="paramref">options</code>
+的值）时，则返回 <code> true </code>；否则返回 <code> false </code>。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_StringEqualityComparer_Empty_System_String_Niacomsoft_Eips_EmptyCompareOptions__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Niacomsoft.Eips.EmptyCompareOptions.html">EmptyCompareOptions</a></div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_StringEqualityComparer_IgnoreCaseEquals_" data-uid="Niacomsoft.Eips.StringEqualityComparer.IgnoreCaseEquals*"></a>
   <h4 id="Niacomsoft_Eips_StringEqualityComparer_IgnoreCaseEquals_System_String_System_String_" data-uid="Niacomsoft.Eips.StringEqualityComparer.IgnoreCaseEquals(System.String,System.String)">IgnoreCaseEquals(String, String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>忽略字符串的大小写，对比 <code data-dev-comment-type="paramref" class="paramref">s1</code> 与 <code data-dev-comment-type="paramref" class="paramref">s2</code> 是否相等。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -158,12 +172,14 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">s1</span></td>
-        <td></td>
+        <td><p>字符串。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">s2</span></td>
-        <td></td>
+        <td><p>字符串。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -178,10 +194,19 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>当 <code data-dev-comment-type="paramref" class="paramref">s1</code> 与 <code data-dev-comment-type="paramref" class="paramref">s2</code> 忽略大小写相等时，则返回 <code>true </code>；否则返回 <code> false </code>。</p>
+<p>
+当 <code data-dev-comment-type="paramref" class="paramref">s1</code> 和 <code data-dev-comment-type="paramref" class="paramref">s2</code> 都为 <code> null </code>
+时，则返回 <code> true </code>；否则返回 <code> false </code>。
+</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_StringEqualityComparer_IgnoreCaseEquals_System_String_System_String__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.String.Equals(System.String,System.StringComparison)</span></div>
+  </div>
 </article>
           </div>
           

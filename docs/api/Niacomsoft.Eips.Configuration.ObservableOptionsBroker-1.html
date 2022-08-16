@@ -73,7 +73,8 @@
   
   <h1 id="Niacomsoft_Eips_Configuration_ObservableOptionsBroker_1" data-uid="Niacomsoft.Eips.Configuration.ObservableOptionsBroker`1" class="text-break">Class ObservableOptionsBroker&lt;TOptions&gt;
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>提供了访问配置选项信息（可观测的）相关的方法。</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -103,7 +104,8 @@
     <tbody>
       <tr>
         <td><span class="parametername">TOptions</span></td>
-        <td></td>
+        <td><p>实现了 <a class="xref" href="Niacomsoft.Eips.Options.IConfigurableOptions.html">IConfigurableOptions</a> 接口的类型。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -113,7 +115,8 @@
   
   <a id="Niacomsoft_Eips_Configuration_ObservableOptionsBroker_1__ctor_" data-uid="Niacomsoft.Eips.Configuration.ObservableOptionsBroker`1.#ctor*"></a>
   <h4 id="Niacomsoft_Eips_Configuration_ObservableOptionsBroker_1__ctor_Microsoft_Extensions_Logging_ILogger_Microsoft_Extensions_Options_IOptionsMonitor__0__" data-uid="Niacomsoft.Eips.Configuration.ObservableOptionsBroker`1.#ctor(Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Options.IOptionsMonitor{`0})">ObservableOptionsBroker(ILogger, IOptionsMonitor&lt;TOptions&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>用于初始化一个 <a class="xref" href="Niacomsoft.Eips.Configuration.ObservableOptionsBroker-1.html">ObservableOptionsBroker&lt;TOptions&gt;</a> 类型的对象实例。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -132,12 +135,16 @@
       <tr>
         <td><span class="xref">Microsoft.Extensions.Logging.ILogger</span></td>
         <td><span class="parametername">logger</span></td>
-        <td></td>
+        <td><p>记录配置选项变更的方法。</p>
+<p> 实现了 <span class="xref">Microsoft.Extensions.Logging.ILogger</span> 类型接口的对象实例。 </p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">Microsoft.Extensions.Options.IOptionsMonitor</span>&lt;TOptions&gt;</td>
         <td><span class="parametername">options</span></td>
-        <td></td>
+        <td><p>访问配置选项信息。</p>
+<p> 实现了 <span class="xref">Microsoft.Extensions.Options.IOptionsMonitor&lt;&gt;</span> 类型接口的对象实例。 </p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -147,7 +154,8 @@
   
   <a id="Niacomsoft_Eips_Configuration_ObservableOptionsBroker_1_ConfigurationChangedLogger_" data-uid="Niacomsoft.Eips.Configuration.ObservableOptionsBroker`1.ConfigurationChangedLogger*"></a>
   <h4 id="Niacomsoft_Eips_Configuration_ObservableOptionsBroker_1_ConfigurationChangedLogger" data-uid="Niacomsoft.Eips.Configuration.ObservableOptionsBroker`1.ConfigurationChangedLogger">ConfigurationChangedLogger</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>用于记录配置变更的方法。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -164,15 +172,21 @@
     <tbody>
       <tr>
         <td><span class="xref">Microsoft.Extensions.Logging.ILogger</span></td>
-        <td></td>
+        <td><p>获取 <span class="xref">Microsoft.Extensions.Logging.ILogger</span> 类型的对象实例，用于表示用于记录配置变更的方法。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_Configuration_ObservableOptionsBroker_1_ConfigurationChangedLogger_seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">Microsoft.Extensions.Logging.ILogger</span></div>
+  </div>
   
   
   <a id="Niacomsoft_Eips_Configuration_ObservableOptionsBroker_1_Options_" data-uid="Niacomsoft.Eips.Configuration.ObservableOptionsBroker`1.Options*"></a>
   <h4 id="Niacomsoft_Eips_Configuration_ObservableOptionsBroker_1_Options" data-uid="Niacomsoft.Eips.Configuration.ObservableOptionsBroker`1.Options">Options</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>可观测的配置选项。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -189,17 +203,23 @@
     <tbody>
       <tr>
         <td><span class="xref">Microsoft.Extensions.Options.IOptionsMonitor</span>&lt;TOptions&gt;</td>
-        <td></td>
+        <td><p>获取 <span class="xref">Microsoft.Extensions.Options.IOptionsMonitor&lt;&gt;</span> 类型的对象实例，用于表示可观测的配置选项。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_Configuration_ObservableOptionsBroker_1_Options_seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">Microsoft.Extensions.Options.IOptionsMonitor</span>&lt;&gt;</div>
+  </div>
   <h3 id="methods">Methods
   </h3>
   
   
   <a id="Niacomsoft_Eips_Configuration_ObservableOptionsBroker_1_GetOptions_" data-uid="Niacomsoft.Eips.Configuration.ObservableOptionsBroker`1.GetOptions*"></a>
   <h4 id="Niacomsoft_Eips_Configuration_ObservableOptionsBroker_1_GetOptions" data-uid="Niacomsoft.Eips.Configuration.ObservableOptionsBroker`1.GetOptions">GetOptions()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取配置选项。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -216,7 +236,8 @@
     <tbody>
       <tr>
         <td><span class="xref">TOptions</span></td>
-        <td></td>
+        <td><p>实现了 <a class="xref" href="Niacomsoft.Eips.Options.IConfigurableOptions.html">IConfigurableOptions</a> 类型接口的对象实例。</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -226,7 +247,8 @@
   
   <a id="Niacomsoft_Eips_Configuration_ObservableOptionsBroker_1_OnChanged_" data-uid="Niacomsoft.Eips.Configuration.ObservableOptionsBroker`1.OnChanged*"></a>
   <h4 id="Niacomsoft_Eips_Configuration_ObservableOptionsBroker_1_OnChanged_System_String__0_" data-uid="Niacomsoft.Eips.Configuration.ObservableOptionsBroker`1.OnChanged(System.String,`0)">OnChanged(String, TOptions)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>用于引发 <a class="xref" href="Niacomsoft.Eips.Configuration.ObservableOptionsBroker-1.html#Niacomsoft_Eips_Configuration_ObservableOptionsBroker_1_Changed">Changed</a> 事件。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -245,21 +267,28 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">key</span></td>
-        <td></td>
+        <td><p>变更配置标识名称。</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">TOptions</span></td>
         <td><span class="parametername">options</span></td>
-        <td></td>
+        <td><p>变更后的配置选项。</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_Configuration_ObservableOptionsBroker_1_OnChanged_System_String__0__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Niacomsoft.Eips.Configuration.ObservableOptionsBroker-1.html#Niacomsoft_Eips_Configuration_ObservableOptionsBroker_1_Changed">Changed</a></div>
+  </div>
   <h3 id="events">Events
   </h3>
   
   
   <h4 id="Niacomsoft_Eips_Configuration_ObservableOptionsBroker_1_Changed" data-uid="Niacomsoft.Eips.Configuration.ObservableOptionsBroker`1.Changed">Changed</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>配置选项变更事件。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -280,12 +309,23 @@
       </tr>
     </tbody>
   </table>
+  <h5 id="Niacomsoft_Eips_Configuration_ObservableOptionsBroker_1_Changed_seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.EventHandler</span>&lt;&gt;</div>
+      <div><span class="xref">System.Tuple</span>&lt;, &gt;</div>
+  </div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Niacomsoft.Eips.Configuration.IConfigurationBroker-1.html">IConfigurationBroker&lt;TOptions&gt;</a>
   </div>
   <div>
       <a class="xref" href="Niacomsoft.Eips.Configuration.IObservableOptionsBroker-1.html">IObservableOptionsBroker&lt;TOptions&gt;</a>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="Niacomsoft.Eips.Configuration.IObservableOptionsBroker-1.html">IObservableOptionsBroker</a>&lt;TOptions&gt;</div>
+      <div><a class="xref" href="Niacomsoft.Eips.Options.IConfigurableOptions.html">IConfigurableOptions</a></div>
+      <div><a class="xref" href="Niacomsoft.Eips.Configuration.ConfigurationBroker-1.html">ConfigurationBroker</a>&lt;TOptions&gt;</div>
   </div>
 </article>
           </div>
